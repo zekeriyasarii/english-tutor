@@ -53,8 +53,14 @@ Yeni seans eklerken mevcut dosyaları (ör. `content/a1/a1-w04-s3.yaml`) örnek 
 - **Quiz:** 8–14 soru, türleri karıştır. `translate` ve `fill` sorularında makul tüm doğru
   varyantları `answer` listesine ekle (kısaltmalı/kısaltmasız, mum/mom gibi).
   Karşılaştırma büyük/küçük harf ve noktalamayı yok sayar.
+- **Quiz'de sadece öğretilmiş kelime:** quiz ve çeviri sorularında henüz öğretilmemiş kelime
+  kullanma (ör. 5. haftada "hospital", "meat"). Kaçınılmazsa `tutor_notes`'ta belirt.
+  Çeldirici seçeneklerde de sonraki haftaların dilbilgisinden kaçın.
 - **Kelimeler:** seans başına ~15–25. Aynı kelime önceki bir seansta varsa tekrar ekleme
-  (Anki'de ilk geçtiği yer sayılır).
+  (Anki'de ilk geçtiği yer sayılır). Farklı anlamdaki eş yazımlı kelimeleri ayırt edici
+  biçimde yaz (ör. 9. hafta "a can of" ↔ 11. hafta "can"). Yeni bir seviye yazarken mevcut
+  kelimeleri listeleyip tekrarları kontrol et.
+- **Seans planı:** doğrulayıcı 60 dk toplamını kontrol eder. Sınav seanslarında da geçerli.
 - İngiliz İngilizcesi esas. Amerikan farkını `note` ile belirt (colour/color, flat/apartment).
 
 İçerik ekledikten sonra: `build_content.py` (doğrulama) → `tests/quiz.e2e.mjs` → commit → push.
