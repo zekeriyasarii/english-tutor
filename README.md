@@ -15,6 +15,8 @@ scripts/build_content.py   İçerikleri doğrular → ders notları, Anki, JSON
 app/                     PWA (English Coach) — build adımı yok, sade JS modülleri
   data/                  content.json + sessions.json (script'ler buraya kopyalar)
 scripts/make_icons.py    Uygulama ikonlarını PNG olarak üretir
+tests/                   Headless Chrome ile uçtan uca quiz testleri
+CLAUDE.md                Proje kuralları ve yol haritası (Claude Code için)
 
 output/  (üretilir, elle düzenlenmez)
   takvim.md              Okunabilir takvim
@@ -56,6 +58,7 @@ python3 scripts/build_content.py          # --check: sadece doğrula
 ```bash
 python3 scripts/build_calendar.py && python3 scripts/build_content.py   # veriyi app/data'ya yazar
 python3 -m http.server 8765 -d app                                        # http://localhost:8765
+node tests/quiz.e2e.mjs                                                   # tüm quizleri otomatik çözer
 ```
 
 - **Ekranlar:** Bugün (sıradaki ders, istatistikler) · Plan · Ders (notlar, kelimeler, quiz,
