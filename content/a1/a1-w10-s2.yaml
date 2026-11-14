@@ -1,0 +1,159 @@
+id: a1-w10-s2
+level: a1
+week: 10
+session: 2
+title: "Clothes"
+type: new
+
+objectives:
+  - "Temel kıyafetleri adlandırır"
+  - "this one / that one / these ones ile seçim yapar"
+  - "Mağazada beden ve renk sorar (What size ...? Have you got this in blue?)"
+  - "Kıyafet tarif eder (renk + sıfat + isim)"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü fiyat okuma; ödevdeki ürünler"}
+  - {minutes: 15, activity: "Kıyafetler: öğrencinin şu an giydikleriyle başlayın (I'm wearing ... kalıp olarak)"}
+  - {minutes: 10, activity: "Her zaman çoğul olanlar (trousers, jeans) ve 'a pair of'; this one / these ones"}
+  - {minutes: 20, activity: "Online mağaza: ekran paylaşımında bir giyim sitesi; öğrenci ürün seçer, beden-renk-fiyat konuşur"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Kıyafetler"
+    body: |
+      | Üst | Alt | Diğer |
+      |---|---|---|
+      | shirt — gömlek | trousers — pantolon | shoes — ayakkabı |
+      | T-shirt — tişört | jeans — kot pantolon | boots — bot, çizme |
+      | jumper — kazak | skirt — etek | socks — çorap |
+      | jacket — ceket, mont | shorts — şort | hat — şapka |
+      | coat — palto, kaban | dress — elbise | scarf — atkı |
+
+      Amerikan farkları: **trousers → pants**, **jumper → sweater**
+
+      Şu an giydiğin şey için kalıp: **I'm wearing** a blue shirt. (Ayrıntısı 12. haftada.)
+
+  - heading: "Her zaman çoğul olanlar"
+    body: |
+      İki bacaklı/iki parçalı şeyler İngilizcede **hep çoğuldur**:
+      **trousers, jeans, shorts, glasses**
+
+      - ~~This trousers is nice.~~ → **These trousers are** nice.
+      - ~~a jeans~~ → **a pair of jeans** (bir kot pantolon)
+
+      Ayakkabı ve çorap da çift olarak sayılır: **a pair of shoes / socks**.
+
+  - heading: "this one / that one"
+    body: |
+      Aynı ismi tekrar etmemek için **one** (tekil) ve **ones** (çoğul) kullanılır:
+
+      | | |
+      |---|---|
+      | I don't like this jacket. I like **that one**. | Bu ceketi sevmedim. Şunu beğendim. |
+      | These shoes are too small. Have you got **bigger ones**? | Bu ayakkabılar çok küçük. Daha büyükleri var mı? |
+      | **Which one** do you like? — **The red one.** | Hangisini beğendin? — Kırmızı olanı. |
+
+  - heading: "Beden ve renk"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **What size are you?** | I'm a medium. / Size 40. |
+      | **Have you got this in blue?** | Yes, here you are. / Sorry, only in black. |
+      | **Have you got a bigger / smaller size?** | Let me check. |
+      | **Do you like it?** | Yes, it's beautiful! / It's OK, but it's too big. |
+
+      Bedenler: **S** (small), **M** (medium), **L** (large), **XL** (extra large)
+
+      Tarif sırası: (sıfat) + renk + isim → *a **long black** coat, a **nice blue** shirt*
+    examples:
+      - {en: "I'd like a white shirt, size medium.", tr: "Medium beden beyaz bir gömlek istiyorum."}
+      - {en: "These jeans are too long.", tr: "Bu kot pantolon çok uzun."}
+      - {en: "Have you got this dress in red?", tr: "Bu elbisenin kırmızısı var mı?"}
+
+dialogue:
+  title: "Which one?"
+  lines:
+    - {speaker: "Assistant", en: "Hello! Can I help you?", tr: "Merhaba! Yardımcı olabilir miyim?"}
+    - {speaker: "Naz", en: "Yes, I'm looking for a jumper.", tr: "Evet, bir kazak bakıyorum."}
+    - {speaker: "Assistant", en: "What about this one? It's very warm.", tr: "Buna ne dersiniz? Çok sıcak tutar."}
+    - {speaker: "Naz", en: "Hmm, I don't like the colour. Have you got it in green?", tr: "Hmm, rengini beğenmedim. Yeşili var mı?"}
+    - {speaker: "Assistant", en: "Yes, here you are. What size are you?", tr: "Evet, buyurun. Bedeniniz ne?"}
+    - {speaker: "Naz", en: "I'm a small. How much is it?", tr: "Small. Ne kadar?"}
+    - {speaker: "Assistant", en: "It's thirty-five pounds.", tr: "Otuz beş pound."}
+
+vocabulary:
+  - {en: "clothes", tr: "kıyafetler", note: "Her zaman çoğul"}
+  - {en: "shirt", tr: "gömlek"}
+  - {en: "T-shirt", tr: "tişört"}
+  - {en: "jumper", tr: "kazak", note: "Amerikan: sweater"}
+  - {en: "jacket", tr: "ceket, mont"}
+  - {en: "coat", tr: "palto, kaban"}
+  - {en: "trousers", tr: "pantolon", note: "Her zaman çoğul; Amerikan: pants"}
+  - {en: "jeans", tr: "kot pantolon", note: "Her zaman çoğul"}
+  - {en: "skirt", tr: "etek"}
+  - {en: "dress", tr: "elbise"}
+  - {en: "boots", tr: "bot, çizme"}
+  - {en: "socks", tr: "çoraplar"}
+  - {en: "hat", tr: "şapka"}
+  - {en: "scarf", tr: "atkı, eşarp"}
+  - {en: "a pair of", tr: "bir çift", example: "a pair of shoes", example_tr: "bir çift ayakkabı"}
+  - {en: "size", tr: "beden"}
+  - {en: "Which one?", tr: "Hangisi?"}
+  - {en: "wear", tr: "giymek, takmak"}
+  - {en: "warm", tr: "sıcak, sıcak tutan"}
+  - {en: "look for", tr: "aramak", example: "I'm looking for a coat.", example_tr: "Bir palto arıyorum."}
+
+practice:
+  - title: "Ne giyiyorsun?"
+    instructions: "Öğrenci şu an giydiklerini söyler: I'm wearing a grey T-shirt and blue jeans. Sonra öğretmenin kıyafetlerini tarif eder: You're wearing ..."
+  - title: "this one / that one"
+    instructions: "Öğretmen ekranda iki ürün gösterir, öğrenci seçim yapar: I like this one. / I prefer the black ones."
+  - title: "Online mağaza"
+    instructions: "Ekranda bir giyim sitesi açın. Öğrenci 3 ürün seçer ve her biri için: Ne? Hangi renk? Hangi beden? Fiyat? sorularını İngilizce cevaplar."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["This trousers is nice.", "These trousers are nice.", "This trouser is nice."]
+    answer: "These trousers are nice."
+  - type: fill
+    prompt: "I don't like the blue shirt. I like the white ___."
+    answer: ["one"]
+  - type: fill
+    prompt: "Have you got this dress ___ red?"
+    answer: ["in"]
+  - type: mcq
+    prompt: "\"What size are you?\" — doğru cevap hangisi?"
+    options: ["I'm a medium.", "I'm a blue.", "I'm forty pounds."]
+    answer: "I'm a medium."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["jumper", "kazak"]
+      - ["skirt", "etek"]
+      - ["coat", "palto"]
+      - ["socks", "çoraplar"]
+      - ["scarf", "atkı"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["a jeans", "a pair of jeans", "a pair of jean"]
+    answer: "a pair of jeans"
+  - type: order
+    words: ["a", "for", "I'm", "jacket", "looking"]
+    answer: "I'm looking for a jacket."
+  - type: translate
+    prompt: "Bu ayakkabılar çok küçük."
+    answer: ["These shoes are too small.", "These shoes are very small."]
+  - type: translate
+    prompt: "Hangisini beğendin?"
+    answer: ["Which one do you like?", "Which one did you like?", "Which do you like?"]
+
+homework:
+  - "Gardırobundaki 10 kıyafeti İngilizce adı, rengi ve bir sıfatla yaz: a long black coat."
+  - "Yarın ne giyeceğini İngilizce planla ve söyle."
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "'I'm wearing' ve 'I'm looking for' Present Continuous; 12. haftaya kadar kalıp olarak kullanılıyor."
+  - "Bedenler Türkiye'de de S/M/L olduğu için kolay; ayakkabı numaraları İngiltere'de farklı (UK 7 ≈ 41)."
+  - "'Which one did you like?' cevabı geçmiş zaman; kabul edilir ama A2 konusu."

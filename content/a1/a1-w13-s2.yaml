@@ -1,0 +1,119 @@
+id: a1-w13-s2
+level: a1
+week: 13
+session: 2
+title: "Speaking review"
+type: practice
+
+objectives:
+  - "A1 konuşma konularında 1-2 dakika kesintisiz konuşur"
+  - "Bir resmi Present Continuous ve there is/are ile tarif eder"
+  - "Konuşma sınavının formatını tanır ve prova eder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü haritadan 3 rastgele konu"}
+  - {minutes: 20, activity: "Konu kartları: 6 konunun her birinde öğrenci 1-2 dakika konuşur, öğretmen 1-2 takip sorusu sorar"}
+  - {minutes: 10, activity: "Resim tarifi provası: bir fotoğrafı 1 dakikada tarif et"}
+  - {minutes: 15, activity: "Rol yapma provası: rastgele bir durum (kafe, mağaza, otel, telefon, yol tarifi)"}
+  - {minutes: 10, activity: "Sınav formatını konuşun; bir sonraki iki dersin planı ve kısa quiz"}
+
+sections:
+  - heading: "Konuşma sınavının formatı"
+    body: |
+      Konuşma sınavı (4. seans) üç bölümden oluşur, toplam yaklaşık 15 dakika:
+
+      | Bölüm | Süre | Ne olacak? |
+      |---|---|---|
+      | **1. Röportaj** | 5 dk | Öğretmen senin hakkında sorular sorar: kendin, ailen, günün, hobilerin |
+      | **2. Resim tarifi** | 3 dk | Bir fotoğrafı anlatırsın: kim var, ne yapıyorlar, nerede, hava nasıl |
+      | **3. Rol yapma** | 5 dk | Bir günlük hayat durumu: kafe, mağaza, otel, telefon veya yol tarifi |
+
+      Değerlendirme: akıcılık, dilbilgisi, kelime, telaffuz, iletişim (her biri 1-5 puan).
+
+  - heading: "Konu kartları"
+    body: |
+      Her konuda 1-2 dakika konuşmaya hazır ol. Kullanabileceğin kalıplar:
+
+      | Konu | İpuçları |
+      |---|---|
+      | **1. Kendin** | name, age, from, job, live in, can speak ... |
+      | **2. Ailen** | have got, his / her, he works / she doesn't ... |
+      | **3. Günün** | get up at, then, after that, usually, on weekdays / at the weekend |
+      | **4. Evin ve mahallen** | there is / are, on the ... floor, next to, near |
+      | **5. Boş zamanın** | love / hate + -ing, play / go / do, How often? |
+      | **6. Yemek ve alışveriş** | for breakfast, some / any, I'd like ..., How much ...? |
+
+  - heading: "Sınavda takılırsan"
+    body: |
+      Takılmak normal! Türkçeye geçme, şu kalıpları kullan:
+
+      | Durum | Kalıp |
+      |---|---|
+      | Soruyu anlamadın | **Sorry? Can you repeat the question, please?** |
+      | Kelimeyi bilmiyorsun | **I don't know the word in English, but ...** / **How do you say ...?** |
+      | Düşünmek için zaman | **Hmm, let me think...** / **Well...** |
+      | Cevabı bilmiyorsun | **I'm not sure, but I think ...** |
+
+dialogue:
+  title: "Practice interview"
+  lines:
+    - {speaker: "Teacher", en: "Tell me about your family.", tr: "Bana ailenden bahset."}
+    - {speaker: "Student", en: "Well... I have a small family. I'm married and I've got one son.", tr: "Şey... Küçük bir ailem var. Evliyim ve bir oğlum var."}
+    - {speaker: "Teacher", en: "What does your wife do?", tr: "Eşin ne iş yapıyor?"}
+    - {speaker: "Student", en: "She's a nurse. She works in a hospital near our house.", tr: "Hemşire. Evimizin yakınındaki bir hastanede çalışıyor."}
+    - {speaker: "Teacher", en: "And your son? How old is he?", tr: "Peki oğlun? Kaç yaşında?"}
+    - {speaker: "Student", en: "He's eight. He loves playing football. He plays every Saturday.", tr: "Sekiz yaşında. Futbol oynamaya bayılıyor. Her Cumartesi oynuyor."}
+    - {speaker: "Teacher", en: "What do you usually do together at the weekend?", tr: "Hafta sonları genellikle birlikte ne yaparsınız?"}
+    - {speaker: "Student", en: "Hmm, let me think... We usually go to the park, and sometimes we go to the cinema.", tr: "Hmm, bir düşüneyim... Genellikle parka gideriz, bazen de sinemaya."}
+
+vocabulary:
+  - {en: "Tell me about ...", tr: "Bana ... anlat"}
+  - {en: "Let me think.", tr: "Bir düşüneyim."}
+  - {en: "Well...", tr: "Şey..."}
+  - {en: "I'm not sure.", tr: "Emin değilim."}
+  - {en: "the word", tr: "kelime"}
+  - {en: "exam", tr: "sınav"}
+
+practice:
+  - title: "Konu kartları"
+    instructions: "Öğretmen 6 konudan birini rastgele seçer (zar atabilirsiniz!). Öğrenci 1-2 dakika konuşur, öğretmen 1-2 takip sorusu sorar. Tüm konuları dolaşın."
+  - title: "Resim tarifi"
+    instructions: "Öğretmen bir fotoğraf gösterir (kalabalık bir sokak, park, mutfak). Öğrenci 1 dakikada en az 6 cümle kurar: In this photo ... / There's ... / A woman is ..."
+  - title: "Rol yapma"
+    instructions: "Öğretmen bir durum seçer ve rolü başlatır; öğrenci uyum sağlar. Sınavdaki gibi beklenmedik bir detay ekleyin."
+
+quiz:
+  - type: mcq
+    prompt: "Sınavda soruyu anlamadın."
+    options: ["Sorry? Can you repeat the question, please?", "I don't know.", "Next question."]
+    answer: "Sorry? Can you repeat the question, please?"
+  - type: mcq
+    prompt: "Düşünmek için zamana ihtiyacın var."
+    options: ["Let me think...", "Me neither.", "Hold on, bye."]
+    answer: "Let me think..."
+  - type: fill
+    prompt: "Tell me ___ your family."
+    answer: ["about"]
+  - type: mcq
+    prompt: "Resim tarifine nasıl başlarsın?"
+    options: ["In this photo, there are three people.", "This photo is have three people.", "In this photo has three people."]
+    answer: "In this photo, there are three people."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["I'm not sure.", "Emin değilim."]
+      - ["Let me think.", "Bir düşüneyim."]
+      - ["exam", "sınav"]
+      - ["Tell me about ...", "Bana ... anlat"]
+  - type: translate
+    prompt: "Kelimeyi İngilizce bilmiyorum."
+    answer: ["I don't know the word in English.", "I don't know the English word.", "I do not know the word in English."]
+
+homework:
+  - "6 konunun her biri için 1 dakikalık kayıt yap (toplam 6 kayıt)."
+  - "Final sınavından önce Anki'de tüm kartları bir kez tekrar et."
+  - "İyi uyu! Sınav bir kontrol noktası, korkulacak bir şey değil."
+
+tutor_notes:
+  - "Konuşma provasında hataları düzeltmeyin; sadece not alın ve sonunda 2-3 tanesini konuşun. Amaç akıcılık ve özgüven."
+  - "Öğrenciye sınav formatını açıkça anlatın; sürpriz olmaması kaygıyı azaltır."

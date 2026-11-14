@@ -1,0 +1,145 @@
+id: a1-w09-s1
+level: a1
+week: 9
+session: 1
+title: "What do you eat?"
+type: new
+
+objectives:
+  - "Temel yiyecek ve içecekleri adlandırır"
+  - "Sayılabilen ve sayılamayan isimleri ayırt eder"
+  - "Öğünlerde ne yiyip içtiğini anlatır (I have ... for breakfast)"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ödevdeki sevdiğin 5 yemek-içecek listesi; İngilizcesini tahmin et"}
+  - {minutes: 15, activity: "Yiyecek ve içecekler: Türk kahvaltısı masası üzerinden kelimeler"}
+  - {minutes: 15, activity: "Sayılabilen / sayılamayan: an apple / two apples ↔ bread, water, rice; 'breads' hatası"}
+  - {minutes: 15, activity: "Öğün röportajı: What do you usually have for breakfast / lunch / dinner? (sıklık zarflarıyla)"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Yiyecek ve içecekler"
+    body: |
+      | Kahvaltı | Ana yemek | İçecek | Meyve ve sebze |
+      |---|---|---|---|
+      | bread — ekmek | meat — et | water — su | apple — elma |
+      | cheese — peynir | chicken — tavuk | milk — süt | orange — portakal |
+      | egg — yumurta | rice — pirinç, pilav | juice — meyve suyu | banana — muz |
+      | olive — zeytin | pasta — makarna | | tomato — domates |
+      | butter — tereyağı | soup — çorba | | potato — patates |
+      | honey — bal | salad — salata | | onion — soğan |
+      | jam — reçel | | | |
+
+      **for breakfast / lunch / dinner**: kahvaltıda / öğlen / akşam yemeğinde
+      → *I have eggs and cheese **for breakfast**.*
+
+  - heading: "Sayılabilen ve sayılamayan isimler"
+    body: |
+      | Sayılabilen | Sayılamayan |
+      |---|---|
+      | Tek tek sayılabilir | Sıvılar, tozlar, kütleler; tek tek sayılmaz |
+      | **an** apple, **two** apples | water, bread, rice, milk, cheese, meat, sugar |
+      | **an** egg, **three** eggs | ~~a water~~, ~~two breads~~ |
+      | tomato**es**, potato**es** | Çoğul eki **almaz** |
+
+      Sayılamayanları saymak için bir **ölçü** kullanılır (yarınki dersin konusu):
+      *a glass of water, a piece of cheese, a loaf of bread.*
+
+      ⚠️ Türkçede "iki ekmek" denir, İngilizcede ~~two breads~~ denmez:
+      → **two loaves of bread** veya **two pieces of bread**
+
+      ⚠️ ~~I drink a milk.~~ → **I drink milk.** (genel) / **I drink a glass of milk.**
+    examples:
+      - {en: "I have two eggs, cheese and olives for breakfast.", tr: "Kahvaltıda iki yumurta, peynir ve zeytin yerim."}
+      - {en: "My children don't like rice.", tr: "Çocuklarım pilav sevmez."}
+      - {en: "She eats an apple every day.", tr: "Her gün bir elma yer."}
+      - {en: "We never eat meat on Mondays.", tr: "Pazartesileri asla et yemeyiz."}
+
+dialogue:
+  title: "A Turkish breakfast"
+  lines:
+    - {speaker: "Emily", en: "What do you usually have for breakfast?", tr: "Kahvaltıda genellikle ne yersin?"}
+    - {speaker: "Zehra", en: "At the weekend we have a big Turkish breakfast.", tr: "Hafta sonu büyük bir Türk kahvaltısı yaparız."}
+    - {speaker: "Emily", en: "What's in a Turkish breakfast?", tr: "Türk kahvaltısında neler olur?"}
+    - {speaker: "Zehra", en: "Bread, cheese, olives, eggs, tomatoes, honey... and lots of tea!", tr: "Ekmek, peynir, zeytin, yumurta, domates, bal... ve bol çay!"}
+    - {speaker: "Emily", en: "Wow! I only have coffee and toast.", tr: "Vay! Ben sadece kahve ve kızarmış ekmek yerim."}
+    - {speaker: "Zehra", en: "Come to my house on Sunday!", tr: "Pazar günü bize gel!"}
+
+vocabulary:
+  - {en: "food", tr: "yiyecek, yemek"}
+  - {en: "bread", tr: "ekmek", note: "Sayılamaz"}
+  - {en: "cheese", tr: "peynir", note: "Sayılamaz"}
+  - {en: "egg", tr: "yumurta"}
+  - {en: "olive", tr: "zeytin"}
+  - {en: "butter", tr: "tereyağı"}
+  - {en: "honey", tr: "bal"}
+  - {en: "meat", tr: "et"}
+  - {en: "chicken", tr: "tavuk"}
+  - {en: "rice", tr: "pirinç, pilav"}
+  - {en: "soup", tr: "çorba"}
+  - {en: "salad", tr: "salata"}
+  - {en: "water", tr: "su", note: "Sayılamaz"}
+  - {en: "milk", tr: "süt"}
+  - {en: "juice", tr: "meyve suyu"}
+  - {en: "apple", tr: "elma"}
+  - {en: "banana", tr: "muz"}
+  - {en: "tomato", tr: "domates", note: "Çoğulu: tomatoes"}
+  - {en: "potato", tr: "patates", note: "Çoğulu: potatoes"}
+  - {en: "sugar", tr: "şeker"}
+  - {en: "for breakfast", tr: "kahvaltıda", example: "What do you have for breakfast?", example_tr: "Kahvaltıda ne yersin?"}
+
+practice:
+  - title: "Sayılır mı?"
+    instructions: "Öğretmen bir kelime söyler; öğrenci sayılabiliyorsa 'an apple / two apples', sayılamıyorsa 'just bread' der."
+    items: ["egg", "water", "banana", "rice", "tomato", "milk", "cheese", "orange", "sugar", "potato"]
+  - title: "Öğün röportajı"
+    instructions: "Karşılıklı sorun: What do you usually have for breakfast / lunch / dinner? Do you eat meat? How often do you eat fish? Cevaplarda sıklık zarfı kullanın."
+  - title: "Kahvaltı masası"
+    instructions: "Öğrenci kendi ideal kahvaltı masasını There's / There are ile anlatır: There's bread, there are eggs ..."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I eat two breads.", "I eat bread.", "I eat a bread."]
+    answer: "I eat bread."
+  - type: mcq
+    prompt: "Hangisi sayılamayan bir isimdir?"
+    options: ["egg", "apple", "water"]
+    answer: "water"
+  - type: fill
+    prompt: "She eats ___ egg every morning."
+    answer: ["an"]
+  - type: fill
+    prompt: "I have cheese and olives ___ breakfast."
+    answer: ["for"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["honey", "bal"]
+      - ["butter", "tereyağı"]
+      - ["chicken", "tavuk"]
+      - ["soup", "çorba"]
+      - ["juice", "meyve suyu"]
+  - type: mcq
+    prompt: "\"tomato\" kelimesinin çoğulu hangisi?"
+    options: ["tomatos", "tomatoes", "tomatoies"]
+    answer: "tomatoes"
+  - type: order
+    words: ["usually", "for", "What", "lunch", "you", "do", "have"]
+    answer: "What do you usually have for lunch?"
+  - type: translate
+    prompt: "Çocuklarım et sevmez."
+    answer: ["My children don't like meat.", "My children do not like meat.", "My kids don't like meat."]
+  - type: translate
+    prompt: "Her gün süt içerim."
+    answer: ["I drink milk every day.", "Every day I drink milk."]
+
+homework:
+  - "Dün ne yediğini düşünme; normalde her öğünde ne yediğini 6-8 cümleyle yaz (sıklık zarflarıyla)."
+  - "Mutfağındaki 10 yiyeceğin İngilizce adını öğren; sayılabilir mi değil mi, yanına yaz."
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "'orange' 3. haftada renk olarak geçti; burada meyve. 'onion' tabloda var ama listeye girmedi, isterseniz ekleyin."
+  - "Sayılabilen/sayılamayan farkı Türk öğrenciler için soyut; 'tek tek sayabilir misin?' sorusu iyi bir pratik test."
+  - "'toast', 'lots of' diyalogda kalıp olarak geçiyor."

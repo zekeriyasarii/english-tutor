@@ -1,0 +1,160 @@
+id: a1-w12-s2
+level: a1
+week: 12
+session: 2
+title: "Every day or now?"
+type: new
+
+objectives:
+  - "Present Simple (alışkanlık) ile Present Continuous'u (şu an) ayırt eder"
+  - "Durum fiillerini (like, know, want ...) -ing ile kullanmaz"
+  - "Hava durumunu sorar ve anlatır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ödevdeki 'saat saat ne yapıyordum' notları"}
+  - {minutes: 15, activity: "İki zamanı karşılaştırma tablosu; zaman ifadeleriyle ipuçları"}
+  - {minutes: 10, activity: "Durum fiilleri: 'I am knowing' hatası"}
+  - {minutes: 20, activity: "Hava durumu + karşılaştırma: 'Normalde ... ama bugün ...' cümleleri; farklı şehirlerin hava durumu"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Her gün mü, şu an mı?"
+    body: |
+      | Present Simple | Present Continuous |
+      |---|---|
+      | Alışkanlık, rutin, genel gerçek | Şu anda olan |
+      | I **work** in an office. | I'm **working** from home today. |
+      | She usually **drinks** tea. | She's **drinking** coffee now. |
+      | It often **rains** in London. | Look! It's **raining**. |
+      | **every day, usually, often, never, on Mondays** | **now, right now, at the moment, today, Look!** |
+
+      Zaman ifadesi en iyi ipucudur. **every / usually** görürsen Simple, **now / at the moment** görürsen Continuous.
+    examples:
+      - {en: "I usually walk to work, but today I'm taking the bus.", tr: "Genellikle işe yürürüm ama bugün otobüse biniyorum."}
+      - {en: "He doesn't usually cook, but he's cooking now!", tr: "Genelde yemek yapmaz ama şu an yapıyor!"}
+      - {en: "What do you do? — I'm a teacher. / What are you doing? — I'm reading.", tr: "Ne iş yaparsın? — Öğretmenim. / Ne yapıyorsun? — Okuyorum."}
+
+  - heading: "Durum fiilleri: -ing almayanlar"
+    body: |
+      Bazı fiiller **eylem değil, durum** bildirir. Bunlar şu an için bile **-ing almaz**:
+
+      | Fiil | ❌ | ✅ |
+      |---|---|---|
+      | **know** | I'm knowing the answer. | I **know** the answer. |
+      | **like / love / hate** | I'm liking this song. | I **like** this song. |
+      | **want** | She's wanting a coffee. | She **wants** a coffee. |
+      | **understand** | Are you understanding? | **Do** you **understand**? |
+      | **have** (sahiplik) | I'm having a car. | I **have** a car. |
+
+      ⚠️ Türkçede "biliyorum, anlıyorum, istiyorum" -yor ekiyle söylendiği için bu hata çok yaygındır.
+
+      **have** "yemek, içmek" anlamındaysa -ing alabilir: *We're **having** dinner.* ✅
+
+  - heading: "Hava durumu"
+    body: |
+      | Soru | |
+      |---|---|
+      | **What's the weather like?** | Hava nasıl? |
+      | **What's the weather like in London today?** | Bugün Londra'da hava nasıl? |
+
+      | Sıfat (It's ...) | Fiil (It's ...-ing) |
+      |---|---|
+      | It's **sunny**. — Güneşli. | It's **raining**. — Yağmur yağıyor. |
+      | It's **cloudy**. — Bulutlu. | It's **snowing**. — Kar yağıyor. |
+      | It's **windy**. — Rüzgarlı. | |
+      | It's **hot / warm**. — Sıcak / ılık. | |
+      | It's **cold**. — Soğuk. | |
+
+      Sıcaklık: *It's 25 degrees.* / *It's minus 5.*
+
+      Mevsimler ve hava (Simple): *It **snows** in winter. It's **usually** hot in summer.*
+
+dialogue:
+  title: "Video call"
+  lines:
+    - {speaker: "Deniz", en: "Hi Mark! What's the weather like in Manchester?", tr: "Selam Mark! Manchester'da hava nasıl?"}
+    - {speaker: "Mark", en: "It's raining, of course! It always rains here.", tr: "Yağmur yağıyor, tabii ki! Burada hep yağmur yağar."}
+    - {speaker: "Deniz", en: "Ha ha! Here in Antalya it's sunny and warm.", tr: "Ha ha! Burada Antalya'da güneşli ve ılık."}
+    - {speaker: "Mark", en: "In January? What are you doing right now?", tr: "Ocak'ta mı? Şu an ne yapıyorsun?"}
+    - {speaker: "Deniz", en: "I'm sitting on my balcony and I'm drinking tea.", tr: "Balkonumda oturuyorum ve çay içiyorum."}
+    - {speaker: "Mark", en: "I hate you! Ha ha.", tr: "Senden nefret ediyorum! Ha ha."}
+
+vocabulary:
+  - {en: "weather", tr: "hava (durumu)"}
+  - {en: "What's the weather like?", tr: "Hava nasıl?"}
+  - {en: "sunny", tr: "güneşli"}
+  - {en: "cloudy", tr: "bulutlu"}
+  - {en: "windy", tr: "rüzgarlı"}
+  - {en: "rain", tr: "yağmur (yağmak)", example: "It's raining.", example_tr: "Yağmur yağıyor."}
+  - {en: "snow", tr: "kar (yağmak)"}
+  - {en: "hot", tr: "sıcak"}
+  - {en: "cold", tr: "soğuk"}
+  - {en: "degrees", tr: "derece"}
+  - {en: "know", tr: "bilmek", note: "-ing almaz"}
+  - {en: "want", tr: "istemek", note: "-ing almaz"}
+
+practice:
+  - title: "Simple mı, Continuous mı?"
+    instructions: "Öğrenci fiili doğru zamanda söyler."
+    items:
+      - "I (drink) tea every morning."
+      - "Shh! The baby (sleep)."
+      - "She (not / work) today. She's ill."
+      - "My father (watch) the news every evening."
+      - "Look! It (snow)!"
+      - "I (know) his name."
+  - title: "Normalde ... ama bugün ..."
+    instructions: "Öğrenci kendisi veya ailesi için 4 cümle kurar: I usually ..., but today I'm ..."
+  - title: "Dünya hava durumu"
+    instructions: "Telefonda hava durumu uygulamasını açın. Öğrenci 4 şehrin hava durumunu anlatır: In London it's cloudy and 8 degrees."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I'm knowing the answer.", "I know the answer.", "I knowing the answer."]
+    answer: "I know the answer."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She usually drinks coffee, but today she's drinking tea.", "She is usually drinking coffee, but today she drinks tea.", "She usually drinking coffee, but today she drinks tea."]
+    answer: "She usually drinks coffee, but today she's drinking tea."
+  - type: fill
+    prompt: "Look! It ___ snowing. (be)"
+    answer: ["is", "'s"]
+  - type: fill
+    prompt: "It ___ a lot in London. (rain — genel gerçek)"
+    answer: ["rains"]
+  - type: mcq
+    prompt: "\"Hava nasıl?\""
+    options: ["How is weather?", "What's the weather like?", "What weather is it?"]
+    answer: "What's the weather like?"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["sunny", "güneşli"]
+      - ["cloudy", "bulutlu"]
+      - ["windy", "rüzgarlı"]
+      - ["cold", "soğuk"]
+      - ["degrees", "derece"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Do you understand?", "Are you understanding?", "Do you understanding?"]
+    answer: "Do you understand?"
+  - type: order
+    words: ["is", "He", "today", "home", "working", "from"]
+    answer: "He is working from home today."
+  - type: translate
+    prompt: "Bugün güneşli ve sıcak."
+    answer: ["It's sunny and hot today.", "It is sunny and hot today.", "Today it's sunny and hot.", "Today it is sunny and hot.", "It's sunny and warm today.", "Today it's sunny and warm."]
+  - type: translate
+    prompt: "Kar yağıyor."
+    answer: ["It's snowing.", "It is snowing."]
+
+homework:
+  - "Bir hafta boyunca her sabah hava durumunu İngilizce söyle (It's cloudy and 7 degrees)."
+  - "'Normalde / ama bugün' kalıbıyla 6 cümle yaz."
+  - "Yarınki telefon dersi için: en son kiminle telefonda konuştun? Neler söylediniz? (Türkçe düşün)"
+
+tutor_notes:
+  - "Bu dersin en kritik noktası durum fiilleri; Türkçedeki 'biliyorum/istiyorum' yüzünden çok hata yapılır."
+  - "Diyalogdaki 'I hate you!' şaka; kültürel olarak arkadaşlar arasında böyle şakalaşılır, açıklayın."
+  - "'ill', 'baby', 'news' alıştırmada geçiyor, bağlamdan anlaşılır."

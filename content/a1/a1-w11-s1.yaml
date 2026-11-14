@@ -1,0 +1,155 @@
+id: a1-w11-s1
+level: a1
+week: 11
+session: 1
+title: "I can swim"
+type: new
+
+objectives:
+  - "can / can't ile yeteneklerini söyler"
+  - "Can you ...? ile soru sorar ve kısa cevap verir"
+  - "can ve can't'ın telaffuz farkını duyar ve söyler"
+  - "well / a little / not at all ile yeteneğin derecesini belirtir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ödevdeki yapabildiklerin listesi; İngilizcesini tahmin et"}
+  - {minutes: 15, activity: "can / can't yapısı: tüm şahıslarda aynı; 'to' ve '-s' yok"}
+  - {minutes: 10, activity: "Telaffuz: can /kən/ (zayıf) ve can't /kɑːnt/ (güçlü) — dinle ve ayırt et"}
+  - {minutes: 20, activity: "Yetenek anketi: 12 soru; öğrenci cevaplar ve öğretmene sorar; sonra ailesinden biri için he/she can ile anlatır"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "can / can't"
+    body: |
+      **can** = -ebilmek. Yapısı çok kolay: **tüm şahıslarda aynı** ve fiil hep yalın.
+
+      | | Olumlu | Olumsuz | Soru |
+      |---|---|---|---|
+      | I / you / we / they | I **can** swim. | I **can't** swim. | **Can** you swim? |
+      | he / she / it | She **can** swim. | She **can't** swim. | **Can** she swim? |
+
+      Kısa cevap: **Yes, I can. / No, I can't.**
+
+      ⚠️ Üç yaygın hata:
+      1. ~~I can to swim.~~ → **I can swim.** (to yok)
+      2. ~~She cans swim.~~ → **She can swim.** (can'e -s gelmez)
+      3. ~~She can swims.~~ → **She can swim.** (fiile de -s gelmez)
+
+      ⚠️ ~~Do you can swim?~~ → **Can you swim?** (do kullanılmaz)
+
+      **can't** = cannot (yazıda bitişik).
+
+  - heading: "can ve can't'ı ayırt etmek"
+    body: |
+      Konuşmada bu ikisi kolay karışır. İpucu: **vurgu ve ünlü sesi**.
+
+      | | Okunuş | Örnek |
+      |---|---|---|
+      | **can** (olumlu) | kısa, zayıf: "kın" | I **can** swim. → "ay kın SWİM" (vurgu fiilde) |
+      | **can't** (olumsuz) | uzun, güçlü: "kaant" (İngiliz) / "kænt" (Amerikan) | I **CAN'T** swim. (vurgu can't'ta) |
+
+      Olumlu cümlede vurgu **fiilde**, olumsuz cümlede **can't'ta**.
+
+  - heading: "Ne kadar iyi?"
+    body: |
+      | İfade | Anlam |
+      |---|---|
+      | I can swim **very well**. | Çok iyi yüzebilirim. |
+      | I can swim **well**. | İyi yüzebilirim. |
+      | I can swim **a little**. | Biraz yüzebilirim. |
+      | I can't swim **very well**. | Çok iyi yüzemem. |
+      | I can't swim **at all**. | Hiç yüzemem. |
+
+      ⚠️ **well** fiili niteler, **good** ismi: *I'm a **good** swimmer.* / *I swim **well**.*
+    examples:
+      - {en: "I can speak Turkish and a little English.", tr: "Türkçe ve biraz İngilizce konuşabilirim."}
+      - {en: "My son can't ride a bike.", tr: "Oğlum bisiklete binemez."}
+      - {en: "Can you drive? — Yes, I can.", tr: "Araba kullanabilir misin? — Evet."}
+      - {en: "My grandmother can't use a smartphone at all.", tr: "Babaannem akıllı telefonu hiç kullanamaz."}
+
+dialogue:
+  title: "Job interview"
+  lines:
+    - {speaker: "Manager", en: "Can you speak English?", tr: "İngilizce konuşabilir misiniz?"}
+    - {speaker: "Gül", en: "Yes, I can. I can speak a little English.", tr: "Evet. Biraz İngilizce konuşabilirim."}
+    - {speaker: "Manager", en: "Good. Can you drive?", tr: "Güzel. Araba kullanabilir misiniz?"}
+    - {speaker: "Gül", en: "Yes, I can drive very well.", tr: "Evet, çok iyi araba kullanırım."}
+    - {speaker: "Manager", en: "Can you use Excel?", tr: "Excel kullanabilir misiniz?"}
+    - {speaker: "Gül", en: "No, I can't. But I can learn fast!", tr: "Hayır. Ama hızlı öğrenebilirim!"}
+
+vocabulary:
+  - {en: "can", tr: "-ebilmek", note: "Okunuş: kın (zayıf)"}
+  - {en: "can't", tr: "-emez, -amaz", note: "Okunuş: kaant (güçlü)"}
+  - {en: "Can you ...?", tr: "... -ebilir misin?"}
+  - {en: "speak", tr: "konuşmak (dil)", example: "I can speak German.", example_tr: "Almanca konuşabilirim."}
+  - {en: "ride a bike", tr: "bisiklete binmek"}
+  - {en: "draw", tr: "çizmek, resim yapmak"}
+  - {en: "use", tr: "kullanmak"}
+  - {en: "learn", tr: "öğrenmek"}
+  - {en: "fix", tr: "tamir etmek"}
+  - {en: "understand", tr: "anlamak"}
+  - {en: "well", tr: "iyi (fiille)", example: "She sings well.", example_tr: "İyi şarkı söyler."}
+  - {en: "a little", tr: "biraz"}
+  - {en: "not at all", tr: "hiç"}
+  - {en: "fast", tr: "hızlı"}
+  - {en: "smartphone", tr: "akıllı telefon"}
+
+practice:
+  - title: "Yetenek anketi"
+    instructions: "Karşılıklı Can you ...? diye sorun; cevaplarda well / a little / not at all kullanın."
+    items: ["swim", "cook Turkish food", "drive", "ride a bike", "play the guitar", "draw", "speak German", "dance", "fix a car", "use Excel", "sing", "play chess"]
+  - title: "can mi, can't mı?"
+    instructions: "Öğretmen 10 cümle söyler (doğal hızda); öğrenci her biri için 'can' mi 'can't' mı duyduğunu söyler."
+  - title: "Ailemin yetenekleri"
+    instructions: "Öğrenci ailesinden 3 kişinin yapabildiği ve yapamadığı şeyleri anlatır: My wife can cook very well, but she can't drive."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I can to speak English.", "I can speak English.", "I can speaking English."]
+    answer: "I can speak English."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She can drives.", "She cans drive.", "She can drive."]
+    answer: "She can drive."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Do you can swim?", "Can you swim?", "Are you can swim?"]
+    answer: "Can you swim?"
+  - type: fill
+    prompt: "\"Can your son ride a bike?\" — \"No, he ___.\""
+    answer: ["can't", "cannot", "can not"]
+  - type: fill
+    prompt: "I can't dance at ___."
+    answer: ["all"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["He speaks English good.", "He speaks English well.", "He speaks well English."]
+    answer: "He speaks English well."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["draw", "çizmek"]
+      - ["fix", "tamir etmek"]
+      - ["understand", "anlamak"]
+      - ["learn", "öğrenmek"]
+      - ["a little", "biraz"]
+  - type: order
+    words: ["can", "My", "very", "cook", "well", "wife"]
+    answer: "My wife can cook very well."
+  - type: translate
+    prompt: "Gitar çalabilir misin?"
+    answer: ["Can you play the guitar?", "Can you play guitar?"]
+  - type: translate
+    prompt: "Biraz İngilizce konuşabilirim."
+    answer: ["I can speak a little English.", "I can speak English a little."]
+
+homework:
+  - "Yapabildiğin 5 ve yapamadığın 5 şeyi well / a little / at all ile yaz."
+  - "Gelecekte öğrenmek istediğin 3 şeyi yaz: I can't ..., but I want to learn."
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "can/can't telaffuz farkı dinlemede çok önemli; gerçek konuşmada 't' neredeyse duyulmaz, ünlü ve vurgu farkı belirleyicidir."
+  - "'I want to learn' ödevde kalıp olarak geçiyor."
+  - "'well/good' ayrımı A1 için ileri; quiz'de bir soru var, takılırsa üzerinde durmayın."

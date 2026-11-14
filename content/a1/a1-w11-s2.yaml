@@ -1,0 +1,157 @@
+id: a1-w11-s2
+level: a1
+week: 11
+session: 2
+title: "Could you help me?"
+type: new
+
+objectives:
+  - "Can you ...? / Could you ...? ile kibarca rica eder"
+  - "Can I ...? ile izin ister"
+  - "Ricalara ve izin isteklerine cevap verir (Sure / Sorry, ...)"
+  - "Konuşmayı yönetme kalıplarını kullanır (Sorry? / Can you speak more slowly? / What does ... mean?)"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ödevdeki yetenek cümleleri"}
+  - {minutes: 15, activity: "Rica (Can/Could you ...?) ve izin (Can I ...?): kibarlık ölçeği"}
+  - {minutes: 15, activity: "Konuşmayı yönetme kalıpları — bu derslerde öğrencinin en çok kullanacağı cümleler!"}
+  - {minutes: 15, activity: "Mini sahneler: komşudan yardım, iş yerinde rica, sınıfta anlamadığını söyleme"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Rica etmek"
+    body: |
+      | Kibarlık | Kalıp |
+      |---|---|
+      | Normal | **Can you** help me, please? |
+      | Daha kibar | **Could you** help me, please? |
+      | Çok kibar | **Could you possibly** help me? |
+
+      **could** burada "-ebilir misiniz" anlamında kibar bir ricadır; geçmiş zaman değildir.
+
+      | Cevap | Anlam |
+      |---|---|
+      | **Sure. / Of course. / No problem.** | Tabii. / Elbette. / Sorun değil. |
+      | **Sorry, I can't.** | Kusura bakma, yapamam. |
+      | **Sorry, I'm busy right now.** | Kusura bakma, şu an meşgulüm. |
+    examples:
+      - {en: "Could you open the window, please? — Sure.", tr: "Pencereyi açabilir misiniz lütfen? — Tabii."}
+      - {en: "Can you call me tonight? — Sorry, I can't. I'm busy.", tr: "Bu akşam beni arayabilir misin? — Kusura bakma, arayamam. Meşgulüm."}
+
+  - heading: "İzin istemek: Can I ...?"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **Can I** sit here? | Yes, of course. / Sorry, it's taken. |
+      | **Can I** use your phone? | Sure, here you are. |
+      | **Could I** ask a question? | Yes, go ahead. |
+
+      Bu kalıbı 9-10. haftalarda gördün: *Can I have the bill? Can I try it on? Can I pay by card?*
+
+  - heading: "Konuşmayı yönetmek"
+    body: |
+      Bu cümleler İngilizce konuşurken **en çok işine yarayacak** kalıplar.
+      Anlamadığında Türkçeye geçmek yerine bunları kullan:
+
+      | Kalıp | Ne zaman? |
+      |---|---|
+      | **Sorry?** / **Pardon?** | Duymadın veya anlamadın |
+      | **Can you repeat that, please?** | Tekrar etmesini istiyorsun |
+      | **Can you speak more slowly, please?** | Çok hızlı konuşuyor |
+      | **What does "..." mean?** | Bir kelimenin anlamını soruyorsun |
+      | **How do you say "..." in English?** | Bir kelimenin İngilizcesini soruyorsun |
+      | **How do you spell it?** | Nasıl yazıldığını soruyorsun |
+      | **I don't understand.** | Anlamadın |
+      | **I don't know.** | Bilmiyorsun |
+
+      Bu dersten itibaren derslerimizde bu kalıpları kullan. Türkçe sormak yok!
+
+dialogue:
+  title: "New neighbour"
+  lines:
+    - {speaker: "Lucy", en: "Hi! Sorry, could you help me? I'm your new neighbour.", tr: "Merhaba! Pardon, bana yardım edebilir misiniz? Yeni komşunuzum."}
+    - {speaker: "Hakan", en: "Sure. What's the problem?", tr: "Tabii. Sorun ne?"}
+    - {speaker: "Lucy", en: "The lift doesn't work. Can you carry this box with me?", tr: "Asansör çalışmıyor. Bu kutuyu benimle taşıyabilir misiniz?"}
+    - {speaker: "Hakan", en: "Sorry? Can you speak more slowly, please?", tr: "Pardon? Biraz daha yavaş konuşabilir misiniz lütfen?"}
+    - {speaker: "Lucy", en: "Of course. Can... you... carry... this box?", tr: "Tabii. Bu... kutuyu... taşıyabilir... misiniz?"}
+    - {speaker: "Hakan", en: "What does 'carry' mean?", tr: "'Carry' ne demek?"}
+    - {speaker: "Lucy", en: "It means... take it up the stairs, like this!", tr: "Şu demek... merdivenden yukarı götürmek, böyle!"}
+    - {speaker: "Hakan", en: "Ah, OK! No problem.", tr: "Ha, tamam! Sorun değil."}
+
+vocabulary:
+  - {en: "Could you ...?", tr: "... -ebilir misiniz? (kibar)", example: "Could you help me?", example_tr: "Bana yardım edebilir misiniz?"}
+  - {en: "help", tr: "yardım (etmek)"}
+  - {en: "Sure.", tr: "Tabii."}
+  - {en: "No problem.", tr: "Sorun değil."}
+  - {en: "Sorry?", tr: "Pardon? (anlamadım)"}
+  - {en: "Can you speak more slowly?", tr: "Daha yavaş konuşabilir misin?"}
+  - {en: "What does ... mean?", tr: "... ne demek?"}
+  - {en: "How do you say ... in English?", tr: "... İngilizcede nasıl denir?"}
+  - {en: "I don't understand.", tr: "Anlamıyorum."}
+  - {en: "I don't know.", tr: "Bilmiyorum."}
+  - {en: "carry", tr: "taşımak"}
+  - {en: "sit", tr: "oturmak"}
+  - {en: "question", tr: "soru"}
+  - {en: "answer", tr: "cevap (vermek)"}
+  - {en: "close", tr: "kapatmak"}
+
+practice:
+  - title: "Kibarca iste"
+    instructions: "Öğretmen Türkçe bir durum söyler, öğrenci Could you ...? veya Can I ...? ile ister."
+    items:
+      - "Arkadaşından pencereyi kapatmasını iste."
+      - "Kafede tuzu iste."
+      - "Öğretmenden tekrar etmesini iste."
+      - "İş arkadaşından kalemini ödünç iste (Can I use ...?)."
+      - "Birinden yavaş konuşmasını iste."
+      - "Otobüste oturabilir miyim diye sor."
+  - title: "Anlamadım!"
+    instructions: "Öğretmen bilerek hızlı konuşur ve yeni kelimeler kullanır. Öğrenci her seferinde konuşmayı yönetme kalıplarından birini kullanmalı."
+  - title: "Mini sahneler"
+    instructions: "1) Yeni komşu yardım istiyor. 2) İş yerinde bilgisayar sorunu. 3) Otobüste yer sorma. Her sahnede bir kişi rica eder, diğeri kabul veya reddeder."
+
+quiz:
+  - type: mcq
+    prompt: "En kibar rica hangisi?"
+    options: ["Help me.", "Can you help me?", "Could you help me, please?"]
+    answer: "Could you help me, please?"
+  - type: mcq
+    prompt: "Karşındaki çok hızlı konuşuyor."
+    options: ["Can you speak more slowly, please?", "Can you speak more fast?", "Speak slow!"]
+    answer: "Can you speak more slowly, please?"
+  - type: fill
+    prompt: "What does \"carry\" ___?"
+    answer: ["mean"]
+  - type: fill
+    prompt: "How do you ___ \"kalem\" in English?"
+    answer: ["say"]
+  - type: mcq
+    prompt: "Biri senden yardım istedi ve yardım edebilirsin."
+    options: ["Sure, no problem.", "Sorry, I can't.", "I don't understand."]
+    answer: "Sure, no problem."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["I don't know.", "Bilmiyorum."]
+      - ["I don't understand.", "Anlamıyorum."]
+      - ["Sorry?", "Pardon?"]
+      - ["No problem.", "Sorun değil."]
+  - type: order
+    words: ["sit", "Can", "here", "I"]
+    answer: "Can I sit here?"
+  - type: translate
+    prompt: "Pencereyi kapatabilir misiniz lütfen?"
+    answer: ["Could you close the window, please?", "Can you close the window, please?", "Could you close the window please?", "Can you close the window please?"]
+  - type: translate
+    prompt: "Bir soru sorabilir miyim?"
+    answer: ["Can I ask a question?", "Could I ask a question?", "Can I ask you a question?", "Could I ask you a question?"]
+
+homework:
+  - "Konuşmayı yönetme kalıplarını bir kağıda yaz ve derslerde ekranın yanına koy."
+  - "Bu hafta en az 3 kez Türkçe yerine bu kalıplarla soru sor (derslerde veya mesajlarda)."
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "Bu dersten sonra öğrenci Türkçe soru sorduğunda 'In English, please!' diye nazikçe hatırlatın."
+  - "'right now', 'it's taken', 'go ahead' kalıp olarak geçiyor."
+  - "Diyalogda Hakan'ın stratejisi (anlamayınca sormak) öğrencinin model alması gereken davranış; bunu vurgulayın."

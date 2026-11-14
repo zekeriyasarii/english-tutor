@@ -2,6 +2,10 @@
 // başlık, paragraf, tablo, liste, alıntı, **kalın**, *italik*, ~~üstü çizili~~, `kod`, \* kaçışları.
 
 import { esc } from "./util.js";
+import { ttsSupported, speakerIcon } from "./speech.js";
+
+/** Markdown işaretlerinden arındırılmış düz metin (seslendirme için) */
+const plain = (s) => s.replace(/\\([*|_~`\\])/g, "$1").replace(/\*\*|~~|`/g, "").replace(/(^|\W)\*(\S)/g, "$1$2").replace(/(\S)\*(\W|$)/g, "$1$2");
 
 export function inline(src) {
   let s = esc(src);
@@ -47,7 +51,15 @@ export function markdown(src) {
       out.push(table(take(/^\s*\|/)));
     } else if (/^>\s?/.test(line)) {
       const block = take(/^>\s?/).map((l) => l.replace(/^>\s?/, ""));
-      out.push(`<blockquote>${block.map(inline).join(" ")}</blockquote>`);
+      // Boş "> " satırları paragraf ayırır
+      const paras = block.join("\n").split(/\n\s*\n/).map((p) => p.replace(/\n/g, " ").trim()).filter(Boolean);
+      // Seslendirmede başlık gibi noktasız paragraflardan sonra duraklama olsun
+      const spoken = paras.map((p) => plain(p)).map((p) => (/[.!?]$/.test(p) ? p : `${p}.`)).join(" ");
+      const say = ttsSupported
+        ? `<button class="btn small say-block" data-say="${esc(spoken)}">${speakerIcon} Metni dinle</button>`
+        : "";
+      const body = paras.length > 1 ? paras.map((p) => `<p>${inline(p)}</p>`).join("") : inline(paras[0] ?? "");
+      out.push(`<blockquote>${body}${say}</blockquote>`);
     } else if (/^\s*[-*]\s+/.test(line)) {
       const items = take(/^\s*[-*]\s+/).map((l) => `<li>${inline(l.replace(/^\s*[-*]\s+/, ""))}</li>`);
       out.push(`<ul>${items.join("")}</ul>`);

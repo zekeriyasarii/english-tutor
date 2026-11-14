@@ -29,12 +29,16 @@ export function speak(text, { queue = false } = {}) {
   if (!queue) speechSynthesis.cancel();
   // "I am / I'm" gibi kartlarda eğik çizgiyi kısa duraklamaya çevir; parantez içini okuma
   const clean = String(text).replace(/\([^)]*\)/g, "").replace(/\s*\/\s*/g, ", ").trim();
-  const u = new SpeechSynthesisUtterance(clean);
-  u.lang = accent;
-  u.rate = rate;
   const v = pickVoice(accent);
-  if (v) u.voice = v;
-  speechSynthesis.speak(u);
+  // Uzun metinleri cümle cümle sıraya koy: bazı tarayıcılar uzun tek bir okumayı yarıda keser
+  for (const part of clean.split(/(?<=[.!?])\s+/)) {
+    if (!part) continue;
+    const u = new SpeechSynthesisUtterance(part);
+    u.lang = accent;
+    u.rate = rate;
+    if (v) u.voice = v;
+    speechSynthesis.speak(u);
+  }
 }
 
 export const speakerIcon =

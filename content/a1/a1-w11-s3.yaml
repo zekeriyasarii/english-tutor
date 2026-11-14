@@ -1,0 +1,148 @@
+id: a1-w11-s3
+level: a1
+week: 11
+session: 3
+title: "Survival English"
+type: practice
+
+objectives:
+  - "Otelde giriş yapar ve basit sorular sorar"
+  - "Eczanede veya doktorda temel şikayetlerini anlatır"
+  - "Kaybolduğunda veya bir sorun olduğunda yardım ister"
+
+plan:
+  - {minutes: 5, activity: "Isınma: konuşmayı yönetme kalıpları hızlı tekrar"}
+  - {minutes: 10, activity: "Otel, sağlık ve acil durum kalıpları"}
+  - {minutes: 30, activity: "Üç sahne: 1) Otel resepsiyonu 2) Eczane 3) Yabancı şehirde kaybolmak — her sahnede roller değişir; öğretmen beklenmedik detaylar ekler"}
+  - {minutes: 5, activity: "Sahnelerden not edilen hatalar"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Otelde"
+    body: |
+      | Kalıp | Anlam |
+      |---|---|
+      | **I have a reservation.** My name is ... | Rezervasyonum var. Adım ... |
+      | **What time is breakfast?** | Kahvaltı saat kaçta? |
+      | **What's the Wi-Fi password?** | Wi-Fi şifresi ne? |
+      | **Can I have a map, please?** | Bir harita alabilir miyim? |
+      | **The air conditioning doesn't work.** | Klima çalışmıyor. |
+      | **What time is check-out?** | Çıkış saat kaçta? |
+
+  - heading: "Sağlık: eczane ve doktor"
+    body: |
+      Şikayetler **I have (got) a ...** ile söylenir:
+
+      | Kalıp | Anlam |
+      |---|---|
+      | I have a **headache**. | Başım ağrıyor. |
+      | I have a **stomach ache**. | Midem ağrıyor. |
+      | I have a **toothache**. | Dişim ağrıyor. |
+      | I have a **cold**. | Soğuk algınlığım var. |
+      | I have a **temperature**. | Ateşim var. |
+      | I have a **cough**. | Öksürüğüm var. |
+      | My **back hurts**. | Sırtım ağrıyor. |
+      | I **feel sick**. | Midem bulanıyor. |
+
+      Eczanede: **Have you got anything for a headache?** (Baş ağrısı için bir şeyiniz var mı?)
+
+  - heading: "Kaybolmak ve acil durumlar"
+    body: |
+      | Kalıp | Anlam |
+      |---|---|
+      | **Excuse me, I'm lost.** | Affedersiniz, kayboldum. |
+      | **Can you show me on the map?** | Haritada gösterebilir misiniz? |
+      | **I can't find my hotel.** | Otelimi bulamıyorum. |
+      | **Where's the toilet, please?** | Tuvalet nerede? (Amerikan: restroom / bathroom) |
+      | **Help!** | İmdat! |
+      | **Call an ambulance / the police!** | Ambulans / polis çağırın! |
+
+      Avrupa'da acil numara: **112** · İngiltere'de: **999** · ABD'de: **911**
+
+dialogue:
+  title: "At the hotel"
+  lines:
+    - {speaker: "Receptionist", en: "Good evening. Welcome to the Park Hotel.", tr: "İyi akşamlar. Park Otel'e hoş geldiniz."}
+    - {speaker: "Ayşe", en: "Good evening. I have a reservation. My name is Ayşe Kaya.", tr: "İyi akşamlar. Rezervasyonum var. Adım Ayşe Kaya."}
+    - {speaker: "Receptionist", en: "Can you spell your surname, please?", tr: "Soyadınızı kodlar mısınız lütfen?"}
+    - {speaker: "Ayşe", en: "K-A-Y-A.", tr: "K-A-Y-A."}
+    - {speaker: "Receptionist", en: "Thank you. Your room is 304, on the third floor. Here's your key.", tr: "Teşekkürler. Odanız 304, üçüncü katta. İşte anahtarınız."}
+    - {speaker: "Ayşe", en: "Thanks. What time is breakfast?", tr: "Teşekkürler. Kahvaltı saat kaçta?"}
+    - {speaker: "Receptionist", en: "From seven to ten, in the restaurant.", tr: "Yediden ona kadar, restoranda."}
+    - {speaker: "Ayşe", en: "And what's the Wi-Fi password?", tr: "Wi-Fi şifresi nedir?"}
+    - {speaker: "Receptionist", en: "It's on your key card. Enjoy your stay!", tr: "Anahtar kartınızın üzerinde. İyi konaklamalar!"}
+
+vocabulary:
+  - {en: "reservation", tr: "rezervasyon"}
+  - {en: "password", tr: "şifre"}
+  - {en: "map", tr: "harita"}
+  - {en: "check-out", tr: "otelden çıkış"}
+  - {en: "headache", tr: "baş ağrısı"}
+  - {en: "stomach ache", tr: "mide ağrısı"}
+  - {en: "toothache", tr: "diş ağrısı"}
+  - {en: "a cold", tr: "soğuk algınlığı"}
+  - {en: "temperature", tr: "ateş; sıcaklık"}
+  - {en: "cough", tr: "öksürük"}
+  - {en: "hurt", tr: "ağrımak, acımak", example: "My back hurts.", example_tr: "Sırtım ağrıyor."}
+  - {en: "feel sick", tr: "midesi bulanmak"}
+  - {en: "I'm lost.", tr: "Kayboldum."}
+  - {en: "find", tr: "bulmak"}
+  - {en: "toilet", tr: "tuvalet", note: "Amerikan: restroom"}
+  - {en: "Help!", tr: "İmdat!"}
+  - {en: "ambulance", tr: "ambulans"}
+  - {en: "police", tr: "polis"}
+
+practice:
+  - title: "Otel resepsiyonu"
+    instructions: "Öğrenci otele giriş yapar: rezervasyon, ismini kodlama, kat, kahvaltı saati, Wi-Fi. Öğretmen bir sorun ekler (oda hazır değil, klima çalışmıyor)."
+  - title: "Eczane"
+    instructions: "Öğrenci bir şikayetini anlatır ve ilaç ister. Öğretmen sorular sorar: How long ...? Do you have a temperature?"
+  - title: "Kayboldum"
+    instructions: "Öğrenci yabancı bir şehirde kaybolmuş. Birinden yardım ister, otelinin adını söyler, yol tarifini anlamaya çalışır (8. hafta)."
+
+quiz:
+  - type: mcq
+    prompt: "Başın ağrıyor. Eczanede ne dersin?"
+    options: ["I have a headache.", "My head is hurting me very.", "I am headache."]
+    answer: "I have a headache."
+  - type: fill
+    prompt: "I have a ___. My name is Kaya. (otelde)"
+    answer: ["reservation", "booking"]
+  - type: fill
+    prompt: "What's the Wi-Fi ___?"
+    answer: ["password"]
+  - type: mcq
+    prompt: "Yabancı bir şehirde yolunu kaybettin."
+    options: ["Excuse me, I'm lost.", "Excuse me, I'm lose.", "Excuse me, I lost."]
+    answer: "Excuse me, I'm lost."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["toothache", "diş ağrısı"]
+      - ["cough", "öksürük"]
+      - ["a cold", "soğuk algınlığı"]
+      - ["map", "harita"]
+      - ["find", "bulmak"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["My back hurts.", "My back hurt me.", "I am back hurts."]
+    answer: "My back hurts."
+  - type: order
+    words: ["for", "got", "Have", "headache", "you", "anything", "a"]
+    answer: "Have you got anything for a headache?"
+  - type: translate
+    prompt: "Tuvalet nerede?"
+    answer: ["Where's the toilet?", "Where is the toilet?", "Where's the toilet, please?", "Where is the toilet, please?", "Where's the restroom?", "Where's the bathroom?"]
+  - type: translate
+    prompt: "Kahvaltı saat kaçta?"
+    answer: ["What time is breakfast?", "When is breakfast?"]
+
+homework:
+  - "Bir seyahat senaryosu yaz: otele giriş + bir sorun (8-10 satır diyalog)."
+  - "Telefonuna 'Survival English' notu oluştur: en önemli 10 cümle."
+  - "Haftalık tekrar için 11. hafta notlarına göz at."
+
+tutor_notes:
+  - "'I have a headache' yapısı Türkçeden farklı ('başım ağrıyor'); 'My head hurts' de doğru ama 'I have a ...' daha yaygın."
+  - "'I'm lost' kalıp olarak öğretilmeli ('lost' sıfat gibi davranır)."
+  - "Diyalogdaki 'Enjoy your stay', 'Welcome to' kalıp olarak geçiyor."

@@ -1,0 +1,95 @@
+id: a1-w11-s4
+level: a1
+week: 11
+session: 4
+title: "Week 11 review"
+type: review
+
+objectives:
+  - "can / can't, rica ve izin kalıplarını doğru kullanır"
+  - "Anlamadığında konuşmayı İngilizce yönetir"
+  - "Temel 'hayatta kalma' durumlarında kendini ifade eder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: seyahat senaryosu ödevini birlikte oynayın"}
+  - {minutes: 15, activity: "Hızlı tekrar: can/can't, Could you ...?, Can I ...?, şikayetler"}
+  - {minutes: 15, activity: "Haftalık quiz — tek başına çöz, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: 'Yeteneklerim' (1 dk) + 'Tatilde bir sorun' rol yapma"}
+  - {minutes: 10, activity: "Hata defteri; 12. haftaya bakış (Present Continuous, hava, telefon)"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | Yetenek | I **can** swim. She **can't** drive. **Can** you cook? — Yes, I **can**. |
+      | Derece | very well / well / a little / not at all |
+      | Rica | **Can / Could you** help me, please? — Sure. / Sorry, I can't. |
+      | İzin | **Can I** sit here? **Could I** ask a question? |
+      | Konuşmayı yönetme | Sorry? · Can you repeat that? · Can you speak more slowly? · What does ... mean? · How do you say ... in English? |
+      | Sağlık | I have a headache / a cold / a temperature. My back hurts. |
+      | Otel ve acil | I have a reservation. What's the Wi-Fi password? I'm lost. Help! |
+
+      ⚠️ ~~I can to swim~~ · ~~She cans~~ · ~~She can swims~~ · ~~Do you can ...?~~
+
+practice:
+  - title: "Hata avı"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "I can to cook pasta."
+      - "My son cans swim."
+      - "Do you can help me?"
+      - "She can speaks French."
+      - "What means 'carry'?"
+      - "I am headache."
+  - title: "Tatilde bir sorun"
+    instructions: "Öğretmen bir sorun seçer (oda kirli, valiz kayıp, hasta oldun). Öğrenci resepsiyona gider ve sorunu çözmeye çalışır. Öğrenci en az bir kez konuşmayı yönetme kalıbı kullanmalı."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["My brother can play the piano.", "My brother cans play the piano.", "My brother can plays the piano."]
+    answer: "My brother can play the piano."
+  - type: fill
+    prompt: "___ you speak German? — Yes, a little."
+    answer: ["Can"]
+  - type: fill
+    prompt: "\"Can your wife drive?\" — \"Yes, she ___.\""
+    answer: ["can"]
+  - type: mcq
+    prompt: "Bir kelimenin anlamını soruyorsun."
+    options: ["What does 'fix' mean?", "What means 'fix'?", "What is mean 'fix'?"]
+    answer: "What does 'fix' mean?"
+  - type: mcq
+    prompt: "Kibar bir izin isteği hangisi?"
+    options: ["I sit here.", "Could I sit here?", "Do I can sit here?"]
+    answer: "Could I sit here?"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["headache", "baş ağrısı"]
+      - ["I'm lost.", "Kayboldum."]
+      - ["carry", "taşımak"]
+      - ["password", "şifre"]
+      - ["Sure.", "Tabii."]
+  - type: fill
+    prompt: "I can't swim at ___."
+    answer: ["all"]
+  - type: order
+    words: ["slowly", "you", "more", "Can", "speak"]
+    answer: "Can you speak more slowly?"
+  - type: translate
+    prompt: "Bana yardım edebilir misiniz lütfen?"
+    answer: ["Could you help me, please?", "Can you help me, please?", "Could you help me please?", "Can you help me please?"]
+  - type: translate
+    prompt: "Ateşim var."
+    answer: ["I have a temperature.", "I've got a temperature.", "I have a fever.", "I've got a fever."]
+
+homework:
+  - "Hafta sonu Anki: 11. hafta kelimeleri."
+  - "12. haftaya hazırlık: Şu an evinde herkes ne yapıyor? Türkçe 5 madde yaz (annem yemek yapıyor ...)."
+  - "Bir ay sonra A1 final sınavı var! 1-11. hafta hata defterine göz at."
+
+tutor_notes:
+  - "'fever' Amerikan kullanımı; 'temperature' İngiliz. İkisi de doğru."
+  - "A1 sonu yaklaşıyor; öğrencinin final sınavı konusunda kaygılanmaması için sınavın bir 'kontrol noktası' olduğunu söyleyin."

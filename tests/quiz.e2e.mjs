@@ -48,7 +48,7 @@ async (correct) => {
   return { id, summary: document.querySelector(".score-ring span")?.textContent, total: doc.quiz.length };
 }`;
 
-const ids = await b.eval(`fetch("data/content.json").then(r => r.json()).then(d => d.map(x => x.id))`);
+const ids = await b.eval(`fetch("data/content.json").then(r => r.json()).then(d => d.filter(x => x.quiz?.length).map(x => x.id))`);
 let failures = 0;
 for (const id of ids) {
   await b.goto(`${BASE}#/quiz/${id}`, 300);

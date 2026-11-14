@@ -1,0 +1,160 @@
+id: a1-w10-s1
+level: a1
+week: 10
+session: 1
+title: "How much is it?"
+type: new
+
+objectives:
+  - "Büyük sayıları (100-10.000) söyler ve anlar"
+  - "Fiyat sorar ve söyler (How much is it? / How much are they?)"
+  - "Farklı para birimlerinde fiyat okur (lira, pound, euro, dollar)"
+  - "Ödeme hakkında basit konuşur"
+
+plan:
+  - {minutes: 5, activity: "Isınma: 21-100 sayı tekrarı; 2. hafta -teen/-ty ayrımı"}
+  - {minutes: 15, activity: "Yüzler ve binler: 'and' kuralı; büyük sayı dikte"}
+  - {minutes: 15, activity: "Fiyat okuma: £4.50, €12.99, 250 TL; How much is it? / How much are they?"}
+  - {minutes: 15, activity: "Pazar oyunu: öğretmen satıcı, öğrenci müşteri; fiyat sorma, pazarlık, ödeme"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Büyük sayılar"
+    body: |
+      | Sayı | Söyleniş |
+      |---|---|
+      | 100 | **a hundred** / one hundred |
+      | 150 | a hundred **and** fifty |
+      | 275 | two hundred **and** seventy-five |
+      | 1,000 | **a thousand** / one thousand |
+      | 1,500 | one thousand five hundred / fifteen hundred |
+      | 2,350 | two thousand three hundred **and** fifty |
+      | 10,000 | ten thousand |
+
+      İngiliz İngilizcesinde yüzlerden sonra **and** söylenir: *three hundred **and** twenty*.
+
+      ⚠️ **hundred** ve **thousand** çoğul eki almaz: ~~two hundreds~~ → **two hundred**
+
+      ⚠️ Yazımda binler **virgülle**, ondalık **noktayla** ayrılır (Türkçenin tersi):
+      **1,500** = bin beş yüz · **4.50** = dört buçuk
+
+  - heading: "Fiyat sorma ve söyleme"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **How much is** this bag? / **How much is it?** | **It's** 45 pounds. |
+      | **How much are** these shoes? / **How much are they?** | **They're** 80 euros. |
+      | **How much does it cost?** | It costs 120 lira. |
+
+      Tekil şey → **is / it's**, çoğul şey → **are / they're**.
+
+  - heading: "Para birimleri"
+    body: |
+      | Yazılış | Söyleniş |
+      |---|---|
+      | £4.50 | four pounds fifty |
+      | £0.80 | eighty pence (veya eighty p) |
+      | €12.99 | twelve euros ninety-nine |
+      | $25 | twenty-five dollars |
+      | 250 TL / ₺250 | two hundred and fifty lira |
+
+      **lira** genellikle çoğul eki almaz: *fifty lira*.
+
+      | Ödeme | |
+      |---|---|
+      | **Can I pay by card?** | Kartla ödeyebilir miyim? |
+      | **in cash** | nakit |
+      | **It's too expensive.** | Çok pahalı. |
+      | **It's cheap!** | Ucuz! |
+      | **Here you are.** | Buyurun (bir şey verirken). |
+    examples:
+      - {en: "How much is a cup of coffee? — It's three pounds fifty.", tr: "Bir fincan kahve ne kadar? — Üç buçuk pound."}
+      - {en: "How much are the tomatoes? — Forty lira a kilo.", tr: "Domatesler kaç para? — Kilosu kırk lira."}
+      - {en: "That's too expensive! What about this one?", tr: "Bu çok pahalı! Peki bu?"}
+
+dialogue:
+  title: "At the market"
+  lines:
+    - {speaker: "Tourist", en: "Excuse me, how much are the oranges?", tr: "Affedersiniz, portakallar kaç para?"}
+    - {speaker: "Seller", en: "Thirty-five lira a kilo.", tr: "Kilosu otuz beş lira."}
+    - {speaker: "Tourist", en: "And how much is this melon?", tr: "Peki bu kavun kaç para?"}
+    - {speaker: "Seller", en: "It's ninety lira.", tr: "Doksan lira."}
+    - {speaker: "Tourist", en: "OK. Two kilos of oranges and the melon, please.", tr: "Tamam. İki kilo portakal ve kavun lütfen."}
+    - {speaker: "Seller", en: "That's a hundred and sixty lira.", tr: "Yüz altmış lira ediyor."}
+    - {speaker: "Tourist", en: "Here you are. Can I pay by card?", tr: "Buyurun. Kartla ödeyebilir miyim?"}
+    - {speaker: "Seller", en: "Sorry, only cash.", tr: "Kusura bakmayın, sadece nakit."}
+
+vocabulary:
+  - {en: "How much is it?", tr: "Ne kadar? / Kaç para?"}
+  - {en: "How much are they?", tr: "Onlar kaç para?"}
+  - {en: "cost", tr: "(fiyatı) tutmak", example: "It costs 50 lira.", example_tr: "50 lira tutuyor."}
+  - {en: "price", tr: "fiyat"}
+  - {en: "money", tr: "para"}
+  - {en: "thousand", tr: "bin"}
+  - {en: "pound", tr: "sterlin (£)"}
+  - {en: "euro", tr: "avro (€)"}
+  - {en: "dollar", tr: "dolar ($)"}
+  - {en: "lira", tr: "lira"}
+  - {en: "pay", tr: "ödemek", example: "Can I pay by card?", example_tr: "Kartla ödeyebilir miyim?"}
+  - {en: "too", tr: "fazla, çok (olumsuz)", example: "too expensive", example_tr: "çok pahalı"}
+  - {en: "Here you are.", tr: "Buyurun."}
+  - {en: "orange", tr: "portakal; turuncu"}
+  - {en: "melon", tr: "kavun"}
+  - {en: "only", tr: "sadece"}
+
+practice:
+  - title: "Sayı dikte"
+    instructions: "Öğretmen söyler, öğrenci rakamla yazar. Sonra öğrenci söyler, öğretmen yazar."
+    items: ["150", "299", "430", "1,000", "1,250", "3,700", "5,999", "10,500"]
+  - title: "Fiyat oku"
+    instructions: "Öğrenci fiyatları yüksek sesle okur."
+    items: ["£3.20", "£15.99", "€7.50", "$120", "45 TL", "1,200 TL", "£0.75"]
+  - title: "Pazar"
+    instructions: "Öğretmen pazarcı, öğrenci müşteri. Öğrenci en az 3 ürünün fiyatını sorar, ölçülerle (a kilo of) alır, toplamı sorar ve öder. Sonra roller değişir."
+
+quiz:
+  - type: mcq
+    prompt: "350 nasıl söylenir?"
+    options: ["three hundreds fifty", "three hundred and fifty", "thirty-five hundred"]
+    answer: "three hundred and fifty"
+  - type: mcq
+    prompt: "£6.50 nasıl söylenir?"
+    options: ["six pounds fifty", "six and fifty pounds", "sixty-five pounds"]
+    answer: "six pounds fifty"
+  - type: fill
+    prompt: "How much ___ these shoes?"
+    answer: ["are"]
+  - type: fill
+    prompt: "How much ___ this bag?"
+    answer: ["is", "'s"]
+  - type: mcq
+    prompt: "\"These jeans are 90 euros.\" — çok pahalı buldun."
+    options: ["They're too expensive.", "They're too cheap.", "It's very money."]
+    answer: "They're too expensive."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["1,000", "a thousand"]
+      - ["100", "a hundred"]
+      - ["£", "pound"]
+      - ["€", "euro"]
+      - ["$", "dollar"]
+  - type: order
+    words: ["pay", "I", "card", "Can", "by"]
+    answer: "Can I pay by card?"
+  - type: translate
+    prompt: "Bu ne kadar?"
+    answer: ["How much is this?", "How much is it?", "How much does this cost?", "How much does it cost?"]
+  - type: translate
+    prompt: "Sadece nakit."
+    answer: ["Only cash.", "Cash only.", "Only in cash."]
+
+homework:
+  - "Market fişini al ve tüm fiyatları İngilizce yüksek sesle oku."
+  - "İnternette İngilizce bir mağaza sitesinde (ör. bir giyim markasının UK sitesi) 5 ürünün fiyatını oku."
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "'jeans' quiz'de geçiyor; yarınki kıyafetler dersinin kelimesi, bağlamdan anlaşılır."
+  - "Binlik ayırıcı ve ondalık işaretinin Türkçenin tersi olması pratikte önemli bir tuzak; özellikle vurgulayın."
+  - "Pazarlık Türk kültüründe yaygın ama İngiltere'de mağazalarda yapılmaz; kültür notu olarak söyleyin."

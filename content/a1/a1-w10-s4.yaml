@@ -1,0 +1,97 @@
+id: a1-w10-s4
+level: a1
+week: 10
+session: 4
+title: "Week 10 review"
+type: review
+
+objectives:
+  - "Büyük sayıları ve fiyatları hatasız söyler"
+  - "Kıyafet alışverişini baştan sona İngilizce yapar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: mağaza diyaloğu ödevini birlikte oynayın"}
+  - {minutes: 15, activity: "Hızlı tekrar: fiyatlar, is/are, this one/these ones, try it on, çoğul kıyafetler"}
+  - {minutes: 15, activity: "Haftalık quiz — tek başına çöz, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: 'Alışveriş alışkanlıklarım' (1-2 dk) + sürpriz mağaza sahnesi"}
+  - {minutes: 10, activity: "Hata defteri; 11. haftaya bakış (can, rica, yardım isteme)"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | Büyük sayılar | two hundred **and** fifty, a thousand (~~hundreds~~) |
+      | Fiyat | How much **is** it? — **It's** £5. / How much **are** they? — **They're** €20. |
+      | Para | four pounds fifty, fifty lira, by card, in cash, too expensive |
+      | Kıyafetler | shirt, jumper, coat, **trousers / jeans** (hep çoğul), a pair of |
+      | Seçim | this one / that one / these ones / Which one? |
+      | Mağaza | What size are you? Have you got it in blue? Can I try it **on**? It doesn't fit. |
+      | İade | Can I return this? Have you got the receipt? |
+
+  - heading: "Konuşma görevi: Alışveriş alışkanlıklarım"
+    body: |
+      > I don't like shopping very much. I usually buy clothes online. I sometimes go to
+      > the shopping centre with my wife. She loves shopping! I usually wear jeans and T-shirts.
+      > My favourite jacket is black. It's old, but I love it ...
+
+practice:
+  - title: "Hata avı"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "How much is these shoes?"
+      - "It's three hundreds lira."
+      - "Can I try on it?"
+      - "This jeans is too long."
+      - "I like the red."
+      - "Give me a bag."
+
+quiz:
+  - type: fill
+    prompt: "How much ___ the socks?"
+    answer: ["are"]
+  - type: mcq
+    prompt: "780 nasıl söylenir?"
+    options: ["seven hundred and eighty", "seventy-eight hundred", "seven hundreds eighty"]
+    answer: "seven hundred and eighty"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["My jeans is blue.", "My jeans are blue.", "My jean is blue."]
+    answer: "My jeans are blue."
+  - type: fill
+    prompt: "I don't like these boots. I prefer those ___."
+    answer: ["ones"]
+  - type: mcq
+    prompt: "Pantolonu deneyeceksin."
+    options: ["Can I try them on?", "Can I try it on?", "Can I wear on them?"]
+    answer: "Can I try them on?"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["trousers", "pantolon"]
+      - ["jacket", "ceket"]
+      - ["boots", "botlar"]
+      - ["price", "fiyat"]
+      - ["cash", "nakit"]
+  - type: mcq
+    prompt: "€15.99 nasıl söylenir?"
+    options: ["fifteen euros ninety-nine", "fifteen and ninety-nine euro", "one five nine nine euros"]
+    answer: "fifteen euros ninety-nine"
+  - type: order
+    words: ["in", "Have", "black", "got", "this", "you"]
+    answer: "Have you got this in black?"
+  - type: translate
+    prompt: "Bu ceket çok pahalı."
+    answer: ["This jacket is too expensive.", "This jacket's too expensive.", "This jacket is very expensive."]
+  - type: translate
+    prompt: "Kartla ödeyebilir miyim?"
+    answer: ["Can I pay by card?", "Could I pay by card?"]
+
+homework:
+  - "'Alışveriş alışkanlıklarım' metnini yaz ve kaydet."
+  - "Hafta sonu Anki: 10. hafta kelimeleri."
+  - "11. haftaya hazırlık: yapabildiğin ve yapamadığın 5'er şeyi Türkçe listele (yüzmek, araba sürmek ...)."
+
+tutor_notes:
+  - "'favourite' ve 'online' konuşma örneğinde yeni; açıklamaya gerek yok."
+  - "Öğrenci 'I like the red' dediğinde 'the red one' diye düzeltin — one kullanımının pratik testi."

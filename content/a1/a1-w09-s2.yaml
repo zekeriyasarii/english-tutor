@@ -1,0 +1,160 @@
+id: a1-w09-s2
+level: a1
+week: 9
+session: 2
+title: "Some or any?"
+type: new
+
+objectives:
+  - "some / any kurallarını olumlu, olumsuz ve soru cümlelerinde uygular"
+  - "Is there any ...? / Are there any ...? ile mutfakta ne olduğunu sorar"
+  - "Ölçü ifadelerini kullanır (a glass of, a bottle of, a kilo of)"
+  - "How much / How many farkını bilir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü ödevden mutfaktaki yiyecekler"}
+  - {minutes: 15, activity: "some / any tablosu; 8. haftadaki 'Are there any ...?' kalıbıyla bağlantı"}
+  - {minutes: 10, activity: "Ölçüler: a cup of, a glass of, a bottle of, a piece of, a kilo of, a packet of"}
+  - {minutes: 20, activity: "Buzdolabı oyunu: öğrenci kendi buzdolabını açıp anlatır; öğretmen Is there any ...? / How much ...? diye sorar; alışveriş listesi çıkarın"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "some / any"
+    body: |
+      İkisi de "biraz, birkaç, hiç" anlamında belirsiz miktar bildirir.
+      Çoğul isimlerle ve sayılamayanlarla kullanılır.
+
+      | Cümle | Kelime | Örnek |
+      |---|---|---|
+      | Olumlu | **some** | There's **some** milk. / I've got **some** apples. |
+      | Olumsuz | **any** | There isn't **any** milk. / I haven't got **any** apples. |
+      | Soru | **any** | Is there **any** milk? / Have you got **any** apples? |
+      | Teklif ve rica | **some** | Would you like **some** tea? / Can I have **some** water? |
+
+      Tekil sayılabilenlerde **a / an** kullanılır: *There's **an** apple.* (~~some apple~~)
+
+      ⚠️ Teklif ve ricada soru olsa bile **some**: *Would you like **some** coffee?*
+      Çünkü cevabın "evet" olmasını bekliyorsun.
+    examples:
+      - {en: "There are some eggs in the fridge.", tr: "Buzdolabında birkaç yumurta var."}
+      - {en: "We haven't got any bread.", tr: "Hiç ekmeğimiz yok."}
+      - {en: "Is there any juice?", tr: "Hiç meyve suyu var mı?"}
+      - {en: "Would you like some tea? — Yes, please.", tr: "Biraz çay ister misin? — Evet, lütfen."}
+
+  - heading: "How much / How many"
+    body: |
+      | | Ne ile? | Örnek |
+      |---|---|---|
+      | **How many** | Sayılabilen (çoğul) | **How many** eggs are there? — Six. |
+      | **How much** | Sayılamayan | **How much** milk is there? — Not much. / A litre. |
+
+      **a lot of** = çok (her ikisiyle de): *a lot of apples, a lot of water.*
+
+  - heading: "Ölçüler ve kaplar"
+    body: |
+      | İfade | Örnek |
+      |---|---|
+      | **a cup of** | a cup of coffee — bir fincan kahve |
+      | **a glass of** | a glass of water / tea — bir bardak su / çay |
+      | **a bottle of** | a bottle of water — bir şişe su |
+      | **a piece of** | a piece of cake / cheese — bir dilim pasta / peynir |
+      | **a loaf of** | a loaf of bread — bir somun ekmek |
+      | **a kilo of** | a kilo of tomatoes — bir kilo domates |
+      | **a packet of** | a packet of rice — bir paket pirinç |
+      | **a can of** | a can of cola — bir kutu kola |
+
+      Çoğulu: *two **bottles** of water, three **kilos** of potatoes.*
+
+dialogue:
+  title: "Shopping list"
+  lines:
+    - {speaker: "Ozan", en: "I'm going to the supermarket. Is there any milk?", tr: "Süpermarkete gidiyorum. Hiç süt var mı?"}
+    - {speaker: "Clara", en: "No, there isn't any milk. Buy two bottles, please.", tr: "Hayır, hiç süt yok. İki şişe al lütfen."}
+    - {speaker: "Ozan", en: "OK. Are there any eggs?", tr: "Tamam. Yumurta var mı?"}
+    - {speaker: "Clara", en: "Yes, there are some eggs. But we haven't got any bread.", tr: "Evet, birkaç yumurta var. Ama hiç ekmeğimiz yok."}
+    - {speaker: "Ozan", en: "A loaf of bread. Anything else?", tr: "Bir somun ekmek. Başka bir şey?"}
+    - {speaker: "Clara", en: "A kilo of tomatoes and some cheese. Thanks!", tr: "Bir kilo domates ve biraz peynir. Teşekkürler!"}
+
+vocabulary:
+  - {en: "some", tr: "biraz, birkaç (olumlu)"}
+  - {en: "any", tr: "hiç (olumsuz/soru)"}
+  - {en: "a lot of", tr: "çok, bir sürü"}
+  - {en: "How much ...?", tr: "Ne kadar ...? (sayılamayan)"}
+  - {en: "Would you like ...?", tr: "... ister misin?", example: "Would you like some coffee?", example_tr: "Biraz kahve ister misin?"}
+  - {en: "Yes, please.", tr: "Evet, lütfen."}
+  - {en: "No, thank you.", tr: "Hayır, teşekkürler."}
+  - {en: "bottle", tr: "şişe"}
+  - {en: "a piece of", tr: "bir parça, bir dilim"}
+  - {en: "a loaf of bread", tr: "bir somun ekmek"}
+  - {en: "kilo", tr: "kilo"}
+  - {en: "packet", tr: "paket"}
+  - {en: "a can of", tr: "bir kutu (içecek)", example: "a can of cola", example_tr: "bir kutu kola", note: "can: 11. haftada fiil olarak da (yapabilmek)"}
+  - {en: "cake", tr: "pasta, kek"}
+  - {en: "Anything else?", tr: "Başka bir şey?"}
+  - {en: "shopping list", tr: "alışveriş listesi"}
+
+practice:
+  - title: "some mi, any mi?"
+    instructions: "Öğrenci boşluğu doldurur."
+    items:
+      - "There are ___ apples on the table."
+      - "Is there ___ sugar?"
+      - "We haven't got ___ rice."
+      - "Would you like ___ cake?"
+      - "I've got ___ friends in London."
+      - "Are there ___ chairs in the garden?"
+  - title: "Buzdolabı"
+    instructions: "Öğrenci buzdolabını açar (gerçek veya hayali) ve anlatır: There's some ..., There isn't any ..., There are some ... Öğretmen How much / How many ...? diye sorar. Sonunda birlikte İngilizce bir alışveriş listesi yazın."
+  - title: "Ölçüler"
+    instructions: "Öğretmen bir yiyecek söyler, öğrenci uygun ölçüyle söyler."
+    items: ["water", "coffee", "bread", "cheese", "tomatoes", "rice", "cola", "cake"]
+
+quiz:
+  - type: fill
+    prompt: "There's ___ cheese in the fridge."
+    answer: ["some"]
+  - type: fill
+    prompt: "We haven't got ___ eggs."
+    answer: ["any"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Is there some milk?", "Is there any milk?", "Is there a milk?"]
+    answer: "Is there any milk?"
+  - type: mcq
+    prompt: "Misafirine çay teklif ediyorsun. Hangisi doğru?"
+    options: ["Would you like any tea?", "Would you like some tea?", "Would you like a tea some?"]
+    answer: "Would you like some tea?"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["How many water do you drink?", "How much water do you drink?", "How much waters do you drink?"]
+    answer: "How much water do you drink?"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["a glass of", "water"]
+      - ["a loaf of", "bread"]
+      - ["a kilo of", "tomatoes"]
+      - ["a piece of", "cake"]
+      - ["a cup of", "coffee"]
+  - type: fill
+    prompt: "\"Would you like some coffee?\" — \"Yes, ___.\""
+    answer: ["please"]
+  - type: order
+    words: ["any", "Are", "the", "there", "eggs", "in", "fridge"]
+    answer: "Are there any eggs in the fridge?"
+  - type: translate
+    prompt: "İki şişe su lütfen."
+    answer: ["Two bottles of water, please.", "Two bottles of water please.", "Can I have two bottles of water, please?", "Can I have two bottles of water please?"]
+  - type: translate
+    prompt: "Evde hiç ekmek yok."
+    answer: ["There isn't any bread at home.", "There is no bread at home.", "There's no bread at home.", "We haven't got any bread at home.", "We don't have any bread at home."]
+
+homework:
+  - "Haftalık alışveriş listeni İngilizce yaz (ölçülerle: 2 kilos of potatoes, a packet of rice ...)."
+  - "Mutfağında olan ve olmayan şeyler hakkında 8 cümle: There's some ... / There isn't any ..."
+  - "Yarınki kafe dersi için: en sevdiğin kafede ne sipariş ettiğini düşün."
+
+tutor_notes:
+  - "Diyalogdaki 'I'm going to the supermarket' Present Continuous; 12. haftada gelecek, kalıp olarak anlaşılır."
+  - "'can' (kutu) ile 11. haftadaki 'can' (yapabilmek) aynı kelime; şimdiden fark ettirin, kafaları karışmasın."
+  - "Teklifte 'some' kuralı ileri bir detay; anlamazsa 'Would you like some ...?' kalıbını ezberlemek yeterli."

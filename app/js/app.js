@@ -175,8 +175,8 @@ function viewLesson(id, tab = "notes") {
   const role = store.get().settings.role;
   const tabs = [
     ["notes", "Notlar"],
-    ["vocab", "Kelimeler"],
-    ["quiz", "Quiz"],
+    ...(doc?.vocabulary?.length ? [["vocab", "Kelimeler"]] : []),
+    ...(doc?.quiz?.length ? [["quiz", "Quiz"]] : []),
     ...(role === "teacher" ? [["tutor", "Öğretmen"]] : []),
   ];
   if (!tabs.some(([k]) => k === tab)) tab = "notes";
@@ -212,7 +212,10 @@ function tabNotes(doc) {
         <h3>${esc(p.title)}</h3><p>${inline(p.instructions)}</p>
         ${p.items?.length ? `<ul class="items">${p.items.map((i) => `<li>${inline(i)}</li>`).join("")}</ul>` : ""}`).join("")}</section>` : ""}
     ${doc.homework?.length ? `<section class="panel"><h2>Ödev</h2><ul class="checks hw">${doc.homework.map((h) => `<li>${inline(h)}</li>`).join("")}</ul></section>` : ""}
-    <div class="row gap center"><a class="btn" href="#/lesson/${doc.id}/vocab">Kelimeler →</a><a class="btn primary" href="#/quiz/${doc.id}">Quiz'e başla →</a></div>`;
+    <div class="row gap center">
+      ${doc.vocabulary?.length ? `<a class="btn" href="#/lesson/${doc.id}/vocab">Kelimeler →</a>` : ""}
+      ${doc.quiz?.length ? `<a class="btn primary" href="#/quiz/${doc.id}">Quiz'e başla →</a>` : ""}
+    </div>`;
 }
 
 function tabVocab(doc) {
@@ -254,11 +257,11 @@ function tabTutor(doc) {
         return row;
       }).join("")}</div></section>
     ${doc.tutor_notes?.length ? `<section class="panel"><h2>İpuçları</h2><ul>${doc.tutor_notes.map((n) => `<li>${inline(n)}</li>`).join("")}</ul></section>` : ""}
-    <section class="panel"><h2>Quiz cevapları</h2><ol class="answers">${(doc.quiz || []).map((q) => {
+    ${doc.quiz?.length ? `<section class="panel"><h2>Quiz cevapları</h2><ol class="answers">${doc.quiz.map((q) => {
       const a = q.type === "match" ? q.pairs.map((p) => p.join(" = ")).join(", ")
         : Array.isArray(q.answer) ? q.answer.join(" / ") : q.answer;
       return `<li><span class="muted small">${esc(q.prompt || q.words?.join(" "))}</span><br><strong>${esc(a)}</strong></li>`;
-    }).join("")}</ol></section>`;
+    }).join("")}</ol></section>` : ""}`;
 }
 
 function viewQuiz(id) {

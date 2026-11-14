@@ -1,0 +1,130 @@
+id: a1-w13-s1
+level: a1
+week: 13
+session: 1
+title: "Grammar review"
+type: review
+
+objectives:
+  - "A1'in tüm dilbilgisi konularını tek bir tabloda görür"
+  - "Zayıf olduğu konuları belirler ve tekrar eder"
+  - "Karışık dilbilgisi sorularını doğru cevaplar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: 1. haftadaki kaydı ve geçen haftaki kaydı karşılaştırın (ödev)"}
+  - {minutes: 20, activity: "Dilbilgisi haritası: aşağıdaki tabloları birlikte gözden geçirin; her konu için öğrenci bir örnek cümle kursun"}
+  - {minutes: 20, activity: "Zayıf konular: 12. haftada belirlenen 2-3 konuya odaklı hızlı alıştırma"}
+  - {minutes: 15, activity: "Dilbilgisi quiz'i (15 soru) — final sınavı provası"}
+
+sections:
+  - heading: "A1 dilbilgisi haritası: to be ve sahiplik"
+    body: |
+      | Konu | Örnek | Hafta |
+      |---|---|---|
+      | **to be** | I'm / you're / she's / we're — I'm not / she isn't — Are you ...? | 1-2 |
+      | **İyelik** | my, your, **his** (erkek), **her** (kadın), its, our, their | 2 |
+      | **'s** | my sister's name, Ali's car | 2 |
+      | **a / an** | **a** teacher, **an** engineer, **an** umbrella | 2-3 |
+      | **this / that / these / those** | What's this? — It's a key. / Those are my shoes. | 3 |
+      | **Çoğul** | books, boxes, cities; **men, women, children, people** | 3 |
+      | **have got** | I've got a car. / She hasn't got a pet. / Have you got ...? | 3 |
+      | **there is / are** | There's a sofa. / There are two rooms. / Is there a lift? | 8 |
+
+  - heading: "A1 dilbilgisi haritası: zamanlar"
+    body: |
+      | Konu | Olumlu | Olumsuz | Soru | Hafta |
+      |---|---|---|---|---|
+      | **Present Simple** (I/you/we/they) | I **work**. | I **don't** work. | **Do** you work? | 5 |
+      | **Present Simple** (he/she) | She **works**. | She **doesn't** work. | **Does** she work? | 6 |
+      | **Present Continuous** | I**'m working**. | I**'m not** working. | **Are** you working? | 12 |
+      | **can** | I **can** swim. | I **can't** swim. | **Can** you swim? | 11 |
+
+      **Ne zaman hangisi?**
+      - Alışkanlık, rutin, genel gerçek → **Present Simple** (every day, usually, never)
+      - Şu anda olan → **Present Continuous** (now, at the moment, Look!)
+      - Durum fiilleri (know, like, want, understand) → hep **Simple**
+
+  - heading: "A1 dilbilgisi haritası: diğer"
+    body: |
+      | Konu | Örnek | Hafta |
+      |---|---|---|
+      | **Zaman edatları** | **at** 7, **on** Monday, **in** May, **in** the morning | 4 |
+      | **Sıklık zarfları** | I **always** get up early. / She's **never** late. | 7 |
+      | **like + -ing** | I love **cooking**. / I hate **getting** up early. | 7 |
+      | **Yer edatları** | in, on, under, next to, between, opposite | 8 |
+      | **Emir kipi** | Turn left. / Don't turn right. | 8 |
+      | **some / any** | There's **some** milk. / Is there **any** bread? | 9 |
+      | **How much / many** | How **many** eggs? / How **much** water? | 9 |
+      | **one / ones** | I like the red **one**. | 10 |
+      | **Kibar rica** | **I'd like** ... / **Could you** ...? / **Can I** ...? | 9-11 |
+
+practice:
+  - title: "Bir örnek cümle"
+    instructions: "Öğretmen haritadan bir konu söyler, öğrenci 5 saniye içinde o konuda bir cümle kurar. Tüm konuları dolaşın."
+  - title: "Zayıf konular"
+    instructions: "12. haftanın sonunda belirlediğiniz 2-3 konu için öğretmen 5'er hızlı soru sorar (dönüştürme, boşluk doldurma, çeviri)."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["My brother is engineer.", "My brother is an engineer.", "My brother an engineer."]
+    answer: "My brother is an engineer."
+  - type: mcq
+    prompt: "This is my mother. ___ name is Fatma."
+    options: ["His", "Her", "She's"]
+    answer: "Her"
+  - type: fill
+    prompt: "one child, two ___"
+    answer: ["children"]
+  - type: fill
+    prompt: "My sister ___ got two cats."
+    answer: ["has", "'s"]
+  - type: fill
+    prompt: "We have English class ___ Tuesday."
+    answer: ["on"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["He work in a bank.", "He works in a bank.", "He is work in a bank."]
+    answer: "He works in a bank."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Does she likes tea?", "Does she like tea?", "Do she like tea?"]
+    answer: "Does she like tea?"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I go never to the gym.", "I never go to the gym.", "Never I go to the gym."]
+    answer: "I never go to the gym."
+  - type: fill
+    prompt: "I hate ___ up early. (get)"
+    answer: ["getting"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["There are a big park near my house.", "There's a big park near my house.", "It has a big park near my house."]
+    answer: "There's a big park near my house."
+  - type: fill
+    prompt: "Is there ___ milk in the fridge?"
+    answer: ["any"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I can to play the piano.", "I can play the piano.", "I can playing the piano."]
+    answer: "I can play the piano."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Look! It's snowing.", "Look! It snows.", "Look! It snowing."]
+    answer: "Look! It's snowing."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I'm wanting a coffee.", "I want a coffee.", "I wanting a coffee."]
+    answer: "I want a coffee."
+  - type: translate
+    prompt: "Annem şu an yemek yapıyor."
+    answer: ["My mother is cooking now.", "My mother is cooking right now.", "My mother is cooking at the moment.", "My mum is cooking now.", "My mom is cooking now.", "My mother's cooking now.", "My mum is cooking right now.", "My mum is cooking at the moment."]
+
+homework:
+  - "Haritadaki her konu için kendi örnek cümleni yaz (17 cümle)."
+  - "Anki'de 'Bilmedim' dediğin kartları tekrar et."
+  - "Yarınki konuşma tekrarı için: aşağıdaki 6 konudan her biri hakkında 3-4 cümle düşün (kendin, ailen, günün, evin, hobilerin, son alışverişin)."
+
+tutor_notes:
+  - "Bu quiz final sınavının dilbilgisi bölümünün provası; puanı kaydedin ama stres yaratmayın."
+  - "Zayıf konu çalışması için hata defteri en iyi kaynak."

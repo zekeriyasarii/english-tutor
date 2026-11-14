@@ -64,7 +64,13 @@ Yeni seans eklerken mevcut dosyaları (ör. `content/a1/a1-w04-s3.yaml`) örnek 
 - Framework yok, build yok, harici CDN yok: uygulama çevrimdışı çalışmalı.
 - Tüm yollar **göreli** olmalı (site `/english-tutor/` alt yolunda yayınlanıyor).
 - Yeni bir JS veya CSS dosyası eklenirse `app/sw.js` içindeki `SHELL` listesine de ekle.
-  Önbellek yapısı değişirse `CACHE` sürümünü artır.
+- `app/` altındaki kod (JS/CSS/HTML) değiştiğinde `app/sw.js` içindeki `CACHE` sürümünü artır
+  (english-coach-vN). Böylece öğrencinin telefonu yeni sürüme hızlı geçer. Sadece içerik
+  (`content/`) değişince gerekmez, çünkü `data/` her açılışta ağdan tazelenir.
+- Ders sayfası quiz'i veya kelimesi olmayan seansları destekler (sekme ve düğmeler gizlenir).
+  Konuşma sınavı gibi seanslarda `quiz` / `vocabulary` boş bırakılabilir.
+- Markdown'da `>` alıntı blokları okuma metinleri içindir: otomatik "Metni dinle" düğmesi alır;
+  boş `>` satırı paragraf ayırır.
 - İlerleme verisi `localStorage` içinde (`english-coach.v1`), cihaza özel. Şemayı değiştirirken
   eski veriyi bozma: `store.js` içindeki `merge` varsayılanları doldurur.
 - Modüller: `app.js` (router + ekranlar), `quiz.js`, `cards.js` (Leitner: 1/2/4/8/16 gün),
@@ -84,7 +90,8 @@ Yeni seans eklerken mevcut dosyaları (ör. `content/a1/a1-w04-s3.yaml`) örnek 
 - [x] 1–4. haftaların içeriği (16 seans)
 - [x] PWA v1: dersler, quiz, kartlar, hata defteri, öğretmen modu, çevrimdışı, Pages yayını
 - [x] 5–8. haftaların içeriği (ay 2: günlük rutin, Present Simple, boş zaman, ev ve şehir)
-- [ ] 9–13. haftaların içeriği ve A1 final sınavı (`type: exam` seansları)
+- [x] 9–13. haftaların içeriği ve A1 final sınavı (`type: exam` seansları) — A1 tamamlandı (52/52)
+- [x] Okuma metinlerine seslendirme düğmesi
 - [ ] Öğrenci geri bildirimine göre uygulama düzeltmeleri
 - [ ] v2: cihazlar arası ilerleme senkronizasyonu (öğretmen öğrencinin ilerlemesini görsün);
       şimdilik Ayarlar → dışa/içe aktar ile yapılıyor

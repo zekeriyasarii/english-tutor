@@ -1,0 +1,148 @@
+id: a1-w12-s1
+level: a1
+week: 12
+session: 1
+title: "What are you doing?"
+type: new
+
+objectives:
+  - "Present Continuous (am/is/are + -ing) yapısını kurar"
+  - "Şu anda ne yaptığını ve çevresinde ne olduğunu anlatır"
+  - "Present Continuous ile olumsuz ve soru cümlesi kurar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ödevdeki 'şu an evde herkes ne yapıyor' listesi"}
+  - {minutes: 15, activity: "Yapı: am/is/are + fiil-ing; 5. haftadaki 'I am work' hatasıyla farkı"}
+  - {minutes: 10, activity: "-ing yazımı tekrarı (7. hafta) ve now / right now / at the moment"}
+  - {minutes: 20, activity: "Pandomim: öğretmen kamerada bir hareket yapar, öğrenci 'You're cooking!' diye tahmin eder; sonra tersi. Ardından resim tarif etme"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Present Continuous"
+    body: |
+      Türkçedeki **"-yor"** ekinin karşılığı: **şu anda** olan eylemler.
+
+      **am / is / are + fiil-ing**
+
+      | | Olumlu | Olumsuz | Soru |
+      |---|---|---|---|
+      | I | I**'m working**. | I**'m not working**. | **Am** I **working**? |
+      | you / we / they | They**'re working**. | They **aren't working**. | **Are** they **working**? |
+      | he / she / it | She**'s working**. | She **isn't working**. | **Is** she **working**? |
+
+      Kısa cevap: **Yes, I am. / No, she isn't.**
+
+      5. haftadan beri "am + fiil" kullanma diyorduk: ~~I am work~~. Şimdi bunun doğrusunu öğreniyoruz:
+      **am** kullanırsan fiil mutlaka **-ing** almalı → **I am working.**
+
+      ⚠️ to be'yi atlama: ~~I working.~~ / ~~She cooking.~~ → **I'm working. She's cooking.**
+
+  - heading: "Ne zaman kullanılır?"
+    body: |
+      Konuşurken **şu anda** devam eden eylemler için:
+
+      | Zaman ifadeleri | |
+      |---|---|
+      | **now** | şimdi |
+      | **right now** | tam şu an |
+      | **at the moment** | şu sıralar, şu an |
+      | **Look!** / **Listen!** | Bak! / Dinle! |
+
+      | | |
+      |---|---|
+      | I'm **wearing** a blue shirt. | Mavi bir gömlek giyiyorum. (10. haftadaki kalıp!) |
+      | **Look!** It's **raining**. | Bak! Yağmur yağıyor. |
+      | My wife **is cooking** right now. | Eşim şu an yemek yapıyor. |
+      | **What are you doing?** | Ne yapıyorsun? |
+
+  - heading: "-ing yazımı (hatırlatma)"
+    body: |
+      | Kural | Örnek |
+      |---|---|
+      | Çoğu fiil: +ing | read**ing**, watch**ing**, play**ing** |
+      | Sessiz -e düşer | mak**ing**, writ**ing**, com**ing** |
+      | Son harf ikilenir | si**tt**ing, ru**nn**ing, swi**mm**ing, sho**pp**ing |
+    examples:
+      - {en: "What are you doing? — I'm reading a book.", tr: "Ne yapıyorsun? — Kitap okuyorum."}
+      - {en: "The children aren't sleeping. They're playing.", tr: "Çocuklar uyumuyor. Oynuyorlar."}
+      - {en: "Is your husband working at the moment? — No, he isn't.", tr: "Eşin şu an çalışıyor mu? — Hayır."}
+      - {en: "We're having dinner right now. Can I call you later?", tr: "Şu an akşam yemeği yiyoruz. Seni sonra arayabilir miyim?"}
+
+dialogue:
+  title: "A phone call"
+  lines:
+    - {speaker: "Mum", en: "Hi, darling! What are you doing?", tr: "Merhaba canım! Ne yapıyorsun?"}
+    - {speaker: "Elif", en: "Hi, Mum! I'm studying English.", tr: "Merhaba anne! İngilizce çalışıyorum."}
+    - {speaker: "Mum", en: "Great! Is Can there? What's he doing?", tr: "Harika! Can orada mı? O ne yapıyor?"}
+    - {speaker: "Elif", en: "He's watching football with his friends.", tr: "Arkadaşlarıyla futbol izliyor."}
+    - {speaker: "Mum", en: "And the children?", tr: "Peki çocuklar?"}
+    - {speaker: "Elif", en: "They aren't sleeping. They're playing in the garden!", tr: "Uyumuyorlar. Bahçede oynuyorlar!"}
+    - {speaker: "Mum", en: "At ten o'clock at night?", tr: "Gece saat onda mı?"}
+
+vocabulary:
+  - {en: "I'm working", tr: "çalışıyorum"}
+  - {en: "What are you doing?", tr: "Ne yapıyorsun?"}
+  - {en: "now", tr: "şimdi"}
+  - {en: "right now", tr: "tam şu an"}
+  - {en: "at the moment", tr: "şu an, şu sıralar"}
+  - {en: "Look!", tr: "Bak!"}
+  - {en: "Listen!", tr: "Dinle!"}
+  - {en: "wait", tr: "beklemek", example: "I'm waiting for the bus.", example_tr: "Otobüsü bekliyorum."}
+  - {en: "talk", tr: "konuşmak, sohbet etmek"}
+  - {en: "laugh", tr: "gülmek"}
+  - {en: "cry", tr: "ağlamak"}
+  - {en: "later", tr: "sonra, daha sonra"}
+
+practice:
+  - title: "Pandomim"
+    instructions: "Öğretmen kamerada bir hareket yapar (yemek yapma, kitap okuma, uyuma, telefonla konuşma ...). Öğrenci tahmin eder: 'Are you cooking?' — 'Yes, I am!' / 'No, I'm not.' Sonra roller değişir."
+  - title: "Şu an evde"
+    instructions: "Öğrenci şu an evinde kim ne yapıyor anlatır (ödev). Bilmiyorsa tahmin eder: 'I think my son is playing games.'"
+  - title: "Resim tarifi"
+    instructions: "Öğretmen ekranda kalabalık bir sahne fotoğrafı gösterir (park, kafe, plaj). Öğrenci en az 8 cümle kurar: A man is reading. Two children are running ..."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I working now.", "I'm working now.", "I'm work now."]
+    answer: "I'm working now."
+  - type: fill
+    prompt: "She ___ watching TV at the moment."
+    answer: ["is", "'s"]
+  - type: fill
+    prompt: "Look! The children ___ playing in the snow."
+    answer: ["are", "'re"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Are you listening to me?", "Do you listening to me?", "Are you listen to me?"]
+    answer: "Are you listening to me?"
+  - type: fill
+    prompt: "We aren't ___ dinner. We're watching a film. (have)"
+    answer: ["having"]
+  - type: mcq
+    prompt: "\"sit\" kelimesinin -ing hali hangisi?"
+    options: ["siting", "sitting", "sitteing"]
+    answer: "sitting"
+  - type: mcq
+    prompt: "\"Is he sleeping?\" — \"No, ___\""
+    options: ["he isn't.", "he doesn't.", "he not."]
+    answer: "he isn't."
+  - type: order
+    words: ["for", "I'm", "bus", "waiting", "the"]
+    answer: "I'm waiting for the bus."
+  - type: translate
+    prompt: "Ne yapıyorsun?"
+    answer: ["What are you doing?"]
+  - type: translate
+    prompt: "Eşim şu an yemek yapıyor."
+    answer: ["My wife is cooking now.", "My wife is cooking right now.", "My wife is cooking at the moment.", "My husband is cooking now.", "My husband is cooking right now.", "My husband is cooking at the moment.", "My wife's cooking now.", "My husband's cooking now."]
+
+homework:
+  - "Bugün 5 farklı saatte ne yaptığını Present Continuous ile not al: '10:00 — I'm working.'"
+  - "Bir fotoğraf (aile, tatil) seç ve 6 cümleyle anlat: Who is in the photo? What are they doing?"
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "Öğrencinin 5. haftadan beri yasakladığımız 'am + fiil' ile kafası karışabilir; 'am + fiil-ing = şu an' formülünü net verin."
+  - "'snow' quiz'de geçiyor; yarınki hava durumu dersinin kelimesi."
+  - "Present Continuous'un gelecek anlamı (I'm meeting him tomorrow) A2 konusu; açmayın."

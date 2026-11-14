@@ -1,0 +1,103 @@
+id: a1-w13-s4
+level: a1
+week: 13
+session: 4
+title: "Speaking exam & next steps"
+type: exam
+
+objectives:
+  - "A1 seviyesinde konuşma becerisini röportaj, resim tarifi ve rol yapma ile gösterir"
+  - "Final sonuçlarını öğretmeniyle birlikte değerlendirir"
+  - "A2 dönemi için hedef belirler"
+
+plan:
+  - {minutes: 5, activity: "Isınma: serbest sohbet (değerlendirilmez), öğrenci rahatlasın"}
+  - {minutes: 5, activity: "Bölüm 1 — Röportaj: aşağıdaki sorulardan 6-8 tanesi"}
+  - {minutes: 3, activity: "Bölüm 2 — Resim tarifi: öğretmen bir fotoğraf gösterir"}
+  - {minutes: 5, activity: "Bölüm 3 — Rol yapma: kartlardan biri"}
+  - {minutes: 2, activity: "Öğretmen puanlamayı tamamlar"}
+  - {minutes: 20, activity: "Sonuçlar: yazılı sınav + konuşma; güçlü yönler ve gelişim alanları; hata defterinin genel değerlendirmesi"}
+  - {minutes: 20, activity: "A2'ye bakış: hedefler, yeni konular, çalışma düzeni; kutlama! 🎉"}
+
+sections:
+  - heading: "Bölüm 1 — Röportaj soruları"
+    body: |
+      Öğretmen bu sorulardan 6-8 tanesini sorar:
+
+      1. What's your name? Can you spell your surname?
+      2. Where are you from? Where do you live now?
+      3. What do you do?
+      4. Tell me about your family.
+      5. What do you usually do on weekdays?
+      6. What time do you get up at the weekend?
+      7. What do you like doing in your free time?
+      8. How often do you do exercise?
+      9. Tell me about your home.
+      10. What's the weather like today?
+      11. What are you wearing today?
+      12. Can you cook? What can you cook?
+
+  - heading: "Bölüm 2 — Resim tarifi"
+    body: |
+      Öğretmen bir fotoğraf gösterir (aile pikniği, kalabalık kafe veya plaj gibi).
+      Öğrenci yaklaşık 1-2 dakika anlatır, sonra öğretmen 2 soru sorar.
+
+      Hatırlatma: *In this photo ... · There's / There are ... · On the left ... · He's / She's ...-ing · I think ...*
+
+  - heading: "Bölüm 3 — Rol yapma kartları"
+    body: |
+      Öğretmen bir kart seçer. Öğretmen diğer rolü oynar.
+
+      | Kart | Durum |
+      |---|---|
+      | **A** | Kafedesin. Bir içecek ve bir yiyecek sipariş et, fiyat sor, kartla öde. |
+      | **B** | Mağazadasın. Bir mont arıyorsun: rengini, bedenini sor, dene. Biraz küçük! |
+      | **C** | Bir arkadaşını arıyorsun. Ne yaptığını sor, hafta sonu için buluşma ayarla. |
+      | **D** | Turistsin. Otelinden müzeye nasıl gideceğini sor. Bir kelimeyi anlamadın! |
+
+  - heading: "Değerlendirme (öğretmen için)"
+    body: |
+      Her alan 1-5 puan (toplam 25):
+
+      | Alan | 1 | 3 | 5 |
+      |---|---|---|---|
+      | **Akıcılık** | Çok sık duruyor, tek kelimeler | Duraksamalarla ama cümle kuruyor | Kısa cümlelerle rahatça konuşuyor |
+      | **Dilbilgisi** | Temel yapılarda çok hata | to be / Present Simple çoğunlukla doğru | A1 yapılarını genelde doğru kullanıyor |
+      | **Kelime** | Çok sınırlı, Türkçe kelimeler | Temel konularda yeterli | Konulara uygun, çeşitli |
+      | **Telaffuz** | Anlamak zor | Çoğunlukla anlaşılır | Net, -s ve th sesleri iyi |
+      | **İletişim** | Soruları anlamıyor | Yardımla anlıyor ve cevaplıyor | Soruyor, tepki veriyor, konuşmayı yönetiyor |
+
+      **Sonuç:** 18+ → A1 konuşma hedefleri tamam · 12-17 → büyük ölçüde tamam · 12'nin altı → ek konuşma pratiği
+
+  - heading: "Sırada ne var? A2"
+    body: |
+      Tebrikler! A1 seviyesini tamamladın. 🎉
+
+      A2'de neler öğreneceğiz?
+
+      | Konu | Örnek |
+      |---|---|
+      | **Geçmiş zaman** | I **went** to Antalya last summer. What **did** you **do** yesterday? |
+      | **Gelecek planlar** | I'**m going to** visit my parents. / I'**ll** call you later. |
+      | **Karşılaştırma** | Istanbul is **bigger than** Izmir. It's **the best** restaurant. |
+      | **Deneyimler** | **Have** you **ever been** to London? |
+      | **Daha uzun konuşmalar** | Geçen hafta sonunu anlatmak, tatil planlamak, fikir belirtmek |
+
+      Çalışma düzenimiz aynı kalıyor: Salı-Cuma, 60 dakika. A2 yaklaşık 4 ay sürecek.
+
+practice:
+  - title: "Sonuç konuşması"
+    instructions: "Öğretmen ve öğrenci birlikte: 1) Yazılı sınav puanı 2) Konuşma puanı 3) En büyük 3 başarı 4) Gelişmesi gereken 3 alan 5) A2 için kişisel hedef (örn. 'Tatilde otelde İngilizce konuşmak istiyorum')."
+  - title: "Kendini değerlendir"
+    instructions: "Öğrenci her cümle için 'Evet / Biraz / Henüz değil' der: Kendimi tanıtabilirim. Ailemi anlatabilirim. Rutinimi anlatabilirim. Kafede sipariş verebilirim. Alışveriş yapabilirim. Yol sorabilirim. Telefonda basit konuşabilirim. Anlamadığımda sorabilirim."
+
+homework:
+  - "Kendine bir A2 hedefi yaz ve telefonunun ekranına koy."
+  - "A2 başlayana kadar: her gün 10 dakika Anki + haftada 2 kez BBC Learning English videosu."
+  - "1. hafta kaydını ve bugünkü konuşma sınavını yan yana dinle. Gurur duy!"
+
+tutor_notes:
+  - "Konuşma sınavını değerlendirirken hataları sınav sırasında düzeltmeyin; sonuç konuşmasında 3-4 örnek verin."
+  - "Rol yapmada öğrenci zorlanırsa bir ipucu verin; bu bir sınav ama amaç öğrenciyi motive etmek."
+  - "A2 müfredatı için curriculum/a2.yaml hazırlanacak; öğrencinin bu derste belirlediği kişisel hedefi A2 planına ekleyin."
+  - "Bir 'A1 Tamamlandı' kutlaması yapın; 52 ders büyük bir emek!"

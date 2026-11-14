@@ -1,0 +1,196 @@
+id: a1-w13-s3
+level: a1
+week: 13
+session: 3
+title: "A1 final exam"
+type: exam
+
+objectives:
+  - "A1 seviyesinde okuma, dinleme, dilbilgisi, kelime ve yazma becerilerini gösterir"
+  - "A2'ye geçmeye hazır olup olmadığını ölçer"
+
+plan:
+  - {minutes: 5, activity: "Sınav öncesi: kurallar ve süre; öğrenci rahatlasın"}
+  - {minutes: 10, activity: "Bölüm 1 — Okuma: 'My new life in Izmir' metnini oku (sorular quiz'in başında)"}
+  - {minutes: 5, activity: "Bölüm 2 — Dinleme: 'At the hotel reception' diyaloğunu metne bakmadan 2 kez dinle"}
+  - {minutes: 25, activity: "Bölüm 1-3 soruları: uygulamadaki quiz (25 soru) — öğrenci tek başına çözer"}
+  - {minutes: 15, activity: "Bölüm 4 — Yazma: 60-80 kelimelik bir e-posta (görev aşağıda); öğretmen sonra değerlendirir"}
+
+sections:
+  - heading: "Sınav hakkında"
+    body: |
+      | Bölüm | İçerik | Puan |
+      |---|---|---|
+      | **1. Okuma** | Bir metin, 5 soru (quiz 1-5) | 5 |
+      | **2. Dinleme** | Bir diyalog, 5 soru (quiz 6-10) | 5 |
+      | **3. Dilbilgisi ve kelime** | 15 soru (quiz 11-25) | 15 |
+      | **4. Yazma** | Kısa bir e-posta | 10 |
+      | **Toplam** | | **35** |
+
+      **Sonuç:** 25 ve üzeri → **A1 tamam, A2'ye hazırsın!** · 18-24 → A1 büyük ölçüde tamam,
+      bazı konuları A2 sırasında tekrar edeceğiz · 18'in altı → 2-3 hafta ek tekrar.
+
+      Konuşma sınavı bir sonraki derste ayrıca yapılacak.
+
+      **Kurallar:** Sözlük, not ve uygulamanın diğer sayfaları yok. Takıldığın soruyu geç, sonra dön.
+
+  - heading: "Bölüm 1 — Okuma"
+    body: |
+      Metni oku. Sonra quiz'deki ilk 5 soruyu cevapla.
+
+      > **My new life in Izmir**
+      >
+      > Hi! My name is Laura and I'm from Manchester, in England. I'm 34 and I'm an English teacher.
+      > Now I live in Izmir with my husband, Murat. He's Turkish. He works in a bank.
+      > We've got a small flat on the fourth floor. There are two bedrooms and a big balcony.
+      > I love the balcony! I can see the sea from there.
+      > On weekdays I get up at seven and I go to work by ferry. I start work at nine.
+      > Murat doesn't take the ferry. He drives to work. In the evening we usually cook together.
+      > At the weekend we often go to the market. I love Turkish food, but I can't make good Turkish tea.
+      > Murat always makes the tea! Right now it's Sunday morning. Murat is reading the newspaper
+      > and I'm writing this email. It's sunny and warm. I'm very happy here.
+
+  - heading: "Bölüm 2 — Dinleme"
+    body: |
+      Aşağıdaki diyaloğu **metne bakmadan** dinle ("Tümünü dinle" düğmesi). İki kez dinleyebilirsin.
+      Sonra quiz'deki 6-10. soruları cevapla.
+
+      *(Öğretmen: Öğrenci dinlerken diyalog metnini gizlemek için ekranı kaydırmasını isteyin.)*
+
+  - heading: "Bölüm 4 — Yazma"
+    body: |
+      İngiltere'de yaşayan yeni bir arkadaşın var. Ona kendini tanıtan bir **e-posta** yaz (**60-80 kelime**).
+      Şunları anlat:
+
+      1. Kendin (ad, yaş, şehir, iş)
+      2. Ailen
+      3. Normal bir günün
+      4. Boş zamanında ne yapmayı seversin
+      5. Ona bir soru sor
+
+      > Hi Emma,
+      >
+      > My name is ...
+
+      **Değerlendirme (10 puan):** İçerik — 5 madde var mı? (3) · Dilbilgisi (3) · Kelime çeşitliliği (2) · Düzen — selamlama, kapanış (2)
+
+dialogue:
+  title: "At the hotel reception"
+  lines:
+    - {speaker: "Receptionist", en: "Good afternoon. Can I help you?", tr: "İyi günler. Yardımcı olabilir miyim?"}
+    - {speaker: "Mr Demir", en: "Yes, I have a reservation. My name is Okan Demir.", tr: "Evet, rezervasyonum var. Adım Okan Demir."}
+    - {speaker: "Receptionist", en: "Ah yes, Mr Demir. Three nights, a double room. Your room is on the second floor, room 215.", tr: "Ah evet, Bay Demir. Üç gece, çift kişilik oda. Odanız ikinci katta, 215 numara."}
+    - {speaker: "Mr Demir", en: "Thank you. What time is breakfast?", tr: "Teşekkürler. Kahvaltı saat kaçta?"}
+    - {speaker: "Receptionist", en: "From half past six to ten o'clock, in the restaurant next to the lift.", tr: "Altı buçuktan saat ona kadar, asansörün yanındaki restoranda."}
+    - {speaker: "Mr Demir", en: "Great. Is there a pharmacy near here? I have a headache.", tr: "Harika. Yakında eczane var mı? Başım ağrıyor."}
+    - {speaker: "Receptionist", en: "Yes, there is. Go out of the hotel and turn left. It's opposite the bank.", tr: "Evet, var. Otelden çıkın ve sola dönün. Bankanın karşısında."}
+    - {speaker: "Mr Demir", en: "Thank you very much.", tr: "Çok teşekkür ederim."}
+
+quiz:
+  # Bölüm 1 — Okuma
+  - type: mcq
+    prompt: "(Okuma) What does Laura do?"
+    options: ["She's a bank worker.", "She's an English teacher.", "She's a nurse."]
+    answer: "She's an English teacher."
+  - type: mcq
+    prompt: "(Okuma) How many bedrooms are there in their flat?"
+    options: ["one", "two", "four"]
+    answer: "two"
+  - type: mcq
+    prompt: "(Okuma) How does Murat go to work?"
+    options: ["by ferry", "by car", "on foot"]
+    answer: "by car"
+  - type: mcq
+    prompt: "(Okuma) Who makes the tea?"
+    options: ["Laura", "Murat", "Laura and Murat together"]
+    answer: "Murat"
+  - type: mcq
+    prompt: "(Okuma) What is Murat doing right now?"
+    options: ["He's cooking.", "He's reading the newspaper.", "He's writing an email."]
+    answer: "He's reading the newspaper."
+  # Bölüm 2 — Dinleme
+  - type: mcq
+    prompt: "(Dinleme) How many nights is Mr Demir staying?"
+    options: ["two", "three", "four"]
+    answer: "three"
+  - type: mcq
+    prompt: "(Dinleme) What is his room number?"
+    options: ["250", "215", "205"]
+    answer: "215"
+  - type: mcq
+    prompt: "(Dinleme) What time does breakfast start?"
+    options: ["6:30", "7:00", "10:00"]
+    answer: "6:30"
+  - type: mcq
+    prompt: "(Dinleme) What's the problem with Mr Demir?"
+    options: ["He has a headache.", "He has a cold.", "He's lost."]
+    answer: "He has a headache."
+  - type: mcq
+    prompt: "(Dinleme) Where is the pharmacy?"
+    options: ["next to the hotel", "opposite the bank", "next to the lift"]
+    answer: "opposite the bank"
+  # Bölüm 3 — Dilbilgisi ve kelime
+  - type: fill
+    prompt: "My parents ___ from Sivas."
+    answer: ["are", "'re"]
+  - type: mcq
+    prompt: "This is my uncle and ___ wife."
+    options: ["her", "his", "he's"]
+    answer: "his"
+  - type: fill
+    prompt: "I've got three ___. (child)"
+    answer: ["children"]
+  - type: fill
+    prompt: "My birthday is ___ August."
+    answer: ["in"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She don't eat meat.", "She doesn't eat meat.", "She doesn't eats meat."]
+    answer: "She doesn't eat meat."
+  - type: fill
+    prompt: "What time ___ your son go to school?"
+    answer: ["does"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["We usually have dinner at 8.", "We have usually dinner at 8.", "Usually we have usually dinner at 8."]
+    answer: "We usually have dinner at 8."
+  - type: fill
+    prompt: "My husband loves ___ football on TV. (watch)"
+    answer: ["watching"]
+  - type: fill
+    prompt: "There ___ two supermarkets near my house."
+    answer: ["are"]
+  - type: mcq
+    prompt: "The cat is ___ the bed. (altında)"
+    options: ["on", "under", "between"]
+    answer: "under"
+  - type: fill
+    prompt: "We haven't got ___ bread. Can you buy some?"
+    answer: ["any"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["How much are these jeans?", "How much is these jeans?", "How many are these jeans?"]
+    answer: "How much are these jeans?"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["My daughter can to swim.", "My daughter can swim.", "My daughter cans swim."]
+    answer: "My daughter can swim."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Shh! The baby sleeps.", "Shh! The baby is sleeping.", "Shh! The baby sleeping."]
+    answer: "Shh! The baby is sleeping."
+  - type: mcq
+    prompt: "Kafede en kibar sipariş hangisi?"
+    options: ["Give me a tea.", "I want tea.", "Could I have a tea, please?"]
+    answer: "Could I have a tea, please?"
+
+homework:
+  - "Yazma görevini teslim etmediysen bitir ve öğretmene gönder."
+  - "Konuşma sınavı için: dünkü 6 konu kartını bir kez daha prova et."
+  - "Bugün kendini ödüllendir. 3 ayda çok yol aldın!"
+
+tutor_notes:
+  - "Dinleme bölümünde öğrenci 'Tümünü dinle' düğmesini kullanır; diyalog metni ekranda görünmesin diye ekranı kaydırmasını isteyin. İsterseniz diyaloğu kendiniz okuyun (sesli okuma daha gerçekçi)."
+  - "Quiz otomatik puanlanır (25 puan). Yazma bölümünü rubrikle (10 puan) değerlendirin ve toplamı not edin."
+  - "Çeviri sorularında olduğu gibi yazmada da anlam iletiliyorsa küçük hataları affedin; A1'de amaç iletişim."
+  - "Sınav süresi esnek; öğrenci acele etmesin. 60 dakikayı aşarsa yazma bölümünü ödev olarak verin."

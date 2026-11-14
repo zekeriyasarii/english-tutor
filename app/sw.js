@@ -2,7 +2,7 @@
 // Uygulama dosyaları: önbellekten hemen sun, arka planda güncelle (stale-while-revalidate)
 // data/*.json: önce ağ (yeni içerik hemen gelsin), ağ yoksa önbellek
 
-const CACHE = "english-coach-v1";
+const CACHE = "english-coach-v2";
 const SHELL = [
   "./",
   "index.html",

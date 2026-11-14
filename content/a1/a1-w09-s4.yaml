@@ -1,0 +1,98 @@
+id: a1-w09-s4
+level: a1
+week: 9
+session: 4
+title: "Week 9 review"
+type: review
+
+objectives:
+  - "Yiyecek kelimelerini, sayılabilen/sayılamayan farkını ve some/any'yi doğru kullanır"
+  - "Kafede baştan sona kibar bir sipariş verir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: Kafe diyaloğu ödevini birlikte oynayın"}
+  - {minutes: 15, activity: "Hızlı tekrar: sayılabilen/sayılamayan, some/any, How much/many, ölçüler"}
+  - {minutes: 15, activity: "Haftalık quiz — tek başına çöz, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: 'Yemek alışkanlıklarım' (1-2 dk) + sürpriz kafe sahnesi"}
+  - {minutes: 10, activity: "Hata defteri; 10. haftaya bakış (alışveriş ve fiyatlar)"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | Sayılabilen | **an** apple, two apple**s**, eggs, tomato**es** |
+      | Sayılamayan | bread, water, milk, cheese, rice (~~a bread~~, ~~breads~~) |
+      | some / any | There's **some** milk. / There isn't **any** milk. / Is there **any** milk? |
+      | Teklif | Would you like **some** tea? — Yes, please. / No, thank you. |
+      | Miktar | How **many** eggs? / How **much** water? / a lot of |
+      | Ölçüler | a cup / glass / bottle / piece / loaf / kilo / packet **of** |
+      | Kafe | I'd like ... / Can I have ...? / Could I have the bill? / That's all. |
+
+  - heading: "Konuşma görevi: Yemek alışkanlıklarım"
+    body: |
+      > I usually have a big breakfast. I have eggs, cheese, olives and some bread.
+      > I drink two glasses of tea. I don't eat meat very often, but I love chicken.
+      > For dinner we usually have soup and rice. I never drink coffee at night ...
+
+practice:
+  - title: "Hata avı"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "I'd like two breads."
+      - "Is there some sugar?"
+      - "How many milk do you drink?"
+      - "We haven't got some eggs."
+      - "Give me the bill."
+      - "I eat a rice every day."
+  - title: "Sürpriz sahne"
+    instructions: "Öğretmen garson olur ve bilerek beklenmedik sorular sorar (Sorry, we haven't got any chicken. Would you like fish?). Öğrenci uyum sağlamaya çalışır."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I'd like some water.", "I'd like a water some.", "I'd like any water."]
+    answer: "I'd like some water."
+  - type: fill
+    prompt: "Are there ___ apples?"
+    answer: ["any"]
+  - type: fill
+    prompt: "How ___ potatoes do you need?"
+    answer: ["many"]
+  - type: fill
+    prompt: "How ___ sugar do you want in your tea?"
+    answer: ["much"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["a loaf of bread", "a bottle of bread", "a glass of bread"]
+    answer: "a loaf of bread"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["olive", "zeytin"]
+      - ["rice", "pirinç"]
+      - ["Of course.", "Tabii ki."]
+      - ["Anything else?", "Başka bir şey?"]
+      - ["dessert", "tatlı"]
+  - type: mcq
+    prompt: "Hangisi sayılabilir?"
+    options: ["milk", "egg", "cheese"]
+    answer: "egg"
+  - type: order
+    words: ["like", "you", "some", "Would", "cake"]
+    answer: "Would you like some cake?"
+  - type: translate
+    prompt: "Hesabı alabilir miyim lütfen?"
+    answer: ["Could I have the bill, please?", "Can I have the bill, please?", "Could I have the check, please?", "Can I have the check, please?", "Could I have the bill please?", "Can I have the bill please?"]
+  - type: translate
+    prompt: "Buzdolabında biraz peynir var."
+    answer: ["There's some cheese in the fridge.", "There is some cheese in the fridge."]
+
+homework:
+  - "'Yemek alışkanlıklarım' metnini yaz ve kaydet."
+  - "Hafta sonu Anki: 9. hafta kelimeleri."
+  - "10. haftaya hazırlık: son aldığın 3 kıyafetin fiyatını ve rengini not et."
+
+tutor_notes:
+  - "'need' quiz'de yeni bir fiil; bağlamdan anlaşılır (ihtiyaç duymak)."
+  - "Sürpriz sahnede öğrencinin 'Sorry?' ve 'Can you repeat that, please?' kullanmasını teşvik edin."

@@ -1,0 +1,131 @@
+id: a1-w10-s3
+level: a1
+week: 10
+session: 3
+title: "In a shop"
+type: practice
+
+objectives:
+  - "Mağazada baştan sona bir alışveriş diyaloğu yürütür"
+  - "Deneme kabini ve iade kalıplarını kullanır"
+  - "Bir sorunu (beden, renk, kusur) basitçe anlatır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: bugün ne giyiyorsun? (I'm wearing ...)"}
+  - {minutes: 10, activity: "Deneme ve iade kalıpları: Can I try it on? / Can I return this? / receipt"}
+  - {minutes: 25, activity: "Rol yapma, 3 sahne: 1) kıyafet bul ve dene 2) kasada öde 3) ertesi gün iade et — her sahnede roller değişir"}
+  - {minutes: 10, activity: "Rol yapmada not edilen hataları düzeltin"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Denemek"
+    body: |
+      | Kalıp | Anlam |
+      |---|---|
+      | **Can I try it on?** | Deneyebilir miyim? (tekil) |
+      | **Can I try them on?** | Deneyebilir miyim? (çoğul: shoes, jeans) |
+      | **Where's the changing room?** | Deneme kabini nerede? |
+      | **It fits.** / **It doesn't fit.** | Oldu. / Olmadı (beden). |
+      | **It's too big / small / long / short.** | Çok büyük / küçük / uzun / kısa. |
+      | **It suits you!** | Sana çok yakıştı! |
+
+      ⚠️ Kelime sırası: ~~Can I try on it?~~ → **Can I try it on?**
+      *it / them* her zaman **try** ile **on** arasına girer.
+
+  - heading: "Kasada"
+    body: |
+      | Kasiyer | Müşteri |
+      |---|---|
+      | **That's 45 pounds, please.** | Can I pay by card? |
+      | **Would you like a bag?** | Yes, please. / No, thanks. |
+      | **Here's your receipt.** | Thank you. |
+
+      **receipt** (fiş) — "risiit" diye okunur, **p** okunmaz!
+
+  - heading: "İade ve değişim"
+    body: |
+      | Kalıp | Anlam |
+      |---|---|
+      | **Can I return this, please?** | Bunu iade edebilir miyim? |
+      | **Can I change it for a bigger size?** | Bir büyük bedenle değiştirebilir miyim? |
+      | **There's a problem with it.** | Bir sorunu var. |
+      | **Have you got the receipt?** | Fişiniz var mı? |
+      | **Can I have a refund?** | Paramı geri alabilir miyim? |
+
+dialogue:
+  title: "Returning a jacket"
+  lines:
+    - {speaker: "Assistant", en: "Good morning. Can I help you?", tr: "Günaydın. Yardımcı olabilir miyim?"}
+    - {speaker: "Batu", en: "Yes, please. Can I return this jacket?", tr: "Evet, lütfen. Bu ceketi iade edebilir miyim?"}
+    - {speaker: "Assistant", en: "Of course. Is there a problem with it?", tr: "Tabii. Bir sorunu mu var?"}
+    - {speaker: "Batu", en: "It doesn't fit. It's too small.", tr: "Olmadı. Çok küçük."}
+    - {speaker: "Assistant", en: "Would you like a bigger size?", tr: "Bir büyük beden ister misiniz?"}
+    - {speaker: "Batu", en: "Yes, please. Can I try it on?", tr: "Evet, lütfen. Deneyebilir miyim?"}
+    - {speaker: "Assistant", en: "Sure. The changing room is next to the stairs.", tr: "Tabii. Deneme kabini merdivenin yanında."}
+    - {speaker: "Batu", en: "Thanks. ... Perfect! It fits.", tr: "Teşekkürler. ... Mükemmel! Oldu."}
+
+vocabulary:
+  - {en: "try on", tr: "denemek (kıyafet)", example: "Can I try it on?", example_tr: "Deneyebilir miyim?"}
+  - {en: "changing room", tr: "deneme kabini", note: "Amerikan: fitting room"}
+  - {en: "fit", tr: "(beden) olmak, uymak", example: "It doesn't fit.", example_tr: "Olmadı."}
+  - {en: "It suits you.", tr: "Sana yakıştı."}
+  - {en: "receipt", tr: "fiş", note: "Okunuş: risiit (p okunmaz)"}
+  - {en: "return", tr: "iade etmek"}
+  - {en: "change", tr: "değiştirmek"}
+  - {en: "refund", tr: "para iadesi"}
+  - {en: "problem", tr: "sorun"}
+  - {en: "perfect", tr: "mükemmel"}
+  - {en: "nice", tr: "güzel, hoş"}
+
+practice:
+  - title: "Üç sahne"
+    instructions: "1) Bir kıyafet arıyorsun: renk, beden sor, dene. 2) Kasada öde, poşet iste. 3) Ertesi gün iade et ya da değiştir: sorunu anlat. Her sahnede önce öğrenci müşteri, sonra satıcı olur."
+  - title: "try it on / try them on"
+    instructions: "Öğretmen ürünü söyler, öğrenci doğru kalıbı kurar."
+    items: ["this jacket", "these jeans", "this dress", "these boots", "this hat", "these trousers"]
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Can I try on it?", "Can I try it on?", "Can I on try it?"]
+    answer: "Can I try it on?"
+  - type: mcq
+    prompt: "Ayakkabıları denemek istiyorsun."
+    options: ["Can I try them on?", "Can I try it on?", "Can I try on them?"]
+    answer: "Can I try them on?"
+  - type: fill
+    prompt: "This shirt doesn't ___. It's too big."
+    answer: ["fit"]
+  - type: fill
+    prompt: "Can I ___ this jacket, please? I don't like it. (iade etmek)"
+    answer: ["return"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["receipt", "fiş"]
+      - ["refund", "para iadesi"]
+      - ["changing room", "deneme kabini"]
+      - ["It suits you.", "Sana yakıştı."]
+  - type: mcq
+    prompt: "\"receipt\" kelimesinde hangi harf okunmaz?"
+    options: ["r", "p", "t"]
+    answer: "p"
+  - type: order
+    words: ["with", "a", "There's", "problem", "it"]
+    answer: "There's a problem with it."
+  - type: translate
+    prompt: "Deneme kabini nerede?"
+    answer: ["Where's the changing room?", "Where is the changing room?", "Where's the fitting room?", "Where is the fitting room?"]
+  - type: translate
+    prompt: "Bir büyük bedeniniz var mı?"
+    answer: ["Have you got a bigger size?", "Do you have a bigger size?"]
+
+homework:
+  - "Mağaza diyaloğu yaz (10-12 satır): bul, dene, öde, iade et."
+  - "Bir giyim sitesinin İngilizce iade politikası sayfasına bak; tanıdığın kelimeleri say."
+  - "Haftalık tekrar için 10. hafta notlarına göz at."
+
+tutor_notes:
+  - "'try it on' sıralaması Türk öğrenciler için zor; birkaç farklı nesneyle tekrar ettirin."
+  - "'bigger' karşılaştırma sıfatı A2 konusu; burada kalıp olarak geçiyor."
+  - "Rol yapmada öğretmen olarak beklenmedik durumlar ekleyin: 'Sorry, we haven't got it in your size.'"

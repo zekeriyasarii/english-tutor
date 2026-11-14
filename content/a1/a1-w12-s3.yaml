@@ -1,0 +1,148 @@
+id: a1-w12-s3
+level: a1
+week: 12
+session: 3
+title: "On the phone"
+type: practice
+
+objectives:
+  - "Basit bir telefon görüşmesi başlatır, sürdürür ve bitirir"
+  - "Görüntülü görüşmede teknik sorunları İngilizce söyler"
+  - "Mesaj bırakır ve alır"
+  - "Bir fotoğrafı Present Continuous ile tarif eder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: bugün hava nasıl? Şu an ne yapıyorsun?"}
+  - {minutes: 10, activity: "Telefon kalıpları + görüntülü görüşme kalıpları (bu derslerde gerçekten kullanacağınız cümleler!)"}
+  - {minutes: 20, activity: "Telefon rol yapmaları: 1) arkadaşı ara 2) iş yerini ara, mesaj bırak 3) bağlantı sorunu — kameraları kapatıp sadece sesle yapın!"}
+  - {minutes: 15, activity: "Fotoğraf tarifi: öğrenci kendi telefonundan bir fotoğrafı anlatır; öğretmen göremiyormuş gibi sorular sorar"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Telefon görüşmesi"
+    body: |
+      | Amaç | Kalıp |
+      |---|---|
+      | Kendini tanıtma | **Hello, this is** Ali. (~~I am Ali~~ telefonda denmez) |
+      | Birini isteme | **Can I speak to** Sarah, please? |
+      | Bekletme | **Hold on a moment, please.** / **Just a second.** |
+      | Kişi yok | **Sorry, she isn't here at the moment.** |
+      | Mesaj | **Can I take a message?** / **Can I leave a message?** |
+      | Geri arama | **Can you ask her to call me back?** |
+      | Kapanış | **Thanks for calling. Bye!** / **Talk to you later!** |
+
+      ⚠️ Telefonda **this is** kullanılır: *Hello, **this is** Ali.* ~~Hello, I'm Ali.~~
+
+  - heading: "Görüntülü görüşme"
+    body: |
+      Bu kalıpları derslerimizde hemen kullanmaya başla!
+
+      | Kalıp | Anlam |
+      |---|---|
+      | **Can you hear me?** | Beni duyabiliyor musun? |
+      | **I can't hear you.** | Seni duyamıyorum. |
+      | **Can you see me?** | Beni görebiliyor musun? |
+      | **You're on mute.** | Mikrofonun kapalı. |
+      | **Your camera is off.** | Kameran kapalı. |
+      | **You're breaking up.** | Sesin kesik kesik geliyor. |
+      | **The connection is bad.** | Bağlantı kötü. |
+      | **Can you share your screen?** | Ekranını paylaşabilir misin? |
+
+  - heading: "Fotoğraf tarifi"
+    body: |
+      | Kalıp | |
+      |---|---|
+      | **In this photo,** ... | Bu fotoğrafta ... |
+      | **There's / There are** ... | ... var |
+      | **On the left / On the right / In the middle** ... | Solda / Sağda / Ortada |
+      | **He's / She's / They're** + -ing ... | ... -yor |
+      | **I think** ... | Bence / Sanırım ... |
+
+      > In this photo, my family is at the beach. On the left, my wife is sitting under an umbrella.
+      > She's reading a book. In the middle, my children are playing in the sea. I think they're
+      > laughing. It's sunny and hot.
+
+dialogue:
+  title: "Leaving a message"
+  lines:
+    - {speaker: "Receptionist", en: "Good morning, Star Travel. How can I help you?", tr: "Günaydın, Star Travel. Size nasıl yardımcı olabilirim?"}
+    - {speaker: "Kerem", en: "Hello, this is Kerem Aslan. Can I speak to Ms Brown, please?", tr: "Merhaba, ben Kerem Aslan. Bayan Brown ile görüşebilir miyim lütfen?"}
+    - {speaker: "Receptionist", en: "Hold on a moment, please... Sorry, she's in a meeting at the moment.", tr: "Bir saniye lütfen... Kusura bakmayın, şu an toplantıda."}
+    - {speaker: "Kerem", en: "Can I leave a message?", tr: "Mesaj bırakabilir miyim?"}
+    - {speaker: "Receptionist", en: "Of course.", tr: "Tabii."}
+    - {speaker: "Kerem", en: "Can you ask her to call me back? My number is oh-five-three-two, four-four-one, double six, oh-nine.", tr: "Beni geri aramasını söyleyebilir misiniz? Numaram 0532 441 66 09."}
+    - {speaker: "Receptionist", en: "Sorry, can you repeat that, please?", tr: "Pardon, tekrar eder misiniz lütfen?"}
+    - {speaker: "Kerem", en: "Sure. Oh-five-three-two...", tr: "Tabii. 0532..."}
+
+vocabulary:
+  - {en: "This is ...", tr: "Ben ... (telefonda)", example: "Hello, this is Ali.", example_tr: "Merhaba, ben Ali."}
+  - {en: "Can I speak to ...?", tr: "... ile görüşebilir miyim?"}
+  - {en: "Hold on a moment.", tr: "Bir saniye bekleyin."}
+  - {en: "message", tr: "mesaj"}
+  - {en: "leave a message", tr: "mesaj bırakmak"}
+  - {en: "call back", tr: "geri aramak"}
+  - {en: "meeting", tr: "toplantı"}
+  - {en: "hear", tr: "duymak"}
+  - {en: "see", tr: "görmek"}
+  - {en: "on mute", tr: "sesi kapalı"}
+  - {en: "camera", tr: "kamera"}
+  - {en: "connection", tr: "bağlantı"}
+  - {en: "share your screen", tr: "ekranını paylaşmak"}
+  - {en: "beach", tr: "plaj, sahil"}
+  - {en: "sea", tr: "deniz"}
+  - {en: "in the middle", tr: "ortada"}
+  - {en: "I think ...", tr: "Bence / Sanırım ..."}
+
+practice:
+  - title: "Sadece sesle"
+    instructions: "Kameraları kapatın. 1) Öğrenci arkadaşını arar, ne yaptığını sorar, bir buluşma ayarlar. 2) Öğrenci bir şirketi arar, aradığı kişi yok, mesaj bırakır (adını kodlar, numarasını söyler). 3) Öğretmen 'bağlantı sorunu' yaratır, öğrenci uygun kalıplarla tepki verir."
+  - title: "Fotoğrafımı anlat"
+    instructions: "Öğrenci telefonundaki bir fotoğrafı göstermeden anlatır; öğretmen çizmeye veya hayal etmeye çalışır ve sorular sorar: Who's on the left? What's he doing? Sonra fotoğrafı gösterin ve karşılaştırın!"
+
+quiz:
+  - type: mcq
+    prompt: "Telefonda kendini nasıl tanıtırsın?"
+    options: ["Hello, I'm Ali.", "Hello, this is Ali.", "Hello, here Ali."]
+    answer: "Hello, this is Ali."
+  - type: fill
+    prompt: "Can I ___ to Mr Smith, please?"
+    answer: ["speak", "talk"]
+  - type: mcq
+    prompt: "Görüntülü görüşmede karşı tarafın mikrofonu kapalı."
+    options: ["You're on mute.", "You're breaking up.", "Your camera is off."]
+    answer: "You're on mute."
+  - type: fill
+    prompt: "Can you ___ me? — Yes, I can hear you very well."
+    answer: ["hear"]
+  - type: mcq
+    prompt: "Aradığın kişi yok. Ne dersin?"
+    options: ["Can I leave a message?", "Can I take a message?", "Can I speak a message?"]
+    answer: "Can I leave a message?"
+    explanation: "Arayan kişi mesaj BIRAKIR (leave), telefonu açan kişi mesaj ALIR (take)."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["Hold on a moment.", "Bir saniye bekleyin."]
+      - ["call back", "geri aramak"]
+      - ["meeting", "toplantı"]
+      - ["connection", "bağlantı"]
+      - ["in the middle", "ortada"]
+  - type: order
+    words: ["the", "In", "is", "my", "photo", "son", "swimming"]
+    answer: "In the photo my son is swimming."
+  - type: translate
+    prompt: "Seni duyamıyorum."
+    answer: ["I can't hear you.", "I cannot hear you.", "I can not hear you."]
+  - type: translate
+    prompt: "Beni geri arayabilir misin?"
+    answer: ["Can you call me back?", "Could you call me back?"]
+
+homework:
+  - "Bir telefon görüşmesi diyaloğu yaz (mesaj bırakma dahil, 10-12 satır)."
+  - "Sevdiğin bir fotoğrafı 8 cümleyle anlat ve kaydet."
+  - "Ay sonu tekrarına hazırlan: 9-12. hafta notlarına göz at."
+
+tutor_notes:
+  - "Kameraları kapatıp sadece sesle çalışmak gerçek telefon deneyimine en yakın ve zorlayıcı alıştırma."
+  - "Görüntülü görüşme kalıplarını bu dersten itibaren derslerinizde aktif kullanın."
+  - "'leave / take a message' farkı ince ama pratik; explanation'da açıklandı."

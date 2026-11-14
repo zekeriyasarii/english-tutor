@@ -1,0 +1,119 @@
+id: a1-w12-s4
+level: a1
+week: 12
+session: 4
+title: "Weeks 9-12 review"
+type: review
+
+objectives:
+  - "Üçüncü ayın tüm konularını karışık sorularda doğru kullanır"
+  - "Günlük durumlarda (kafe, mağaza, otel, telefon) İngilizce iletişim kurar"
+  - "A1 final sınavına hazır olup olmadığını değerlendirir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: bu ay en çok hangi durumu (kafe, mağaza, telefon ...) gerçek hayatta kullanmak istersin?"}
+  - {minutes: 20, activity: "Ay sonu quiz'i (aşağıdaki 15 soru) — tek başına çöz, puanı kaydet"}
+  - {minutes: 10, activity: "Quiz kontrolü; 1. ve 2. ay puanlarıyla karşılaştırma"}
+  - {minutes: 15, activity: "Durum zinciri: öğretmen sırayla 4 durum verir (kafe → mağaza → kayboldum → telefon), öğrenci her birinde 1-2 dakika konuşur"}
+  - {minutes: 10, activity: "Final haftasının planı: hangi konular tekrar edilmeli? Hata defterinden en sık 5 hata"}
+
+sections:
+  - heading: "Üçüncü ayın özeti"
+    body: |
+      | Hafta | Konu | Anahtar kalıplar |
+      |---|---|---|
+      | 9 | Yeme içme | sayılabilen / sayılamayan; **some / any**; How much / many; a glass of; **I'd like** ... / Could I have the bill? |
+      | 10 | Alışveriş | yüzler ve binler; How much **is / are**...?; trousers, jeans (çoğul); this one; Can I try it **on**? |
+      | 11 | Yetenek ve rica | **can / can't**; **Could you** ...?; **Can I** ...?; Sorry? / What does ... mean?; I have a headache. |
+      | 12 | Şu an | **am / is / are + -ing**; Simple ↔ Continuous; ~~I'm knowing~~; hava durumu; telefon kalıpları |
+
+      ⚠️ Ayın en sık 5 hatası:
+      1. ~~two breads~~ → **two loaves of bread** / **some bread**
+      2. ~~Give me a coffee.~~ → **I'd like a coffee, please.**
+      3. ~~Can I try on it?~~ → **Can I try it on?**
+      4. ~~She can swims.~~ → **She can swim.**
+      5. ~~I'm knowing.~~ / ~~I working.~~ → **I know.** / **I'm working.**
+
+practice:
+  - title: "Hata avı (ay geneli)"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "Can I have a water?"
+      - "Is there some milk?"
+      - "How much are this jacket?"
+      - "These trousers is too long."
+      - "I can to drive."
+      - "What means 'refund'?"
+      - "Look! It rains."
+      - "I'm wanting a new phone."
+  - title: "Durum zinciri"
+    instructions: "Öğretmen 4 durumu sırayla başlatır, öğrenci her birinde konuşmayı sürdürür: 1) Kafede sipariş ver 2) Mağazada bir mont dene ve öde 3) Yabancı bir şehirde kayboldun 4) Arkadaşını ara, ne yaptığını sor ve hava durumunu konuş."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I'd like some bread, please.", "I'd like a bread, please.", "I'd like breads, please."]
+    answer: "I'd like some bread, please."
+  - type: fill
+    prompt: "We haven't got ___ sugar."
+    answer: ["any"]
+  - type: fill
+    prompt: "How ___ apples do you want?"
+    answer: ["many"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["How much is these shoes?", "How much are these shoes?", "How many are these shoes?"]
+    answer: "How much are these shoes?"
+  - type: mcq
+    prompt: "425 nasıl söylenir?"
+    options: ["four hundred and twenty-five", "four hundreds twenty-five", "forty-two five"]
+    answer: "four hundred and twenty-five"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Can I try on them?", "Can I try them on?", "Can I on try them?"]
+    answer: "Can I try them on?"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["My daughter can speaks English.", "My daughter can speak English.", "My daughter cans speak English."]
+    answer: "My daughter can speak English."
+  - type: fill
+    prompt: "___ you help me, please? (kibar)"
+    answer: ["Could", "Can"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I usually walk to work, but today I'm driving.", "I'm usually walking to work, but today I drive.", "I usually walking to work, but today I drive."]
+    answer: "I usually walk to work, but today I'm driving."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I'm not understanding.", "I don't understand.", "I not understand."]
+    answer: "I don't understand."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["the bill", "hesap"]
+      - ["receipt", "fiş"]
+      - ["headache", "baş ağrısı"]
+      - ["cloudy", "bulutlu"]
+      - ["leave a message", "mesaj bırakmak"]
+  - type: fill
+    prompt: "Shh! The baby ___ sleeping."
+    answer: ["is", "'s"]
+  - type: order
+    words: ["the", "What's", "like", "weather", "today"]
+    answer: "What's the weather like today?"
+  - type: translate
+    prompt: "Biraz su alabilir miyim lütfen?"
+    answer: ["Can I have some water, please?", "Could I have some water, please?", "Can I have some water please?", "Could I have some water please?"]
+  - type: translate
+    prompt: "Şu an ne yapıyorsun?"
+    answer: ["What are you doing now?", "What are you doing right now?", "What are you doing at the moment?"]
+
+homework:
+  - "Final haftası için: 1-12. hafta ay sonu tekrarlarının (4, 8, 12) özet tablolarını oku."
+  - "Anki'de tüm kartları tekrar et; 'Bilmedim' dediklerini bir listeye yaz."
+  - "1. haftadaki ilk kaydını dinle ve bugün aynı tanıtımı yap. 3 ayda ne kadar ilerledin?"
+
+tutor_notes:
+  - "Quiz puanını 1. ve 2. ay ile karşılaştırın; hangi alanlarda ilerleme var, hangilerinde yok?"
+  - "13. hafta final haftası; 1. seans dilbilgisi, 2. seans konuşma tekrarı. Bu dersin sonunda hangi konuların tekrar edilmesi gerektiğine birlikte karar verin."
+  - "'baby' quiz'de geçiyor; bağlamdan anlaşılır."

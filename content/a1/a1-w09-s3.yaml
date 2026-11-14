@@ -1,0 +1,140 @@
+id: a1-w09-s3
+level: a1
+week: 9
+session: 3
+title: "At the café"
+type: practice
+
+objectives:
+  - "Kafe ve restoranda kibarca sipariş verir (I'd like ... / Can I have ...?)"
+  - "Garsonun sorularını anlar ve cevaplar"
+  - "Hesap ister ve ödeme hakkında basit sorular sorar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: Would you like some ...? teklif turu (öğretmen ikram eder, öğrenci kabul/ret)"}
+  - {minutes: 15, activity: "Sipariş kalıpları ve garson soruları; kaba / kibar karşılaştırması"}
+  - {minutes: 10, activity: "Menü okuma: uygulamadaki menü tablosu; fiyatları okuma (10. haftaya hazırlık)"}
+  - {minutes: 20, activity: "Rol yapma: 3 sahne — kafe, restoran, paket servis; öğrenci önce müşteri, sonra garson"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Kibar sipariş"
+    body: |
+      İngilizcede sipariş verirken kibarlık çok önemlidir. Türkçede "Bir çay!" demek normaldir,
+      ama İngilizcede emir kipi kaba algılanır.
+
+      | Kaba ❌ | Kibar ✅ |
+      |---|---|
+      | Give me a coffee. | **I'd like** a coffee, **please**. |
+      | I want water. | **Can I have** some water, **please**? |
+      | Bring the bill. | **Could I have** the bill, **please**? |
+
+      **I'd like** = I would like (istiyorum, kibar). **want** yerine bunu kullan.
+
+      **please** kelimesini unutma. İngiliz kültüründe çok önemli!
+
+  - heading: "Garsonun soruları"
+    body: |
+      | Garson | Sen |
+      |---|---|
+      | **Are you ready to order?** | Yes, I'd like ... / Not yet, sorry. |
+      | **What would you like to drink?** | A glass of orange juice, please. |
+      | **Small, medium or large?** | Medium, please. |
+      | **Anything else?** | No, that's all, thanks. |
+      | **Eat in or take away?** | Eat in, please. / Take away, please. |
+      | **How would you like to pay?** | By card, please. / In cash. |
+
+      Menü bölümleri: **starter** (ara sıcak / başlangıç), **main course** (ana yemek), **dessert** (tatlı)
+
+      Hesap: İngiliz İngilizcesinde **the bill**, Amerikan İngilizcesinde **the check**.
+
+  - heading: "Menü"
+    body: |
+      | Drinks | | Food | |
+      |---|---|---|---|
+      | Tea | £2.00 | Tomato soup | £4.50 |
+      | Coffee | £2.50 | Chicken salad | £7.00 |
+      | Orange juice | £3.00 | Cheese sandwich | £5.50 |
+      | Water (bottle) | £1.50 | Chocolate cake | £3.50 |
+
+      Fiyat okuma: £2.50 → **two pounds fifty**. Detayı yarın 10. haftada!
+
+dialogue:
+  title: "At the café"
+  lines:
+    - {speaker: "Waiter", en: "Hi! Are you ready to order?", tr: "Merhaba! Sipariş vermeye hazır mısınız?"}
+    - {speaker: "Selim", en: "Yes. I'd like a chicken salad, please.", tr: "Evet. Bir tavuk salata istiyorum lütfen."}
+    - {speaker: "Waiter", en: "And what would you like to drink?", tr: "İçecek olarak ne alırsınız?"}
+    - {speaker: "Selim", en: "Can I have a glass of orange juice?", tr: "Bir bardak portakal suyu alabilir miyim?"}
+    - {speaker: "Waiter", en: "Of course. Anything else?", tr: "Tabii. Başka bir şey?"}
+    - {speaker: "Selim", en: "No, that's all, thanks.", tr: "Hayır, bu kadar, teşekkürler."}
+    - {speaker: "Selim", en: "Excuse me, could I have the bill, please?", tr: "Affedersiniz, hesabı alabilir miyim lütfen?"}
+    - {speaker: "Waiter", en: "Sure. That's ten pounds. Card or cash?", tr: "Tabii. On pound. Kart mı nakit mi?"}
+    - {speaker: "Selim", en: "Card, please.", tr: "Kart lütfen."}
+
+vocabulary:
+  - {en: "I'd like ...", tr: "... istiyorum (kibar)", example: "I'd like a tea, please.", example_tr: "Bir çay istiyorum lütfen."}
+  - {en: "Can I have ...?", tr: "... alabilir miyim?"}
+  - {en: "order", tr: "sipariş (vermek)", example: "Are you ready to order?", example_tr: "Sipariş vermeye hazır mısınız?"}
+  - {en: "menu", tr: "menü"}
+  - {en: "the bill", tr: "hesap", note: "Amerikan: the check"}
+  - {en: "starter", tr: "başlangıç (yemek)"}
+  - {en: "main course", tr: "ana yemek"}
+  - {en: "dessert", tr: "tatlı"}
+  - {en: "small / medium / large", tr: "küçük / orta / büyük"}
+  - {en: "That's all.", tr: "Bu kadar."}
+  - {en: "eat in", tr: "içeride yemek"}
+  - {en: "take away", tr: "paket (götürmek)", note: "Amerikan: to go"}
+  - {en: "card", tr: "kart"}
+  - {en: "cash", tr: "nakit"}
+  - {en: "Of course.", tr: "Tabii ki."}
+
+practice:
+  - title: "Kibarlaştır"
+    instructions: "Öğretmen kaba bir cümle söyler, öğrenci kibar halini söyler."
+    items: ["Give me a tea.", "I want the menu.", "Bring water.", "The bill!", "I want a cheese sandwich."]
+  - title: "Üç sahne"
+    instructions: "1) Kafe: kahve ve tatlı siparişi, boy seçimi. 2) Restoran: başlangıç ve ana yemek, hesap. 3) Paket servis: 'take away', ödeme şekli. Her sahnede öğrenci önce müşteri, sonra garson olur."
+
+quiz:
+  - type: mcq
+    prompt: "Kafede en kibar sipariş hangisi?"
+    options: ["Give me a coffee.", "I'd like a coffee, please.", "Coffee. Now."]
+    answer: "I'd like a coffee, please."
+  - type: fill
+    prompt: "Could I have the ___, please? (hesap)"
+    answer: ["bill", "check"]
+  - type: mcq
+    prompt: "Garson \"Anything else?\" dedi ve başka bir şey istemiyorsun."
+    options: ["No, that's all, thanks.", "Yes, please.", "Me neither."]
+    answer: "No, that's all, thanks."
+  - type: mcq
+    prompt: "\"Eat in or take away?\" — yemeği eve götüreceksin."
+    options: ["Eat in, please.", "Take away, please.", "Card, please."]
+    answer: "Take away, please."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["starter", "başlangıç"]
+      - ["main course", "ana yemek"]
+      - ["dessert", "tatlı"]
+      - ["cash", "nakit"]
+  - type: fill
+    prompt: "Are you ready to ___?"
+    answer: ["order"]
+  - type: order
+    words: ["have", "Can", "glass", "of", "a", "I", "water"]
+    answer: "Can I have a glass of water?"
+  - type: translate
+    prompt: "Bir çikolatalı pasta istiyorum lütfen."
+    answer: ["I'd like a chocolate cake, please.", "I'd like a piece of chocolate cake, please.", "Can I have a chocolate cake, please?", "Can I have a piece of chocolate cake, please?", "I would like a chocolate cake, please.", "I would like a piece of chocolate cake, please."]
+
+homework:
+  - "Bir kafe veya restoran diyaloğu yaz (8-10 satır), hem garson hem müşteri olarak."
+  - "Gerçek hayatta dene: bir dahaki kahve siparişini aklından İngilizce ver."
+  - "Haftalık tekrar için 9. hafta notlarına göz at."
+
+tutor_notes:
+  - "Kibarlık İngiliz kültüründe gerçekten önemli; 'please' unutulursa her seferinde nazikçe hatırlatın."
+  - "'chocolate' 7. haftada alıştırmada geçti; yeni sayılmaz."
+  - "Fiyatlar bilinçli olarak sterlin; 10. haftada sayı ve fiyat okuma detaylı işlenecek."
