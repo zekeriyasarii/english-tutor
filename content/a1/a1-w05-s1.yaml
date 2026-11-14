@@ -1,0 +1,164 @@
+id: a1-w05-s1
+level: a1
+week: 5
+session: 1
+title: "My day"
+type: new
+
+objectives:
+  - "Günlük rutin fiillerini söyler (get up, have breakfast, go to work ...)"
+  - "Present Simple'ı I / you / we / they ile olumlu cümlede kullanır"
+  - "Rutinini saatleriyle birlikte anlatır (I get up at 7.)"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ay sonu quiz'inde zorlanılan 2-3 konuyu hızlıca tekrar edin"}
+  - {minutes: 10, activity: "Present Simple ne zaman kullanılır? Türkçedeki geniş zamanla karşılaştırın"}
+  - {minutes: 20, activity: "Rutin fiilleri: ödevdeki Türkçe listeden başlayın, her fiili bir saatle cümleye dökün"}
+  - {minutes: 15, activity: "Öğrenci gününü sabahtan akşama 8-10 cümleyle anlatır; öğretmen sadece fiil hatalarını düzeltir"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Present Simple ne zaman kullanılır?"
+    body: |
+      **Present Simple**, Türkçedeki **geniş zamana** (-ir, -ar) karşılık gelir.
+      Şunları anlatırken kullanılır:
+
+      - **Alışkanlıklar ve rutinler:** I get up at 7. (Saat 7'de kalkarım.)
+      - **Her zaman doğru olan şeyler:** We live in Ankara. (Ankara'da yaşıyoruz.)
+      - **İş ve düzenli durumlar:** I work in a bank. (Bankada çalışıyorum.)
+
+      ⚠️ Türkçede "Ankara'da yaşıyorum" dediğimiz için "-yor" ekinin karşılığını aramak doğaldır,
+      ama kalıcı ve düzenli durumlar için İngilizcede Present Simple kullanılır:
+      ~~I am living in Ankara.~~ → **I live in Ankara.**
+
+  - heading: "Yapı: I / you / we / they"
+    body: |
+      Bu şahıslarla fiil **hiç değişmez**. Sadece fiilin yalın hali kullanılır.
+
+      | Şahıs | Fiil | Devamı |
+      |---|---|---|
+      | I | **work** | in an office. |
+      | You | **live** | in Izmir. |
+      | We | **have** | breakfast at 8. |
+      | They | **go** | to school by bus. |
+
+      ⚠️ to be ile fiili birlikte kullanma: ~~I am work.~~ → **I work.** / ~~I am go to school.~~ → **I go to school.**
+
+      Bu Türk öğrencilerin en sık yaptığı hatalardan biridir. Kural basit:
+      **am / is / are** ya da **fiil**; ikisi aynı anda olmaz (Present Continuous hariç, o 12. haftada).
+
+  - heading: "Saat ve sıra"
+    body: |
+      Rutinlerde saat için 4. haftadaki **at** kullanılır: *I get up **at** 7.*
+      Günün bölümleri için **in**: *I read **in** the evening.*
+
+      Rutin fiillerinin çoğu kalıp halinde öğrenilir:
+
+      | Fiil kalıbı | Anlam |
+      |---|---|
+      | **wake up** | uyanmak |
+      | **get up** | (yataktan) kalkmak |
+      | **have a shower** | duş almak |
+      | **get dressed** | giyinmek |
+      | **have breakfast / lunch / dinner** | kahvaltı / öğle yemeği / akşam yemeği yemek |
+      | **go to work / school** | işe / okula gitmek |
+      | **start / finish work** | işe başlamak / işi bitirmek |
+      | **go home** / **get home** | eve gitmek / eve varmak |
+      | **cook dinner** | akşam yemeği pişirmek |
+      | **watch TV** | televizyon izlemek |
+      | **go to bed** | yatmak |
+
+      ⚠️ **have** burada "sahip olmak" değil, "yemek, içmek, almak" anlamında: *have breakfast, have a coffee, have a shower.*
+
+      ⚠️ **go home** (the yok, to yok): ~~go to home~~ → **go home**
+    examples:
+      - {en: "I wake up at 6:30 and I get up at 7.", tr: "6:30'da uyanırım ve 7'de kalkarım."}
+      - {en: "We have breakfast at half past seven.", tr: "Yedi buçukta kahvaltı ederiz."}
+      - {en: "I start work at 9 and I finish at 6.", tr: "9'da işe başlarım ve 6'da bitiririm."}
+      - {en: "I go to bed at midnight.", tr: "Gece yarısı yatarım."}
+
+dialogue:
+  title: "Early bird"
+  lines:
+    - {speaker: "Ece", en: "You look tired!", tr: "Yorgun görünüyorsun!"}
+    - {speaker: "Tom", en: "Yes, I get up at five o'clock.", tr: "Evet, saat beşte kalkıyorum."}
+    - {speaker: "Ece", en: "Five? Why?", tr: "Beş mi? Neden?"}
+    - {speaker: "Tom", en: "I work in a bakery. I start work at six.", tr: "Fırında çalışıyorum. Altıda işe başlıyorum."}
+    - {speaker: "Ece", en: "Wow. And you finish early?", tr: "Vay. Erken de bitiriyorsun o zaman?"}
+    - {speaker: "Tom", en: "Yes, I finish at two. Then I go home and sleep!", tr: "Evet, ikide bitiriyorum. Sonra eve gidip uyuyorum!"}
+
+vocabulary:
+  - {en: "wake up", tr: "uyanmak"}
+  - {en: "get up", tr: "kalkmak", example: "I get up at 7.", example_tr: "Saat 7'de kalkarım."}
+  - {en: "have a shower", tr: "duş almak"}
+  - {en: "get dressed", tr: "giyinmek"}
+  - {en: "have breakfast", tr: "kahvaltı etmek"}
+  - {en: "have lunch", tr: "öğle yemeği yemek"}
+  - {en: "have dinner", tr: "akşam yemeği yemek"}
+  - {en: "go to work", tr: "işe gitmek"}
+  - {en: "start", tr: "başlamak"}
+  - {en: "finish", tr: "bitirmek, bitmek"}
+  - {en: "go home", tr: "eve gitmek", note: "'to' kullanılmaz"}
+  - {en: "cook", tr: "pişirmek, yemek yapmak"}
+  - {en: "watch TV", tr: "televizyon izlemek"}
+  - {en: "go to bed", tr: "yatmak"}
+  - {en: "sleep", tr: "uyumak"}
+  - {en: "work", tr: "çalışmak; iş", example: "I work in a bank.", example_tr: "Bankada çalışırım."}
+  - {en: "live", tr: "yaşamak, oturmak", example: "We live in Bursa.", example_tr: "Bursa'da yaşıyoruz."}
+  - {en: "tired", tr: "yorgun"}
+
+practice:
+  - title: "Fiil + saat"
+    instructions: "Öğretmen bir saat söyler, öğrenci o saatte genelde ne yaptığını söyler."
+    items: ["7:00", "7:30", "8:15", "12:30", "18:00", "19:30", "21:00", "23:30"]
+  - title: "Benim günüm"
+    instructions: "Öğrenci gününü sabahtan akşama en az 8 cümleyle anlatır. Öğretmen dinlerken fiil hatalarını not eder ve sonunda birlikte düzeltirler."
+  - title: "Am mı, değil mi?"
+    instructions: "Öğretmen cümle okur; öğrenci doğru mu yanlış mı söyler, yanlışsa düzeltir."
+    items: ["I am work in a shop.", "We have lunch at 1.", "They are live in London.", "I go to home at 6.", "You get up early."]
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I am get up at 7.", "I get up at 7.", "I getting up at 7."]
+    answer: "I get up at 7."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["We live in Antalya.", "We are live in Antalya.", "We living in Antalya."]
+    answer: "We live in Antalya."
+  - type: fill
+    prompt: "I have breakfast ___ 8 o'clock."
+    answer: ["at"]
+  - type: mcq
+    prompt: "\"Eve gitmek\" hangisi?"
+    options: ["go to home", "go home", "go the home"]
+    answer: "go home"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["wake up", "uyanmak"]
+      - ["get dressed", "giyinmek"]
+      - ["have a shower", "duş almak"]
+      - ["go to bed", "yatmak"]
+      - ["finish", "bitirmek"]
+  - type: fill
+    prompt: "They ___ dinner at 8 pm. (akşam yemeği yemek)"
+    answer: ["have", "eat"]
+  - type: order
+    words: ["work", "at", "I", "nine", "start"]
+    answer: "I start work at nine."
+  - type: translate
+    prompt: "Biz İzmir'de yaşarız."
+    answer: ["We live in Izmir.", "We live in İzmir."]
+  - type: translate
+    prompt: "Biz gece yarısı yatarız."
+    answer: ["We go to bed at midnight.", "We sleep at midnight."]
+
+homework:
+  - "Gününü 10 cümleyle yaz (saatlerle). Sesli oku ve kaydet."
+  - "Bir aile üyesinin (eşin, annen, çocuğun) rutini hakkında Türkçe notlar al. 6. haftada he/she ile anlatacağız."
+  - "Rutin fiillerini Anki'de çalış."
+
+tutor_notes:
+  - "'I am work' hatası çok yaygın; bu hafta en çok odaklanılacak hata bu. Her duyduğunda nazikçe tekrar ettir."
+  - "Present Continuous'tan (I am working) hiç bahsetmeyin; 12. haftanın konusu."

@@ -1,0 +1,143 @@
+id: a1-w06-s3
+level: a1
+week: 6
+session: 3
+title: "Guess who"
+type: practice
+
+objectives:
+  - "Bir kişinin hayatını ve rutinini he/she ile akıcı şekilde anlatır"
+  - "Does he/she ...? sorularıyla bilgi toplar"
+  - "Present Simple'ı tüm şahıslarla karışık kullanır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: WhatsApp'taki sorulara sözlü cevaplar"}
+  - {minutes: 10, activity: "Okuma: 'A famous chef' metnini öğrenci sesli okur; sonra sorular"}
+  - {minutes: 20, activity: "Guess who: öğrenci hazırladığı ünlüyü anlatır, öğretmen tahmin eder; sonra öğretmen anlatır, öğrenci Does he/she ...? ile sorup bulur"}
+  - {minutes: 15, activity: "Karşılaştırma: 'Ben ve eşim/arkadaşım' — I ..., but he/she ... cümleleri"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Okuma: A famous chef"
+    body: |
+      > Marco is a famous chef. He lives in London with his wife and two children.
+      > He has a restaurant in the city centre. He gets up at six o'clock every day.
+      > He doesn't have breakfast at home. He has a coffee and goes to the market.
+      > He buys fish and vegetables for the restaurant. He starts work at ten
+      > and he finishes very late, at midnight. On Mondays the restaurant is closed.
+      > Marco doesn't cook on Mondays. His wife cooks!
+
+      **Sorular:**
+      1. Where does Marco live?
+      2. What time does he get up?
+      3. Does he have breakfast at home?
+      4. What does he buy at the market?
+      5. Does he cook on Mondays?
+
+  - heading: "Guess who: kurallar"
+    body: |
+      **Anlatan:** Ünlüyü ismini söylemeden 5-6 cümleyle anlat.
+
+      > She's American. She's a singer. She lives in Los Angeles. She sings and she writes songs ...
+
+      **Soran:** Sadece evet-hayır soruları sor. En fazla 10 soru!
+
+      > Does he live in Turkey? Does he play football? Is he a singer? Does he have children?
+
+      ⚠️ Dikkat: **is** ile **does** farkı:
+      - İsim veya sıfat soruyorsan **Is**: *Is she American? Is he a singer?*
+      - Fiil soruyorsan **Does**: *Does she sing? Does he play tennis?*
+
+  - heading: "Karşılaştırma: I ... but he ..."
+    body: |
+      | Ben | O |
+      |---|---|
+      | I get up early, | **but** my husband **gets** up late. |
+      | I don't drink coffee, | **but** my wife **drinks** five cups a day! |
+      | I work in an office, | **but** my friend **works** from home. |
+
+dialogue:
+  title: "Guess who?"
+  lines:
+    - {speaker: "Burak", en: "OK, I have a person. Ask me!", tr: "Tamam, birini seçtim. Sor bakalım!"}
+    - {speaker: "Nora", en: "Is it a man?", tr: "Erkek mi?"}
+    - {speaker: "Burak", en: "Yes, it is.", tr: "Evet."}
+    - {speaker: "Nora", en: "Is he Turkish?", tr: "Türk mü?"}
+    - {speaker: "Burak", en: "No, he isn't. He's Portuguese.", tr: "Hayır. Portekizli."}
+    - {speaker: "Nora", en: "Does he play football?", tr: "Futbol oynuyor mu?"}
+    - {speaker: "Burak", en: "Yes, he does! He's very famous.", tr: "Evet! Çok ünlü."}
+    - {speaker: "Nora", en: "Ronaldo!", tr: "Ronaldo!"}
+
+vocabulary:
+  - {en: "famous", tr: "ünlü"}
+  - {en: "chef", tr: "şef (aşçı)"}
+  - {en: "restaurant", tr: "restoran"}
+  - {en: "city centre", tr: "şehir merkezi", note: "Amerikan: downtown"}
+  - {en: "market", tr: "pazar"}
+  - {en: "buy", tr: "satın almak"}
+  - {en: "fish", tr: "balık"}
+  - {en: "vegetables", tr: "sebzeler"}
+  - {en: "closed", tr: "kapalı"}
+  - {en: "open", tr: "açık; açmak"}
+  - {en: "sing", tr: "şarkı söylemek"}
+  - {en: "song", tr: "şarkı"}
+  - {en: "write", tr: "yazmak"}
+  - {en: "ask", tr: "sormak"}
+
+practice:
+  - title: "Guess who"
+    instructions: "Öğrenci hazırladığı ünlüyü 5-6 cümleyle anlatır, öğretmen tahmin eder. Sonra öğretmen bir ünlü seçer, öğrenci en fazla 10 evet-hayır sorusuyla bulmaya çalışır. 2-3 tur oynayın."
+  - title: "Ben ve o"
+    instructions: "Öğrenci kendini bir aile üyesi veya arkadaşıyla 5 cümlede karşılaştırır: I ..., but he/she ..."
+  - title: "Is mi, Does mu?"
+    instructions: "Öğretmen soruyu Türkçe söyler, öğrenci İngilizce sorar."
+    items: ["O doktor mu?", "O İstanbul'da mı yaşıyor?", "O evli mi?", "O kahve içer mi?", "O ünlü mü?", "O futbol oynar mı?"]
+
+quiz:
+  - type: mcq
+    prompt: "Where does Marco live?"
+    options: ["in Paris", "in London", "in Rome"]
+    answer: "in London"
+  - type: mcq
+    prompt: "Does Marco have breakfast at home?"
+    options: ["Yes, he does.", "No, he doesn't.", "Yes, he is."]
+    answer: "No, he doesn't."
+  - type: mcq
+    prompt: "Who cooks on Mondays?"
+    options: ["Marco", "Marco's wife", "Marco's children"]
+    answer: "Marco's wife"
+  - type: mcq
+    prompt: "\"O (erkek) şarkıcı mı?\" — hangisi doğru?"
+    options: ["Does he a singer?", "Is he a singer?", "Is he sing?"]
+    answer: "Is he a singer?"
+  - type: mcq
+    prompt: "\"O (kadın) şarkı söyler mi?\" — hangisi doğru?"
+    options: ["Is she sing?", "Does she sings?", "Does she sing?"]
+    answer: "Does she sing?"
+  - type: fill
+    prompt: "I don't cook, but my husband ___ every day. (cook)"
+    answer: ["cooks"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["famous", "ünlü"]
+      - ["buy", "satın almak"]
+      - ["closed", "kapalı"]
+      - ["vegetables", "sebzeler"]
+      - ["write", "yazmak"]
+  - type: order
+    words: ["doesn't", "on", "He", "Mondays", "cook"]
+    answer: "He doesn't cook on Mondays."
+  - type: translate
+    prompt: "Restoran Pazartesileri kapalı."
+    answer: ["The restaurant is closed on Mondays.", "On Mondays the restaurant is closed.", "The restaurant's closed on Mondays."]
+
+homework:
+  - "Sevdiğin bir ünlüyü 8 cümleyle anlatan kısa bir metin yaz."
+  - "Marco metnini uygulamada (Notlar) sesli oku ve kaydet."
+  - "Haftalık tekrar için 5-6. hafta notlarına göz at."
+
+tutor_notes:
+  - "Okuma metnini önce öğrenci sesli okusun; telaffuz hatalarını not alın ama okumayı kesmeyin."
+  - "Is/Does karışıklığı çok yaygın; Guess who oyunu bunu doğal olarak pekiştirir."
+  - "Diyalogdaki 'Portuguese' yeni bir milliyet; 1. haftadaki listeyle bağlantı kurabilirsiniz."

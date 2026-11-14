@@ -1,0 +1,163 @@
+id: a1-w06-s2
+level: a1
+week: 6
+session: 2
+title: "Does she ...?"
+type: new
+
+objectives:
+  - "he / she ile olumsuz cümle kurar (She doesn't ...)"
+  - "Does he/she ...? ile soru sorar ve kısa cevap verir"
+  - "Wh- sorularını does ile sorar (Where does he work?)"
+  - "İşe/okula nasıl gidildiğini ve nerede çalışıldığını söyler"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü ödevden aile üyesi rutini (2-3 cümle)"}
+  - {minutes: 15, activity: "doesn't ve Does ...?: -s'nin does'a geçtiğini gösterin"}
+  - {minutes: 10, activity: "Ulaşım ve iş yerleri: by bus, on foot; in an office, at home"}
+  - {minutes: 20, activity: "Soru zinciri: öğretmen ailesinden birini düşünür, öğrenci Does he/she ...? sorularıyla rutinini bulur; sonra tersi"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "-s nereye gidiyor?"
+    body: |
+      Olumsuz ve soru cümlelerinde he/she ile **do** yerine **does** kullanılır.
+      **-s eki does'a geçtiği için fiil tekrar yalın hale döner.**
+
+      | | I / you / we / they | he / she / it |
+      |---|---|---|
+      | Olumlu | I **work**. | She **works**. |
+      | Olumsuz | I **don't work**. | She **doesn't work**. |
+      | Soru | **Do** you **work**? | **Does** she **work**? |
+      | Kısa cevap | Yes, I do. / No, I don't. | Yes, she **does**. / No, she **doesn't**. |
+
+      ⚠️ -s iki kez kullanılmaz:
+      - ~~She doesn't works.~~ → **She doesn't work.**
+      - ~~Does he lives here?~~ → **Does he live here?**
+      - ~~He doesn't has a car.~~ → **He doesn't have a car.**
+    examples:
+      - {en: "My husband doesn't cook.", tr: "Eşim yemek yapmaz."}
+      - {en: "Does your mother work? — No, she doesn't. She's retired.", tr: "Annen çalışıyor mu? — Hayır. Emekli."}
+      - {en: "Does Can have a car? — Yes, he does.", tr: "Can'ın arabası var mı? — Evet, var."}
+
+  - heading: "Wh- soruları: does"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | Where **does** he **work**? | He works in a hospital. |
+      | What time **does** she **get up**? | At half past six. |
+      | What **does** your father **do**? | He's an engineer. |
+      | How **does** she **go** to work? | By metro. |
+
+      ⚠️ ~~Where does he works?~~ → **Where does he work?**
+
+  - heading: "Ulaşım ve iş yeri"
+    body: |
+      | Ulaşım | |
+      |---|---|
+      | **by** car / bus / train / metro / taxi / ferry | arabayla, otobüsle ... |
+      | **on foot** | yürüyerek |
+      | He **walks** to work. | İşe yürüyerek gider. |
+      | She **drives** to work. | İşe arabayla gider (kendisi sürer). |
+      | I **take** the bus. | Otobüse binerim. |
+
+      ⚠️ **by** + araç, ama yürüyerek **on foot**: ~~by foot~~ (yaygın ama standart değil).
+      **by** ile **the** ve **my** kullanılmaz: ~~by the bus~~, ~~by my car~~ → **by bus**, **by car**.
+
+      | İş yeri | |
+      |---|---|
+      | **in an office** | ofiste |
+      | **in a hospital** | hastanede |
+      | **in a school** / **at a school** | okulda |
+      | **in a factory** | fabrikada |
+      | **in a shop** | dükkanda, mağazada |
+      | **from home** | evden (*She works from home.*) |
+
+dialogue:
+  title: "What does your husband do?"
+  lines:
+    - {speaker: "Sophie", en: "What does your husband do?", tr: "Eşin ne iş yapıyor?"}
+    - {speaker: "Gizem", en: "He's an engineer. He works in a factory.", tr: "Mühendis. Bir fabrikada çalışıyor."}
+    - {speaker: "Sophie", en: "Does he drive to work?", tr: "İşe arabayla mı gidiyor?"}
+    - {speaker: "Gizem", en: "No, he doesn't. He doesn't have a car. He goes by train.", tr: "Hayır. Arabası yok. Trenle gidiyor."}
+    - {speaker: "Sophie", en: "And you? Do you work in an office?", tr: "Ya sen? Ofiste mi çalışıyorsun?"}
+    - {speaker: "Gizem", en: "No, I work from home. I'm a translator.", tr: "Hayır, evden çalışıyorum. Çevirmenim."}
+
+vocabulary:
+  - {en: "doesn't", tr: "-mez, -maz (he/she)", example: "He doesn't smoke.", example_tr: "Sigara içmez."}
+  - {en: "Does he/she ...?", tr: "O ... mı?"}
+  - {en: "Yes, she does.", tr: "Evet."}
+  - {en: "No, he doesn't.", tr: "Hayır."}
+  - {en: "by bus", tr: "otobüsle"}
+  - {en: "train", tr: "tren"}
+  - {en: "metro", tr: "metro", note: "Londra'da: the Underground / the Tube"}
+  - {en: "ferry", tr: "vapur, feribot"}
+  - {en: "on foot", tr: "yürüyerek"}
+  - {en: "walk", tr: "yürümek"}
+  - {en: "drive", tr: "araba sürmek"}
+  - {en: "take", tr: "(araca) binmek; almak", example: "I take the metro.", example_tr: "Metroya binerim."}
+  - {en: "office", tr: "ofis, büro"}
+  - {en: "hospital", tr: "hastane"}
+  - {en: "school", tr: "okul"}
+  - {en: "factory", tr: "fabrika"}
+  - {en: "shop", tr: "dükkan, mağaza"}
+  - {en: "work from home", tr: "evden çalışmak"}
+
+practice:
+  - title: "Olumsuz ve soru"
+    instructions: "Öğretmen olumlu cümle söyler; öğrenci önce olumsuz, sonra soru yapar."
+    items: ["She works in a shop.", "He has a car.", "My son goes to school by bus.", "Elif watches TV at night.", "He lives in Izmir."]
+  - title: "Kim bu? (soru zinciri)"
+    instructions: "Öğretmen ailesinden veya tanıdıklarından birini düşünür. Öğrenci 10 soruyla rutinini ve işini bulur: Does she work? Where does she work? How does she go to work? ..."
+  - title: "Ulaşım anketi"
+    instructions: "Öğrenci 5 tanıdığının işe/okula nasıl gittiğini söyler: My wife drives to work. My son goes by bus."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She doesn't works on Fridays.", "She doesn't work on Fridays.", "She don't work on Fridays."]
+    answer: "She doesn't work on Fridays."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Does he live in Ankara?", "Does he lives in Ankara?", "Do he live in Ankara?"]
+    answer: "Does he live in Ankara?"
+  - type: fill
+    prompt: "\"Does your sister cook?\" — \"Yes, she ___.\""
+    answer: ["does"]
+  - type: fill
+    prompt: "Where ___ your father work?"
+    answer: ["does"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["He goes to work by the bus.", "He goes to work by bus.", "He goes to work with bus."]
+    answer: "He goes to work by bus."
+  - type: fill
+    prompt: "I don't have a car. I go to work on ___."
+    answer: ["foot"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["factory", "fabrika"]
+      - ["ferry", "vapur"]
+      - ["drive", "araba sürmek"]
+      - ["office", "ofis"]
+      - ["work from home", "evden çalışmak"]
+  - type: order
+    words: ["does", "What", "she", "get", "up", "time"]
+    answer: "What time does she get up?"
+  - type: translate
+    prompt: "Kardeşimin (erkek) arabası yok."
+    answer: ["My brother doesn't have a car.", "My brother hasn't got a car.", "My brother does not have a car.", "My brother has not got a car."]
+  - type: translate
+    prompt: "Annen çalışıyor mu?"
+    answer: ["Does your mother work?", "Does your mum work?", "Does your mom work?"]
+
+homework:
+  - "Ailenden 2 kişi için 3'er soru ve cevap yaz: Does she ...? — Yes, she does. She ..."
+  - "WhatsApp'tan bana bir arkadaşın hakkında 3 soru sor, ben cevaplayayım: Where does he work? ..."
+  - "Yarınki 'Guess who' oyunu için seçtiğin ünlüyle ilgili 5 cümle hazırla (He/She ...). Kimseye söyleme!"
+
+tutor_notes:
+  - "'Does he works' hatası bu dersin ana hatası; -s'nin does'a 'taşındığını' görsel olarak (ok çizerek) göstermek işe yarar."
+  - "'hasn't got' cevabı da doğru; 3. haftadaki have got ile bağlantı kurun."
+  - "Diyalogdaki 'translator' yeni kelime değil, bağlamdan tahmin ettirin."

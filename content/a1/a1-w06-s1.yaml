@@ -1,0 +1,158 @@
+id: a1-w06-s1
+level: a1
+week: 6
+session: 1
+title: "She works, he goes"
+type: new
+
+objectives:
+  - "he / she / it ile Present Simple'da fiile -s ekler"
+  - "-s, -es, -ies yazım kurallarını ve has (have) düzensizliğini uygular"
+  - "-s ekinin üç farklı okunuşunu ayırt eder"
+  - "Bir aile üyesinin günlük rutinini anlatır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: öğrencinin kendi rutininden 3 cümle (I ...)"}
+  - {minutes: 15, activity: "Kural: he/she/it + fiil-s; I/you/we/they ile karşılaştırma tablosu"}
+  - {minutes: 10, activity: "Yazım ve okunuş: works /s/, lives /z/, watches /ɪz/; goes, does, has, studies"}
+  - {minutes: 20, activity: "Ödevdeki aile üyesinin rutinini birlikte İngilizceye çevirin ve anlattırın"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Tek fark: -s"
+    body: |
+      **he, she, it** (ve tekil isimler: *my mother, Ali, the cat*) ile fiilin sonuna **-s** eklenir.
+      Diğer şahıslarda fiil değişmez.
+
+      | Şahıs | Fiil |
+      |---|---|
+      | I / you / we / they | **work** |
+      | he / she / it | **works** |
+
+      | I / you / we / they | he / she / it |
+      |---|---|
+      | I **live** in Ankara. | My sister **lives** in Ankara. |
+      | We **get up** at 7. | He **gets up** at 7. |
+      | They **drink** tea. | She **drinks** tea. |
+
+      ⚠️ ~~She work in a bank.~~ → **She works in a bank.**
+
+      Bu, A1 ve A2 boyunca en sık yapılan hatadır, akıcı konuşanlar bile unutur.
+      Hafıza ipucu: **he, she, it — s'yi unutma!**
+
+  - heading: "Yazım kuralları"
+    body: |
+      | Kural | Örnek |
+      |---|---|
+      | Çoğu fiil: **+s** | work → work**s**, live → live**s**, get → get**s** |
+      | -s, -sh, -ch, -x, -o ile bitenler: **+es** | watch → watch**es**, finish → finish**es**, go → go**es**, do → do**es** |
+      | Ünsüz + y: **y → ies** | study → stud**ies** |
+      | Ünlü + y: **+s** | play → play**s** |
+      | Düzensiz | **have → has** |
+
+      ⚠️ ~~She haves a car.~~ → **She has a car.** / ~~He gos~~ → **He goes**
+
+      Çoğul isimlerdeki (3. hafta) kurallarla neredeyse aynı: *box → boxes, city → cities*.
+
+  - heading: "-s nasıl okunur?"
+    body: |
+      | Ses | Örnekler |
+      |---|---|
+      | /s/ | works, gets, drinks, cooks |
+      | /z/ | lives, goes, plays, has, comes |
+      | /ɪz/ (ız) | watches, finishes, washes |
+
+      En önemli olanı yine **/ɪz/**: *watches* "woçız", *finishes* "finişız".
+
+      **does** "dâz" diye okunur ("duz" değil). **goes** "govz" diye okunur.
+    examples:
+      - {en: "My father gets up at six.", tr: "Babam altıda kalkar."}
+      - {en: "She watches TV in the evening.", tr: "Akşamları televizyon izler."}
+      - {en: "He goes to work by car.", tr: "İşe arabayla gider."}
+      - {en: "My son studies English.", tr: "Oğlum İngilizce çalışır."}
+      - {en: "Ayşe has lunch at one.", tr: "Ayşe birde öğle yemeği yer."}
+
+dialogue:
+  title: "My busy sister"
+  lines:
+    - {speaker: "Kerem", en: "My sister is a doctor. She works very long hours.", tr: "Kız kardeşim doktor. Çok uzun saatler çalışıyor."}
+    - {speaker: "Lisa", en: "What time does she start?", tr: "Kaçta başlıyor?"}
+    - {speaker: "Kerem", en: "She starts at seven and finishes at eight in the evening.", tr: "Yedide başlıyor, akşam sekizde bitiriyor."}
+    - {speaker: "Lisa", en: "Wow! Does she have time for lunch?", tr: "Vay! Öğle yemeğine vakti oluyor mu?"}
+    - {speaker: "Kerem", en: "Not really. She has a sandwich at her desk.", tr: "Pek değil. Masasında bir sandviç yiyor."}
+    - {speaker: "Lisa", en: "And after work?", tr: "Peki işten sonra?"}
+    - {speaker: "Kerem", en: "She goes home, has a shower and goes to bed!", tr: "Eve gidiyor, duş alıyor ve yatıyor!"}
+
+vocabulary:
+  - {en: "works", tr: "çalışır (he/she)"}
+  - {en: "goes", tr: "gider (he/she)", note: "go + es"}
+  - {en: "does", tr: "yapar (he/she)", note: "Okunuş: dâz"}
+  - {en: "has", tr: "-si var; yer/içer (he/she)", note: "have → has (düzensiz)"}
+  - {en: "watches", tr: "izler (he/she)", note: "Okunuş: woçız"}
+  - {en: "study", tr: "ders çalışmak, okumak", example: "She studies at university.", example_tr: "Üniversitede okuyor."}
+  - {en: "play", tr: "oynamak; çalmak (enstrüman)"}
+  - {en: "wash", tr: "yıkamak"}
+  - {en: "time", tr: "zaman, vakit", example: "I don't have time.", example_tr: "Vaktim yok."}
+  - {en: "hours", tr: "saatler (süre)", example: "long hours", example_tr: "uzun saatler"}
+  - {en: "sandwich", tr: "sandviç"}
+  - {en: "desk", tr: "çalışma masası"}
+
+practice:
+  - title: "Dönüştür: I → she"
+    instructions: "Öğretmen 'I' ile cümle söyler, öğrenci 'She' ile tekrar eder."
+    items: ["I work in Izmir.", "I go to bed at 11.", "I watch TV.", "I have a shower in the morning.", "I study English.", "I finish work at 5.", "I play football.", "I do my homework."]
+  - title: "Ailemden biri"
+    instructions: "Öğrenci ödevdeki aile üyesinin rutinini 6-8 cümleyle anlatır. Öğretmen her -s hatasında masaya hafifçe vurur (veya bir işaret yapar), öğrenci kendini düzeltir."
+  - title: "-s'yi duy"
+    instructions: "Öğretmen 10 fiili okur (works, goes, watches, plays ...); öğrenci /s/, /z/ veya /ız/ diye ayırır. Sadece /ız/ doğru olsa yeter."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She work in a school.", "She works in a school.", "She is work in a school."]
+    answer: "She works in a school."
+  - type: fill
+    prompt: "My father ___ to work by bus. (go)"
+    answer: ["goes"]
+  - type: fill
+    prompt: "My brother ___ a new car. (have)"
+    answer: ["has"]
+  - type: fill
+    prompt: "She ___ English every day. (study)"
+    answer: ["studies"]
+  - type: mcq
+    prompt: "Hangisinin yazımı yanlış?"
+    options: ["watches", "plaies", "finishes"]
+    answer: "plaies"
+    explanation: "Ünlü + y → sadece +s: plays."
+  - type: mcq
+    prompt: "Hangi fiilin -s eki \"ız\" diye okunur?"
+    options: ["works", "lives", "watches"]
+    answer: "watches"
+  - type: match
+    prompt: "Fiili he/she haliyle eşleştir"
+    pairs:
+      - ["go", "goes"]
+      - ["have", "has"]
+      - ["study", "studies"]
+      - ["finish", "finishes"]
+      - ["play", "plays"]
+  - type: order
+    words: ["up", "My", "gets", "at", "six", "mother"]
+    answer: "My mother gets up at six."
+  - type: translate
+    prompt: "O (kadın) bir bankada çalışır."
+    answer: ["She works in a bank.", "She works at a bank."]
+  - type: translate
+    prompt: "Ahmet akşamları televizyon izler."
+    answer: ["Ahmet watches TV in the evening.", "Ahmet watches TV in the evenings.", "In the evening Ahmet watches TV.", "In the evenings Ahmet watches TV."]
+
+homework:
+  - "Ailenden 2 kişinin rutinini 6'şar cümleyle yaz. Her fiilin -s ekini kırmızı kalemle işaretle."
+  - "Bir ünlünün (sporcu, şarkıcı) günlük rutinini internette Türkçe araştır; 3. seansta 'Guess who' oyununda kullanacağız."
+  - "Yeni fiilleri Anki'de çalış."
+
+tutor_notes:
+  - "'bank' 8. haftanın kelimesi ama 5. haftada örneklerde geçti; sorun olmaz, bilmezse söyleyin."
+  - "-s hatasını düzeltmek için uzun açıklama yerine anlaşmalı bir işaret (parmak kaldırmak gibi) kullanmak akışı bozmaz."
+  - "'do' fiilinin he/she hali 'does' — yarınki 'Does she ...?' konusunun da anahtarı; bugün iyi oturtun."

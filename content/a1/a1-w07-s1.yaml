@@ -1,0 +1,163 @@
+id: a1-w07-s1
+level: a1
+week: 7
+session: 1
+title: "How often?"
+type: new
+
+objectives:
+  - "Sıklık zarflarını (always, usually, often, sometimes, never) doğru yerde kullanır"
+  - "How often ...? diye sorar ve once a week, every day gibi ifadelerle cevap verir"
+  - "Alışkanlıklarını ne sıklıkla yaptığıyla birlikte anlatır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ödevdeki boş zaman listesini İngilizceye çevirmeye çalışın"}
+  - {minutes: 15, activity: "Sıklık zarfları ölçeği (%100 → %0) ve cümledeki yerleri"}
+  - {minutes: 10, activity: "How often ...? + once / twice / three times a week"}
+  - {minutes: 20, activity: "Anket: 10 alışkanlık sorusu; öğrenci hem cevaplar hem öğretmene sorar, sonra sonuçları karşılaştırır"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Sıklık zarfları"
+    body: |
+      | Zarf | Sıklık | Anlam |
+      |---|---|---|
+      | **always** | %100 | her zaman |
+      | **usually** | %80 | genellikle |
+      | **often** | %60 | sık sık |
+      | **sometimes** | %40 | bazen |
+      | **rarely** | %10 | nadiren |
+      | **never** | %0 | asla, hiç |
+
+      **never** zaten olumsuz anlam taşır, **don't** ile birlikte kullanılmaz:
+      ~~I don't never drink coffee.~~ → **I never drink coffee.**
+
+  - heading: "Cümledeki yeri"
+    body: |
+      Türkçede zarfın yeri esnektir, İngilizcede kuralı var:
+
+      **1. Normal fiillerden ÖNCE:**
+
+      | Özne | Zarf | Fiil |
+      |---|---|---|
+      | I | **always** | get up at 7. |
+      | She | **often** | goes to the cinema. |
+      | We | **never** | watch TV. |
+
+      **2. to be'den (am / is / are) SONRA:**
+
+      | Özne | be | Zarf | |
+      |---|---|---|---|
+      | I | am | **always** | tired. |
+      | He | is | **never** | late. |
+
+      ⚠️ ~~I go always to the gym.~~ → **I always go to the gym.**
+      ⚠️ ~~She always is happy.~~ → **She is always happy.**
+
+      **sometimes** cümle başında da olabilir: *Sometimes I cook dinner.*
+    examples:
+      - {en: "I usually have tea for breakfast.", tr: "Kahvaltıda genellikle çay içerim."}
+      - {en: "My husband never cooks.", tr: "Eşim asla yemek yapmaz."}
+      - {en: "We are often busy on Mondays.", tr: "Pazartesileri sık sık meşgul oluruz."}
+      - {en: "Do you often go to the cinema?", tr: "Sık sık sinemaya gider misin?"}
+
+  - heading: "How often ...?"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **How often** do you go to the gym? | **Twice a week.** |
+      | **How often** does she call her mother? | **Every day.** |
+
+      | İfade | Anlam |
+      |---|---|
+      | **once** a week | haftada bir |
+      | **twice** a month | ayda iki kez |
+      | **three times** a year | yılda üç kez |
+      | **every** day / week / Sunday | her gün / hafta / Pazar |
+      | **at the weekend** | hafta sonu |
+
+      Bu ifadeler genellikle cümlenin **sonuna** gelir: *I visit my parents **once a month**.*
+
+dialogue:
+  title: "Healthy life?"
+  lines:
+    - {speaker: "Doctor", en: "How often do you do exercise?", tr: "Ne sıklıkla spor yaparsınız?"}
+    - {speaker: "Serkan", en: "Hmm... sometimes. Once a month.", tr: "Hmm... bazen. Ayda bir."}
+    - {speaker: "Doctor", en: "Do you smoke?", tr: "Sigara içer misiniz?"}
+    - {speaker: "Serkan", en: "No, I never smoke.", tr: "Hayır, asla içmem."}
+    - {speaker: "Doctor", en: "Good. How often do you eat fast food?", tr: "Güzel. Ne sıklıkla fast food yersiniz?"}
+    - {speaker: "Serkan", en: "I usually have a burger for lunch. Every day.", tr: "Öğlenleri genellikle hamburger yerim. Her gün."}
+    - {speaker: "Doctor", en: "Every day? We need to talk!", tr: "Her gün mü? Konuşmamız lazım!"}
+
+vocabulary:
+  - {en: "always", tr: "her zaman"}
+  - {en: "usually", tr: "genellikle"}
+  - {en: "often", tr: "sık sık"}
+  - {en: "sometimes", tr: "bazen"}
+  - {en: "rarely", tr: "nadiren"}
+  - {en: "never", tr: "asla, hiç", note: "don't ile kullanılmaz"}
+  - {en: "How often ...?", tr: "Ne sıklıkla ...?"}
+  - {en: "once", tr: "bir kez", example: "once a week", example_tr: "haftada bir"}
+  - {en: "twice", tr: "iki kez", example: "twice a month", example_tr: "ayda iki kez"}
+  - {en: "three times", tr: "üç kez"}
+  - {en: "year", tr: "yıl"}
+  - {en: "do exercise", tr: "spor/egzersiz yapmak"}
+  - {en: "call", tr: "aramak (telefonla)"}
+  - {en: "happy", tr: "mutlu"}
+  - {en: "healthy", tr: "sağlıklı"}
+
+practice:
+  - title: "Kendin için doğru yap"
+    instructions: "Öğrenci cümleyi kendi hayatına göre bir sıklık zarfıyla söyler."
+    items: ["I ___ drink coffee in the morning.", "I ___ go to bed before 11.", "I ___ cook at the weekend.", "I am ___ late.", "I ___ call my mother.", "I ___ do exercise."]
+  - title: "Alışkanlık anketi"
+    instructions: "Öğretmen sorar (How often do you ...?), öğrenci cevaplar; sonra öğrenci aynı soruları öğretmene sorar. Sonunda: 'I often ..., but you never ...' ile karşılaştırın."
+    items: ["go to the cinema", "eat fast food", "visit your parents", "read a book", "do exercise", "drink tea", "watch football", "go shopping"]
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I go always to work by bus.", "I always go to work by bus.", "Always I go to work by bus."]
+    answer: "I always go to work by bus."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She never is late.", "She is never late.", "She is late never."]
+    answer: "She is never late."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I don't never eat fish.", "I never eat fish.", "I never don't eat fish."]
+    answer: "I never eat fish."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["always", "her zaman"]
+      - ["usually", "genellikle"]
+      - ["often", "sık sık"]
+      - ["sometimes", "bazen"]
+      - ["never", "asla"]
+  - type: fill
+    prompt: "\"How ___ do you go to the gym?\" — \"Twice a week.\""
+    answer: ["often"]
+  - type: mcq
+    prompt: "\"Haftada iki kez\" nasıl söylenir?"
+    options: ["two times week", "twice a week", "twice in week"]
+    answer: "twice a week"
+  - type: order
+    words: ["often", "My", "the", "cinema", "goes", "sister", "to"]
+    answer: "My sister often goes to the cinema."
+  - type: translate
+    prompt: "Genellikle saat yedide kalkarım."
+    answer: ["I usually get up at seven.", "I usually get up at 7.", "Usually I get up at seven.", "Usually I get up at 7.", "I usually wake up at seven.", "I usually wake up at 7."]
+  - type: translate
+    prompt: "Annemi her gün ararım."
+    answer: ["I call my mother every day.", "I call my mum every day.", "I call my mom every day.", "Every day I call my mother."]
+
+homework:
+  - "Kendi alışkanlıkların hakkında 8 cümle yaz: 6 sıklık zarfının hepsini en az bir kez kullan."
+  - "Bir aile üyen için How often ...? sorularıyla 4 soru ve cevap yaz."
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "Diyalogdaki 'We need to talk' kalıp olarak geçiyor; açıklamaya gerek yok."
+  - "'fish' kelimesi 6. haftada öğrenildi; quiz'de bilinçli olarak kullanıldı."
+  - "Zarfın yeri Türkçeden farklı; öğrenci cümleyi kurduktan sonra 'zarf fiilin önünde mi?' diye kendine sormayı alışkanlık haline getirsin."

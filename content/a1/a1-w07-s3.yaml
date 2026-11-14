@@ -1,0 +1,128 @@
+id: a1-w07-s3
+level: a1
+week: 7
+session: 3
+title: "Weekend talk"
+type: practice
+
+objectives:
+  - "Hafta sonu alışkanlıkları hakkında 3-4 dakikalık bir sohbet sürdürür"
+  - "Me too / Me neither / Really? gibi tepki ifadeleriyle sohbete katılır"
+  - "Ortak ilgi alanı bulup bir aktivite teklif eder (4. hafta: Let's ...)"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ödevdeki hobi cümlelerinden 3 tanesi"}
+  - {minutes: 10, activity: "Sohbet kalıpları: What do you usually do at the weekend? / Me too / Me neither / Really?"}
+  - {minutes: 20, activity: "Serbest sohbet (iki tur): hafta sonları, hobiler, sevdiğin/sevmediğin şeyler — öğretmen not tutar, araya girmez"}
+  - {minutes: 15, activity: "Not edilen 3-4 hatayı birlikte düzeltin; sonra ortak bir aktivite bulup buluşma planlayın"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Sohbeti başlatmak"
+    body: |
+      | Soru | Örnek cevap |
+      |---|---|
+      | What do you usually do at the weekend? | I usually visit my family. |
+      | What do you like doing in your free time? | I love reading. |
+      | Do you like sport? | Yes, I do. I play football on Sundays. |
+      | What kind of music do you like? | I like pop music. |
+
+  - heading: "Tepki vermek"
+    body: |
+      İyi bir sohbetçi sadece cevap vermez, **tepki** de verir:
+
+      | Durum | Tepki | Anlam |
+      |---|---|---|
+      | Karşı taraf olumlu bir şey söyledi, sen de öylesin | **Me too!** | Ben de! |
+      | Karşı taraf olumsuz bir şey söyledi, sen de öylesin | **Me neither.** | Ben de (değil). |
+      | Şaşırdın | **Really?** | Gerçekten mi? |
+      | Güzel bir şey | **That's great! / Cool!** | Harika! |
+      | Daha fazla bilgi iste | **Why?** / **How often?** / **Where?** | Neden? / Ne sıklıkla? / Nerede? |
+
+      ⚠️ Olumsuz cümleye **Me too** denmez:
+      *I don't like football.* → ~~Me too.~~ → **Me neither.**
+
+      Sohbeti karşı tarafa çevirmek için: **And you? / What about you?**
+    examples:
+      - {en: "I love Italian food. — Me too!", tr: "İtalyan yemeğine bayılırım. — Ben de!"}
+      - {en: "I don't like getting up early. — Me neither.", tr: "Erken kalkmayı sevmem. — Ben de."}
+      - {en: "I go swimming every day. — Really? Where?", tr: "Her gün yüzmeye giderim. — Gerçekten mi? Nerede?"}
+
+dialogue:
+  title: "Monday morning chat"
+  lines:
+    - {speaker: "Hande", en: "Morning! What do you usually do at the weekend?", tr: "Günaydın! Hafta sonları genellikle ne yaparsın?"}
+    - {speaker: "Jack", en: "I usually play tennis on Saturday mornings. And you?", tr: "Cumartesi sabahları genellikle tenis oynarım. Ya sen?"}
+    - {speaker: "Hande", en: "Really? I love tennis! But I don't play very often.", tr: "Gerçekten mi? Tenise bayılırım! Ama çok sık oynamam."}
+    - {speaker: "Jack", en: "Let's play together on Saturday!", tr: "Cumartesi birlikte oynayalım!"}
+    - {speaker: "Hande", en: "Great idea! What time?", tr: "Harika fikir! Saat kaçta?"}
+    - {speaker: "Jack", en: "At nine. I don't like getting up late.", tr: "Dokuzda. Geç kalkmayı sevmem."}
+    - {speaker: "Hande", en: "Me neither. See you on Saturday!", tr: "Ben de. Cumartesi görüşürüz!"}
+
+vocabulary:
+  - {en: "Me too.", tr: "Ben de."}
+  - {en: "Me neither.", tr: "Ben de (değilim / yapmam).", note: "Olumsuz cümleye cevap"}
+  - {en: "Really?", tr: "Gerçekten mi?"}
+  - {en: "That's great!", tr: "Harika!"}
+  - {en: "And you?", tr: "Ya sen?"}
+  - {en: "What kind of ...?", tr: "Ne tür ...?", example: "What kind of music do you like?", example_tr: "Ne tür müzik seversin?"}
+  - {en: "music", tr: "müzik"}
+  - {en: "sport", tr: "spor", note: "Amerikan: sports"}
+  - {en: "together", tr: "birlikte"}
+  - {en: "idea", tr: "fikir", example: "Good idea!", example_tr: "İyi fikir!"}
+  - {en: "film", tr: "film", note: "Amerikan: movie"}
+
+practice:
+  - title: "Me too / Me neither"
+    instructions: "Öğretmen cümle söyler, öğrenci kendi durumuna göre Me too / Me neither / Really? I ... ile tepki verir."
+    items: ["I love chocolate.", "I don't like getting up early.", "I never watch football.", "I often go to the cinema.", "I don't drink coffee.", "I hate shopping."]
+  - title: "Serbest sohbet"
+    instructions: "Konu: hafta sonları ve boş zaman. Öğrenci en az 3 soru sormalı ve en az 3 tepki ifadesi kullanmalı. Öğretmen hataları not eder ama araya girmez."
+  - title: "Ortak plan"
+    instructions: "Sohbette bulunan ortak bir ilgi alanı için buluşma ayarlayın (Let's ... / Are you free on ...? / What time?)."
+
+quiz:
+  - type: mcq
+    prompt: "\"I love pizza.\" — sen de seviyorsun. Ne dersin?"
+    options: ["Me too!", "Me neither.", "Me also."]
+    answer: "Me too!"
+  - type: mcq
+    prompt: "\"I don't like rainy days.\" — sen de sevmiyorsun. Ne dersin?"
+    options: ["Me too.", "Me neither.", "Me not."]
+    answer: "Me neither."
+  - type: mcq
+    prompt: "\"I go to the gym every day.\" — şaşırdın. Ne dersin?"
+    options: ["Really?", "Me neither.", "Good night."]
+    answer: "Really?"
+  - type: fill
+    prompt: "What ___ of music do you like?"
+    answer: ["kind", "type"]
+  - type: fill
+    prompt: "What do you usually do ___ the weekend?"
+    answer: ["at", "on"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["together", "birlikte"]
+      - ["idea", "fikir"]
+      - ["And you?", "Ya sen?"]
+      - ["That's great!", "Harika!"]
+  - type: order
+    words: ["play", "Let's", "together", "tennis"]
+    answer: "Let's play tennis together."
+  - type: translate
+    prompt: "Hafta sonları genellikle ne yaparsın?"
+    answer: ["What do you usually do at the weekend?", "What do you usually do on the weekend?", "What do you usually do at weekends?", "What do you usually do on weekends?"]
+  - type: translate
+    prompt: "Ne tür filmler seversin?"
+    answer: ["What kind of films do you like?", "What kind of movies do you like?", "What type of films do you like?", "What type of movies do you like?"]
+
+homework:
+  - "Bir arkadaşınla (veya benimle) WhatsApp'tan İngilizce kısa bir hafta sonu sohbeti yap: en az 5 mesaj."
+  - "Sohbet kalıplarını sesli tekrar et: Me too / Me neither / Really? / And you?"
+  - "Haftalık tekrar için 7. hafta notlarına göz at."
+
+tutor_notes:
+  - "Serbest sohbette öğretmen konuşma süresinin en fazla %30'unu kullanmalı."
+  - "'rainy days' quiz'de geçiyor; hava durumu 12. haftada, bağlamdan anlaşılır."
+  - "'So do I / Neither do I' bu seviye için ağır; Me too / Me neither yeterli."

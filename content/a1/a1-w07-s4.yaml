@@ -1,0 +1,101 @@
+id: a1-w07-s4
+level: a1
+week: 7
+session: 4
+title: "Week 7 review"
+type: review
+
+objectives:
+  - "Sıklık zarflarını doğru yerde, like/love/hate'i -ing ile kullanır"
+  - "Boş zamanını sıklık ve duygu ifadeleriyle 1-2 dakika anlatır"
+  - "Sohbette tepki ifadelerini kullanır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: WhatsApp sohbetinden 2-3 mesajı birlikte inceleyin"}
+  - {minutes: 15, activity: "Hızlı tekrar: zarf yeri, -ing, play/go/do, Me too/neither"}
+  - {minutes: 15, activity: "Haftalık quiz — tek başına çöz, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: 'Benim boş zamanım' (1-2 dk), ardından 3 dakikalık serbest sohbet"}
+  - {minutes: 10, activity: "Hata defteri; 8. haftaya bakış (ev ve şehir)"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | Sıklık zarfları | always, usually, often, sometimes, rarely, never |
+      | Zarfın yeri | Fiilden **önce** (I **often** go), be'den **sonra** (I'm **often** tired) |
+      | How often? | once / twice / three times a week, every day |
+      | Zevkler | love / like / don't mind / don't like / hate + **-ing** |
+      | -ing yazımı | read**ing**, mak**ing**, swi**mm**ing |
+      | Sporlar | **play** football · **go** swimming · **do** yoga · play **the** piano |
+      | Tepkiler | Me too! · Me neither. · Really? · And you? |
+
+  - heading: "Konuşma görevi: Benim boş zamanım"
+    body: |
+      1-2 dakika. Şunları kullanmaya çalış: en az 3 sıklık zarfı, love/like/hate, play/go/do.
+
+      > In my free time I love cooking. I usually cook on Saturdays. I sometimes go swimming,
+      > but I never go running. I hate running! I often watch films with my wife.
+      > I don't mind shopping, but my wife loves it ...
+
+practice:
+  - title: "Hata avı"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "I go often to the park."
+      - "She always is busy."
+      - "I like swim."
+      - "He plays the football."
+      - "I don't like coffee. — Me too."
+      - "I don't never cook."
+      - "We go yoga on Mondays."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["We usually have dinner at 8.", "We have usually dinner at 8.", "Usually we have dinner usually at 8."]
+    answer: "We usually have dinner at 8."
+  - type: fill
+    prompt: "He hates ___ the house. (clean)"
+    answer: ["cleaning"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["go tennis", "play tennis", "do tennis"]
+    answer: "play tennis"
+  - type: fill
+    prompt: "I ___ swimming every Sunday. (go / play / do)"
+    answer: ["go"]
+  - type: mcq
+    prompt: "\"I never eat fast food.\" — sen de yemiyorsun."
+    options: ["Me too.", "Me neither.", "Really?"]
+    answer: "Me neither."
+    explanation: "never olumsuz anlam taşır, bu yüzden Me neither."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["once a week", "haftada bir"]
+      - ["twice a month", "ayda iki kez"]
+      - ["every day", "her gün"]
+      - ["three times a year", "yılda üç kez"]
+  - type: mcq
+    prompt: "\"run\" kelimesinin -ing hali hangisi?"
+    options: ["runing", "running", "runeing"]
+    answer: "running"
+  - type: order
+    words: ["often", "you", "How", "cook", "do"]
+    answer: "How often do you cook?"
+  - type: translate
+    prompt: "Kız kardeşim dans etmeye bayılır."
+    answer: ["My sister loves dancing.", "My sister loves to dance.", "My sister really loves dancing."]
+  - type: translate
+    prompt: "Asla geç kalmam."
+    answer: ["I'm never late.", "I am never late."]
+
+homework:
+  - "'Benim boş zamanım' metnini yaz ve kaydet; 5. haftadaki rutin kaydınla birleştir: artık 2-3 dakika konuşabilirsin!"
+  - "Hafta sonu Anki: 7. hafta kelimeleri."
+  - "8. haftaya hazırlık: evinin odalarını ve mahallendeki 5 yeri Türkçe listele."
+
+tutor_notes:
+  - "Konuşma görevinde öğrencinin 5, 6 ve 7. haftaları birleştirip birleştiremediğine bakın (rutin + he/she + sıklık + zevkler)."
+  - "Yeni bir dönem başlamadan önce tempo kontrolü: 8. hafta ay sonu tekrarı olacak."

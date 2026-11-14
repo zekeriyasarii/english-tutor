@@ -1,0 +1,136 @@
+id: a1-w08-s4
+level: a1
+week: 8
+session: 4
+title: "Weeks 5-8 review"
+type: review
+
+objectives:
+  - "İkinci ayın tüm konularını karışık sorularda doğru kullanır"
+  - "Kendi hayatını (rutin, aile, boş zaman, ev, mahalle) 3-4 dakika anlatır"
+  - "İlk iki ayın ilerlemesini değerlendirir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: bu ay en çok neyi sevdin, en çok ne zorladı? (Türkçe olabilir)"}
+  - {minutes: 20, activity: "Ay sonu quiz'i (aşağıdaki 15 soru) — tek başına çöz, puanı kaydet"}
+  - {minutes: 10, activity: "Quiz kontrolü: yanlışların nedenlerini konuşun; 1. ay quiz puanıyla karşılaştırın"}
+  - {minutes: 15, activity: "Konuşma görevi: 'Benim hayatım' (3-4 dk) + öğretmenin soruları"}
+  - {minutes: 10, activity: "Ay değerlendirmesi: hata defterinden en sık 5 hata; 9. haftadan itibaren odak noktaları"}
+
+sections:
+  - heading: "İkinci ayın özeti"
+    body: |
+      | Hafta | Konu | Anahtar kalıplar |
+      |---|---|---|
+      | 5 | Günlük rutin | I get up at 7. I **don't** work on Sundays. **Do** you ...? First / Then / Finally |
+      | 6 | Başkalarının rutini | She work**s**. He **doesn't** work. **Does** she ...? by bus, on foot |
+      | 7 | Boş zaman | always / usually / often / sometimes / never; How often? love / hate + **-ing**; play / go / do; Me too / Me neither |
+      | 8 | Ev ve şehir | **There's** a ... / **There are** ...; in / on / under / next to / opposite; Turn left. Go straight on. |
+
+      ⚠️ Ayın en sık 4 hatası:
+      1. ~~I am work~~ → **I work**
+      2. ~~She work~~ → **She works**
+      3. ~~Does she works?~~ → **Does she work?**
+      4. ~~In my room has a bed~~ → **There's a bed in my room.**
+
+  - heading: "Konuşma görevi: Benim hayatım"
+    body: |
+      3-4 dakika boyunca, notlara bakmadan konuş. Şu başlıkları kullanabilirsin:
+
+      1. **Günüm:** ne zaman kalkarsın, işe nasıl gidersin, işten sonra ne yaparsın?
+      2. **Ailemden biri:** onun rutini (he/she + -s)
+      3. **Boş zamanım:** ne yaparsın, ne sıklıkla, neyi sever/sevmezsin?
+      4. **Evim:** kaç oda var, hangi katta, en sevdiğin oda?
+      5. **Mahallem:** evin yakınında neler var?
+
+      Öğretmen sonunda her başlıktan birer soru sorar.
+
+practice:
+  - title: "Hata avı (ay geneli)"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "I am live in Bursa."
+      - "My husband work in a factory."
+      - "Does your son likes football?"
+      - "I go always to bed at 11."
+      - "I hate get up early."
+      - "In my kitchen has a big fridge."
+      - "The supermarket is the bank next to."
+      - "I don't like tea. — Me too."
+  - title: "Hızlı soru-cevap"
+    instructions: "Öğretmen sorar, öğrenci hemen cevaplar."
+    items:
+      - "What time do you usually get up?"
+      - "What does your best friend do?"
+      - "How often do you go to the cinema?"
+      - "What do you love doing at the weekend?"
+      - "How many rooms are there in your home?"
+      - "Is there a pharmacy near your house?"
+      - "How do you go to work?"
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I am work in an office.", "I work in an office.", "I working in an office."]
+    answer: "I work in an office."
+  - type: fill
+    prompt: "My wife ___ up at six every day. (get)"
+    answer: ["gets"]
+  - type: fill
+    prompt: "We ___ watch TV in the morning. (olumsuz)"
+    answer: ["don't", "do not"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Does he live near here?", "Does he lives near here?", "Do he live near here?"]
+    answer: "Does he live near here?"
+  - type: fill
+    prompt: "What time ___ your children go to school?"
+    answer: ["do"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She goes often to the gym.", "She often goes to the gym.", "She often go to the gym."]
+    answer: "She often goes to the gym."
+  - type: fill
+    prompt: "I love ___ with my friends. (dance)"
+    answer: ["dancing"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["do swimming", "play swimming", "go swimming"]
+    answer: "go swimming"
+  - type: mcq
+    prompt: "\"I don't drink coffee.\" — sen de içmiyorsun."
+    options: ["Me too.", "Me neither.", "Me not."]
+    answer: "Me neither."
+  - type: fill
+    prompt: "___ are four chairs in the kitchen."
+    answer: ["There"]
+  - type: mcq
+    prompt: "\"Is there a lift?\" — \"No, ___\""
+    options: ["there isn't.", "it isn't.", "there aren't."]
+    answer: "there isn't."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["next to", "yanında"]
+      - ["between", "arasında"]
+      - ["opposite", "karşısında"]
+      - ["Turn left.", "Sola dön."]
+      - ["Go straight on.", "Düz git."]
+  - type: order
+    words: ["Is", "a", "near", "there", "here", "supermarket"]
+    answer: "Is there a supermarket near here?"
+  - type: translate
+    prompt: "Kız kardeşim Ankara'da yaşıyor ve bir hastanede çalışıyor."
+    answer: ["My sister lives in Ankara and she works in a hospital.", "My sister lives in Ankara and works in a hospital.", "My sister lives in Ankara and she works at a hospital.", "My sister lives in Ankara and works at a hospital."]
+  - type: translate
+    prompt: "Ne sıklıkla annene gidersin?"
+    answer: ["How often do you visit your mother?", "How often do you visit your mum?", "How often do you visit your mom?", "How often do you go to your mother's?", "How often do you see your mother?"]
+
+homework:
+  - "'Benim hayatım' konuşmanı kaydet. 1. hafta ve 4. hafta kayıtlarınla karşılaştır."
+  - "Hafta sonu Anki: 5-8. hafta kartlarından zorlandıkların."
+  - "9. haftaya hazırlık: en sevdiğin 5 yemeği ve içeceği Türkçe listele."
+
+tutor_notes:
+  - "Quiz puanını 1. ay ile karşılaştırın; düşüş varsa nedeni muhtemelen -s/does karışıklığıdır, 9. haftanın ısınmalarına ekleyin."
+  - "İki ay = 32 ders. Küçük bir kutlama ve öğrenciden uygulama hakkında geri bildirim almak için iyi bir an."

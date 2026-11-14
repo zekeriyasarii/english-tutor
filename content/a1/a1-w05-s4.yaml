@@ -1,0 +1,95 @@
+id: a1-w05-s4
+level: a1
+week: 5
+session: 4
+title: "Week 5 review"
+type: review
+
+objectives:
+  - "Present Simple'ı (I/you/we/they) olumlu, olumsuz ve soru olarak hatasız kullanır"
+  - "Rutinini sıralama kelimeleriyle 1-2 dakika anlatır"
+  - "Karşısındakine rutini hakkında en az 5 soru sorar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: How are you? + bu hafta en çok hangi hatayı yaptın?"}
+  - {minutes: 15, activity: "Hızlı tekrar: olumlu → olumsuz → soru dönüşümü; 'am + fiil' avı"}
+  - {minutes: 15, activity: "Haftalık quiz — tek başına çöz, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: A day in my life (1-2 dk) + öğrenci öğretmene 5 soru sorar"}
+  - {minutes: 10, activity: "Hata defteri; 6. haftaya bakış (he/she + -s)"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | Olumlu | I **work** / We **live** / They **get up** at 7. |
+      | Olumsuz | I **don't** work on Sundays. |
+      | Soru | **Do** you cook? — Yes, I **do**. / No, I **don't**. |
+      | Wh- soruları | What time **do** you get up? / Where **do** you live? |
+      | Rutin | get up, have breakfast, go to work, finish work, go home, go to bed |
+      | Sıralama | First, ... Then ... After that, ... Finally, ... |
+      | Zaman | at 7, in the evening, on weekdays, at the weekend, from 9 to 5 |
+
+      ⚠️ Haftanın kuralı: **am/is/are** ya da **fiil**, ikisi birden değil.
+      ~~I am work~~ → **I work**.
+
+practice:
+  - title: "Hata avı"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "I am live in Kayseri."
+      - "Where you work?"
+      - "Do you drink tea? Yes, I drink."
+      - "I not have breakfast."
+      - "We go to home at 7."
+      - "What time you go to bed?"
+  - title: "Ters röportaj"
+    instructions: "Öğrenci öğretmene en az 5 soru sorar (Do you ...? / What time ...? / Where ...?). Öğretmen bilerek 1-2 kez 'am + fiil' hatası yapar; öğrenci yakalamaya çalışır."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["They are work in a hotel.", "They work in a hotel.", "They working in a hotel."]
+    answer: "They work in a hotel."
+  - type: fill
+    prompt: "I ___ drink tea. (olumsuz)"
+    answer: ["don't", "do not"]
+  - type: fill
+    prompt: "Where ___ you have dinner?"
+    answer: ["do"]
+  - type: mcq
+    prompt: "\"Do your children get up early?\" — \"Yes, ___\""
+    options: ["they get.", "they do.", "they are."]
+    answer: "they do."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["then", "sonra"]
+      - ["finally", "en sonunda"]
+      - ["but", "ama"]
+      - ["on weekdays", "hafta içi"]
+      - ["get dressed", "giyinmek"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["What time do you finish work?", "What time you finish work?", "What time do you finishing work?"]
+    answer: "What time do you finish work?"
+  - type: fill
+    prompt: "We have lunch ___ one o'clock."
+    answer: ["at"]
+  - type: order
+    words: ["to", "go", "What", "you", "bed", "time", "do"]
+    answer: "What time do you go to bed?"
+  - type: translate
+    prompt: "Sigara içmem."
+    answer: ["I don't smoke.", "I do not smoke."]
+  - type: translate
+    prompt: "İşe nasıl gidersin?"
+    answer: ["How do you go to work?", "How do you get to work?"]
+
+homework:
+  - "1. haftadaki tanıtım kaydını dinle, sonra aynı şeyi şimdi rutininle birlikte tekrar kaydet. Farkı duy!"
+  - "Hafta sonu Anki'de 5. hafta kelimelerini tekrar et."
+  - "Bir aile üyenin rutinini Türkçe 5 maddede yaz (6. haftada İngilizcesini yapacağız)."
+
+tutor_notes:
+  - "Bu hafta temeli sağlam atmak çok önemli; 6. haftada he/she ile -s eklenince 'am + fiil' hatası artabilir."

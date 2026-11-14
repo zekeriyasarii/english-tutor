@@ -83,7 +83,7 @@ Yeni seans eklerken mevcut dosyaları (ör. `content/a1/a1-w04-s3.yaml`) örnek 
 - [x] A1 müfredatı ve takvimi (52 seans)
 - [x] 1–4. haftaların içeriği (16 seans)
 - [x] PWA v1: dersler, quiz, kartlar, hata defteri, öğretmen modu, çevrimdışı, Pages yayını
-- [ ] 5–8. haftaların içeriği (ay 2: günlük rutin, Present Simple, boş zaman, ev ve şehir)
+- [x] 5–8. haftaların içeriği (ay 2: günlük rutin, Present Simple, boş zaman, ev ve şehir)
 - [ ] 9–13. haftaların içeriği ve A1 final sınavı (`type: exam` seansları)
 - [ ] Öğrenci geri bildirimine göre uygulama düzeltmeleri
 - [ ] v2: cihazlar arası ilerleme senkronizasyonu (öğretmen öğrencinin ilerlemesini görsün);

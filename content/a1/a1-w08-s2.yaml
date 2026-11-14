@@ -1,0 +1,143 @@
+id: a1-w08-s2
+level: a1
+week: 8
+session: 2
+title: "Where is it?"
+type: new
+
+objectives:
+  - "Yer edatlarını (in, on, under, next to, between, behind, in front of, opposite, near) kullanır"
+  - "Bir eşyanın nerede olduğunu sorar ve söyler"
+  - "Bir odayı eşyaların yerleriyle birlikte tarif eder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü ev tarifinden 3 cümle"}
+  - {minutes: 15, activity: "Yer edatları: kamera önünde gerçek bir nesneyle (kalem, bardak) her edatı gösterin"}
+  - {minutes: 10, activity: "Where is ...? / Where are ...? soru-cevap; Türkçe ile kelime sırası farkı"}
+  - {minutes: 20, activity: "Saklambaç oyunu: öğretmen odasındaki bir nesneyi 'saklar', öğrenci Is it on/under/next to ...? sorularıyla bulur; sonra resim tarif ettirme"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Yer edatları"
+    body: |
+      | Edat | Anlam | Örnek |
+      |---|---|---|
+      | **in** | içinde | The keys are **in** my bag. |
+      | **on** | üstünde | The phone is **on** the table. |
+      | **under** | altında | The cat is **under** the bed. |
+      | **next to** | yanında | The lamp is **next to** the sofa. |
+      | **between** | arasında | The TV is **between** the windows. |
+      | **behind** | arkasında | The bag is **behind** the door. |
+      | **in front of** | önünde | The car is **in front of** the house. |
+      | **opposite** | karşısında | The bank is **opposite** the park. |
+      | **near** | yakınında | My flat is **near** the station. |
+
+  - heading: "Türkçeden farkı: edat önce gelir"
+    body: |
+      Türkçede "-de" eki ve "üstünde, altında" gibi kelimeler ismin **sonuna** gelir.
+      İngilizcede edat ismin **önüne** gelir ve genellikle **the** ile kullanılır.
+
+      | Türkçe sıra | İngilizce sıra |
+      |---|---|
+      | masa**nın üstünde** | **on** the table |
+      | kapı**nın arkasında** | **behind** the door |
+      | ev**in önünde** | **in front of** the house |
+
+      ⚠️ ~~The phone is table on.~~ → **The phone is on the table.**
+
+      **between** iki şey ister: *between the sofa **and** the window*.
+    examples:
+      - {en: "Where's my phone? — It's on the sofa.", tr: "Telefonum nerede? — Kanepenin üstünde."}
+      - {en: "Where are my glasses? — They're next to the bed.", tr: "Gözlüğüm nerede? — Yatağın yanında."}
+      - {en: "There's a plant between the TV and the window.", tr: "Televizyonla pencerenin arasında bir bitki var."}
+      - {en: "Our house is opposite a school.", tr: "Evimiz bir okulun karşısında."}
+
+  - heading: "Where is / Where are"
+    body: |
+      | Tekil | Çoğul |
+      |---|---|
+      | **Where's** the remote? — **It's** under the sofa. | **Where are** my keys? — **They're** in your bag. |
+
+      ⚠️ **glasses**, **shoes**, **keys** çoğuldur: *Where **are** my glasses? **They're** ...*
+
+dialogue:
+  title: "Late for work"
+  lines:
+    - {speaker: "Can", en: "Where are my keys? I'm late!", tr: "Anahtarlarım nerede? Geç kaldım!"}
+    - {speaker: "Deniz", en: "Are they on the table?", tr: "Masanın üstünde mi?"}
+    - {speaker: "Can", en: "No, they aren't.", tr: "Hayır, değil."}
+    - {speaker: "Deniz", en: "Look in your bag.", tr: "Çantana bak."}
+    - {speaker: "Can", en: "No... And where's my wallet?", tr: "Yok... Bir de cüzdanım nerede?"}
+    - {speaker: "Deniz", en: "Your wallet is next to the TV. And your keys... they're in the door!", tr: "Cüzdanın televizyonun yanında. Anahtarların da... kapının üstünde!"}
+
+vocabulary:
+  - {en: "under", tr: "altında"}
+  - {en: "next to", tr: "yanında"}
+  - {en: "between", tr: "arasında", example: "between the bed and the door", example_tr: "yatakla kapının arasında"}
+  - {en: "behind", tr: "arkasında"}
+  - {en: "in front of", tr: "önünde"}
+  - {en: "opposite", tr: "karşısında"}
+  - {en: "near", tr: "yakınında, yakın"}
+  - {en: "Where's ...?", tr: "... nerede?"}
+  - {en: "lamp", tr: "lamba"}
+  - {en: "plant", tr: "bitki"}
+  - {en: "wall", tr: "duvar"}
+  - {en: "shelf", tr: "raf", note: "Çoğulu: shelves"}
+  - {en: "picture", tr: "resim, tablo"}
+  - {en: "remote", tr: "kumanda"}
+  - {en: "look", tr: "bakmak", example: "Look in your bag.", example_tr: "Çantana bak."}
+
+practice:
+  - title: "Kamera önünde"
+    instructions: "Öğretmen bir kalemi bir bardağa göre farklı yerlere koyar (içine, üstüne, yanına, arkasına, önüne...), öğrenci her seferinde söyler: It's in / on / next to the cup."
+  - title: "Saklambaç"
+    instructions: "Öğretmen odasındaki bir eşyayı seçer (söylemez). Öğrenci evet-hayır sorularıyla bulur: Is it on the desk? Is it near the window? En fazla 10 soru. Sonra roller değişir."
+  - title: "Resmi tarif et"
+    instructions: "Öğretmen ekranda bir oda fotoğrafı gösterir; öğrenci There's / There are + yer edatlarıyla en az 6 cümle kurar."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["The cat is bed under.", "The cat is under the bed.", "The cat under is the bed."]
+    answer: "The cat is under the bed."
+  - type: fill
+    prompt: "The lamp is ___ to the sofa. (yanında)"
+    answer: ["next"]
+  - type: fill
+    prompt: "The TV is ___ the two windows. (arasında)"
+    answer: ["between"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["behind", "arkasında"]
+      - ["in front of", "önünde"]
+      - ["opposite", "karşısında"]
+      - ["near", "yakınında"]
+      - ["under", "altında"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Where is my glasses?", "Where are my glasses?", "Where my glasses are?"]
+    answer: "Where are my glasses?"
+  - type: mcq
+    prompt: "\"Where's the remote?\" — doğru cevap hangisi?"
+    options: ["It's on the sofa.", "They're on the sofa.", "There's on the sofa."]
+    answer: "It's on the sofa."
+  - type: order
+    words: ["in", "of", "The", "front", "car", "is", "house", "the"]
+    answer: "The car is in front of the house."
+  - type: translate
+    prompt: "Anahtarların çantanda."
+    answer: ["Your keys are in your bag.", "Your keys are in the bag."]
+  - type: translate
+    prompt: "Evim istasyonun yakınında."
+    answer: ["My house is near the station.", "My flat is near the station.", "My home is near the station."]
+
+homework:
+  - "Oturduğun odanın fotoğrafını çek ve 8 cümleyle tarif et (There's ... next to ...)."
+  - "Evinde bir eşyanın yerini her gün İngilizce düşün: 'My phone is on the table.'"
+  - "Yarınki ders için: mahallende evine yakın 5 yeri Türkçe listele (market, eczane, durak ...)."
+
+tutor_notes:
+  - "'station' yarınki dersin kelimesi; çeviri sorusunda geçiyor, gerekirse söyleyin."
+  - "'in the door' (anahtar kapının üstünde/kilidinde) doğal bir İngilizce ifade; diyaloğun esprisi."
+  - "Kelime sırası farkını görselleştirin: Türkçe 'masa-nın üst-ün-de' ↔ İngilizce 'on the table'."

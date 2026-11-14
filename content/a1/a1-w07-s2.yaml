@@ -1,0 +1,161 @@
+id: a1-w07-s2
+level: a1
+week: 7
+session: 2
+title: "I love cooking"
+type: new
+
+objectives:
+  - "like / love / hate / enjoy + -ing ile zevklerini anlatır"
+  - "-ing yazım kurallarını uygular (making, swimming)"
+  - "Sporlarla play / go / do fiillerini doğru eşleştirir"
+  - "Hobilerini ve sevmediği şeyleri söyler"
+
+plan:
+  - {minutes: 5, activity: "Isınma: How often ...? — 4 hızlı soru"}
+  - {minutes: 15, activity: "like / love / hate / enjoy + -ing; duygu ölçeği (😍 → 😖); -ing yazımı"}
+  - {minutes: 15, activity: "play / go / do + sporlar ve hobiler; tabloyu birlikte doldurun"}
+  - {minutes: 15, activity: "Hobiler kartı: öğretmen bir aktivite söyler, öğrenci ne hissettiğini ve ne sıklıkla yaptığını söyler"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Sevmek, sevmemek"
+    body: |
+      | İfade | Anlam |
+      |---|---|
+      | I **love** ... 😍 | bayılırım |
+      | I **really like** ... 😊 | çok severim |
+      | I **like** ... 🙂 | severim |
+      | I **don't mind** ... 😐 | fark etmez, sorun değil |
+      | I **don't like** ... 🙁 | sevmem |
+      | I **hate** ... 😖 | nefret ederim |
+
+      Bunlardan sonra bir **eylem** gelirse fiil **-ing** alır:
+
+      - I love **cooking**. (Yemek yapmaya bayılırım.)
+      - She doesn't like **getting up** early.
+      - Do you like **reading**?
+
+      Bir **şey** gelirse isim olarak kalır: *I love **pizza**. I don't like **football**.*
+
+      ⚠️ ~~I like swim.~~ → **I like swimming.** (*I like to swim* de doğru, ama -ing daha yaygın.)
+
+      **enjoy** (keyif almak) sadece -ing ile kullanılır: *I enjoy **walking**.*
+
+  - heading: "-ing yazımı"
+    body: |
+      | Kural | Örnek |
+      |---|---|
+      | Çoğu fiil: **+ing** | read → read**ing**, cook → cook**ing**, play → play**ing** |
+      | Sessiz -e ile bitenler: **e düşer** | make → mak**ing**, dance → danc**ing**, write → writ**ing** |
+      | Kısa fiil, ünlü + ünsüz: **son harf ikilenir** | swim → swi**mm**ing, run → ru**nn**ing, shop → sho**pp**ing |
+
+      Bu kurallar 12. haftadaki Present Continuous için de geçerli olacak.
+
+  - heading: "play / go / do"
+    body: |
+      | Fiil | Ne için? | Örnek |
+      |---|---|---|
+      | **play** | Top oyunları, takım sporları, oyunlar, enstrümanlar | play football / tennis / basketball / chess / **the** guitar / **the** piano |
+      | **go** | -ing ile biten aktiviteler | go swimming / running / cycling / shopping / dancing |
+      | **do** | Bireysel spor ve aktiviteler | do yoga / exercise / karate / homework |
+
+      ⚠️ Enstrümanlarda **the** kullanılır: *She plays **the** piano.* Sporlarda kullanılmaz: ~~play the football~~.
+    examples:
+      - {en: "I love playing football with my son.", tr: "Oğlumla futbol oynamaya bayılırım."}
+      - {en: "My wife goes swimming twice a week.", tr: "Eşim haftada iki kez yüzmeye gider."}
+      - {en: "I don't like doing homework!", tr: "Ödev yapmayı sevmiyorum!"}
+      - {en: "Does he play the guitar?", tr: "Gitar çalar mı?"}
+
+dialogue:
+  title: "Hobbies"
+  lines:
+    - {speaker: "Anna", en: "What do you do in your free time?", tr: "Boş zamanlarında ne yaparsın?"}
+    - {speaker: "Onur", en: "I love cooking. I cook every weekend.", tr: "Yemek yapmaya bayılırım. Her hafta sonu yemek yaparım."}
+    - {speaker: "Anna", en: "Really? I hate cooking! But I like eating.", tr: "Gerçekten mi? Ben yemek yapmaktan nefret ederim! Ama yemeyi severim."}
+    - {speaker: "Onur", en: "Ha ha! What do you like doing?", tr: "Ha ha! Sen ne yapmayı seversin?"}
+    - {speaker: "Anna", en: "I enjoy reading and I go running in the park.", tr: "Kitap okumaktan keyif alırım ve parkta koşuya giderim."}
+    - {speaker: "Onur", en: "I don't like running. I prefer walking.", tr: "Koşmayı sevmem. Yürümeyi tercih ederim."}
+
+vocabulary:
+  - {en: "like", tr: "sevmek, hoşlanmak"}
+  - {en: "love", tr: "bayılmak, çok sevmek"}
+  - {en: "hate", tr: "nefret etmek"}
+  - {en: "enjoy", tr: "keyif almak", note: "Hep -ing ile: enjoy reading"}
+  - {en: "I don't mind", tr: "fark etmez, sorun değil"}
+  - {en: "free time", tr: "boş zaman"}
+  - {en: "hobby", tr: "hobi", note: "Çoğulu: hobbies"}
+  - {en: "read", tr: "okumak"}
+  - {en: "swim", tr: "yüzmek", example: "go swimming", example_tr: "yüzmeye gitmek"}
+  - {en: "run", tr: "koşmak"}
+  - {en: "dance", tr: "dans etmek"}
+  - {en: "go shopping", tr: "alışverişe gitmek"}
+  - {en: "football", tr: "futbol"}
+  - {en: "tennis", tr: "tenis"}
+  - {en: "chess", tr: "satranç"}
+  - {en: "guitar", tr: "gitar", example: "play the guitar", example_tr: "gitar çalmak"}
+  - {en: "piano", tr: "piyano"}
+  - {en: "yoga", tr: "yoga"}
+  - {en: "park", tr: "park"}
+  - {en: "prefer", tr: "tercih etmek"}
+
+practice:
+  - title: "Duygu ölçeği"
+    instructions: "Öğretmen bir aktivite söyler, öğrenci love / like / don't mind / don't like / hate ile cevaplar ve bir sıklık ekler: 'I love swimming. I go swimming once a week.'"
+    items: ["cooking", "getting up early", "shopping", "watching football", "dancing", "reading", "cleaning the house", "driving"]
+  - title: "play / go / do"
+    instructions: "Öğrenci doğru fiili söyler."
+    items: ["tennis", "yoga", "swimming", "the piano", "chess", "running", "exercise", "basketball", "shopping", "karate"]
+  - title: "-ing yazımı"
+    instructions: "Öğrenci kelimeyi -ing ile yazar."
+    items: ["make", "swim", "watch", "write", "run", "play", "dance", "shop"]
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I like cook.", "I like cooking.", "I like cooks."]
+    answer: "I like cooking."
+  - type: fill
+    prompt: "She enjoys ___ books. (read)"
+    answer: ["reading"]
+  - type: fill
+    prompt: "My children love ___ in the sea. (swim)"
+    answer: ["swimming"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["play yoga", "do yoga", "go yoga"]
+    answer: "do yoga"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["He plays the guitar.", "He plays guitar the.", "He does the guitar."]
+    answer: "He plays the guitar."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["play", "tennis"]
+      - ["go", "running"]
+      - ["do", "exercise"]
+      - ["play the", "piano"]
+  - type: mcq
+    prompt: "\"make\" kelimesinin -ing hali hangisi?"
+    options: ["makeing", "making", "makking"]
+    answer: "making"
+  - type: order
+    words: ["doing", "Do", "like", "homework", "you"]
+    answer: "Do you like doing homework?"
+  - type: translate
+    prompt: "Erken kalkmaktan nefret ederim."
+    answer: ["I hate getting up early.", "I hate waking up early.", "I hate to get up early."]
+  - type: translate
+    prompt: "Boş zamanında ne yaparsın?"
+    answer: ["What do you do in your free time?"]
+
+homework:
+  - "Hobilerin hakkında 8 cümle: love / like / don't mind / don't like / hate'in hepsini kullan."
+  - "Ailenden biri için 'He/She loves ... but he/she hates ...' ile 4 cümle yaz."
+  - "Yarınki 'Weekend talk' için: geçen hafta sonu ne yaptığını değil, normalde hafta sonları ne yaptığını düşün."
+
+tutor_notes:
+  - "'I prefer walking' diyalogda geçiyor; 'prefer' kelime listesinde, kısaca açıklayın."
+  - "'sea' (deniz) quiz'de yeni; bağlamdan çıkar, gerekirse söyleyin."
+  - "'cleaning the house' alıştırmada kalıp olarak geçiyor."

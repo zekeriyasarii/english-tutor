@@ -1,0 +1,140 @@
+id: a1-w05-s3
+level: a1
+week: 5
+session: 3
+title: "A day in my life"
+type: practice
+
+objectives:
+  - "Sıralama kelimeleriyle (first, then, after that, finally) akıcı bir rutin anlatır"
+  - "Kısa bir rutin metnini dinleyip anlar ve sorulara cevap verir"
+  - "Hafta içi ve hafta sonu rutinini karşılaştırır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: öğrencinin WhatsApp'tan gönderdiği sorulara cevap verin, o da sizinkilere"}
+  - {minutes: 10, activity: "Sıralama kelimeleri: first, then, after that, finally; rutin cümlelerini bağlama"}
+  - {minutes: 15, activity: "Dinleme: 'Ali's day' metnini önce kitap kapalı dinletin (uygulamada 'Tümünü dinle'), sonra soruları sorun"}
+  - {minutes: 20, activity: "Rol yapma: 'Yeni ev arkadaşı' — iki kişi rutinlerini karşılaştırır, banyo/mutfak saatlerini ayarlar"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Sıralama kelimeleri"
+    body: |
+      Cümleleri tek tek söylemek yerine bunlarla bağlarsan konuşman çok daha doğal olur:
+
+      | Kelime | Anlam |
+      |---|---|
+      | **First,** | Önce, ilk olarak |
+      | **Then** | Sonra |
+      | **After that,** | Ondan sonra |
+      | **Finally,** | Son olarak, en sonunda |
+      | **and** | ve |
+      | **but** | ama |
+
+      > First, I get up at seven. Then I have a shower and I get dressed.
+      > After that, I have breakfast with my wife. I go to work at eight.
+      > I finish work at six, but I don't go home. I go to the gym.
+      > Finally, I get home at eight and we have dinner.
+
+  - heading: "Hafta içi / hafta sonu"
+    body: |
+      | | |
+      |---|---|
+      | **on weekdays** | hafta içi |
+      | **at the weekend** (Amerikan: on the weekend) | hafta sonu |
+      | **on Saturdays / on Sundays** | Cumartesileri / Pazarları |
+
+      Günlerin sonuna **-s** eklenince "her ... günü" anlamı çıkar: *I don't work **on Saturdays**.*
+    examples:
+      - {en: "On weekdays I get up at 7, but at the weekend I get up at 10.", tr: "Hafta içi 7'de kalkarım ama hafta sonu 10'da kalkarım."}
+      - {en: "We visit my parents on Sundays.", tr: "Pazarları annemleri ziyaret ederiz."}
+
+  - heading: "Dinleme: Ali's day"
+    body: |
+      Önce diyaloğu **sadece dinle** (metne bakma). Sonra şu sorulara cevap ver:
+
+      1. What does Ali do?
+      2. What time does he get up?
+      3. Does he have breakfast at home?
+      4. What does he do after work?
+
+      *(Soru kalıbı **does** yarın öğreneceğimiz konu; şimdilik soruyu anlaman yeterli.)*
+
+dialogue:
+  title: "Ali's day"
+  lines:
+    - {speaker: "Ali", en: "Hi, I'm Ali. I'm a taxi driver in Istanbul.", tr: "Merhaba, ben Ali. İstanbul'da taksi şoförüyüm."}
+    - {speaker: "Ali", en: "I get up very early, at half past five.", tr: "Çok erken kalkarım, beş buçukta."}
+    - {speaker: "Ali", en: "First, I have a shower. Then I drink a glass of tea.", tr: "Önce duş alırım. Sonra bir bardak çay içerim."}
+    - {speaker: "Ali", en: "I don't have breakfast at home. I eat a simit in the car.", tr: "Evde kahvaltı etmem. Arabada simit yerim."}
+    - {speaker: "Ali", en: "I work from six to four.", tr: "Altıdan dörde kadar çalışırım."}
+    - {speaker: "Ali", en: "After that, I play football with my friends.", tr: "Ondan sonra arkadaşlarımla futbol oynarım."}
+    - {speaker: "Ali", en: "Finally, I go to bed at ten. I'm always tired!", tr: "En sonunda saat onda yatarım. Hep yorgunumdur!"}
+
+vocabulary:
+  - {en: "then", tr: "sonra"}
+  - {en: "after that", tr: "ondan sonra"}
+  - {en: "finally", tr: "son olarak, en sonunda"}
+  - {en: "and", tr: "ve"}
+  - {en: "but", tr: "ama"}
+  - {en: "on weekdays", tr: "hafta içi"}
+  - {en: "at the weekend", tr: "hafta sonu", note: "Amerikan: on the weekend"}
+  - {en: "visit", tr: "ziyaret etmek"}
+  - {en: "friend", tr: "arkadaş"}
+  - {en: "from ... to ...", tr: "...den ...e kadar", example: "I work from 9 to 5.", example_tr: "9'dan 5'e kadar çalışırım."}
+  - {en: "gym", tr: "spor salonu"}
+  - {en: "very", tr: "çok", example: "very early", example_tr: "çok erken"}
+
+practice:
+  - title: "Bağla"
+    instructions: "Öğretmen 4 kısa cümle söyler, öğrenci first / then / after that / finally ile tek bir anlatıma dönüştürür."
+    items:
+      - "get up — have a shower — have breakfast — go to work"
+      - "finish work — go to the gym — get home — cook dinner"
+  - title: "Yeni ev arkadaşı"
+    instructions: "Öğretmen ve öğrenci aynı evi paylaşacak iki kişi. Birbirinize rutininizi sorun (What time do you get up? Do you cook?) ve banyo ile mutfak için bir saat planı yapın."
+  - title: "Hafta içi / hafta sonu"
+    instructions: "Öğrenci aynı 4 aktiviteyi hafta içi ve hafta sonu için karşılaştırır: On weekdays I ..., but at the weekend I ..."
+
+quiz:
+  - type: mcq
+    prompt: "Ali ne iş yapıyor?"
+    options: ["He's a bus driver.", "He's a taxi driver.", "He's a cook."]
+    answer: "He's a taxi driver."
+  - type: mcq
+    prompt: "Ali kahvaltıyı nerede yapıyor?"
+    options: ["at home", "in the car", "at a café"]
+    answer: "in the car"
+  - type: mcq
+    prompt: "Ali işten sonra ne yapıyor?"
+    options: ["He goes to the gym.", "He plays football.", "He goes to bed."]
+    answer: "He plays football."
+  - type: fill
+    prompt: "First, I get up. ___ I have a shower."
+    answer: ["Then", "After that"]
+  - type: mcq
+    prompt: "\"Hafta sonu\" nasıl söylenir? (İngiliz)"
+    options: ["in the weekend", "at the weekend", "on weekend"]
+    answer: "at the weekend"
+  - type: fill
+    prompt: "I work ___ 9 to 5."
+    answer: ["from"]
+  - type: order
+    words: ["work", "on", "don't", "I", "Sundays"]
+    answer: "I don't work on Sundays."
+  - type: translate
+    prompt: "Hafta içi erken kalkarım ama hafta sonu geç kalkarım."
+    answer: ["On weekdays I get up early but at the weekend I get up late.", "I get up early on weekdays but I get up late at the weekend.", "On weekdays I get up early, but at the weekend I get up late.", "I get up early on weekdays, but I get up late at the weekend.", "I get up early on weekdays but late at the weekend."]
+  - type: translate
+    prompt: "Pazarları arkadaşlarımı ziyaret ederim."
+    answer: ["I visit my friends on Sundays.", "On Sundays I visit my friends.", "On Sundays, I visit my friends."]
+
+homework:
+  - "'A day in my life' metni yaz: 8-10 cümle, sıralama kelimeleriyle. Sesli kaydet."
+  - "Ali's day diyaloğunu uygulamada 3 kez dinle; ikinci ve üçüncüde metne bakmadan."
+  - "6. haftaya hazırlık: bir aile üyesinin rutinini Türkçe 5 maddede yaz."
+
+tutor_notes:
+  - "Dinleme sorularında 'does' geçiyor; öğrenci soruyu anlıyorsa yeterli, cevabı 'He gets up at 5:30' yerine 'At half past five' gibi kısa verebilir."
+  - "'a glass of tea' — Türk çayı bardakta içilir, 'a cup of tea' değil; güzel bir kültür notu."
+  - "Rol yapma sırasında öğrenci kendi gerçek rutinini kullansın."

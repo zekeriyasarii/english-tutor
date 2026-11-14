@@ -1,0 +1,159 @@
+id: a1-w05-s2
+level: a1
+week: 5
+session: 2
+title: "Do you ...?"
+type: new
+
+objectives:
+  - "Present Simple olumsuz cümle kurar (I don't ...)"
+  - "Do you ...? ile evet-hayır sorusu sorar ve kısa cevap verir"
+  - "Wh- soruları sorar: What time do you ...? Where do you ...?"
+
+plan:
+  - {minutes: 5, activity: "Isınma: öğrenci dünkü ödevden 3-4 rutin cümlesi okur"}
+  - {minutes: 15, activity: "Olumsuz: don't + fiil; dönüştürme alıştırması"}
+  - {minutes: 15, activity: "Sorular: Do you ...? + kısa cevaplar; Wh- soruları (What time / Where / What)"}
+  - {minutes: 15, activity: "Karşılıklı röportaj: öğretmen 6 soru sorar, sonra öğrenci aynı soruları öğretmene sorar"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Olumsuz: don't"
+    body: |
+      Olumsuz cümlede fiilden önce **don't** (do not) gelir. Fiil yine yalın haldedir.
+
+      | Olumlu | Olumsuz |
+      |---|---|
+      | I **work** on Saturdays. | I **don't work** on Saturdays. |
+      | We **have** breakfast. | We **don't have** breakfast. |
+      | They **live** here. | They **don't live** here. |
+
+      ⚠️ ~~I not work.~~ / ~~I am not work.~~ → **I don't work.**
+    examples:
+      - {en: "I don't drink coffee.", tr: "Kahve içmem."}
+      - {en: "We don't watch TV in the morning.", tr: "Sabahları televizyon izlemeyiz."}
+
+  - heading: "Evet-hayır soruları: Do you ...?"
+    body: |
+      Soru yapmak için cümlenin başına **Do** gelir. Fiil yine değişmez.
+
+      | Soru | Kısa cevap |
+      |---|---|
+      | **Do you** work on Sundays? | Yes, I **do**. / No, I **don't**. |
+      | **Do they** live in Ankara? | Yes, they **do**. / No, they **don't**. |
+
+      ⚠️ Kısa cevapta fiil tekrar edilmez: ~~Yes, I work.~~ → **Yes, I do.**
+
+      **do** burada "yapmak" anlamında değil; sadece soru ve olumsuzluk için yardımcı bir kelime.
+      Türkçedeki "-mı / -mi" ve "-me / -ma" eklerinin görevini yapıyor.
+
+  - heading: "Wh- soruları"
+    body: |
+      Soru kelimesi + **do** + özne + fiil:
+
+      | Soru kelimesi | do | özne | fiil | |
+      |---|---|---|---|---|
+      | **What time** | do | you | get up? | Saat kaçta kalkarsın? |
+      | **Where** | do | you | live? | Nerede yaşıyorsun? |
+      | **What** | do | you | do? | Ne iş yapıyorsun? |
+      | **When** | do | you | have lunch? | Ne zaman öğle yemeği yersin? |
+      | **How** | do | you | go to work? | İşe nasıl gidersin? |
+
+      2. haftada kalıp olarak öğrendiğin **What do you do?** sorusunun yapısı bu.
+      İlk **do** yardımcı, ikinci **do** "yapmak" fiili.
+    examples:
+      - {en: "What time do you finish work? — At six.", tr: "İşi saat kaçta bitirirsin? — Altıda."}
+      - {en: "Where do your parents live? — In Konya.", tr: "Annen baban nerede yaşıyor? — Konya'da."}
+      - {en: "Do you cook? — Yes, I do. I cook every day.", tr: "Yemek yapar mısın? — Evet. Her gün yaparım."}
+
+dialogue:
+  title: "New colleague"
+  lines:
+    - {speaker: "Mert", en: "Do you live near here?", tr: "Buralarda mı oturuyorsun?"}
+    - {speaker: "Julia", en: "No, I don't. I live in Kadıköy.", tr: "Hayır. Kadıköy'de oturuyorum."}
+    - {speaker: "Mert", en: "How do you come to work?", tr: "İşe nasıl geliyorsun?"}
+    - {speaker: "Julia", en: "By ferry. I love it!", tr: "Vapurla. Bayılıyorum!"}
+    - {speaker: "Mert", en: "What time do you get up?", tr: "Saat kaçta kalkıyorsun?"}
+    - {speaker: "Julia", en: "At six thirty. And you? Do you get up early?", tr: "Altı buçukta. Ya sen? Erken kalkar mısın?"}
+    - {speaker: "Mert", en: "No, I don't. I live next door!", tr: "Hayır. Ben hemen yan binada oturuyorum!"}
+
+vocabulary:
+  - {en: "don't", tr: "-me, -ma (olumsuzluk)", example: "I don't smoke.", example_tr: "Sigara içmem."}
+  - {en: "Do you ...?", tr: "... mısın? / ... misin?"}
+  - {en: "Yes, I do.", tr: "Evet."}
+  - {en: "No, I don't.", tr: "Hayır."}
+  - {en: "What time ...?", tr: "Saat kaçta ...?"}
+  - {en: "where", tr: "nerede, nereye"}
+  - {en: "when", tr: "ne zaman"}
+  - {en: "how", tr: "nasıl"}
+  - {en: "drink", tr: "içmek"}
+  - {en: "eat", tr: "yemek"}
+  - {en: "come", tr: "gelmek"}
+  - {en: "near here", tr: "buralarda, yakında"}
+  - {en: "coffee", tr: "kahve"}
+  - {en: "tea", tr: "çay"}
+  - {en: "smoke", tr: "sigara içmek"}
+
+practice:
+  - title: "Olumsuz yap"
+    instructions: "Öğretmen olumlu cümle söyler, öğrenci olumsuz yapar ve kendisi için doğru olanı söyler."
+    items: ["I drink tea in the morning.", "I work on Saturdays.", "I watch TV at night.", "I cook dinner every day.", "I get up at 5."]
+  - title: "Röportaj"
+    instructions: "Öğretmen sorar, öğrenci kısa ve uzun cevap verir (Yes, I do. I ...). Sonra öğrenci aynı soruları öğretmene sorar."
+    items:
+      - "Do you drink coffee?"
+      - "What time do you get up on Sundays?"
+      - "Where do you have lunch?"
+      - "How do you go to work?"
+      - "Do you cook?"
+      - "When do you watch TV?"
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I not drink coffee.", "I don't drink coffee.", "I am not drink coffee."]
+    answer: "I don't drink coffee."
+  - type: fill
+    prompt: "___ you live in Istanbul?"
+    answer: ["Do"]
+  - type: mcq
+    prompt: "\"Do you cook?\" — doğru kısa cevap hangisi?"
+    options: ["Yes, I cook.", "Yes, I do.", "Yes, I am."]
+    answer: "Yes, I do."
+  - type: fill
+    prompt: "\"Do they work on Sundays?\" — \"No, they ___.\""
+    answer: ["don't", "do not"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["What time you get up?", "What time do you get up?", "What time are you get up?"]
+    answer: "What time do you get up?"
+  - type: match
+    prompt: "Soru ve cevabı eşleştir"
+    pairs:
+      - ["Where do you live?", "In Bursa."]
+      - ["What time do you get up?", "At seven."]
+      - ["How do you go to work?", "By bus."]
+      - ["What do you do?", "I'm a nurse."]
+      - ["Do you drink tea?", "Yes, I do."]
+  - type: order
+    words: ["you", "do", "Where", "lunch", "have"]
+    answer: "Where do you have lunch?"
+  - type: translate
+    prompt: "Sabahları kahve içmem."
+    answer: ["I don't drink coffee in the morning.", "I do not drink coffee in the morning.", "I don't drink coffee in the mornings."]
+  - type: translate
+    prompt: "Yemek yapar mısın?"
+    answer: ["Do you cook?"]
+  - type: translate
+    prompt: "Annen baban nerede yaşıyor?"
+    answer: ["Where do your parents live?", "Where do your mother and father live?"]
+
+homework:
+  - "Kendin için 5 olumsuz cümle yaz (yapmadığın şeyler): I don't ..."
+  - "Bana (öğretmene) WhatsApp'tan 3 soru gönder: Do you ...? / What time do you ...?"
+  - "Rutin yazını tekrar oku; 'am + fiil' hatası var mı kontrol et."
+
+tutor_notes:
+  - "'by bus' gibi ulaşım ifadeleri 6. haftada geliyor; burada kalıp olarak geçebilir."
+  - "Öğrencinin sorduğu sorulara gerçek ve doğal cevaplar verin; soru sormayı ödüllendirmek önemli."
+  - "Wh- sorularında 'do'yu unutmak çok yaygın: 'Where you live?' → 'Where DO you live?' diye vurgulayarak düzeltin."

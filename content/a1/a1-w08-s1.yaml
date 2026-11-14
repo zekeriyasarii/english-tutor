@@ -1,0 +1,163 @@
+id: a1-w08-s1
+level: a1
+week: 8
+session: 1
+title: "My home"
+type: new
+
+objectives:
+  - "Evin odalarını ve temel eşyaları adlandırır"
+  - "there is / there are ile bir yerde ne olduğunu söyler"
+  - "Is there ...? / Are there any ...? ile soru sorar ve kısa cevap verir"
+  - "Evini 6-8 cümleyle tarif eder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: hafta sonu sohbeti (Me too / Me neither ile)"}
+  - {minutes: 15, activity: "Odalar ve eşyalar: öğrenci evini kamerayla gezdirir veya bir kat planı çizer"}
+  - {minutes: 15, activity: "there is / there are: tablo, olumsuz ve soru; 'In my room has ...' hatası"}
+  - {minutes: 15, activity: "Ev tarifi: öğretmen sorular sorar (Is there a balcony? How many bedrooms are there?), öğrenci evini anlatır; sonra tersi"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Odalar ve eşyalar"
+    body: |
+      | Oda | Tipik eşyalar |
+      |---|---|
+      | **living room** (salon) | sofa, armchair, TV, carpet, lamp |
+      | **bedroom** (yatak odası) | bed, wardrobe, mirror |
+      | **kitchen** (mutfak) | fridge, cooker, sink, cupboard |
+      | **bathroom** (banyo) | shower, bath, toilet, sink |
+      | **balcony** (balkon) | plants, chairs |
+
+      Evin diğer kısımları: **window** (pencere), **door** (kapı), **wall** (duvar),
+      **floor** (zemin; kat), **stairs** (merdiven)
+
+  - heading: "there is / there are"
+    body: |
+      "... var / ... yok" demek için **there is / there are** kullanılır.
+
+      | | Tekil | Çoğul |
+      |---|---|---|
+      | Olumlu | **There's** (there is) a sofa. | **There are** two bedrooms. |
+      | Olumsuz | **There isn't** a balcony. | **There aren't any** plants. |
+      | Soru | **Is there** a garden? | **Are there any** chairs? |
+      | Kısa cevap | Yes, there is. / No, there isn't. | Yes, there are. / No, there aren't. |
+
+      **any**: çoğul isimlerle soru ve olumsuzda kullanılır ("hiç"). Ayrıntısı 9. haftada.
+
+      **How many** ... **are there?** → Kaç tane ... var?
+      *How many rooms are there? — There are four.*
+
+      ⚠️ Türkçedeki "Odamda bir yatak var" cümlesini birebir çevirme:
+      ~~In my room has a bed.~~ / ~~My room there is a bed.~~ → **There's a bed in my room.**
+
+      ⚠️ **have got** ile farkı: *I've got a car* (sahiplik — bir kişinin), *There's a car in the garden* (bir yerde var olma).
+    examples:
+      - {en: "There's a big window in the living room.", tr: "Salonda büyük bir pencere var."}
+      - {en: "There are three bedrooms in our flat.", tr: "Dairemizde üç yatak odası var."}
+      - {en: "There isn't a lift in my building.", tr: "Binamda asansör yok."}
+      - {en: "Is there a bath? — No, there isn't. There's a shower.", tr: "Küvet var mı? — Hayır. Duş var."}
+
+  - heading: "Kat ve bina"
+    body: |
+      | | |
+      |---|---|
+      | I live **on the third floor**. | Üçüncü katta oturuyorum. |
+      | **ground floor** | zemin kat (Amerikan: first floor) |
+      | **building** | bina |
+      | **lift** | asansör (Amerikan: elevator) |
+      | **neighbour** | komşu (Amerikan: neighbor) |
+
+      Katlar için sıra sayıları (4. hafta) ve **on** kullanılır.
+
+dialogue:
+  title: "Flat for rent"
+  lines:
+    - {speaker: "Emre", en: "Hello, I'm calling about the flat. Is it big?", tr: "Merhaba, daire için arıyorum. Büyük mü?"}
+    - {speaker: "Owner", en: "Yes. There are three bedrooms and a big living room.", tr: "Evet. Üç yatak odası ve büyük bir salon var."}
+    - {speaker: "Emre", en: "Is there a balcony?", tr: "Balkon var mı?"}
+    - {speaker: "Owner", en: "Yes, there is. It's very sunny.", tr: "Evet, var. Çok güneş alıyor."}
+    - {speaker: "Emre", en: "Great. Which floor is it on?", tr: "Harika. Kaçıncı katta?"}
+    - {speaker: "Owner", en: "It's on the fifth floor.", tr: "Beşinci katta."}
+    - {speaker: "Emre", en: "Is there a lift?", tr: "Asansör var mı?"}
+    - {speaker: "Owner", en: "Er... no, there isn't. Sorry!", tr: "Şey... hayır, yok. Kusura bakmayın!"}
+
+vocabulary:
+  - {en: "there is / there's", tr: "... var (tekil)"}
+  - {en: "there are", tr: "... var (çoğul)"}
+  - {en: "Is there ...?", tr: "... var mı?"}
+  - {en: "How many ...?", tr: "Kaç tane ...?", example: "How many rooms are there?", example_tr: "Kaç oda var?"}
+  - {en: "room", tr: "oda"}
+  - {en: "living room", tr: "salon, oturma odası"}
+  - {en: "bedroom", tr: "yatak odası"}
+  - {en: "kitchen", tr: "mutfak"}
+  - {en: "bathroom", tr: "banyo"}
+  - {en: "balcony", tr: "balkon"}
+  - {en: "sofa", tr: "kanepe"}
+  - {en: "bed", tr: "yatak"}
+  - {en: "wardrobe", tr: "gardırop", note: "Amerikan: closet"}
+  - {en: "fridge", tr: "buzdolabı"}
+  - {en: "cooker", tr: "ocak, fırın", note: "Amerikan: stove"}
+  - {en: "shower", tr: "duş"}
+  - {en: "window", tr: "pencere"}
+  - {en: "door", tr: "kapı"}
+  - {en: "floor", tr: "zemin; kat", example: "on the second floor", example_tr: "ikinci katta"}
+  - {en: "building", tr: "bina"}
+  - {en: "lift", tr: "asansör", note: "Amerikan: elevator"}
+  - {en: "neighbour", tr: "komşu", note: "Amerikan: neighbor"}
+
+practice:
+  - title: "Ev turu"
+    instructions: "Öğrenci evini kamerayla gezdirir (ya da kağıda kat planı çizer) ve her odada There's / There are ile 2 cümle kurar."
+  - title: "Ev ilanı"
+    instructions: "Öğretmen ev sahibi, öğrenci kiracı adayı. Öğrenci en az 6 soru sorar: Is there ...? / Are there any ...? / How many ...? / Which floor ...? Sonra roller değişir."
+  - title: "Var mı, yok mu?"
+    instructions: "Öğretmen sorar, öğrenci kendi evine göre kısa ve uzun cevap verir."
+    items: ["Is there a garden?", "Are there any plants in your living room?", "How many bedrooms are there?", "Is there a TV in your bedroom?", "Is there a lift in your building?"]
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["In my room has a desk.", "There is a desk in my room.", "My room there is a desk."]
+    answer: "There is a desk in my room."
+  - type: fill
+    prompt: "There ___ two bathrooms in our house."
+    answer: ["are"]
+  - type: fill
+    prompt: "___ there a balcony? — Yes, there is."
+    answer: ["Is"]
+  - type: mcq
+    prompt: "\"Are there any chairs in the kitchen?\" — \"No, ___\""
+    options: ["there isn't.", "there aren't.", "they aren't."]
+    answer: "there aren't."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["kitchen", "mutfak"]
+      - ["wardrobe", "gardırop"]
+      - ["fridge", "buzdolabı"]
+      - ["lift", "asansör"]
+      - ["neighbour", "komşu"]
+  - type: mcq
+    prompt: "\"Üçüncü katta oturuyorum.\""
+    options: ["I live in the three floor.", "I live on the third floor.", "I live at third floor."]
+    answer: "I live on the third floor."
+  - type: order
+    words: ["bedrooms", "How", "there", "many", "are"]
+    answer: "How many bedrooms are there?"
+  - type: translate
+    prompt: "Salonda büyük bir kanepe var."
+    answer: ["There's a big sofa in the living room.", "There is a big sofa in the living room.", "In the living room there's a big sofa.", "In the living room there is a big sofa."]
+  - type: translate
+    prompt: "Binamızda asansör yok."
+    answer: ["There isn't a lift in our building.", "There is no lift in our building.", "There's no lift in our building.", "There isn't an elevator in our building.", "Our building doesn't have a lift."]
+
+homework:
+  - "Evini 8-10 cümleyle tarif et (There's / There are / There isn't). Kat planı çizip İngilizce etiketlersen daha iyi."
+  - "Evindeki 10 eşyaya yapışkan not ile İngilizce adını yaz (3. haftadakilere ekle)."
+  - "Yeni kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "'In my room has a bed' hatası Türkçeden birebir çeviriden gelir; bu derste en çok buna odaklanın."
+  - "'any' detaylı olarak 9. haftada (some/any) işlenecek; şimdi kalıp olarak 'Are there any ...? / There aren't any ...' yeterli."
+  - "'sunny', 'Which floor ...?' diyalogda geçiyor, bağlamdan anlaşılır."

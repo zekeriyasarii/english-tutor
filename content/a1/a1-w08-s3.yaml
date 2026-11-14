@@ -1,0 +1,154 @@
+id: a1-w08-s3
+level: a1
+week: 8
+session: 3
+title: "In town"
+type: practice
+
+objectives:
+  - "Şehirdeki temel yerlerin adlarını söyler"
+  - "Bir yerin yakında olup olmadığını ve nerede olduğunu sorar"
+  - "Emir kipiyle basit yol tarifi verir ve anlar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü saklambaç oyununun kısa bir turu"}
+  - {minutes: 10, activity: "Şehirdeki yerler: öğrencinin listesinden başlayın, yeni kelimeleri ekleyin"}
+  - {minutes: 15, activity: "Yol tarifi kalıpları: Excuse me, is there a ... near here? / Go straight on / Turn left ..."}
+  - {minutes: 20, activity: "Harita oyunu: ekran paylaşımında basit bir harita (veya Google Maps sokak görünümü); öğretmen turist, öğrenci yol tarif eder, sonra tersi"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Şehirdeki yerler"
+    body: |
+      | | | |
+      |---|---|---|
+      | bank — banka | supermarket — süpermarket | pharmacy — eczane |
+      | post office — postane | bus stop — otobüs durağı | station — istasyon |
+      | museum — müze | hotel — otel | library — kütüphane |
+      | mosque — cami | church — kilise | bakery — fırın |
+
+      Daha önce öğrendiklerin: *hospital, school, park, restaurant, café, cinema, gym, market, shop*
+
+      **pharmacy**: İngiltere'de **chemist's** de denir.
+
+  - heading: "Bir yer sormak"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **Excuse me, is there a** pharmacy **near here?** | Yes, there is. It's on Atatürk Street. |
+      | **Where's the** station? | It's opposite the park. |
+      | **How do I get to** the museum? | Go straight on and turn left. |
+      | **Is it far?** | No, it's about five minutes on foot. |
+
+      **far** = uzak, **near** = yakın. Mesafe: *It's five minutes **on foot** / **by car**.*
+
+  - heading: "Yol tarifi"
+    body: |
+      Yol tarifi **emir kipiyle** verilir: fiilin yalın hali, özne yok.
+
+      | İfade | Anlam |
+      |---|---|
+      | **Go straight on.** | Düz git. |
+      | **Turn left / right.** | Sola / sağa dön. |
+      | **Take the first / second left.** | İlk / ikinci soldan dön. |
+      | **Go past** the bank. | Bankayı geç. |
+      | **at the traffic lights** | trafik ışıklarında |
+      | **at the corner** | köşede |
+      | **It's on your left / right.** | Solunda / sağında. |
+
+      Olumsuz emir: **Don't** + fiil: *Don't turn right.*
+
+      Kibar bitiriş: **Thank you!** — **You're welcome.**
+    examples:
+      - {en: "Go straight on, then turn right at the traffic lights.", tr: "Düz git, sonra trafik ışıklarında sağa dön."}
+      - {en: "Take the second left. The bank is on your right.", tr: "İkinci soldan dön. Banka sağında."}
+      - {en: "Go past the mosque. The bakery is at the corner.", tr: "Camiyi geç. Fırın köşede."}
+
+dialogue:
+  title: "Excuse me!"
+  lines:
+    - {speaker: "Tourist", en: "Excuse me, is there a pharmacy near here?", tr: "Affedersiniz, yakınlarda eczane var mı?"}
+    - {speaker: "Leyla", en: "Yes, there is. Go straight on and take the first right.", tr: "Evet, var. Düz gidin ve ilk sağdan dönün."}
+    - {speaker: "Tourist", en: "The first right?", tr: "İlk sağ mı?"}
+    - {speaker: "Leyla", en: "Yes. Then go past the bank. The pharmacy is on your left, opposite the post office.", tr: "Evet. Sonra bankayı geçin. Eczane solunuzda, postanenin karşısında."}
+    - {speaker: "Tourist", en: "Is it far?", tr: "Uzak mı?"}
+    - {speaker: "Leyla", en: "No, it's about five minutes on foot.", tr: "Hayır, yürüyerek beş dakika kadar."}
+    - {speaker: "Tourist", en: "Thank you very much!", tr: "Çok teşekkürler!"}
+    - {speaker: "Leyla", en: "You're welcome.", tr: "Rica ederim."}
+
+vocabulary:
+  - {en: "bank", tr: "banka"}
+  - {en: "supermarket", tr: "süpermarket"}
+  - {en: "pharmacy", tr: "eczane", note: "İngiltere'de: chemist's"}
+  - {en: "post office", tr: "postane"}
+  - {en: "bus stop", tr: "otobüs durağı"}
+  - {en: "station", tr: "istasyon"}
+  - {en: "museum", tr: "müze"}
+  - {en: "hotel", tr: "otel"}
+  - {en: "library", tr: "kütüphane"}
+  - {en: "mosque", tr: "cami"}
+  - {en: "bakery", tr: "fırın, unlu mamüller"}
+  - {en: "street", tr: "sokak, cadde"}
+  - {en: "far", tr: "uzak"}
+  - {en: "go straight on", tr: "düz gitmek"}
+  - {en: "turn left / right", tr: "sola / sağa dönmek"}
+  - {en: "traffic lights", tr: "trafik ışıkları"}
+  - {en: "corner", tr: "köşe"}
+  - {en: "How do I get to ...?", tr: "...'e nasıl giderim?"}
+  - {en: "You're welcome.", tr: "Rica ederim."}
+
+practice:
+  - title: "Mahallem"
+    instructions: "Öğrenci evinin çevresini anlatır: There's a supermarket near my house. The bus stop is opposite the bakery ..."
+  - title: "Harita oyunu"
+    instructions: "Ekran paylaşımında basit bir harita açın. Öğretmen haritada bir başlangıç noktası seçer ve sorar: Excuse me, how do I get to the museum? Öğrenci tarif eder. Sonra öğrenci sorar, öğretmen tarif eder; öğrenci hedefi bulmaya çalışır."
+  - title: "Emir kipi"
+    instructions: "Öğretmen Türkçe söyler, öğrenci İngilizce emir kipine çevirir."
+    items: ["Sola dön.", "Düz git.", "İkinci sağdan dön.", "Bankayı geç.", "Trafik ışıklarında dur.", "Sağa dönme."]
+
+quiz:
+  - type: mcq
+    prompt: "\"Eczane\" İngilizcede nedir?"
+    options: ["library", "pharmacy", "bakery"]
+    answer: "pharmacy"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["library", "kütüphane"]
+      - ["bakery", "fırın"]
+      - ["post office", "postane"]
+      - ["bus stop", "otobüs durağı"]
+      - ["corner", "köşe"]
+  - type: fill
+    prompt: "Excuse me, is ___ a bank near here?"
+    answer: ["there"]
+  - type: mcq
+    prompt: "\"İlk soldan dön.\""
+    options: ["Take the first left.", "Turn the left first.", "Go first left take."]
+    answer: "Take the first left."
+  - type: fill
+    prompt: "Go straight ___ and turn right."
+    answer: ["on", "ahead"]
+  - type: mcq
+    prompt: "Biri sana \"Thank you!\" dedi. Ne dersin?"
+    options: ["You're welcome.", "Me too.", "Excuse me."]
+    answer: "You're welcome."
+  - type: order
+    words: ["get", "do", "How", "station", "I", "to", "the"]
+    answer: "How do I get to the station?"
+  - type: translate
+    prompt: "Müze uzak mı?"
+    answer: ["Is the museum far?", "Is the museum far from here?"]
+  - type: translate
+    prompt: "Banka postanenin karşısında."
+    answer: ["The bank is opposite the post office.", "The bank's opposite the post office."]
+
+homework:
+  - "Evinden en yakın markete / durağa nasıl gidildiğini İngilizce yaz (5-6 cümle, emir kipiyle)."
+  - "Bir turist gibi düşün: kendi şehrinde gidilecek 3 yer öner ve nasıl gidileceğini anlat."
+  - "Ay sonu tekrarına hazırlan: 5-8. hafta notlarına göz at."
+
+tutor_notes:
+  - "Harita oyunu için Google Maps veya basit bir el çizimi yeterli; ekran paylaşımı yaparken haritayı küçük tutun."
+  - "'Go straight ahead' Amerikan kullanımı; 'go straight on' İngiliz. İkisi de doğru."
+  - "Yol tarifinde 'Then' ve 'After that' (5. hafta) kullanmaya teşvik edin."

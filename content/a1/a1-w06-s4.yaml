@@ -1,0 +1,108 @@
+id: a1-w06-s4
+level: a1
+week: 6
+session: 4
+title: "Week 6 review"
+type: review
+
+objectives:
+  - "Present Simple'ı tüm şahıslarda olumlu, olumsuz ve soru olarak kullanır"
+  - "he/she ile -s ekini ve does yapısını doğru kullanır"
+  - "Bir aile üyesinin ve kendisinin rutinini karşılaştırarak anlatır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ünlü metnini okut (ödev)"}
+  - {minutes: 15, activity: "Hızlı tekrar: tam Present Simple tablosu; -s / does avı"}
+  - {minutes: 15, activity: "Haftalık quiz — tek başına çöz, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: 'Benim ailem ve günlerimiz' (2 dk) + öğretmenin soruları"}
+  - {minutes: 10, activity: "Hata defteri; 7. haftaya bakış (boş zaman, sıklık zarfları)"}
+
+sections:
+  - heading: "Present Simple: tam tablo"
+    body: |
+      | | I / you / we / they | he / she / it |
+      |---|---|---|
+      | Olumlu | I **work**. | She **works**. |
+      | Olumsuz | I **don't** work. | She **doesn't** work. |
+      | Soru | **Do** you work? | **Does** she work? |
+      | Kısa cevap | Yes, I **do**. / No, I **don't**. | Yes, she **does**. / No, she **doesn't**. |
+      | Wh- | Where **do** you work? | Where **does** she work? |
+
+      Düzensizler: **have → has**, **go → goes**, **do → does**
+
+      ⚠️ Haftanın üç kuralı:
+      1. he/she/it → fiil + **s** (She work**s**)
+      2. doesn't / does varsa → fiil **yalın** (She doesn't work / Does she work?)
+      3. İsim veya sıfat soruyorsan **Is**, fiil soruyorsan **Does**
+
+  - heading: "Ulaşım ve iş yeri"
+    body: |
+      by car / bus / train / metro / ferry · on foot · walk / drive to work ·
+      in an office / a hospital / a factory / a shop · work from home
+
+practice:
+  - title: "Hata avı"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "My mother work in a hospital."
+      - "Does he lives near here?"
+      - "She doesn't has a car."
+      - "Is your father work?"
+      - "He gos to school by the bus."
+      - "Where does she works?"
+      - "My son watchs TV every evening."
+  - title: "Röportaj: senin ailen"
+    instructions: "Öğretmen sorar: Who gets up first in your family? Does your husband/wife cook? How do your children go to school? What does your father do? Öğrenci tam cümlelerle cevaplar."
+
+quiz:
+  - type: fill
+    prompt: "My wife ___ English at a school. (teach)"
+    answer: ["teaches"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["He don't like his job.", "He doesn't have a job.", "He doesn't has a job."]
+    answer: "He doesn't have a job."
+  - type: fill
+    prompt: "___ your brother live in Antalya?"
+    answer: ["Does"]
+  - type: fill
+    prompt: "\"Do your parents drive?\" — \"No, they ___.\""
+    answer: ["don't", "do not"]
+  - type: mcq
+    prompt: "\"O (erkek) evli mi?\""
+    options: ["Does he married?", "Is he married?", "Is he marry?"]
+    answer: "Is he married?"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["I work", "She works"]
+      - ["I don't work", "She doesn't work"]
+      - ["Do you work?", "Does she work?"]
+      - ["I have", "She has"]
+      - ["I go", "She goes"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She goes to work on foot.", "She goes to work by foot.", "She goes to work with foot."]
+    answer: "She goes to work on foot."
+  - type: order
+    words: ["your", "do", "What", "does", "sister"]
+    answer: "What does your sister do?"
+  - type: translate
+    prompt: "Babam işe arabayla gider."
+    answer: ["My father goes to work by car.", "My father drives to work.", "My dad goes to work by car.", "My dad drives to work."]
+  - type: translate
+    prompt: "O (kadın) nerede çalışıyor?"
+    answer: ["Where does she work?"]
+  - type: translate
+    prompt: "Oğlum kahvaltı etmez."
+    answer: ["My son doesn't have breakfast.", "My son does not have breakfast.", "My son doesn't eat breakfast."]
+
+homework:
+  - "'Benim ailem ve günlerimiz' metnini 10-12 cümleyle yaz ve kaydet."
+  - "Hafta sonu Anki: 5-6. hafta kelimeleri."
+  - "7. haftaya hazırlık: Boş zamanında yaptığın 5 şeyi Türkçe listele ve ne sıklıkla yaptığını yaz (her gün, haftada bir ...)."
+
+tutor_notes:
+  - "'teach' yeni fiil; 'teacher' kelimesinden tahmin ettirin."
+  - "Quiz'de -s hatası %30'dan fazlaysa 7. haftanın ısınmalarında 'I → she' dönüşümüne devam edin."
+  - "Bu noktada öğrenci 6 haftadır çalışıyor; motivasyon sohbeti iyi gelir. 1. hafta kaydını dinletmek ilerlemeyi gösterir."
