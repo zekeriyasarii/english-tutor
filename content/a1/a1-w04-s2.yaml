@@ -1,0 +1,171 @@
+id: a1-w04-s2
+level: a1
+week: 4
+session: 2
+title: "Days, months, dates"
+type: new
+
+objectives:
+  - "Haftanın günlerini, ayları ve mevsimleri söyler"
+  - "Sıra sayılarını (first, second, third ...) kullanır"
+  - "Tarih söyler ve doğum gününü sorar/söyler"
+
+plan:
+  - {minutes: 5, activity: "Isınma: What time is it? — 5 farklı saat"}
+  - {minutes: 10, activity: "Günler ve aylar: büyük harf kuralı, okunuş (Wednesday, February)"}
+  - {minutes: 15, activity: "Sıra sayıları 1st-31st: kurallar ve düzensizler"}
+  - {minutes: 15, activity: "Tarih söyleme ve yazma; When is your birthday? turu (aile üyeleri dahil)"}
+  - {minutes: 15, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Haftanın günleri"
+    body: |
+      | | | |
+      |---|---|---|
+      | Monday — Pazartesi | Tuesday — Salı | Wednesday — Çarşamba |
+      | Thursday — Perşembe | Friday — Cuma | Saturday — Cumartesi |
+      | Sunday — Pazar | | |
+
+      Günler, aylar ve dillerin isimleri İngilizcede **her zaman büyük harfle** başlar.
+
+      ⚠️ **Wednesday** "wenzdey" diye okunur; ilk "d" okunmaz.
+      ⚠️ **Tuesday** (Salı) ve **Thursday** (Perşembe) karıştırılır: **Th** = Perşembe.
+
+      **the weekend** = hafta sonu, **weekdays** = hafta içi
+
+  - heading: "Aylar ve mevsimler"
+    body: |
+      | | | | |
+      |---|---|---|---|
+      | January | February | March | April |
+      | May | June | July | August |
+      | September | October | November | December |
+
+      ⚠️ **February** genellikle "febru-eri" veya "febyu-eri" diye okunur.
+
+      Mevsimler: **spring** (ilkbahar), **summer** (yaz), **autumn** (sonbahar; Amerikan: **fall**), **winter** (kış)
+
+  - heading: "Sıra sayıları"
+    body: |
+      Çoğu sıra sayısı **-th** ile yapılır: four → four**th**, six → six**th**, ten → ten**th**.
+
+      | Düzensizler | | |
+      |---|---|---|
+      | 1st **first** | 2nd **second** | 3rd **third** |
+      | 5th **fifth** | 8th **eighth** | 9th **ninth** |
+      | 12th **twelfth** | 20th **twentieth** | 30th **thirtieth** |
+
+      Bileşik sayılarda sadece son kısım değişir: 21st **twenty-first**, 22nd **twenty-second**,
+      23rd **twenty-third**, 31st **thirty-first**.
+
+      Kısaltma son iki harfe göre: 1**st**, 2**nd**, 3**rd**, 4**th** ... (11th, 12th, 13th istisna).
+
+  - heading: "Tarih söyleme"
+    body: |
+      | Yazılış | Söyleniş |
+      |---|---|
+      | 5 May (İngiliz) | **the fifth of May** |
+      | May 5 (Amerikan) | **May fifth** |
+
+      ⚠️ Rakamla yazımda dikkat: İngiliz **05/03** = 5 Mart, Amerikan **05/03** = 3 Mayıs.
+
+      Yıllar ikişer ikişer okunur: 1995 → nineteen ninety-five. 2000'den sonra: 2027 → **twenty twenty-seven**
+      (two thousand and twenty-seven de doğru).
+    examples:
+      - {en: "When is your birthday? — It's on the twelfth of March.", tr: "Doğum günün ne zaman? — 12 Mart'ta."}
+      - {en: "What's the date today? — It's the first of December.", tr: "Bugün ayın kaçı? — 1 Aralık."}
+      - {en: "What day is it today? — It's Wednesday.", tr: "Bugün günlerden ne? — Çarşamba."}
+
+dialogue:
+  title: "Birthdays"
+  lines:
+    - {speaker: "Lucy", en: "When is your birthday, Emre?", tr: "Doğum günün ne zaman, Emre?"}
+    - {speaker: "Emre", en: "It's on the twenty-third of April.", tr: "23 Nisan'da."}
+    - {speaker: "Lucy", en: "Really? That's a holiday in Turkey, right?", tr: "Gerçekten mi? Türkiye'de tatil, değil mi?"}
+    - {speaker: "Emre", en: "Yes, it's Children's Day! When is your birthday?", tr: "Evet, Çocuk Bayramı! Seninki ne zaman?"}
+    - {speaker: "Lucy", en: "It's in winter. It's on the second of February.", tr: "Kışın. 2 Şubat'ta."}
+
+vocabulary:
+  - {en: "Monday", tr: "Pazartesi"}
+  - {en: "Tuesday", tr: "Salı"}
+  - {en: "Wednesday", tr: "Çarşamba", note: "Okunuş: wenzdey"}
+  - {en: "Thursday", tr: "Perşembe"}
+  - {en: "Friday", tr: "Cuma"}
+  - {en: "Saturday", tr: "Cumartesi"}
+  - {en: "Sunday", tr: "Pazar"}
+  - {en: "weekend", tr: "hafta sonu"}
+  - {en: "month", tr: "ay"}
+  - {en: "February", tr: "Şubat"}
+  - {en: "season", tr: "mevsim"}
+  - {en: "spring", tr: "ilkbahar"}
+  - {en: "summer", tr: "yaz"}
+  - {en: "autumn", tr: "sonbahar", note: "Amerikan: fall"}
+  - {en: "winter", tr: "kış"}
+  - {en: "first", tr: "birinci"}
+  - {en: "second", tr: "ikinci"}
+  - {en: "third", tr: "üçüncü"}
+  - {en: "birthday", tr: "doğum günü", example: "Happy birthday!", example_tr: "Doğum günün kutlu olsun!"}
+  - {en: "date", tr: "tarih"}
+  - {en: "today", tr: "bugün"}
+  - {en: "tomorrow", tr: "yarın"}
+  - {en: "yesterday", tr: "dün"}
+
+practice:
+  - title: "Sıra sayısı"
+    instructions: "Öğretmen rakam söyler, öğrenci sıra sayısını söyler."
+    items: ["1", "2", "3", "5", "8", "12", "20", "21", "22", "30", "31"]
+  - title: "Önemli tarihler"
+    instructions: "Öğrenci tarihleri İngilizce söyler."
+    items: ["Yılbaşı (1 Ocak)", "23 Nisan", "29 Ekim", "Kendi doğum günü", "Annesinin doğum günü", "Bugünün tarihi"]
+  - title: "Doğum günü turu"
+    instructions: "When is your/his/her birthday? — ailedeki 4-5 kişi için soru-cevap."
+
+quiz:
+  - type: mcq
+    prompt: "Perşembe İngilizcede hangisi?"
+    options: ["Tuesday", "Thursday", "Wednesday"]
+    answer: "Thursday"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["1st", "first"]
+      - ["2nd", "second"]
+      - ["3rd", "third"]
+      - ["5th", "fifth"]
+      - ["12th", "twelfth"]
+  - type: fill
+    prompt: "When is your ___? — It's on the 9th of June."
+    answer: ["birthday"]
+  - type: mcq
+    prompt: "\"the twenty-ninth of October\" hangi tarih?"
+    options: ["9 Ekim", "29 Ekim", "20 Ekim"]
+    answer: "29 Ekim"
+  - type: mcq
+    prompt: "Hangisi doğru yazılmış?"
+    options: ["monday", "Monday", "MONday"]
+    answer: "Monday"
+    explanation: "Günler ve aylar büyük harfle başlar."
+  - type: mcq
+    prompt: "2027 yılı nasıl okunur?"
+    options: ["twenty twenty-seven", "two zero two seven", "twenty hundred seven"]
+    answer: "twenty twenty-seven"
+  - type: mcq
+    prompt: "Amerikan yazımında 04/07 hangi tarih?"
+    options: ["4 Temmuz", "7 Nisan", "4 Nisan"]
+    answer: "7 Nisan"
+    explanation: "Amerikan yazımında önce ay gelir: 04 = Nisan, 07 = 7."
+  - type: translate
+    prompt: "Bugün günlerden ne?"
+    answer: ["What day is it today?", "What day is today?", "What day is it?"]
+  - type: translate
+    prompt: "Benim doğum günüm Mayıs'ta."
+    answer: ["My birthday is in May.", "My birthday's in May."]
+
+homework:
+  - "Ailenden 5 kişinin doğum gününü İngilizce yaz ve sesli oku."
+  - "Telefonunun dilini 1 haftalığına İngilizce yap (takvim ve saat İngilizce görünecek)."
+  - "1-31 sıra sayılarını yaz."
+
+tutor_notes:
+  - "'in May' / 'on the 5th of May' farkı yarınki dersin konusu; bugün hata yaparsa sadece doğru formu tekrar edin."
+  - "Telefon dilini değiştirme ödevi öğrenciyi zorlarsa sadece takvim uygulamasıyla sınırlayın."

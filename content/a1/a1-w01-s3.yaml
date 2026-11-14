@@ -1,0 +1,144 @@
+id: a1-w01-s3
+level: a1
+week: 1
+session: 3
+title: "Numbers & phone numbers"
+type: practice
+
+objectives:
+  - "0-20 arasındaki sayıları söyler ve duyduğunda anlar"
+  - "Telefon numarası ve e-posta adresi söyler"
+  - "Basit bir kayıt formu için bilgi verir ve sorar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü 3 soruyu (name / from / age) hızlıca sorun"}
+  - {minutes: 15, activity: "0-20 sayılar: sırayla, sonra karışık; 'teen' sayılarında vurguya dikkat"}
+  - {minutes: 10, activity: "Telefon numarası ve e-posta okuma kuralları"}
+  - {minutes: 20, activity: "Rol yapma: spor salonu / kurs kaydı formu doldurma (önce öğrenci müşteri, sonra görevli)"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Sayılar 0-20"
+    body: |
+      | | | | |
+      |---|---|---|---|
+      | 0 zero | 1 one | 2 two | 3 three |
+      | 4 four | 5 five | 6 six | 7 seven |
+      | 8 eight | 9 nine | 10 ten | 11 eleven |
+      | 12 twelve | 13 thirteen | 14 fourteen | 15 fifteen |
+      | 16 sixteen | 17 seventeen | 18 eighteen | 19 nineteen |
+      | 20 twenty | | | |
+
+      13-19 arası sayılar **-teen** ile biter ve vurgu sondadır: four**TEEN**.
+
+      ⚠️ Yazımı farklı olanlar: **three → thirteen**, **five → fifteen**, **eight → eighteen** (tek t).
+
+      ⚠️ **th** sesi (three, thirteen) Türkçede yoktur: dilin ucu üst dişlere hafifçe değer ve hava
+      üflenir. "tri" veya "sri" demek yaygın bir hatadır.
+
+  - heading: "Telefon numarası"
+    body: |
+      Telefon numaraları **rakam rakam** okunur.
+
+      - **0** telefon numarasında genellikle **"oh"** diye okunur (zero da olur).
+      - Yan yana iki aynı rakam için İngiliz İngilizcesinde **double** denir: 55 → *double five*.
+      - Gruplar arasında kısa bir duraklama yapılır.
+
+      *0532 418 77 09* → oh-five-three-two, four-one-eight, double seven, oh-nine
+    examples:
+      - {en: "What's your phone number?", tr: "Telefon numaran ne?"}
+      - {en: "It's oh-five-three-two ...", tr: "0532 ..."}
+      - {en: "Can you repeat that, please?", tr: "Tekrar eder misin lütfen?"}
+
+  - heading: "E-posta adresi"
+    body: |
+      | Simge | Okunuşu |
+      |---|---|
+      | @ | **at** |
+      | . | **dot** |
+      | - | **dash** / hyphen |
+      | _ | **underscore** |
+
+      *can.yilmaz@mail.com* → can **dot** yilmaz **at** mail **dot** com
+    examples:
+      - {en: "What's your email address?", tr: "E-posta adresin ne?"}
+
+dialogue:
+  title: "At the gym reception"
+  lines:
+    - {speaker: "Receptionist", en: "Good morning! Can I help you?", tr: "Günaydın! Yardımcı olabilir miyim?"}
+    - {speaker: "Murat", en: "Hello. I'm a new member.", tr: "Merhaba. Ben yeni üyeyim."}
+    - {speaker: "Receptionist", en: "Great. What's your name, please?", tr: "Harika. Adınız nedir lütfen?"}
+    - {speaker: "Murat", en: "Murat Demir.", tr: "Murat Demir."}
+    - {speaker: "Receptionist", en: "How do you spell your surname?", tr: "Soyadınızı nasıl yazıyorsunuz?"}
+    - {speaker: "Murat", en: "D-E-M-I-R.", tr: "D-E-M-I-R."}
+    - {speaker: "Receptionist", en: "Thank you. And what's your phone number?", tr: "Teşekkürler. Telefon numaranız nedir?"}
+    - {speaker: "Murat", en: "It's oh-five-four-four, two-one-three, double six, one-eight.", tr: "0544 213 66 18."}
+    - {speaker: "Receptionist", en: "Thanks. And your email address?", tr: "Teşekkürler. E-posta adresiniz?"}
+    - {speaker: "Murat", en: "murat dot demir at mail dot com.", tr: "murat.demir@mail.com"}
+
+vocabulary:
+  - {en: "zero", tr: "sıfır"}
+  - {en: "three", tr: "üç"}
+  - {en: "eleven", tr: "on bir"}
+  - {en: "twelve", tr: "on iki"}
+  - {en: "thirteen", tr: "on üç"}
+  - {en: "fifteen", tr: "on beş"}
+  - {en: "eighteen", tr: "on sekiz"}
+  - {en: "twenty", tr: "yirmi"}
+  - {en: "number", tr: "numara, sayı"}
+  - {en: "phone number", tr: "telefon numarası"}
+  - {en: "email address", tr: "e-posta adresi"}
+  - {en: "double", tr: "çift, iki tane", example: "double seven (77)", example_tr: "yetmiş yedi / iki tane yedi"}
+  - {en: "at", tr: "@ (et)"}
+  - {en: "dot", tr: "nokta (adreslerde)"}
+  - {en: "Can you repeat that, please?", tr: "Tekrar eder misin lütfen?"}
+  - {en: "Can I help you?", tr: "Yardımcı olabilir miyim?"}
+
+practice:
+  - title: "Sayı ping-pong"
+    instructions: "Sırayla saydırın: öğretmen 1, öğrenci 2... Sonra sadece çift sayılar, sonra 20'den geriye."
+  - title: "Dikte"
+    instructions: "Öğretmen 5 telefon numarası söyler, öğrenci yazar. Sonra öğrenci kendi uydurduğu 3 numarayı söyler, öğretmen yazar."
+    items: ["0212 555 13 40", "0532 700 18 19", "0505 112 33 14"]
+  - title: "Kayıt formu"
+    instructions: "Öğretmen görevli, öğrenci yeni üye. Form: Name, Surname (spell), Nationality, Age, Phone, Email. Sonra roller değişir."
+
+quiz:
+  - type: match
+    prompt: "Rakam ve yazılışı eşleştir"
+    pairs:
+      - ["13", "thirteen"]
+      - ["30", "thirty"]
+      - ["15", "fifteen"]
+      - ["12", "twelve"]
+      - ["18", "eighteen"]
+  - type: mcq
+    prompt: "\"Double four\" ne demek?"
+    options: ["8", "44", "4"]
+    answer: "44"
+  - type: fill
+    prompt: "can@mail.com → can ___ mail dot com"
+    answer: ["at"]
+  - type: mcq
+    prompt: "Hangisi doğru yazılmış?"
+    options: ["fiveteen", "fifteen", "fiftin"]
+    answer: "fifteen"
+  - type: fill
+    prompt: "What's your phone ___?"
+    answer: ["number"]
+  - type: translate
+    prompt: "Tekrar eder misin lütfen?"
+    answer: ["Can you repeat that, please?", "Can you repeat that please?", "Can you repeat, please?", "Could you repeat that, please?"]
+  - type: order
+    words: ["your", "address", "What's", "email"]
+    answer: "What's your email address?"
+
+homework:
+  - "Telefon rehberinden 5 numarayı İngilizce yüksek sesle oku."
+  - "Gün içinde gördüğün sayıları (otobüs, fiyat, kat) aklından İngilizce söyle."
+  - "Kendi telefon numaranı ve e-postanı İngilizce söyleyişini kaydet."
+
+tutor_notes:
+  - "30 (thirty) quizde var ama sadece -teen / -ty farkını sezdirmek için; onlar 2. haftada geliyor."
+  - "Dikte sırasında hızı yavaş başlat, sonra normal hıza çık."

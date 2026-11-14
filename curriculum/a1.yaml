@@ -1,0 +1,382 @@
+# A1 Müfredatı — Günlük hayat odaklı
+# 13 hafta x 4 seans (Salı-Cuma), seans başına 60 dk.
+#
+# Haftalık ritim:
+#   1. seans (new)      : Yeni konu — kalıp cümleler + dilbilgisi
+#   2. seans (new)      : Konunun devamı — yeni kelime ve yapılar
+#   3. seans (practice) : Uygulama — diyalog, rol yapma, dinleme
+#   4. seans (review)   : Haftalık tekrar + mini quiz + hata defteri
+#
+# Alanlar:
+#   can_do        : Hafta sonunda öğrencinin yapabileceği şeyler (CEFR "can-do")
+#   grammar       : Haftanın dilbilgisi hedefleri
+#   vocabulary    : Kelime grupları (ayrıntılı listeler vocab/ altında olacak)
+#   pronunciation : Telaffuz odağı
+#   pitfalls      : Türkçe konuşanların bu konuda sık yaptığı hatalar
+#   sessions      : 4 seansın başlık ve içerikleri
+
+level: a1
+title: "A1 — Başlangıç"
+weeks:
+
+  - week: 1
+    theme: "Hello! — Kendini tanıtma"
+    can_do:
+      - Selamlaşır ve vedalaşır
+      - Adını, yaşını, nereli olduğunu söyler ve sorar
+      - İsmini harf harf kodlar (spelling)
+    grammar:
+      - "to be: I am / you are (olumlu, olumsuz, soru)"
+      - "Soru kelimeleri: What, Where, How old"
+    vocabulary: [selamlaşma, alfabe, sayılar 0-20, ülkeler ve milliyetler]
+    pronunciation: "Alfabe harflerinin İngilizce okunuşu (A, E, I, G, J, R)"
+    pitfalls:
+      - "\"I am 30 years old\" yerine \"I have 30 years\" demek"
+      - "\"I am from Turkey\" yerine \"I am Turkey\" demek"
+    sessions:
+      - title: "Greetings & the alphabet"
+        type: new
+        focus: "Hello / Hi / Good morning, Nice to meet you, alfabe, isim kodlama"
+      - title: "Who are you?"
+        type: new
+        focus: "I'm ... / I'm from ... / I'm ... years old; What's your name? Where are you from?"
+      - title: "Numbers & phone numbers"
+        type: practice
+        focus: "0-20 sayılar, telefon numarası söyleme; tanışma diyaloğu rol yapma"
+      - title: "Week 1 review"
+        type: review
+        focus: "Tekrar, mini quiz, kendini 5 cümleyle tanıtma"
+
+  - week: 2
+    theme: "People & family — Aile ve insanlar"
+    can_do:
+      - Ailesindeki kişileri tanıtır
+      - Başkası hakkında temel bilgi verir (ad, yaş, meslek)
+    grammar:
+      - "to be: he/she/it/we/they is/are (tam çekim)"
+      - "Possessive adjectives: my, your, his, her, our, their"
+      - "Possessive 's: my brother's name"
+    vocabulary: [aile üyeleri, meslekler (temel), sayılar 20-100]
+    pronunciation: "13 / 30, 14 / 40 vurgu farkı"
+    pitfalls:
+      - "he / she karışıklığı (Türkçede 'o' tek)"
+      - "his / her karışıklığı"
+      - "Meslekte 'a/an' unutmak: \"She is teacher\""
+    sessions:
+      - title: "My family"
+        type: new
+        focus: "Aile kelimeleri, This is my mother. Her name is ..."
+      - title: "He, she, they"
+        type: new
+        focus: "to be tam çekim, possessive adjectives, 's"
+      - title: "Jobs & ages"
+        type: practice
+        focus: "What does he do? → He's a doctor (kalıp olarak); aile fotoğrafı anlatma"
+      - title: "Week 2 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 3
+    theme: "Things around me — Eşyalar ve sahiplik"
+    can_do:
+      - Çevresindeki eşyaları adlandırır ve gösterir
+      - Neye sahip olduğunu söyler ve sorar
+    grammar:
+      - "a / an"
+      - "Tekil-çoğul isimler (-s, -es, düzensiz: people, children)"
+      - "this / that / these / those"
+      - "have got / has got"
+    vocabulary: [renkler, ev ve kişisel eşyalar, sıfatlar (big, small, new, old)]
+    pronunciation: "Çoğul -s okunuşu: /s/, /z/, /ɪz/"
+    pitfalls:
+      - "Sayıdan sonra çoğul eki unutmak: \"two book\""
+      - "Sıfatı çoğul yapmak: \"reds cars\""
+    sessions:
+      - title: "What's this?"
+        type: new
+        focus: "a/an, this/that, eşya isimleri, renkler"
+      - title: "These and those"
+        type: new
+        focus: "Çoğul isimler, these/those, sıfat + isim sırası"
+      - title: "Have you got ...?"
+        type: practice
+        focus: "have got / has got; çantandaki eşyaları anlatma oyunu"
+      - title: "Week 3 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 4
+    theme: "Time & dates — Zaman ve tarihler"
+    can_do:
+      - Saati söyler ve sorar
+      - Gün, ay ve tarih söyler; doğum gününü söyler
+      - Randevu zamanını belirtir
+    grammar:
+      - "Prepositions of time: at (saat), on (gün/tarih), in (ay/yıl/mevsim)"
+      - "Ordinal numbers: first, second, third ..."
+    vocabulary: [saatler, haftanın günleri, aylar, mevsimler]
+    pronunciation: "th sesi: three, third, Thursday"
+    pitfalls:
+      - "at / on / in karışıklığı: \"in Monday\""
+      - "Tarih söyleme: \"the fifth of May\" / \"May fifth\""
+    sessions:
+      - title: "What time is it?"
+        type: new
+        focus: "Saat söyleme (o'clock, half past, quarter to/past)"
+      - title: "Days, months, dates"
+        type: new
+        focus: "Gün, ay, sıra sayıları, When is your birthday?"
+      - title: "Making plans"
+        type: practice
+        focus: "at/on/in; 'Let's meet on Friday at 7' — randevu diyaloğu"
+      - title: "Weeks 1-4 review"
+        type: review
+        focus: "İlk ayın genel tekrarı ve ay sonu quiz'i"
+
+  - week: 5
+    theme: "Daily routine — Günlük rutin (I / you / we / they)"
+    can_do:
+      - Kendi günlük rutinini anlatır
+      - Başkasına rutini hakkında soru sorar
+    grammar:
+      - "Present Simple: I / you / we / they (olumlu, olumsuz: don't, soru: Do you ...?)"
+      - "Kısa cevaplar: Yes, I do. / No, I don't."
+    vocabulary: [rutin fiilleri (get up, have breakfast, go to work ...), günün bölümleri]
+    pronunciation: "Cümle vurgusu ve do you → /dʒə/ bağlantısı"
+    pitfalls:
+      - "Present Continuous'u fazla kullanmak: \"I am going to work every day\""
+      - "Olumsuzda 'not' kullanmak: \"I not like\""
+    sessions:
+      - title: "My day"
+        type: new
+        focus: "Rutin fiilleri, I get up at 7. I go to work at 8."
+      - title: "Do you ...?"
+        type: new
+        focus: "Olumsuz ve soru yapısı, kısa cevaplar"
+      - title: "A day in my life"
+        type: practice
+        focus: "Karşılıklı rutin röportajı; kısa bir dinleme metni"
+      - title: "Week 5 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 6
+    theme: "Other people's lives — Başkalarının rutini (he / she)"
+    can_do:
+      - Başka birinin günlük hayatını ve işini anlatır
+      - Does ile soru sorar
+    grammar:
+      - "Present Simple: he / she / it (+s/-es/-ies)"
+      - "doesn't / Does he ...?"
+      - "Wh- soruları: What time does she ...? Where do they ...?"
+    vocabulary: [iş ve iş yeri, ulaşım (by bus, by car, on foot)]
+    pronunciation: "3. tekil -s okunuşu: works /s/, goes /z/, watches /ɪz/"
+    pitfalls:
+      - "3. tekil -s unutmak: \"She work\" (en yaygın hata)"
+      - "Does ile birlikte -s kullanmak: \"Does she works?\""
+    sessions:
+      - title: "She works, he goes"
+        type: new
+        focus: "3. tekil şahıs -s kuralları"
+      - title: "Does she ...?"
+        type: new
+        focus: "Olumsuz, soru ve Wh- soruları"
+      - title: "Guess who"
+        type: practice
+        focus: "Ünlü veya tanıdık birinin rutinini anlatma, tahmin oyunu"
+      - title: "Week 6 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 7
+    theme: "Free time — Boş zaman ve zevkler"
+    can_do:
+      - Hobilerini ve ne sıklıkla yaptığını anlatır
+      - Sevdiği ve sevmediği şeyleri söyler
+    grammar:
+      - "Frequency adverbs: always, usually, often, sometimes, never (yeri)"
+      - "How often ...? / once a week, twice a month"
+      - "like / love / hate + -ing"
+    vocabulary: [hobiler, sporlar (play/go/do), müzik, film, kitap]
+    pronunciation: "-ing sonu: /ɪŋ/ ('g' okunmaz)"
+    pitfalls:
+      - "Sıklık zarfını yanlış yere koymak: \"I go always\""
+      - "\"I like swim\" (like + -ing veya to)"
+    sessions:
+      - title: "How often?"
+        type: new
+        focus: "Sıklık zarfları ve cümledeki yerleri"
+      - title: "I love cooking"
+        type: new
+        focus: "like/love/hate + -ing, play/go/do + spor"
+      - title: "Weekend talk"
+        type: practice
+        focus: "Hafta sonu sohbeti, ortak hobi bulma"
+      - title: "Week 7 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 8
+    theme: "Home & town — Ev ve şehir"
+    can_do:
+      - Evini ve mahallesini anlatır
+      - Bir yerin nerede olduğunu sorar ve basitçe tarif eder
+    grammar:
+      - "there is / there are (olumlu, olumsuz, soru)"
+      - "Prepositions of place: in, on, under, next to, between, opposite"
+      - "Emir kipi: Turn left, Go straight"
+    vocabulary: [odalar ve mobilyalar, şehirdeki yerler, yön ifadeleri]
+    pronunciation: "there / their / they're aynı okunuş"
+    pitfalls:
+      - "\"There is\" yerine \"It has\" kullanmak: \"In my room has a bed\""
+      - "Yer edatlarını Türkçe sırayla kurmak: \"table on\""
+    sessions:
+      - title: "My home"
+        type: new
+        focus: "there is/are, odalar ve eşyalar"
+      - title: "Where is it?"
+        type: new
+        focus: "Yer edatları; resimde eşya bulma"
+      - title: "In town"
+        type: practice
+        focus: "Şehirdeki yerler, Excuse me, where is the ...? — yol tarifi diyaloğu"
+      - title: "Weeks 5-8 review"
+        type: review
+        focus: "İkinci ayın genel tekrarı ve ay sonu quiz'i"
+
+  - week: 9
+    theme: "Food & drink — Yeme içme"
+    can_do:
+      - Ne yiyip içtiğini anlatır
+      - Kafe ve restoranda sipariş verir
+    grammar:
+      - "Sayılabilen / sayılamayan isimler"
+      - "some / any"
+      - "Kibar istek: I'd like ... / Can I have ...?"
+    vocabulary: [yiyecek ve içecekler, öğünler, menü kelimeleri, kaplar (a cup of, a bottle of)]
+    pronunciation: "Kibar tonlama: Could I have ...? (yükselen-alçalan)"
+    pitfalls:
+      - "Sayılamayanları çoğul yapmak: \"breads\", \"waters\""
+      - "Siparişte emir kipi kullanmak: \"Give me a coffee\" (kaba algılanır)"
+    sessions:
+      - title: "What do you eat?"
+        type: new
+        focus: "Yiyecek-içecek kelimeleri, sayılabilen/sayılamayan"
+      - title: "Some or any?"
+        type: new
+        focus: "some/any, Is there any milk?"
+      - title: "At the café"
+        type: practice
+        focus: "Sipariş verme, hesap isteme — garson/müşteri rol yapma"
+      - title: "Week 9 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 10
+    theme: "Shopping — Alışveriş"
+    can_do:
+      - Fiyat sorar ve söyler
+      - Mağazada ürün ister, beden/renk sorar
+    grammar:
+      - "How much / How many"
+      - "this one / that one / these ones"
+      - "Can I ...? (izin isteme)"
+    vocabulary: [kıyafetler, fiyatlar ve para, mağaza türleri, bedenler]
+    pronunciation: "Fiyat söyleme: £4.50 → four pounds fifty"
+    pitfalls:
+      - "How much / How many karışıklığı"
+      - "\"Can I try on it?\" → \"Can I try it on?\""
+    sessions:
+      - title: "How much is it?"
+        type: new
+        focus: "Fiyatlar, para, How much / How many"
+      - title: "Clothes"
+        type: new
+        focus: "Kıyafetler, this one/that one, beden ve renk sorma"
+      - title: "In a shop"
+        type: practice
+        focus: "Satıcı/müşteri rol yapma, deneme ve iade kalıpları"
+      - title: "Week 10 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 11
+    theme: "Abilities & requests — Yetenekler ve rica"
+    can_do:
+      - Ne yapabildiğini ve yapamadığını söyler
+      - Kibarca yardım ve izin ister
+    grammar:
+      - "can / can't (yetenek, izin, rica)"
+      - "Could you ...? (kibar rica)"
+      - "Emir kipi ve olumsuzu: Don't ..."
+    vocabulary: [yetenek fiilleri, "sınıf/iş yeri kalıpları (Can you repeat that?)"]
+    pronunciation: "can /kən/ ve can't /kɑːnt/ ayrımı"
+    pitfalls:
+      - "can'dan sonra 'to' kullanmak: \"I can to swim\""
+      - "can'dan sonra -s eklemek: \"She can swims\""
+    sessions:
+      - title: "I can swim"
+        type: new
+        focus: "can/can't yetenek; Can you ...? soruları"
+      - title: "Could you help me?"
+        type: new
+        focus: "Rica ve izin; konuşmayı yönetme kalıpları (Sorry? Can you speak slowly?)"
+      - title: "Survival English"
+        type: practice
+        focus: "Otel, ofis, sokak — yardım isteme rol yapmaları"
+      - title: "Week 11 review"
+        type: review
+        focus: "Tekrar, mini quiz, hata defteri"
+
+  - week: 12
+    theme: "Right now — Şu an ne oluyor?"
+    can_do:
+      - Şu anda ne yaptığını ve çevresinde ne olduğunu anlatır
+      - Hava durumunu konuşur
+      - Basit bir telefon/görüntülü görüşme yapar
+    grammar:
+      - "Present Continuous: am/is/are + -ing"
+      - "Present Simple ile karşılaştırma (every day / now)"
+    vocabulary: [hava durumu, telefon kalıpları, şu anki eylemler]
+    pronunciation: "Bağlantılı konuşma: What are you doing? → /wɒtəjə ˈduːɪŋ/"
+    pitfalls:
+      - "to be'yi atlamak: \"I working now\""
+      - "Durum fiillerini -ing ile kullanmak: \"I am knowing\", \"I am liking\""
+    sessions:
+      - title: "What are you doing?"
+        type: new
+        focus: "Present Continuous yapısı"
+      - title: "Every day or now?"
+        type: new
+        focus: "Simple / Continuous karşılaştırması, hava durumu"
+      - title: "On the phone"
+        type: practice
+        focus: "Telefon/görüntülü görüşme diyaloğu, resim betimleme"
+      - title: "Weeks 9-12 review"
+        type: review
+        focus: "Üçüncü ayın genel tekrarı ve ay sonu quiz'i"
+
+  - week: 13
+    theme: "A1 final — Genel tekrar ve seviye sınavı"
+    can_do:
+      - A1 hedeflerinin tamamını gözden geçirir
+      - A2'ye hazır olup olmadığı ölçülür
+    grammar:
+      - "Tüm A1 dilbilgisi tekrarı"
+    vocabulary: [tüm A1 kelime grupları]
+    pronunciation: "Hata defterindeki telaffuz notlarının tekrarı"
+    pitfalls:
+      - "Hata defterindeki kişisel hatalar"
+    sessions:
+      - title: "Grammar review"
+        type: review
+        focus: "to be, Present Simple, there is/are, can, Present Continuous"
+      - title: "Speaking review"
+        type: practice
+        focus: "Serbest sohbet: kendini, aileni, gününü, şehrini anlat"
+      - title: "A1 final exam"
+        type: exam
+        focus: "Okuma, dinleme, dilbilgisi ve yazma bölümleri"
+      - title: "Speaking exam & next steps"
+        type: exam
+        focus: "Konuşma sınavı, sonuçların değerlendirilmesi, A2 planı"

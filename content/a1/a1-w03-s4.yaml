@@ -1,0 +1,100 @@
+id: a1-w03-s4
+level: a1
+week: 3
+session: 4
+title: "Week 3 review"
+type: review
+
+objectives:
+  - "a/an, this/that/these/those, çoğul isimler ve have got'u karışık kullanır"
+  - "Odasını veya çantasını 6-8 cümleyle tarif eder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: How are you? + bu haftanın en zor konusu"}
+  - {minutes: 15, activity: "Hızlı tekrar: çoğullar, this/these, have got soru-cevap"}
+  - {minutes: 15, activity: "Haftalık quiz — tek başına çöz, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: Benim odam / Benim çantam (6-8 cümle)"}
+  - {minutes: 10, activity: "Hata defteri; gelecek haftaya bakış (saat, günler, tarihler)"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | a / an | a key, an umbrella |
+      | this / that | What's this? — It's a ... |
+      | these / those | What are those? — They're ... |
+      | Çoğul | books, boxes, cities; men, women, children, people |
+      | Sıfat | a **red** car, **old** books (sıfat çoğul olmaz) |
+      | Renkler | What colour is it? — It's blue. |
+      | have got | I've got / She's got / Have you got ...? — Yes, I have. |
+
+  - heading: "Konuşma görevi: Benim odam"
+    body: |
+      6-8 cümle. Örnek:
+
+      > This is my room. It's small but beautiful. I've got a big bed and a white desk.
+      > This is my laptop. It's new. These are my books. They're old.
+      > I haven't got a TV in my room. That's my cat! Her name is Pamuk.
+
+practice:
+  - title: "Hata avı"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "I've got three brother."
+      - "These is my keys."
+      - "She have got a car."
+      - "It's a umbrella."
+      - "Have you got a pen? Yes, I have got."
+      - "They are olds photos."
+  - title: "Flashback (1-2. hafta)"
+    instructions: "Hızlı sorular: How old is your mother? / What does your father do? / Spell your street name. / Say 15, 50, 13, 30."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["These are my glasses.", "This are my glasses.", "These is my glasses."]
+    answer: "These are my glasses."
+  - type: fill
+    prompt: "My sister ___ got two children."
+    answer: ["has", "'s"]
+  - type: fill
+    prompt: "It's ___ orange bag."
+    answer: ["an"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["wallet", "cüzdan"]
+      - ["expensive", "pahalı"]
+      - ["umbrella", "şemsiye"]
+      - ["those", "şunlar"]
+      - ["flat", "daire"]
+  - type: mcq
+    prompt: "\"Has your father got a car?\" — \"No, ___\""
+    options: ["he hasn't.", "he haven't.", "he isn't."]
+    answer: "he hasn't."
+  - type: fill
+    prompt: "one man, two ___"
+    answer: ["men"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["a big black bag", "a bigs black bag", "a bag big black"]
+    answer: "a big black bag"
+  - type: order
+    words: ["your", "Are", "keys", "those"]
+    answer: "Are those your keys?"
+  - type: translate
+    prompt: "Bunlar ne? — Onlar fincan."
+    answer: ["What are these? — They're cups.", "What are these? They're cups.", "What are these? — They are cups.", "What are these? They are cups."]
+  - type: translate
+    prompt: "Bahçemiz yok."
+    answer: ["We haven't got a garden.", "We don't have a garden.", "We have not got a garden."]
+
+homework:
+  - "Odanı anlatan metni temize yaz ve sesli kaydet."
+  - "Hafta sonu Anki'de 1-3. hafta kartlarını tekrar et."
+  - "Saatleri İngilizce okumaya başla: telefon saatine baktıkça aklından söyle (seven, eight ...)."
+
+tutor_notes:
+  - "Translate sorusunda iki cümle var; uygulamada esnek kontrol yapılır ama burada anlamı doğruysa kabul edin."
+  - "3 haftalık kayıtları karşılaştırmak motivasyon için çok iyi: 1. haftanın kaydını tekrar dinleyin."

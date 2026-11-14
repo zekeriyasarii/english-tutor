@@ -1,0 +1,146 @@
+id: a1-w02-s1
+level: a1
+week: 2
+session: 1
+title: "My family"
+type: new
+
+objectives:
+  - "Temel aile üyelerinin İngilizce adlarını bilir"
+  - "Bir aile üyesini 'This is my ...' kalıbıyla tanıtır"
+  - "'His name is / Her name is' ile aile üyesinin adını söyler"
+
+plan:
+  - {minutes: 5, activity: "Isınma: hafta sonu ödevindeki tanıtım kaydını dinleyin"}
+  - {minutes: 15, activity: "Aile kelimeleri: soy ağacı üzerinden; Türkçedeki ayrımların (amca/dayı, abla) İngilizcede olmadığını gösterin"}
+  - {minutes: 15, activity: "This is my ... / His name is ... / Her name is ... kalıpları"}
+  - {minutes: 15, activity: "Fotoğraf turu: öğrenci telefonundan 3-4 aile fotoğrafı gösterir ve tanıtır"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Aile üyeleri"
+    body: |
+      | Erkek | Kadın | Ortak |
+      |---|---|---|
+      | father (dad) | mother (mum / mom) | **parents** (anne-baba) |
+      | brother | sister | — |
+      | son | daughter | **children** (çocuklar) |
+      | husband | wife | — |
+      | grandfather | grandmother | **grandparents** |
+      | uncle | aunt | **cousin** (kuzen) |
+
+      **child** (çocuk) kelimesinin çoğulu düzensizdir: **children**.
+
+  - heading: "Türkçeden farklı olanlar"
+    body: |
+      İngilizcede akrabalık isimleri Türkçe kadar ayrıntılı değildir:
+
+      - **uncle** = amca, dayı, enişte
+      - **aunt** = hala, teyze, yenge
+      - **brother** = ağabey veya erkek kardeş → gerekirse **older brother / younger brother**
+      - **sister** = abla veya kız kardeş → **older sister / younger sister**
+      - **grandmother** = babaanne veya anneanne
+
+      Ayrım gerekirse: *my mother's brother* (dayım), *my father's sister* (halam).
+
+  - heading: "Tanıtma kalıpları"
+    body: |
+      | Kalıp | Anlam |
+      |---|---|
+      | **This is my** sister. | Bu benim kız kardeşim. |
+      | **Her name is** Zeynep. | Onun (kadın) adı Zeynep. |
+      | **His name is** Ali. | Onun (erkek) adı Ali. |
+      | **I have** two brothers. | İki erkek kardeşim var. |
+
+      ⚠️ Türkçede "onun" tek kelime, İngilizcede ikiye ayrılır: erkek için **his**, kadın için **her**.
+      Bu Türkçe konuşanların en sık yaptığı hatalardan biridir; ayrıntısı bir sonraki derste.
+    examples:
+      - {en: "This is my father. His name is Hasan.", tr: "Bu benim babam. Onun adı Hasan."}
+      - {en: "This is my grandmother. Her name is Fatma.", tr: "Bu benim anneannem. Onun adı Fatma."}
+      - {en: "I have one sister and two brothers.", tr: "Bir kız kardeşim ve iki erkek kardeşim var."}
+      - {en: "I don't have any children.", tr: "Hiç çocuğum yok."}
+
+dialogue:
+  title: "Family photos"
+  lines:
+    - {speaker: "Emma", en: "Who's this?", tr: "Bu kim?"}
+    - {speaker: "Deniz", en: "This is my brother. His name is Kerem.", tr: "Bu benim erkek kardeşim. Adı Kerem."}
+    - {speaker: "Emma", en: "And who's this?", tr: "Peki bu kim?"}
+    - {speaker: "Deniz", en: "That's my mother. Her name is Leyla.", tr: "O benim annem. Adı Leyla."}
+    - {speaker: "Emma", en: "She's beautiful! Do you have a sister?", tr: "Çok güzel! Kız kardeşin var mı?"}
+    - {speaker: "Deniz", en: "Yes, I have one sister. She's in Germany.", tr: "Evet, bir kız kardeşim var. O Almanya'da."}
+
+vocabulary:
+  - {en: "family", tr: "aile"}
+  - {en: "mother", tr: "anne"}
+  - {en: "father", tr: "baba"}
+  - {en: "parents", tr: "anne-baba, ebeveynler"}
+  - {en: "brother", tr: "erkek kardeş / ağabey"}
+  - {en: "sister", tr: "kız kardeş / abla"}
+  - {en: "son", tr: "oğul"}
+  - {en: "daughter", tr: "kız evlat"}
+  - {en: "child", tr: "çocuk", note: "Çoğulu: children"}
+  - {en: "husband", tr: "koca, eş (erkek)"}
+  - {en: "wife", tr: "karı, eş (kadın)"}
+  - {en: "grandmother", tr: "anneanne / babaanne"}
+  - {en: "grandfather", tr: "dede"}
+  - {en: "uncle", tr: "amca / dayı / enişte"}
+  - {en: "aunt", tr: "hala / teyze / yenge"}
+  - {en: "cousin", tr: "kuzen"}
+  - {en: "older", tr: "daha büyük", example: "my older sister", example_tr: "ablam"}
+  - {en: "younger", tr: "daha küçük", example: "my younger brother", example_tr: "erkek kardeşim (küçük)"}
+  - {en: "Who's this?", tr: "Bu kim?"}
+
+practice:
+  - title: "Soy ağacı"
+    instructions: "Öğrenci kendi soy ağacını kağıda çizer ve İngilizce etiketler. Sonra öğretmen sorar: Who's Mehmet? → He's my uncle."
+  - title: "Kim kimdir?"
+    instructions: "Öğretmen tanımlar, öğrenci kelimeyi söyler."
+    items:
+      - "My mother's mother → ?"
+      - "My father's brother → ?"
+      - "My aunt's son → ?"
+      - "My son's sister → ?"
+
+quiz:
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["daughter", "kız evlat"]
+      - ["uncle", "amca / dayı"]
+      - ["wife", "eş (kadın)"]
+      - ["cousin", "kuzen"]
+      - ["parents", "anne-baba"]
+  - type: mcq
+    prompt: "\"Teyze\" İngilizcede nedir?"
+    options: ["uncle", "aunt", "cousin"]
+    answer: "aunt"
+  - type: mcq
+    prompt: "\"child\" kelimesinin çoğulu nedir?"
+    options: ["childs", "children", "childes"]
+    answer: "children"
+  - type: fill
+    prompt: "This is my brother. ___ name is Ali."
+    answer: ["His"]
+  - type: fill
+    prompt: "This is my aunt. ___ name is Gül."
+    answer: ["Her"]
+  - type: mcq
+    prompt: "\"My father's father\" kimdir?"
+    options: ["my uncle", "my grandfather", "my brother"]
+    answer: "my grandfather"
+  - type: order
+    words: ["my", "is", "This", "sister", "older"]
+    answer: "This is my older sister."
+  - type: translate
+    prompt: "Bu benim annem."
+    answer: ["This is my mother.", "This is my mum.", "This is my mom."]
+
+homework:
+  - "Soy ağacını tamamla ve her kişi için bir cümle yaz (This is my ... His/Her name is ...)."
+  - "Aile kelimelerini Anki'ye ekle ve tekrar et."
+
+tutor_notes:
+  - "Fotoğraf turu duygusal olarak hassas olabilir (kayıp, boşanma vb.); öğrencinin seçtiği fotoğraflarla ilerleyin."
+  - "his/her hatasını bu derste düzeltin ama üstünde durmayın; ertesi günün ana konusu."
+  - "'I have' burada kalıp olarak geçiyor; have got 3. haftada."

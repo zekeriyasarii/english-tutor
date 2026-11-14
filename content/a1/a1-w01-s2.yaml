@@ -1,0 +1,164 @@
+id: a1-w01-s2
+level: a1
+week: 1
+session: 2
+title: "Who are you?"
+type: new
+
+objectives:
+  - "\"to be\" fiilini I ve you ile olumlu, olumsuz ve soru olarak kullanır"
+  - "Adını, yaşını ve nereli olduğunu söyler"
+  - "Karşısındakine aynı bilgileri sorar"
+  - "Ülke ve milliyet isimlerini ayırt eder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: selamlaşma + 3 kelime spelling (dünkü dersin tekrarı)"}
+  - {minutes: 15, activity: "to be (I / you): tabloyu açıklayın, olumlu → olumsuz → soru dönüşümü yaptırın"}
+  - {minutes: 15, activity: "Ülkeler ve milliyetler: listeyi okuyun, büyük harf kuralını vurgulayın"}
+  - {minutes: 15, activity: "Röportaj: What's your name? / Where are you from? / How old are you? — rolleri değiştirerek, hayali kişilerle de"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "to be: I am / you are"
+    body: |
+      Türkçedeki "-ım, -sın" eklerinin karşılığı İngilizcede **to be** fiilidir. Bu fiil cümleden çıkarılamaz.
+
+      | | Olumlu | Olumsuz | Soru |
+      |---|---|---|---|
+      | **I** | I **am** (I'm) | I **am not** (I'm not) | **Am** I ...? |
+      | **you** | you **are** (you're) | you **are not** (you aren't) | **Are** you ...? |
+
+      Konuşmada kısa halleri (**I'm, you're**) kullanılır.
+    examples:
+      - {en: "I'm Can.", tr: "Ben Can'ım."}
+      - {en: "I'm not a teacher.", tr: "Ben öğretmen değilim."}
+      - {en: "Are you Emma?", tr: "Sen Emma mısın?"}
+      - {en: "You're from Spain.", tr: "Sen İspanya'lısın."}
+
+  - heading: "Kısa cevaplar"
+    body: |
+      Evet-hayır sorularına kısa cevap verilir:
+
+      - **Are you Turkish?** → **Yes, I am.** / **No, I'm not.**
+
+      ⚠️ Olumlu kısa cevapta kısaltma yapılmaz: ~~Yes, I'm.~~ yanlıştır.
+
+  - heading: "Ad, yaş, memleket"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **What's your name?** | My name is Can. / I'm Can. |
+      | **Where are you from?** | I'm from Turkey. |
+      | **How old are you?** | I'm 30. / I'm 30 years old. |
+
+      ⚠️ Yaş **have** ile değil, **be** ile söylenir: ~~I have 30 years.~~ → **I'm 30.**
+
+      ⚠️ Memleket söylerken **from** gerekir: ~~I'm Turkey.~~ → **I'm from Turkey.** veya **I'm Turkish.**
+
+  - heading: "Ülkeler ve milliyetler"
+    body: |
+      İngilizcede milliyet ve dil isimleri **büyük harfle** başlar: *Turkish, English*.
+
+      | Ülke | Milliyet / Dil |
+      |---|---|
+      | Turkey / Türkiye | Turkish |
+      | England / the UK | English / British |
+      | the USA | American |
+      | Germany | German |
+      | France | French |
+      | Spain | Spanish |
+      | Italy | Italian |
+      | Greece | Greek |
+      | Russia | Russian |
+      | Japan | Japanese |
+      | China | Chinese |
+
+      Not: Ülkenin resmi İngilizce adı 2022'den beri **Türkiye**'dir, ama günlük dilde **Turkey** de yaygın.
+      **the UK** ve **the USA** "the" ile kullanılır.
+
+dialogue:
+  title: "At a language course"
+  lines:
+    - {speaker: "Teacher", en: "Hello! What's your name?", tr: "Merhaba! Adın ne?"}
+    - {speaker: "Elif", en: "My name is Elif.", tr: "Benim adım Elif."}
+    - {speaker: "Teacher", en: "Where are you from, Elif?", tr: "Nerelisin Elif?"}
+    - {speaker: "Elif", en: "I'm from Turkey. I'm from Izmir.", tr: "Türkiye'denim. İzmirliyim."}
+    - {speaker: "Teacher", en: "How old are you?", tr: "Kaç yaşındasın?"}
+    - {speaker: "Elif", en: "I'm 28. Are you English?", tr: "28 yaşındayım. Siz İngiliz misiniz?"}
+    - {speaker: "Teacher", en: "No, I'm not. I'm American.", tr: "Hayır, değilim. Amerikalıyım."}
+
+vocabulary:
+  - {en: "I am / I'm", tr: "ben ...-ım"}
+  - {en: "you are / you're", tr: "sen ...-sın / siz ...-sınız"}
+  - {en: "What's your name?", tr: "Adın ne?"}
+  - {en: "Where are you from?", tr: "Nerelisin?"}
+  - {en: "How old are you?", tr: "Kaç yaşındasın?"}
+  - {en: "from", tr: "-den, -dan", example: "I'm from Ankara.", example_tr: "Ankaralıyım."}
+  - {en: "country", tr: "ülke"}
+  - {en: "city", tr: "şehir"}
+  - {en: "years old", tr: "yaşında", example: "I'm 35 years old.", example_tr: "35 yaşındayım."}
+  - {en: "Turkish", tr: "Türk / Türkçe"}
+  - {en: "English", tr: "İngiliz / İngilizce"}
+  - {en: "American", tr: "Amerikalı"}
+  - {en: "German", tr: "Alman / Almanca"}
+  - {en: "French", tr: "Fransız / Fransızca"}
+  - {en: "Spanish", tr: "İspanyol / İspanyolca"}
+  - {en: "Italian", tr: "İtalyan / İtalyanca"}
+  - {en: "Greek", tr: "Yunan / Yunanca"}
+  - {en: "Russian", tr: "Rus / Rusça"}
+  - {en: "Japanese", tr: "Japon / Japonca"}
+  - {en: "Chinese", tr: "Çinli / Çince"}
+
+practice:
+  - title: "Dönüştür"
+    instructions: "Öğretmen olumlu cümle söyler; öğrenci önce olumsuz, sonra soru yapar."
+    items: ["I'm Turkish.", "You're a student.", "I'm from Bursa.", "You're 40."]
+  - title: "Kimsin?"
+    instructions: "Öğrenci bir kart (veya hayali kişi) seçer: ünlü biri, başka ülkeden biri. Öğretmen 3 temel soruyu sorar, öğrenci o kişi gibi cevaplar. Sonra roller değişir."
+
+quiz:
+  - type: fill
+    prompt: "I ___ from Turkey."
+    answer: ["am", "'m"]
+  - type: fill
+    prompt: "___ you from Germany?"
+    answer: ["Are"]
+  - type: mcq
+    prompt: "\"Are you Turkish?\" sorusuna doğru olumlu kısa cevap hangisi?"
+    options: ["Yes, I'm.", "Yes, I am.", "Yes, I are."]
+    answer: "Yes, I am."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I have 25 years.", "I am 25 years.", "I'm 25."]
+    answer: "I'm 25."
+    explanation: "Yaş 'be' ile söylenir. 'years' kullanılırsa 'years old' olmalı: I'm 25 years old."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I'm Turkey.", "I'm from Turkey.", "I from Turkey."]
+    answer: "I'm from Turkey."
+  - type: match
+    prompt: "Ülke ve milliyeti eşleştir"
+    pairs:
+      - ["Germany", "German"]
+      - ["Spain", "Spanish"]
+      - ["Japan", "Japanese"]
+      - ["Greece", "Greek"]
+      - ["France", "French"]
+  - type: order
+    words: ["are", "from", "you", "Where"]
+    answer: "Where are you from?"
+  - type: translate
+    prompt: "Ben öğretmen değilim."
+    answer: ["I'm not a teacher.", "I am not a teacher."]
+  - type: translate
+    prompt: "Kaç yaşındasın?"
+    answer: ["How old are you?"]
+
+homework:
+  - "Kendini 4 cümleyle yaz: adın, nerelisin, kaç yaşındasın, hangi şehirde yaşıyorsun (I live in ... kalıbıyla)."
+  - "Bu 4 cümleyi sesli kaydet."
+  - "Ülke-milliyet listesini çalış; 5 ünlü kişinin milliyetini yaz (Messi is Argentinian gibi, bilmediklerini sözlükten bak)."
+
+tutor_notes:
+  - "'I live in ...' ödevde kalıp olarak geçiyor; Present Simple 5. haftada detaylı gelecek, şimdi açıklamaya girme."
+  - "Sorularda yükselen tonlamayı (Are you...? ↗) abartarak modelle."

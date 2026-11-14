@@ -1,0 +1,22 @@
+# Çalışma planı ayarları
+# Takvim bu dosyadan ve curriculum/ altındaki seviyelerden üretilir:
+#   python3 scripts/build_calendar.py
+
+start_date: 2026-11-17          # İlk ders (Salı)
+
+# Haftalık çalışma günleri (ISO: 1=Pzt ... 7=Paz)
+study_days: [2, 3, 4, 5]        # Salı, Çarşamba, Perşembe, Cuma
+
+session_minutes: 60
+
+# Sırayla işlenecek seviyeler. A1 bitince listeye "a2" eklenir,
+# takvim kaldığı yerden devam eder.
+levels: [a1]
+
+# Ders yapılmayacak günler. Bu günlere denk gelen ders bir sonraki
+# çalışma gününe kayar (plan ötelenir, ders atlanmaz).
+holidays:
+  - date: 2027-01-01
+    name: Yılbaşı
+  # - date: 2026-12-29
+  #   name: Örnek izin günü

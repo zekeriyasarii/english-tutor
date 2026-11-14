@@ -1,0 +1,133 @@
+id: a1-w03-s3
+level: a1
+week: 3
+session: 3
+title: "Have you got ...?"
+type: practice
+
+objectives:
+  - "have got / has got ile sahip olduğu şeyleri söyler"
+  - "Olumsuz ve soru yapar, kısa cevap verir"
+  - "Aile ve eşyalar hakkında sahiplik soruları sorar"
+
+plan:
+  - {minutes: 5, activity: "Isınma: these/those ile 3 cümle"}
+  - {minutes: 15, activity: "have got / has got tablosu; I have (2. hafta) ile bağlantı"}
+  - {minutes: 15, activity: "Çantamda ne var? — öğrenci çantasını boşaltır ve anlatır"}
+  - {minutes: 15, activity: "Bilgi boşluğu oyunu: Have you got a ...? sorularıyla karşı tarafın listesini bulma"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "have got / has got"
+    body: |
+      İngiliz İngilizcesinde sahiplik için **have got** çok yaygındır. Anlamı "... var / sahibim".
+
+      | | Olumlu | Olumsuz | Soru |
+      |---|---|---|---|
+      | I / you / we / they | I**'ve got** a car. | I **haven't got** a car. | **Have** you **got** a car? |
+      | he / she / it | She**'s got** a car. | She **hasn't got** a car. | **Has** she **got** a car? |
+
+      Kısa cevaplar: **Yes, I have. / No, I haven't.** — **Yes, she has. / No, she hasn't.**
+
+      ⚠️ Kısa cevapta **got** kullanılmaz: ~~Yes, I have got.~~
+
+      ⚠️ **she's got** = she **has** got. **she's** bazen *she is*, bazen *she has* demektir;
+      *got* varsa "has" demektir.
+
+  - heading: "have got mı, have mı?"
+    body: |
+      Aynı anlam iki şekilde söylenir:
+
+      | have got (İngiliz) | have (Amerikan, her yerde anlaşılır) |
+      |---|---|
+      | I've got a brother. | I have a brother. |
+      | Have you got a car? | Do you have a car? |
+      | I haven't got a car. | I don't have a car. |
+
+      İkisi de doğru. Amerikan dizileri izlerken **Do you have ...?** yapısını çok duyacaksın.
+      *Do* ile soru yapısı 5. haftada detaylı gelecek.
+    examples:
+      - {en: "I've got two sisters.", tr: "İki kız kardeşim var."}
+      - {en: "He hasn't got a laptop.", tr: "Onun dizüstü bilgisayarı yok."}
+      - {en: "Have you got a pen? — Yes, I have.", tr: "Kalemin var mı? — Evet, var."}
+      - {en: "Has your city got a metro?", tr: "Şehrinde metro var mı?"}
+
+dialogue:
+  title: "Going on a trip"
+  lines:
+    - {speaker: "Ayla", en: "Have you got your passport?", tr: "Pasaportun yanında mı?"}
+    - {speaker: "Ben", en: "Yes, I have. It's in my bag.", tr: "Evet. Çantamda."}
+    - {speaker: "Ayla", en: "Have you got the tickets?", tr: "Biletler sende mi?"}
+    - {speaker: "Ben", en: "No, I haven't. You've got the tickets!", tr: "Hayır. Biletler sende!"}
+    - {speaker: "Ayla", en: "Oh no! ... Ah, here they are. And has Leo got his phone?", tr: "Eyvah! ... Ah, işte buradalar. Peki Leo'nun telefonu yanında mı?"}
+    - {speaker: "Ben", en: "Yes, he has. OK, let's go!", tr: "Evet, yanında. Tamam, hadi gidelim!"}
+
+vocabulary:
+  - {en: "have got", tr: "sahip olmak, ... var", example: "I've got a cat.", example_tr: "Bir kedim var."}
+  - {en: "has got", tr: "(o) sahip, ... var", example: "She's got a dog.", example_tr: "Onun bir köpeği var."}
+  - {en: "Have you got ...?", tr: "Sende ... var mı?"}
+  - {en: "passport", tr: "pasaport"}
+  - {en: "ticket", tr: "bilet"}
+  - {en: "car", tr: "araba"}
+  - {en: "bike", tr: "bisiklet"}
+  - {en: "cat", tr: "kedi"}
+  - {en: "dog", tr: "köpek"}
+  - {en: "pet", tr: "evcil hayvan", example: "Have you got a pet?", example_tr: "Evcil hayvanın var mı?"}
+  - {en: "house", tr: "ev"}
+  - {en: "flat", tr: "daire", note: "Amerikan: apartment"}
+  - {en: "garden", tr: "bahçe"}
+
+practice:
+  - title: "Çantamda ne var?"
+    instructions: "Öğrenci çantasındaki/masasındaki eşyaları tek tek gösterir: I've got a ... It's ... (renk/sıfat). Öğretmen sorular sorar: Have you got a ...?"
+  - title: "Bilgi boşluğu"
+    instructions: "Öğretmen kağıda gizli bir liste yazar (ör. a car, two cats, a garden, no bike). Öğrenci Have you got ...? sorularıyla listeyi bulmaya çalışır. Sonra roller değişir."
+  - title: "Ailen hakkında"
+    instructions: "Öğretmen sorar, öğrenci tam cevap verir."
+    items:
+      - "Has your brother got a car?"
+      - "Have your parents got a garden?"
+      - "Has your best friend got children?"
+      - "Have you got a pet?"
+
+quiz:
+  - type: fill
+    prompt: "She ___ got a new phone."
+    answer: ["has", "'s"]
+  - type: fill
+    prompt: "I ___ got a car. (olumsuz)"
+    answer: ["haven't", "have not"]
+  - type: mcq
+    prompt: "\"Have you got a pet?\" — doğru kısa cevap hangisi?"
+    options: ["Yes, I have got.", "Yes, I have.", "Yes, I've."]
+    answer: "Yes, I have."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["Has he got a bike?", "Have he got a bike?", "Does he got a bike?"]
+    answer: "Has he got a bike?"
+  - type: mcq
+    prompt: "\"He's got two cats.\" cümlesinde he's ne demek?"
+    options: ["he is", "he has", "he was"]
+    answer: "he has"
+  - type: mcq
+    prompt: "\"Do you have a car?\" cümlesinin İngiliz İngilizcesi karşılığı hangisi?"
+    options: ["Have you a car got?", "Have you got a car?", "Are you got a car?"]
+    answer: "Have you got a car?"
+  - type: order
+    words: ["got", "We", "garden", "haven't", "a"]
+    answer: "We haven't got a garden."
+  - type: translate
+    prompt: "İki erkek kardeşim var."
+    answer: ["I've got two brothers.", "I have got two brothers.", "I have two brothers."]
+  - type: translate
+    prompt: "Onun (kadın) bir kedisi var mı?"
+    answer: ["Has she got a cat?", "Does she have a cat?"]
+
+homework:
+  - "Sahip olduğun ve olmadığın 5'er şeyi yaz: I've got a ... / I haven't got a ..."
+  - "Ailenden 3 kişi için has got ile cümle yaz."
+  - "Bir arkadaşına (veya kendine) 5 soru hazırla: Have you got ...?"
+
+tutor_notes:
+  - "'Does she have' cevabını da doğru kabul edin ama yapıyı 5-6. haftaya kadar açıklamayın."
+  - "Bilgi boşluğu oyununda öğrenci sorudan çok cevap vermeye eğilimli olur; soru sormaya teşvik edin."

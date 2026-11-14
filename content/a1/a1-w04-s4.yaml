@@ -1,0 +1,127 @@
+id: a1-w04-s4
+level: a1
+week: 4
+session: 4
+title: "Weeks 1-4 review"
+type: review
+
+objectives:
+  - "İlk ayın tüm konularını karışık sorularda doğru kullanır"
+  - "Kendini, ailesini, eşyalarını ve programını 2-3 dakika anlatır"
+  - "İlk ayın ilerlemesini değerlendirir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: bu ay neyi öğrendiğini hissediyorsun? (Türkçe olabilir)"}
+  - {minutes: 20, activity: "Ay sonu quiz'i (aşağıdaki 14 soru) — tek başına çöz, puanı kaydet"}
+  - {minutes: 10, activity: "Quiz kontrolü: yanlışların nedenlerini konuşun"}
+  - {minutes: 15, activity: "Konuşma görevi: 2-3 dakikalık serbest tanıtım + öğretmenin soruları"}
+  - {minutes: 10, activity: "Ay değerlendirmesi: hata defterini gözden geçirin, 5. haftadan itibaren odak noktalarını belirleyin"}
+
+sections:
+  - heading: "İlk ayın özeti"
+    body: |
+      | Hafta | Konu | Anahtar kalıplar |
+      |---|---|---|
+      | 1 | Tanışma | Hello, Nice to meet you, How do you spell ...?, I'm / Are you ...?, sayılar 0-20 |
+      | 2 | Aile ve meslekler | he/she/they + is/are, my/his/her/their, my sister's name, She's **a** teacher, 21-100 |
+      | 3 | Eşyalar | a/an, this/that/these/those, çoğullar, renkler, sıfatlar, have got |
+      | 4 | Zaman | What time is it?, past/to, günler, aylar, sıra sayıları, at/on/in, Let's ... |
+
+  - heading: "Konuşma görevi: Benim hakkımda"
+    body: |
+      2-3 dakika boyunca, notlara bakmadan konuş. Şu başlıkları kullanabilirsin:
+
+      1. Kendin: ad, yaş, şehir, meslek
+      2. Ailen: kaç kişi, isimler, meslekler
+      3. Sahip oldukların: ev, araba, evcil hayvan
+      4. Önemli tarihler: doğum günün, en sevdiğin mevsim
+      5. Bu haftaki programın: Ders Salı'dan Cuma'ya, saat kaçta?
+
+      Öğretmen konuşma sonunda her başlıktan birer soru sorar.
+
+practice:
+  - title: "Hata avı (ay geneli)"
+    instructions: "Hatayı bul ve düzelt."
+    items:
+      - "Good night! How are you? (akşam karşılaşınca)"
+      - "I have 30 years."
+      - "My brother is engineer."
+      - "This is my sister. His name is Ece."
+      - "I've got two cat."
+      - "The meeting is in Monday at 9."
+      - "See you on next week."
+  - title: "Hızlı soru-cevap"
+    instructions: "Öğretmen sorar, öğrenci hemen cevaplar."
+    items:
+      - "Spell your surname."
+      - "What's the date today?"
+      - "What time is it?"
+      - "Have you got any brothers or sisters?"
+      - "What colour is your phone?"
+      - "When is your mother's birthday?"
+      - "Are you free on Saturday evening?"
+
+quiz:
+  - type: mcq
+    prompt: "Akşam 19:00'da bir komşunla karşılaştın."
+    options: ["Good night!", "Good evening!", "Good afternoon!"]
+    answer: "Good evening!"
+  - type: fill
+    prompt: "\"Where are you from?\" — \"I'm ___ Turkey.\""
+    answer: ["from"]
+  - type: mcq
+    prompt: "My uncle and ___ wife"
+    options: ["her", "his", "he's"]
+    answer: "his"
+  - type: fill
+    prompt: "My father is ___ engineer."
+    answer: ["an"]
+  - type: fill
+    prompt: "My parents ___ retired."
+    answer: ["are", "'re"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["two childs", "two children", "two childrens"]
+    answer: "two children"
+  - type: fill
+    prompt: "___ are my shoes. (yakın)"
+    answer: ["These"]
+  - type: mcq
+    prompt: "\"Has she got a car?\" — \"Yes, ___\""
+    options: ["she has.", "she's.", "she has got."]
+    answer: "she has."
+  - type: mcq
+    prompt: "8:45 nasıl söylenir?"
+    options: ["quarter past eight", "quarter to nine", "quarter to eight"]
+    answer: "quarter to nine"
+  - type: match
+    prompt: "Doğru edatla eşleştir"
+    pairs:
+      - ["at", "10:30"]
+      - ["on", "Wednesday"]
+      - ["in", "December"]
+      - ["in the", "evening"]
+  - type: mcq
+    prompt: "\"the thirty-first of December\" hangi tarih?"
+    options: ["13 Aralık", "31 Aralık", "30 Aralık"]
+    answer: "31 Aralık"
+  - type: order
+    words: ["your", "When", "birthday", "is"]
+    answer: "When is your birthday?"
+  - type: translate
+    prompt: "Kız kardeşim 25 yaşında ve o bir hemşire."
+    answer: ["My sister is 25 and she's a nurse.", "My sister is 25 and she is a nurse.", "My sister's 25 and she's a nurse.", "My sister is twenty-five and she's a nurse.", "My sister is 25 years old and she's a nurse.", "My sister is twenty-five and she is a nurse."]
+  - type: translate
+    prompt: "Cumartesi boş musun?"
+    answer: ["Are you free on Saturday?", "Are you free Saturday?"]
+
+homework:
+  - "Konuşma görevini kaydet ve 1. haftadaki kaydınla karşılaştır."
+  - "Hafta sonu 1-4. hafta Anki kartlarını tekrar et; zorlandığın kartları not et."
+  - "5. haftaya hazırlık: günlük rutininde yaptığın 5 şeyi Türkçe listele (yarın İngilizcesini öğreneceğiz)."
+
+tutor_notes:
+  - "Quiz puanını kaydedin; ay ay ilerlemeyi görmek motivasyon için önemli."
+  - "%70 altında puan alınan konuları 5. haftanın ısınmalarına ekleyin."
+  - "Tempo değerlendirmesi: hızlıysa 5-8. haftalarda 'practice' seanslarını uzatın; yavaşsa review seanslarına ek konu koymayın."
+  - "Ay sonu küçük bir kutlama iyi gelir: bir ay boyunca 16 ders tamamlandı!"

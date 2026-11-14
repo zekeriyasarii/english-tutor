@@ -1,0 +1,13 @@
+# Üretilen dosyalar — CI'da ve yerelde script'lerle yeniden oluşturulur
+output/
+app/data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editör / sistem
+.vscode/
+.idea/
+.DS_Store

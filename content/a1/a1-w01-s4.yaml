@@ -1,0 +1,103 @@
+id: a1-w01-s4
+level: a1
+week: 1
+session: 4
+title: "Week 1 review"
+type: review
+
+objectives:
+  - "1. haftanın kalıplarını hatırlamadan, akıcı şekilde kullanır"
+  - "Kendini en az 5 cümleyle tanıtır"
+  - "Hata defterine haftanın hatalarını kaydeder"
+
+plan:
+  - {minutes: 5, activity: "Isınma: How are you? + bu hafta en zor gelen şey neydi? (Türkçe olabilir)"}
+  - {minutes: 15, activity: "Hızlı tekrar: selamlar, alfabe (spelling), to be, sayılar — öğretmen soru sorar, öğrenci hızlı cevaplar"}
+  - {minutes: 15, activity: "Haftalık quiz (aşağıda) — öğrenci tek başına çözer, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: kendini tanıtma (5+ cümle), sonra öğretmenin sorularına cevap"}
+  - {minutes: 10, activity: "Hata defteri: haftanın 3 hatasını yazın; gelecek haftaya kısa bakış"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | Selamlaşma | Hello / Hi / Good morning / Good afternoon / Good evening |
+      | Vedalaşma | Goodbye / Bye / See you / Good night |
+      | Tanışma | I'm ... — Nice to meet you. — Nice to meet you, too. |
+      | Spelling | How do you spell that? — C-A-N. / double M |
+      | to be | I'm / I'm not / Are you ...? — Yes, I am. / No, I'm not. |
+      | Kişisel bilgi | What's your name? / Where are you from? / How old are you? |
+      | Sayılar | 0-20, telefon numarası (oh, double), e-posta (at, dot) |
+
+  - heading: "Konuşma görevi: Kendini tanıt"
+    body: |
+      En az 5 cümle kur. Örnek:
+
+      > Hello! My name is Selin. That's S-E-L-I-N. I'm from Turkey. I'm from Eskişehir.
+      > I'm 32 years old. My phone number is oh-five-three-three, ...
+      > Nice to meet you!
+
+practice:
+  - title: "Hızlı soru-cevap"
+    instructions: "Öğretmen sorar, öğrenci 3 saniye içinde cevaplar."
+    items:
+      - "Spell 'Istanbul'."
+      - "Is 'G' ci or cey?"
+      - "What's 7 + 8?"
+      - "Are you German?"
+      - "Say 'Good ...' at 15:00."
+      - "Say your phone number."
+  - title: "Ters röportaj"
+    instructions: "Bu kez öğrenci soruları sorar, öğretmen cevaplar. Öğretmen bilerek 1-2 hata yapar (I have 40 years), öğrenci yakalamaya çalışır."
+
+quiz:
+  - type: mcq
+    prompt: "Sabah 9'da ofise girdin. Ne dersin?"
+    options: ["Good evening!", "Good morning!", "Good night!"]
+    answer: "Good morning!"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["I'm not from Italy.", "I not from Italy.", "I amn't from Italy."]
+    answer: "I'm not from Italy."
+  - type: fill
+    prompt: "\"Are you a student?\" — \"No, I'm ___.\""
+    answer: ["not"]
+  - type: fill
+    prompt: "\"How ___ are you?\" — \"I'm 29.\""
+    answer: ["old"]
+  - type: mcq
+    prompt: "\"Nerelisin?\" sorusunun İngilizcesi hangisi?"
+    options: ["Where do you are?", "Where are you from?", "From where you are?"]
+    answer: "Where are you from?"
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["11", "eleven"]
+      - ["20", "twenty"]
+      - ["3", "three"]
+      - ["8", "eight"]
+      - ["19", "nineteen"]
+  - type: mcq
+    prompt: "\"W\" harfi nasıl okunur?"
+    options: ["vi", "dabıl yu", "ve"]
+    answer: "dabıl yu"
+  - type: order
+    words: ["Turkish", "I'm", "and", "I'm", "30"]
+    answer: "I'm Turkish and I'm 30."
+  - type: translate
+    prompt: "Sen İspanyol musun?"
+    answer: ["Are you Spanish?"]
+  - type: translate
+    prompt: "Tanıştığımıza memnun oldum."
+    answer: ["Nice to meet you."]
+
+homework:
+  - "Kendini tanıttığın 5+ cümleyi yaz ve kaydet; bir hafta sonra tekrar kaydedip karşılaştır."
+  - "Hafta sonu: 1. haftanın kelimelerini kartlarla (Anki) tekrar et."
+  - "BBC Learning English'te başlangıç seviyesi bir tanışma videosu izle."
+
+tutor_notes:
+  - "Quiz sonucunu not edin; PWA geldiğinde ilk veriler olarak girilebilir."
+  - "Hata defterine sadece tekrar eden hataları yazın (tek seferlik dil sürçmelerini değil)."
+  - "Haftanın sonunda kısa bir motivasyon sohbeti yapın: tempo uygun mu?"

@@ -1,0 +1,158 @@
+id: a1-w03-s1
+level: a1
+week: 3
+session: 1
+title: "What's this?"
+type: new
+
+objectives:
+  - "Evde ve çantada bulunan temel eşyaları adlandırır"
+  - "a / an kuralını eşyalarla uygular"
+  - "this (yakın) ve that (uzak) ile bir şeyi gösterir ve sorar"
+  - "Renkleri söyler"
+
+plan:
+  - {minutes: 5, activity: "Isınma: ailenden biri hakkında 3 cümle (2. hafta tekrarı)"}
+  - {minutes: 15, activity: "Eşya kelimeleri: öğrencinin odasındaki/masasındaki gerçek eşyaları kameraya göstererek"}
+  - {minutes: 10, activity: "a / an tekrarı (meslekten eşyaya), this / that farkı"}
+  - {minutes: 10, activity: "Renkler: What colour is it? It's red."}
+  - {minutes: 10, activity: "Oyun: öğretmen kameraya eşya gösterir, öğrenci What's this? — It's a ... ile cevaplar; sonra tersi"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "a / an hatırlatma"
+    body: |
+      Geçen hafta mesleklerle öğrendiğin kural eşyalar için de aynı:
+
+      - Ünsüz **sesle** başlıyorsa **a**: *a book, a phone, a key, a cup*
+      - Ünlü **sesle** başlıyorsa **an**: *an apple, an umbrella, an orange, an egg*
+
+      Kural harfe değil **sese** bakar:
+      - *an **h**our* (h okunmuyor, "auır") / *a **u**niversity* ("yu" sesiyle başlıyor)
+
+      Bunlar istisna; şimdilik sadece bil, ezberleme.
+
+  - heading: "this / that"
+    body: |
+      | | Anlam | Kullanım |
+      |---|---|---|
+      | **this** | bu | Yakındaki, elindeki şey |
+      | **that** | şu, o | Uzaktaki şey |
+
+      | Soru | Cevap |
+      |---|---|
+      | **What's this?** | **It's a** pen. |
+      | **What's that?** | **It's an** umbrella. |
+      | **Is this** your phone? | Yes, it is. / No, it isn't. |
+
+      ⚠️ Cevapta **this / that** tekrar edilmez, **it** kullanılır:
+      *What's this?* → ~~This is a pen.~~ (yanlış değil ama doğal değil) → **It's a pen.**
+    examples:
+      - {en: "What's this? — It's a key.", tr: "Bu ne? — Bir anahtar."}
+      - {en: "Is that your bag? — No, it isn't.", tr: "Şu senin çantan mı? — Hayır, değil."}
+      - {en: "This is my laptop.", tr: "Bu benim dizüstü bilgisayarım."}
+
+  - heading: "Renkler"
+    body: |
+      | | | | |
+      |---|---|---|---|
+      | red — kırmızı | blue — mavi | green — yeşil | yellow — sarı |
+      | black — siyah | white — beyaz | grey — gri | brown — kahverengi |
+      | orange — turuncu | pink — pembe | purple — mor | |
+
+      Açık / koyu: **light** blue (açık mavi), **dark** green (koyu yeşil)
+
+      Soru: **What colour is it?** (Amerikan yazımı: *color*) → **It's black.**
+
+      ⚠️ Renk (sıfat) isimden **önce** gelir, Türkçedeki gibi: *a **red** car* (kırmızı bir araba).
+    examples:
+      - {en: "What colour is your car? — It's white.", tr: "Araban ne renk? — Beyaz."}
+      - {en: "It's a black bag.", tr: "Siyah bir çanta."}
+
+dialogue:
+  title: "Lost and found"
+  lines:
+    - {speaker: "Officer", en: "Hello. Can I help you?", tr: "Merhaba. Yardımcı olabilir miyim?"}
+    - {speaker: "Selin", en: "Yes, please. My bag is lost.", tr: "Evet lütfen. Çantam kayıp."}
+    - {speaker: "Officer", en: "What colour is it?", tr: "Ne renk?"}
+    - {speaker: "Selin", en: "It's brown. It's a small brown bag.", tr: "Kahverengi. Küçük, kahverengi bir çanta."}
+    - {speaker: "Officer", en: "Is this your bag?", tr: "Bu sizin çantanız mı?"}
+    - {speaker: "Selin", en: "No, it isn't. ... Oh! What's that? That's my bag!", tr: "Hayır, değil. ... Aa! Şu ne? O benim çantam!"}
+
+vocabulary:
+  - {en: "bag", tr: "çanta"}
+  - {en: "key", tr: "anahtar"}
+  - {en: "phone", tr: "telefon"}
+  - {en: "laptop", tr: "dizüstü bilgisayar"}
+  - {en: "wallet", tr: "cüzdan"}
+  - {en: "pen", tr: "tükenmez kalem"}
+  - {en: "book", tr: "kitap"}
+  - {en: "glasses", tr: "gözlük", note: "Her zaman çoğul"}
+  - {en: "umbrella", tr: "şemsiye", example: "an umbrella", example_tr: "bir şemsiye"}
+  - {en: "watch", tr: "kol saati"}
+  - {en: "cup", tr: "fincan"}
+  - {en: "table", tr: "masa"}
+  - {en: "chair", tr: "sandalye"}
+  - {en: "this", tr: "bu"}
+  - {en: "that", tr: "şu, o"}
+  - {en: "What colour is it?", tr: "Ne renk?"}
+  - {en: "red", tr: "kırmızı"}
+  - {en: "blue", tr: "mavi"}
+  - {en: "green", tr: "yeşil"}
+  - {en: "yellow", tr: "sarı"}
+  - {en: "black", tr: "siyah"}
+  - {en: "white", tr: "beyaz"}
+  - {en: "grey", tr: "gri", note: "Amerikan: gray"}
+  - {en: "brown", tr: "kahverengi"}
+  - {en: "purple", tr: "mor"}
+
+practice:
+  - title: "Kamera turu"
+    instructions: "Öğrenci odasında dolaşır; öğretmen Kameradaki şeyleri sorar: What's this? / What colour is it? / Is that your ...?"
+  - title: "a mı an mı?"
+    instructions: "Öğrenci a veya an ile söyler."
+    items: ["umbrella", "key", "orange", "egg", "watch", "apple", "laptop"]
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["a umbrella", "an umbrella", "umbrella a"]
+    answer: "an umbrella"
+  - type: fill
+    prompt: "\"What's this?\" — \"___ a wallet.\""
+    answer: ["It's", "It is"]
+  - type: mcq
+    prompt: "Uzaktaki bir şeyi sorarken ne dersin?"
+    options: ["What's this?", "What's that?", "What's it?"]
+    answer: "What's that?"
+  - type: match
+    prompt: "Renkleri eşleştir"
+    pairs:
+      - ["yellow", "sarı"]
+      - ["grey", "gri"]
+      - ["brown", "kahverengi"]
+      - ["purple", "mor"]
+      - ["green", "yeşil"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["a car red", "a red car", "red a car"]
+    answer: "a red car"
+  - type: order
+    words: ["colour", "it", "What", "is"]
+    answer: "What colour is it?"
+  - type: translate
+    prompt: "Bu benim anahtarım."
+    answer: ["This is my key."]
+  - type: translate
+    prompt: "Şu senin telefonun mu?"
+    answer: ["Is that your phone?"]
+
+homework:
+  - "Odandaki 10 eşyaya İngilizce ismini yazdığın yapışkan not yapıştır."
+  - "Çantanda ne olduğunu 5 cümleyle yaz: This is my wallet. It's black."
+  - "Kelimeleri Anki'ye ekle."
+
+tutor_notes:
+  - "Gerçek nesnelerle çalışmak bu konuda çok etkili; kamera önünde eşya göstermekten çekinmeyin."
+  - "colour/color, grey/gray farkını sadece bilgi olarak verin; ikisi de doğru."
+  - "glasses (gözlük) çoğul kullanılır; ertesi gün these/those ile tekrar edilecek."

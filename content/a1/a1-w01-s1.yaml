@@ -1,0 +1,165 @@
+id: a1-w01-s1
+level: a1
+week: 1
+session: 1
+title: "Greetings & the alphabet"
+type: new
+
+objectives:
+  - "Günün saatine uygun şekilde selamlaşır ve vedalaşır"
+  - "Tanışırken kullanılan temel kalıpları söyler"
+  - "İngiliz alfabesindeki harfleri doğru okur"
+  - "Adını harf harf kodlar ve karşısındakine kodlatır"
+
+plan:
+  - {minutes: 5, activity: "Tanışma: bu programın nasıl işleyeceğini kısaca konuşun (Türkçe olabilir)"}
+  - {minutes: 15, activity: "Selamlaşma ve vedalaşma kalıpları: tabloyu birlikte okuyun, her kalıbı 2-3 kez tekrar ettirin"}
+  - {minutes: 20, activity: "Alfabe: ses gruplarına göre harfleri okuyun, karıştırılan harflere (E/I, G/J, A/E) odaklanın"}
+  - {minutes: 10, activity: "Spelling oyunu: sırayla isim, şehir, marka kodlayın; karşı taraf yazsın"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Selamlaşma"
+    body: |
+      | İngilizce | Ne zaman? |
+      |---|---|
+      | **Hello** | Her durumda kullanılır |
+      | **Hi** | Samimi, arkadaşlar arasında |
+      | **Good morning** | Sabah, öğlene kadar |
+      | **Good afternoon** | Öğleden sonra, yaklaşık 18:00'e kadar |
+      | **Good evening** | Akşam, karşılaşınca |
+
+      ⚠️ **Good night** bir selamlaşma değil, **vedalaşmadır**. Akşam birini görünce
+      "Good night" denmez, "Good evening" denir. "Good night" ayrılırken veya yatmadan önce söylenir.
+    examples:
+      - {en: "Good morning! How are you?", tr: "Günaydın! Nasılsın?"}
+      - {en: "I'm fine, thanks. And you?", tr: "İyiyim, teşekkürler. Ya sen?"}
+      - {en: "I'm good, thank you.", tr: "İyiyim, teşekkür ederim."}
+
+  - heading: "Tanışma ve vedalaşma"
+    body: |
+      Tanışırken kendini **I'm ...** ile tanıtırsın. Karşı taraf **Nice to meet you** der,
+      sen de **Nice to meet you, too** ile cevap verirsin.
+
+      Vedalaşırken: **Goodbye** (resmi), **Bye** (samimi), **See you** / **See you tomorrow** / **See you later**.
+    examples:
+      - {en: "Hi, I'm Can.", tr: "Merhaba, ben Can."}
+      - {en: "Nice to meet you.", tr: "Tanıştığımıza memnun oldum."}
+      - {en: "Nice to meet you, too.", tr: "Ben de memnun oldum."}
+      - {en: "See you tomorrow!", tr: "Yarın görüşürüz!"}
+
+  - heading: "Alfabe"
+    body: |
+      İngilizce harflerin okunuşu Türkçeden farklıdır. Harfleri **aynı sesi taşıyan gruplar**
+      halinde öğrenmek en kolay yoldur. Parantez içindeki Türkçe okunuşlar yaklaşık değerlerdir.
+
+      | Ses | Harfler |
+      |---|---|
+      | "ey" | **A** (ey), **H** (eyç), **J** (cey), **K** (key) |
+      | "i" | **B** (bi), **C** (si), **D** (di), **E** (i), **G** (ci), **P** (pi), **T** (ti), **V** (vi) |
+      | "e" | **F** (ef), **L** (el), **M** (em), **N** (en), **S** (es), **X** (eks), **Z** (zed / Amerikan: zi) |
+      | "ay" | **I** (ay), **Y** (way) |
+      | "ou" | **O** (ou) |
+      | "yu" | **Q** (kyu), **U** (yu), **W** (dabıl yu) |
+      | "a" | **R** (aa / Amerikan: ar) |
+
+      ⚠️ En sık karıştırılanlar:
+      - **E** "i" diye okunur, **I** "ay" diye okunur.
+      - **G** "ci", **J** "cey" diye okunur.
+      - **A** "ey" diye okunur, Türkçedeki "a" gibi değil.
+
+  - heading: "Harf harf kodlama (spelling)"
+    body: |
+      İsimler, e-posta adresleri ve şehirler sık sık harf harf sorulur.
+      Yan yana iki aynı harf için **double** denir: *Anna → A, double N, A.*
+    examples:
+      - {en: "What's your name?", tr: "Adın ne?"}
+      - {en: "How do you spell that?", tr: "Onu nasıl yazıyorsun / kodluyorsun?"}
+      - {en: "Can you spell your surname, please?", tr: "Soyadını kodlar mısın lütfen?"}
+
+dialogue:
+  title: "First meeting"
+  lines:
+    - {speaker: "Can", en: "Hello! I'm Can.", tr: "Merhaba! Ben Can."}
+    - {speaker: "Emma", en: "Hi, Can. I'm Emma. Nice to meet you.", tr: "Merhaba Can. Ben Emma. Tanıştığımıza memnun oldum."}
+    - {speaker: "Can", en: "Nice to meet you, too. How do you spell your name?", tr: "Ben de memnun oldum. Adını nasıl yazıyorsun?"}
+    - {speaker: "Emma", en: "E, double M, A.", tr: "E, iki tane M, A."}
+    - {speaker: "Can", en: "Thank you. See you tomorrow!", tr: "Teşekkürler. Yarın görüşürüz!"}
+    - {speaker: "Emma", en: "Bye!", tr: "Hoşça kal!"}
+
+vocabulary:
+  - {en: "hello", tr: "merhaba"}
+  - {en: "hi", tr: "selam", note: "Samimi"}
+  - {en: "good morning", tr: "günaydın"}
+  - {en: "good afternoon", tr: "tünaydın / iyi günler", note: "Öğleden sonra"}
+  - {en: "good evening", tr: "iyi akşamlar", note: "Karşılaşırken"}
+  - {en: "good night", tr: "iyi geceler", note: "Sadece ayrılırken"}
+  - {en: "goodbye", tr: "hoşça kal / güle güle"}
+  - {en: "bye", tr: "görüşürüz / hoşça kal", note: "Samimi"}
+  - {en: "see you", tr: "görüşürüz"}
+  - {en: "How are you?", tr: "Nasılsın?"}
+  - {en: "I'm fine.", tr: "İyiyim."}
+  - {en: "thank you", tr: "teşekkür ederim", example: "Thank you very much.", example_tr: "Çok teşekkür ederim."}
+  - {en: "thanks", tr: "teşekkürler", note: "Samimi"}
+  - {en: "please", tr: "lütfen"}
+  - {en: "sorry", tr: "özür dilerim / pardon"}
+  - {en: "excuse me", tr: "affedersiniz", note: "Birinin dikkatini çekerken"}
+  - {en: "name", tr: "ad, isim", example: "My name is Can.", example_tr: "Benim adım Can."}
+  - {en: "surname", tr: "soyadı"}
+  - {en: "spell", tr: "harf harf söylemek / yazmak", example: "How do you spell it?", example_tr: "Onu nasıl yazıyorsun?"}
+  - {en: "Nice to meet you.", tr: "Tanıştığımıza memnun oldum."}
+
+practice:
+  - title: "Hangi selam?"
+    instructions: "Öğretmen bir saat söyler, öğrenci uygun selamı söyler."
+    items: ["08:30", "14:00", "19:30", "23:00 — ayrılırken", "11:00"]
+  - title: "Spelling oyunu"
+    instructions: "Sırayla birbirinize kelime kodlayın. Dinleyen kişi harfleri yazar, sonra okur."
+    items: ["Kendi adın ve soyadın", "Yaşadığın şehir", "Bir araba markası", "Bir futbol takımı", "Annenin adı"]
+
+quiz:
+  - type: mcq
+    prompt: "Akşam saat 20:00'de bir arkadaşınla karşılaştın. Ne dersin?"
+    options: ["Good night", "Good evening", "Good morning"]
+    answer: "Good evening"
+    explanation: "Good night sadece ayrılırken kullanılır."
+  - type: mcq
+    prompt: "Biri sana \"Nice to meet you\" dedi. Ne cevap verirsin?"
+    options: ["Nice to meet you, too.", "Good night.", "I'm Can, too."]
+    answer: "Nice to meet you, too."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["Good morning", "Günaydın"]
+      - ["See you tomorrow", "Yarın görüşürüz"]
+      - ["Excuse me", "Affedersiniz"]
+      - ["How are you?", "Nasılsın?"]
+      - ["Thank you", "Teşekkür ederim"]
+  - type: mcq
+    prompt: "Hangi harf \"ay\" diye okunur?"
+    options: ["E", "I", "A"]
+    answer: "I"
+  - type: mcq
+    prompt: "Hangi harf \"ci\" diye okunur?"
+    options: ["J", "G", "C"]
+    answer: "G"
+    explanation: "G = ci, J = cey, C = si."
+  - type: fill
+    prompt: "How do you ___ your name?"
+    answer: ["spell"]
+  - type: order
+    words: ["meet", "to", "you", "Nice"]
+    answer: "Nice to meet you."
+  - type: translate
+    prompt: "Merhaba, ben Ayşe."
+    answer: ["Hello, I'm Ayşe.", "Hi, I'm Ayşe.", "Hello, I am Ayşe.", "Hi, I am Ayşe.", "Hello, my name is Ayşe.", "Hi, my name is Ayşe."]
+
+homework:
+  - "Alfabeyi ses gruplarına göre yüksek sesle 3 kez oku."
+  - "Ailendeki 5 kişinin adını İngilizce harflerle kodla ve sesini kaydet."
+  - "BBC Learning English veya YouTube'da \"English alphabet pronunciation\" videosunu izle."
+
+tutor_notes:
+  - "İlk derste hata düzeltmeyi minimumda tut; amaç rahat bir başlangıç."
+  - "E/I ve G/J ayrımı oturana kadar sonraki derslerde ısınmada 1-2 dakika spelling yap."
+  - "Ödev ses kaydını bir sonraki dersin başında birlikte dinleyin."

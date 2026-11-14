@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>English Coach</title>
+  <meta name="description" content="Birlikte İngilizce çalışma uygulaması: ders notları, quizler, kelime kartları.">
+  <meta name="theme-color" content="#2f6f6a" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14201f" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="nav" aria-label="Ana menü">
+    <a class="brand" href="#/" data-page="home-brand"><img src="icons/icon.svg" alt="" width="28" height="28"> English Coach</a>
+    <a href="#/" data-page="home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>Bugün</span></a>
+    <a href="#/plan" data-page="plan">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zm-2 8h14v10H5z"/></svg><span>Plan</span></a>
+    <a href="#/cards" data-page="cards">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h12a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm16 1.5 1.2.4a2 2 0 0 1 1.2 2.5l-3.4 10V8z"/></svg><span>Kartlar</span></a>
+    <a href="#/errors" data-page="errors">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm1 9v2h10v-2zm0 4v2h7v-2z"/></svg><span>Hatalar</span></a>
+    <a href="#/settings" data-page="settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm9 5.3v-2.6l-2.4-.6a7 7 0 0 0-.7-1.7l1.3-2.1-1.9-1.9-2.1 1.3a7 7 0 0 0-1.7-.7L13.3 3h-2.6l-.6 2.4a7 7 0 0 0-1.7.7L6.3 4.8 4.4 6.7l1.3 2.1a7 7 0 0 0-.7 1.7L2.6 11v2.6l2.4.6c.2.6.4 1.2.7 1.7l-1.3 2.1 1.9 1.9 2.1-1.3c.5.3 1.1.5 1.7.7l.6 2.4h2.6l.6-2.4c.6-.2 1.2-.4 1.7-.7l2.1 1.3 1.9-1.9-1.3-2.1c.3-.5.5-1.1.7-1.7z"/></svg><span>Ayarlar</span></a>
+  </nav>
+  <main id="main" tabindex="-1">
+    <p class="muted center loading">Yükleniyor…</p>
+  </main>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+id: a1-w02-s4
+level: a1
+week: 2
+session: 4
+title: "Week 2 review"
+type: review
+
+objectives:
+  - "Ailesini 8-10 cümleyle tanıtır"
+  - "to be, his/her ve a/an'ı karışık alıştırmalarda doğru kullanır"
+  - "1. haftanın konularını unutmadığını gösterir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: How are you? + geçen haftanın hata defterinden 3 maddeyi hatırlayın"}
+  - {minutes: 15, activity: "Hızlı tekrar: aile kelimeleri, to be tablosu, his/her, a/an, sayılar"}
+  - {minutes: 15, activity: "Haftalık quiz — öğrenci tek başına çözer, sonra birlikte kontrol"}
+  - {minutes: 15, activity: "Konuşma görevi: Ailemi tanıtıyorum (8-10 cümle)"}
+  - {minutes: 10, activity: "Hata defteri güncelleme; gelecek haftaya bakış (eşyalar, this/that, have got)"}
+
+sections:
+  - heading: "Bu haftanın özeti"
+    body: |
+      | Konu | Kalıp |
+      |---|---|
+      | Aile | mother, father, brother, sister, son, daughter, uncle, aunt, cousin ... |
+      | Tanıtma | This is my ... / Who's this? |
+      | to be | I'm / you're / he's / she's / it's / we're / they're |
+      | Olumsuz / soru | He isn't ... / Are they ...? — Yes, they are. |
+      | İyelik | my, your, **his** (erkek), **her** (kadın), its, our, their |
+      | Sahiplik | my sister's name, Ali's car |
+      | Meslek | She's **a** nurse. He's **an** engineer. What do you do? |
+      | Sayılar | 21-100; thirteen / thirty |
+
+  - heading: "Konuşma görevi: Ailemi tanıtıyorum"
+    body: |
+      8-10 cümle. Örnek:
+
+      > I have a small family. My father's name is Ahmet. He's 62 and he's retired.
+      > My mother's name is Sevgi. She's a teacher. I have one brother. His name is Emre.
+      > He's 30. He's an engineer. He's married. His wife's name is Derya.
+
+practice:
+  - title: "Hata avı"
+    instructions: "Öğretmen hatalı cümleleri okur, öğrenci hatayı bulup düzeltir."
+    items:
+      - "My sister is doctor."
+      - "This is my father. Her name is Ali."
+      - "My parents is from Sivas."
+      - "I have 35 years."
+      - "Is she married? Yes, she's."
+      - "He is a engineer."
+  - title: "1. hafta flashback"
+    instructions: "Hızlı sorular: Spell your mother's name. / What's your phone number? / Say 'Good ...' at 21:00."
+
+quiz:
+  - type: fill
+    prompt: "My brother ___ a student."
+    answer: ["is", "'s"]
+  - type: fill
+    prompt: "We ___ from Turkey."
+    answer: ["are", "'re"]
+  - type: mcq
+    prompt: "This is my grandfather. ___ name is Osman."
+    options: ["Her", "His", "Its"]
+    answer: "His"
+  - type: mcq
+    prompt: "My mother and ___ sister"
+    options: ["her", "his", "she"]
+    answer: "her"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["He's a architect.", "He's an architect.", "He's architect."]
+    answer: "He's an architect."
+  - type: fill
+    prompt: "\"Are your parents retired?\" — \"No, they ___.\""
+    answer: ["aren't", "are not", "'re not"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["husband", "koca, eş"]
+      - ["lawyer", "avukat"]
+      - ["fifty", "50"]
+      - ["daughter", "kız evlat"]
+      - ["their", "onların"]
+  - type: order
+    words: ["name", "is", "What", "sister's", "your"]
+    answer: "What is your sister's name?"
+  - type: translate
+    prompt: "Kuzenim bir hemşire."
+    answer: ["My cousin is a nurse.", "My cousin's a nurse."]
+  - type: translate
+    prompt: "Onlar evli mi?"
+    answer: ["Are they married?"]
+  - type: translate
+    prompt: "Annemin adı Elif."
+    answer: ["My mother's name is Elif.", "My mum's name is Elif.", "My mom's name is Elif."]
+
+homework:
+  - "Ailemi tanıtıyorum metnini temize yaz ve sesli kaydet."
+  - "Hafta sonu 1. ve 2. hafta kelimelerini Anki'de tekrar et."
+  - "Bir dizi veya filmden kısa bir aile sahnesi izle ve tanıdığın aile kelimelerini yaz."
+
+tutor_notes:
+  - "Hata avındaki cümleler bilerek bu haftanın tipik hatalarından seçildi; öğrencinin yaptığı gerçek hataları da ekleyin."
+  - "İki haftanın sonunda tempo değerlendirmesi yapın: konular hızlı mı, yavaş mı?"

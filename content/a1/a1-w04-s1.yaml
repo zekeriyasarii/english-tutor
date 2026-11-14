@@ -1,0 +1,165 @@
+id: a1-w04-s1
+level: a1
+week: 4
+session: 1
+title: "What time is it?"
+type: new
+
+objectives:
+  - "Saati iki şekilde söyler: dijital (seven thirty) ve geleneksel (half past seven)"
+  - "Saati sorar ve duyduğunda anlar"
+  - "Günün bölümlerini (morning, afternoon, evening, night) kullanır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: sayılar 1-60 hızlı tekrar (5'er 5'er say)"}
+  - {minutes: 10, activity: "Dijital saat söyleme: seven fifteen, nine forty-five"}
+  - {minutes: 20, activity: "Geleneksel saat: o'clock, past, to, half, quarter — saat kadranı çizerek"}
+  - {minutes: 15, activity: "Saat dikte ve 'What time is it in London/Tokyo?' oyunu"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Saat sorma"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **What time is it?** | **It's** seven o'clock. |
+      | **What's the time?** | **It's** half past three. |
+      | **Excuse me, have you got the time?** | Yes, it's ten to five. |
+
+      Cevap hep **It's ...** ile başlar.
+
+  - heading: "Kolay yol: dijital okuma"
+    body: |
+      Saati ve dakikayı ayrı ayrı sayı olarak söyle. Her yerde anlaşılır.
+
+      | Saat | Söyleniş |
+      |---|---|
+      | 7:00 | seven **o'clock** |
+      | 7:15 | seven fifteen |
+      | 7:30 | seven thirty |
+      | 7:45 | seven forty-five |
+      | 7:05 | seven **oh** five |
+
+      Dakika 10'dan küçükse önüne **oh** eklenir: 9:05 → nine oh five.
+
+  - heading: "Geleneksel okuma: past / to"
+    body: |
+      İngilizler (ve dizilerde birçok karakter) saati böyle söyler:
+
+      - İlk 30 dakika: dakika + **past** + saat → *ten **past** seven* (7:10) — "yediyi on geçiyor"
+      - Son 30 dakika: kalan dakika + **to** + sonraki saat → *ten **to** eight* (7:50) — "sekize on var"
+      - **quarter** = çeyrek (15 dk), **half** = buçuk (30 dk)
+
+      | Saat | Söyleniş | Türkçe |
+      |---|---|---|
+      | 7:05 | five past seven | yediyi beş geçiyor |
+      | 7:15 | **quarter past** seven | yediyi çeyrek geçiyor |
+      | 7:30 | **half past** seven | yedi buçuk |
+      | 7:45 | **quarter to** eight | sekize çeyrek var |
+      | 7:55 | five to eight | sekize beş var |
+
+      Günlük İngiliz konuşmasında **past** bazen düşer: **half seven** = half past seven = 7:30.
+
+  - heading: "Günün bölümleri ve 12 saat düzeni"
+    body: |
+      Günlük konuşmada genellikle 12 saat düzeni kullanılır; 24 saat (fourteen hundred) daha çok resmi tarifelerde geçer.
+
+      | | |
+      |---|---|
+      | **in the morning** | sabah (öğlene kadar) |
+      | **in the afternoon** | öğleden sonra |
+      | **in the evening** | akşam |
+      | **at night** | gece |
+      | **midday / noon** | öğle 12:00 |
+      | **midnight** | gece yarısı |
+
+      *15:00 → three o'clock in the afternoon* veya **3 pm**.
+      **am** = gece yarısından öğlene, **pm** = öğleden gece yarısına.
+    examples:
+      - {en: "It's eight o'clock in the morning.", tr: "Sabah saat sekiz."}
+      - {en: "It's half past ten at night.", tr: "Gece on buçuk."}
+      - {en: "The meeting is at 2 pm.", tr: "Toplantı öğleden sonra 2'de."}
+
+dialogue:
+  title: "At the bus stop"
+  lines:
+    - {speaker: "Man", en: "Excuse me, what time is it?", tr: "Affedersiniz, saat kaç?"}
+    - {speaker: "Zeynep", en: "It's quarter past nine.", tr: "Dokuzu çeyrek geçiyor."}
+    - {speaker: "Man", en: "Thank you. What time is the next bus?", tr: "Teşekkürler. Bir sonraki otobüs saat kaçta?"}
+    - {speaker: "Zeynep", en: "At nine thirty, I think.", tr: "Dokuz buçukta sanırım."}
+    - {speaker: "Man", en: "Great, thanks!", tr: "Harika, teşekkürler!"}
+
+vocabulary:
+  - {en: "What time is it?", tr: "Saat kaç?"}
+  - {en: "o'clock", tr: "saat (tam)", example: "It's five o'clock.", example_tr: "Saat beş."}
+  - {en: "past", tr: "geçiyor", example: "ten past six", example_tr: "altıyı on geçiyor"}
+  - {en: "to", tr: "var (saatte)", example: "ten to six", example_tr: "altıya on var"}
+  - {en: "half past", tr: "buçuk", example: "half past two", example_tr: "iki buçuk"}
+  - {en: "quarter", tr: "çeyrek"}
+  - {en: "minute", tr: "dakika"}
+  - {en: "hour", tr: "saat (süre)", note: "an hour — h okunmaz"}
+  - {en: "morning", tr: "sabah"}
+  - {en: "afternoon", tr: "öğleden sonra"}
+  - {en: "evening", tr: "akşam"}
+  - {en: "night", tr: "gece"}
+  - {en: "midnight", tr: "gece yarısı"}
+  - {en: "am / pm", tr: "öğleden önce / öğleden sonra"}
+  - {en: "early", tr: "erken"}
+  - {en: "late", tr: "geç"}
+
+practice:
+  - title: "İki yolla söyle"
+    instructions: "Öğretmen saati yazar veya gösterir; öğrenci önce dijital, sonra past/to ile söyler."
+    items: ["8:00", "8:15", "8:30", "8:45", "9:10", "9:40", "11:55", "12:05", "3:20", "6:35"]
+  - title: "Dünya saatleri"
+    instructions: "İstanbul'da saat şu an kaç? Londra (-3), New York (-8), Tokyo (+6) için hesaplayıp söyle: In London it's ..."
+  - title: "Saat dikte"
+    instructions: "Öğretmen past/to ile söyler, öğrenci rakamla yazar."
+
+quiz:
+  - type: mcq
+    prompt: "7:30 nasıl söylenir?"
+    options: ["half past seven", "half past eight", "half to eight"]
+    answer: "half past seven"
+  - type: mcq
+    prompt: "\"Quarter to five\" saat kaç?"
+    options: ["5:15", "4:45", "4:15"]
+    answer: "4:45"
+  - type: fill
+    prompt: "6:10 → ten ___ six"
+    answer: ["past"]
+  - type: fill
+    prompt: "6:50 → ten ___ seven"
+    answer: ["to"]
+  - type: fill
+    prompt: "\"What ___ is it?\" — \"It's nine o'clock.\""
+    answer: ["time"]
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["2:15", "quarter past two"]
+      - ["2:45", "quarter to three"]
+      - ["2:30", "half past two"]
+      - ["2:05", "two oh five"]
+      - ["2:00", "two o'clock"]
+  - type: mcq
+    prompt: "Saat 20:00'yi nasıl söylersin?"
+    options: ["eight o'clock in the morning", "eight o'clock in the evening", "eight o'clock at afternoon"]
+    answer: "eight o'clock in the evening"
+  - type: translate
+    prompt: "Saat kaç?"
+    answer: ["What time is it?", "What's the time?"]
+  - type: translate
+    prompt: "Saat on bir buçuk."
+    answer: ["It's half past eleven.", "It is half past eleven.", "It's eleven thirty.", "It is eleven thirty."]
+
+homework:
+  - "Gün boyunca saate her baktığında İngilizce söyle (en az 10 kez)."
+  - "Günlük programından 5 saati yaz: I get up at ... (sadece saati yaz; fiiller 5. haftada)."
+  - "BBC Learning English'te 'telling the time' videosu izle."
+
+tutor_notes:
+  - "Önce dijital okumayı oturtun; past/to sadece anlamak için yeterli, üretmesi zaman alır."
+  - "Saat kadranı çizmek veya ekran paylaşımında bir analog saat göstermek çok yardımcı olur."
+  - "'half seven' kullanımı İngiliz İngilizcesine özgü; kafa karıştırırsa atlayın."
+  - "Dünya saatleri alıştırmasındaki farklar kış saatine göre (Kasım-Mart)."

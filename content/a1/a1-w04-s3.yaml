@@ -1,0 +1,141 @@
+id: a1-w04-s3
+level: a1
+week: 4
+session: 3
+title: "Making plans"
+type: practice
+
+objectives:
+  - "Zaman edatlarını (at / on / in) doğru kullanır"
+  - "Birine buluşma teklif eder, kabul eder veya reddeder"
+  - "Basit bir buluşma planını gün ve saatle netleştirir"
+
+plan:
+  - {minutes: 5, activity: "Isınma: bugünün tarihi, günü ve saati"}
+  - {minutes: 15, activity: "at / on / in kuralları — tabloyu doldurma"}
+  - {minutes: 10, activity: "Plan yapma kalıpları: Are you free ...? Let's ... Sorry, I'm busy."}
+  - {minutes: 20, activity: "Rol yapma: iki takvim — ortak boş zaman bulup buluşma ayarlama"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "at / on / in"
+    body: |
+      Türkçede hepsi "-de / -da" ile söylenir; İngilizcede üçe ayrılır. En küçükten en büyüğe:
+
+      | Edat | Ne için? | Örnek |
+      |---|---|---|
+      | **at** | saatler, belirli anlar | **at** 7 o'clock, **at** midnight, **at** night, **at** the weekend* |
+      | **on** | günler, tarihler | **on** Monday, **on** 5 May, **on** my birthday, **on** Friday evening |
+      | **in** | aylar, yıllar, mevsimler, günün bölümleri | **in** May, **in** 2027, **in** summer, **in** the morning |
+
+      \* Amerikan İngilizcesinde **on** the weekend.
+
+      Hafıza ipucu: **at** nokta (saat), **on** gün (takvimdeki kutu), **in** daha uzun dönem.
+
+      ⚠️ **this, next, every, today, tomorrow** ile edat kullanılmaz:
+      ~~on next Monday~~ → **next Monday**, ~~in tomorrow~~ → **tomorrow**
+    examples:
+      - {en: "The class is on Tuesday at 8 pm.", tr: "Ders Salı günü akşam 8'de."}
+      - {en: "My birthday is in July. It's on the 14th of July.", tr: "Doğum günüm Temmuz'da. 14 Temmuz'da."}
+      - {en: "I work in the morning.", tr: "Sabahları çalışırım."}
+      - {en: "See you next Friday!", tr: "Gelecek Cuma görüşürüz!"}
+
+  - heading: "Plan yapma kalıpları"
+    body: |
+      | Amaç | Kalıp |
+      |---|---|
+      | Uygunluk sorma | **Are you free on** Saturday? |
+      | Teklif | **Let's** meet at the café. / **Let's** go to the cinema. |
+      | Kabul | **Great! / Sure! / OK, good idea.** |
+      | Reddetme | **Sorry, I'm busy.** / **Sorry, I can't.** |
+      | Alternatif | **What about** Sunday? / **How about** 6 o'clock? |
+      | Netleştirme | **What time?** / **Where?** |
+      | Kapanış | **See you then!** / **See you on Saturday!** |
+
+      **Let's** = Let us → "hadi ... yapalım"
+
+dialogue:
+  title: "Coffee on the weekend?"
+  lines:
+    - {speaker: "Sara", en: "Hi Arda! Are you free on Saturday?", tr: "Selam Arda! Cumartesi boş musun?"}
+    - {speaker: "Arda", en: "Sorry, I'm busy on Saturday. What about Sunday?", tr: "Kusura bakma, Cumartesi meşgulüm. Pazar'a ne dersin?"}
+    - {speaker: "Sara", en: "Sunday is good. Let's have coffee.", tr: "Pazar uygun. Hadi kahve içelim."}
+    - {speaker: "Arda", en: "Great! What time?", tr: "Harika! Saat kaçta?"}
+    - {speaker: "Sara", en: "How about eleven o'clock in the morning?", tr: "Sabah 11'e ne dersin?"}
+    - {speaker: "Arda", en: "Perfect. Where?", tr: "Mükemmel. Nerede?"}
+    - {speaker: "Sara", en: "At the café near the station.", tr: "İstasyonun yanındaki kafede."}
+    - {speaker: "Arda", en: "OK, see you on Sunday!", tr: "Tamam, Pazar görüşürüz!"}
+
+vocabulary:
+  - {en: "at", tr: "-de (saat)", example: "at 9 o'clock", example_tr: "saat 9'da"}
+  - {en: "on", tr: "-de (gün, tarih)", example: "on Monday", example_tr: "Pazartesi günü"}
+  - {en: "in", tr: "-de (ay, yıl, mevsim)", example: "in June", example_tr: "Haziran'da"}
+  - {en: "free", tr: "boş, müsait; ücretsiz", example: "Are you free tonight?", example_tr: "Bu akşam boş musun?"}
+  - {en: "busy", tr: "meşgul, yoğun"}
+  - {en: "Let's ...", tr: "Hadi ... (yapalım)", example: "Let's go!", example_tr: "Hadi gidelim!"}
+  - {en: "What about ...?", tr: "... ne dersin?"}
+  - {en: "meet", tr: "buluşmak, tanışmak"}
+  - {en: "next", tr: "gelecek, bir sonraki", example: "next week", example_tr: "gelecek hafta"}
+  - {en: "every", tr: "her", example: "every day", example_tr: "her gün"}
+  - {en: "tonight", tr: "bu akşam / bu gece"}
+  - {en: "week", tr: "hafta"}
+  - {en: "cinema", tr: "sinema", note: "Amerikan: movie theater"}
+  - {en: "café", tr: "kafe"}
+  - {en: "See you then!", tr: "O zaman görüşürüz!"}
+
+practice:
+  - title: "at / on / in"
+    instructions: "Öğretmen ifadeyi söyler, öğrenci doğru edatla tekrar eder."
+    items: ["Friday", "6 o'clock", "August", "the morning", "the 3rd of May", "2026", "night", "winter", "my birthday", "the weekend"]
+  - title: "Takvim oyunu"
+    instructions: "İkiniz de kağıda bu haftanın Cumartesi-Pazar takvimini yazın, bazı saatleri dolu yapın (ör. Saturday 10-12: busy). Are you free ...? sorularıyla ortak boş saat bulun ve buluşmayı ayarlayın."
+  - title: "Reddet ve alternatif sun"
+    instructions: "Öğretmen teklif eder, öğrenci her seferinde reddedip alternatif sunar: 'Let's meet on Monday.' → 'Sorry, I'm busy on Monday. What about Tuesday?'"
+
+quiz:
+  - type: fill
+    prompt: "The meeting is ___ Monday."
+    answer: ["on"]
+  - type: fill
+    prompt: "I get up ___ 7 o'clock."
+    answer: ["at"]
+  - type: fill
+    prompt: "My birthday is ___ September."
+    answer: ["in"]
+  - type: fill
+    prompt: "We have English class ___ the evening."
+    answer: ["in"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["See you on next Friday.", "See you next Friday.", "See you in next Friday."]
+    answer: "See you next Friday."
+  - type: mcq
+    prompt: "Biri seni Cumartesi'ye davet etti ama müsait değilsin. Ne dersin?"
+    options: ["Sorry, I'm busy on Saturday.", "Sorry, I'm free on Saturday.", "Let's meet on Saturday."]
+    answer: "Sorry, I'm busy on Saturday."
+  - type: match
+    prompt: "Eşleştir"
+    pairs:
+      - ["at", "midnight"]
+      - ["on", "Tuesday"]
+      - ["in", "2027"]
+      - ["at the", "weekend"]
+      - ["in the", "afternoon"]
+  - type: order
+    words: ["free", "Are", "Sunday", "on", "you"]
+    answer: "Are you free on Sunday?"
+  - type: translate
+    prompt: "Hadi Cuma günü buluşalım."
+    answer: ["Let's meet on Friday."]
+  - type: translate
+    prompt: "Pazar'a ne dersin?"
+    answer: ["What about Sunday?", "How about Sunday?"]
+
+homework:
+  - "Bir arkadaşına (veya bana) İngilizce kısa bir mesaj yaz ve buluşma teklif et: gün, saat, yer."
+  - "Gelecek haftanın programını at/on/in kullanarak 5 cümleyle yaz."
+  - "Ay sonu tekrarına hazırlan: 1-4. hafta ders notlarına göz at."
+
+tutor_notes:
+  - "Mesaj ödevini gerçekten WhatsApp üzerinden yapın; gerçek iletişim motivasyonu artırır."
+  - "at/on/in hatası uzun süre devam eder; konuşma akışını bozmadan sadece doğru edatı söyleyerek düzeltin."

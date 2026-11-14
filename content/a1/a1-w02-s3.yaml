@@ -1,0 +1,160 @@
+id: a1-w02-s3
+level: a1
+week: 2
+session: 3
+title: "Jobs & ages"
+type: practice
+
+objectives:
+  - "Yaygın meslekleri İngilizce söyler"
+  - "Meslek söylerken a / an kullanır"
+  - "21-100 arasındaki sayıları söyler; 13/30, 14/40 ayrımını yapar"
+  - "Bir aile üyesinin adını, yaşını ve mesleğini anlatır"
+
+plan:
+  - {minutes: 5, activity: "Isınma: his/her hızlı tekrar (dünkü 'his mi her mi?' oyunu)"}
+  - {minutes: 15, activity: "Meslekler + a/an kuralı + What do you do? / What does he do? kalıpları"}
+  - {minutes: 10, activity: "Sayılar 21-100; -teen / -ty vurgu farkı"}
+  - {minutes: 20, activity: "Aile röportajı: öğretmen öğrencinin ailesini sorar (name, age, job), sonra öğrenci öğretmeninkini"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Meslekler ve a / an"
+    body: |
+      İngilizcede tekil meslek isimlerinden önce **a** veya **an** gelir. Türkçede bu kelime yoktur,
+      o yüzden unutmak çok yaygındır.
+
+      - Ünsüz **sesle** başlıyorsa **a**: *a doctor, a teacher, a nurse*
+      - Ünlü **sesle** (a, e, i, o, u) başlıyorsa **an**: *an engineer, an accountant, an architect*
+
+      ⚠️ ~~She is teacher.~~ → **She's a teacher.**
+
+      Çoğulda a / an kullanılmaz: *They're doctors.*
+
+      | Meslek | | Meslek | |
+      |---|---|---|---|
+      | a teacher | öğretmen | an engineer | mühendis |
+      | a doctor | doktor | an accountant | muhasebeci |
+      | a nurse | hemşire | an architect | mimar |
+      | a student | öğrenci | an officer | memur, subay |
+      | a driver | şoför | a lawyer | avukat |
+      | a cook / chef | aşçı / şef | a shop assistant | tezgahtar |
+      | a waiter / waitress | garson | a police officer | polis |
+      | a farmer | çiftçi | a manager | yönetici |
+
+      Çalışma durumu için a / an kullanılmaz: *She's **retired**.* (emekli), *He's **unemployed**.* (işsiz)
+
+  - heading: "Meslek sorma"
+    body: |
+      | Soru | Cevap |
+      |---|---|
+      | **What do you do?** | I'm an engineer. |
+      | **What's your job?** | I'm a nurse. |
+      | **What does he do?** | He's a driver. |
+      | **What does she do?** | She's a lawyer. |
+
+      "What do you do?" yapısı Present Simple'dır (5. haftada gelecek); şimdilik **kalıp** olarak ezberle.
+
+  - heading: "Sayılar 21-100"
+    body: |
+      | | | | |
+      |---|---|---|---|
+      | 20 twenty | 30 thirty | 40 **forty** | 50 fifty |
+      | 60 sixty | 70 seventy | 80 eighty | 90 ninety |
+      | 100 a hundred / one hundred | | | |
+
+      Ara sayılar tire ile yazılır: **21** twenty-one, **35** thirty-five, **99** ninety-nine.
+
+      ⚠️ **forty** (40) yazımında "u" yoktur (four → forty).
+
+      ⚠️ Vurgu farkı: thir**TEEN** (13) / **THIR**ty (30), four**TEEN** (14) / **FOR**ty (40).
+      Duyarken emin olamazsan sor: *Did you say thirteen or thirty?*
+
+dialogue:
+  title: "What does your sister do?"
+  lines:
+    - {speaker: "Anna", en: "What does your sister do?", tr: "Kız kardeşin ne iş yapıyor?"}
+    - {speaker: "Okan", en: "She's an architect.", tr: "O mimar."}
+    - {speaker: "Anna", en: "How old is she?", tr: "Kaç yaşında?"}
+    - {speaker: "Okan", en: "She's thirty-four. She's married. Her husband is a doctor.", tr: "34 yaşında. Evli. Kocası doktor."}
+    - {speaker: "Anna", en: "And your parents?", tr: "Peki anne-baban?"}
+    - {speaker: "Okan", en: "My father is retired. My mother is a teacher.", tr: "Babam emekli. Annem öğretmen."}
+
+vocabulary:
+  - {en: "job", tr: "iş, meslek"}
+  - {en: "What do you do?", tr: "Ne iş yapıyorsun?"}
+  - {en: "teacher", tr: "öğretmen"}
+  - {en: "doctor", tr: "doktor"}
+  - {en: "nurse", tr: "hemşire"}
+  - {en: "engineer", tr: "mühendis"}
+  - {en: "accountant", tr: "muhasebeci"}
+  - {en: "architect", tr: "mimar"}
+  - {en: "lawyer", tr: "avukat"}
+  - {en: "student", tr: "öğrenci"}
+  - {en: "driver", tr: "şoför, sürücü"}
+  - {en: "waiter", tr: "garson (erkek)", note: "Kadın: waitress"}
+  - {en: "shop assistant", tr: "tezgahtar, satış elemanı"}
+  - {en: "police officer", tr: "polis memuru"}
+  - {en: "manager", tr: "yönetici, müdür"}
+  - {en: "retired", tr: "emekli"}
+  - {en: "unemployed", tr: "işsiz"}
+  - {en: "thirty", tr: "otuz"}
+  - {en: "forty", tr: "kırk", note: "'u' yok"}
+  - {en: "a hundred", tr: "yüz"}
+
+practice:
+  - title: "a mı an mı?"
+    instructions: "Öğretmen meslek söyler, öğrenci a/an ile tekrar eder."
+    items: ["engineer", "nurse", "accountant", "student", "architect", "office worker"]
+  - title: "Sayı dikte"
+    instructions: "Öğretmen sayıyı söyler, öğrenci yazar. Özellikle -teen/-ty çiftlerini karıştırın."
+    items: ["13", "30", "14", "40", "17", "70", "58", "99", "16", "60"]
+  - title: "Aile röportajı"
+    instructions: "Öğretmen sorar: Who's this? / What's his name? / How old is he? / What does he do? / Is he married? — en az 3 aile üyesi için. Sonra roller değişir."
+
+quiz:
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["She is engineer.", "She is a engineer.", "She is an engineer."]
+    answer: "She is an engineer."
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["They are a teachers.", "They are teachers.", "They are teacher."]
+    answer: "They are teachers."
+  - type: fill
+    prompt: "My uncle is ___ doctor."
+    answer: ["a"]
+  - type: fill
+    prompt: "My mother is ___ accountant."
+    answer: ["an"]
+  - type: match
+    prompt: "Sayıları eşleştir"
+    pairs:
+      - ["40", "forty"]
+      - ["14", "fourteen"]
+      - ["67", "sixty-seven"]
+      - ["90", "ninety"]
+      - ["100", "a hundred"]
+  - type: mcq
+    prompt: "\"forty\" kaç?"
+    options: ["14", "40", "4"]
+    answer: "40"
+  - type: order
+    words: ["your", "do", "What", "father", "does"]
+    answer: "What does your father do?"
+  - type: translate
+    prompt: "Babam emekli."
+    answer: ["My father is retired.", "My father's retired.", "My dad is retired.", "My dad's retired."]
+  - type: translate
+    prompt: "O (erkek) 45 yaşında."
+    answer: ["He's 45.", "He is 45.", "He's forty-five.", "He is forty-five.", "He's 45 years old.", "He is 45 years old.", "He's forty-five years old.", "He is forty-five years old."]
+
+homework:
+  - "Ailenden 3 kişiyi yaz: ad, yaş, meslek, medeni durum (4 cümle x 3 kişi)."
+  - "Gün içinde gördüğün 21-100 arası 10 sayıyı İngilizce söyle (fiyat, plaka, kat)."
+  - "Meslek kelimelerini Anki'ye ekle."
+
+tutor_notes:
+  - "a/an hatası çok uzun süre devam eder; her duyduğunda sadece 'a teacher' diye tekrar ederek düzelt."
+  - "'What does he do?' cevabında öğrenci 'He does doctor' gibi yapılar kurabilir; kalıbı tekrar ettir."
+  - "Kendi ailen hakkında konuşurken de doğal ama yavaş konuş; öğrencinin dinleme pratiği olur."

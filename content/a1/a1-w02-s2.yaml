@@ -1,0 +1,167 @@
+id: a1-w02-s2
+level: a1
+week: 2
+session: 2
+title: "He, she, they"
+type: new
+
+objectives:
+  - "\"to be\" fiilini tüm şahıslarla olumlu, olumsuz ve soru olarak kullanır"
+  - "he / she ve his / her ayrımını doğru yapar"
+  - "İyelik sıfatlarını (my, your, his, her, its, our, their) kullanır"
+  - "'s ile sahiplik belirtir (my brother's name)"
+
+plan:
+  - {minutes: 5, activity: "Isınma: dünkü soy ağacından 3 kişiyi tanıt"}
+  - {minutes: 15, activity: "to be tam tablo: şahıs zamirleri + am/is/are; olumsuz ve soru"}
+  - {minutes: 15, activity: "İyelik sıfatları ve 's: his/her ayrımına özel çalışma"}
+  - {minutes: 15, activity: "Dönüştürme ve soru-cevap alıştırmaları"}
+  - {minutes: 10, activity: "Quiz ve ödev"}
+
+sections:
+  - heading: "Şahıs zamirleri ve to be"
+    body: |
+      | Zamir | Olumlu | Kısa | Olumsuz | Soru |
+      |---|---|---|---|---|
+      | I | I am | I'm | I'm not | Am I ...? |
+      | you | you are | you're | you aren't | Are you ...? |
+      | he | he is | he's | he isn't | Is he ...? |
+      | she | she is | she's | she isn't | Is she ...? |
+      | it | it is | it's | it isn't | Is it ...? |
+      | we | we are | we're | we aren't | Are we ...? |
+      | they | they are | they're | they aren't | Are they ...? |
+
+      - **he** = o (erkek), **she** = o (kadın), **it** = o (eşya, hayvan, durum)
+      - **you** hem "sen" hem "siz" demektir.
+      - **they** = onlar (insanlar ve eşyalar için)
+    examples:
+      - {en: "She's my sister.", tr: "O benim kız kardeşim."}
+      - {en: "He isn't at home.", tr: "O evde değil."}
+      - {en: "Are they your parents?", tr: "Onlar senin anne-baban mı?"}
+      - {en: "We're from Ankara.", tr: "Biz Ankaralıyız."}
+      - {en: "It's a small family.", tr: "Küçük bir aile."}
+
+  - heading: "Kısa cevaplar"
+    body: |
+      - Is she married? → **Yes, she is.** / **No, she isn't.**
+      - Are they brothers? → **Yes, they are.** / **No, they aren't.**
+
+      Olumlu kısa cevapta kısaltma yok: ~~Yes, she's.~~
+
+  - heading: "İyelik sıfatları"
+    body: |
+      | Zamir | İyelik | Örnek |
+      |---|---|---|
+      | I | **my** | my name (benim adım) |
+      | you | **your** | your name (senin adın) |
+      | he | **his** | his name (onun adı — erkek) |
+      | she | **her** | her name (onun adı — kadın) |
+      | it | **its** | its name (onun adı — hayvan/eşya) |
+      | we | **our** | our house (bizim evimiz) |
+      | they | **their** | their children (onların çocukları) |
+
+      ⚠️ **his / her** seçimi, **sahip olan kişiye** göre yapılır, sahip olunan şeye göre değil:
+      - *Ali and **his** mother* (Ali'nin annesi → his, çünkü Ali erkek)
+      - *Ayşe and **her** father* (Ayşe'nin babası → her, çünkü Ayşe kadın)
+
+      ⚠️ **its** (onun) ile **it's** (it is) farklıdır.
+
+  - heading: "'s ile sahiplik"
+    body: |
+      Türkçedeki "-ın / -nin" eki için isimden sonra **'s** eklenir:
+
+      - **Ali's** car → Ali'nin arabası
+      - my **sister's** name → kız kardeşimin adı
+      - my **parents'** house → anne-babamın evi (çoğul -s ile bitiyorsa sadece ')
+
+      ⚠️ **he's** (he is) ile **Ali's** (Ali'nin) aynı görünür ama farklıdır. Anlamı cümleden çıkar:
+      *Ali's tall.* (Ali uzun) / *Ali's sister* (Ali'nin kız kardeşi)
+    examples:
+      - {en: "My brother's name is Kerem.", tr: "Erkek kardeşimin adı Kerem."}
+      - {en: "This is Zeynep's son.", tr: "Bu Zeynep'in oğlu."}
+
+dialogue:
+  title: "A wedding photo"
+  lines:
+    - {speaker: "Tom", en: "Is this your family?", tr: "Bu senin ailen mi?"}
+    - {speaker: "Ece", en: "Yes, it is. This is my cousin's wedding.", tr: "Evet. Bu kuzenimin düğünü."}
+    - {speaker: "Tom", en: "Who are they?", tr: "Onlar kim?"}
+    - {speaker: "Ece", en: "They're my aunt and uncle. They're my cousin's parents.", tr: "Onlar teyzem ve eniştem. Kuzenimin anne-babası."}
+    - {speaker: "Tom", en: "Is he your brother?", tr: "O senin erkek kardeşin mi?"}
+    - {speaker: "Ece", en: "No, he isn't. He's my cousin's husband. His name is Burak.", tr: "Hayır, değil. O kuzenimin kocası. Adı Burak."}
+
+vocabulary:
+  - {en: "he", tr: "o (erkek)"}
+  - {en: "she", tr: "o (kadın)"}
+  - {en: "it", tr: "o (eşya, hayvan)"}
+  - {en: "we", tr: "biz"}
+  - {en: "they", tr: "onlar"}
+  - {en: "his", tr: "onun (erkek)"}
+  - {en: "her", tr: "onun (kadın)"}
+  - {en: "its", tr: "onun (eşya, hayvan)"}
+  - {en: "our", tr: "bizim"}
+  - {en: "their", tr: "onların"}
+  - {en: "married", tr: "evli", example: "Is she married?", example_tr: "O evli mi?"}
+  - {en: "single", tr: "bekar"}
+  - {en: "wedding", tr: "düğün"}
+  - {en: "at home", tr: "evde"}
+
+practice:
+  - title: "he mi she mi?"
+    instructions: "Öğretmen bir isim veya kişi söyler, öğrenci hemen He's ... veya She's ... ile cümle kurar."
+    items: ["Your mother", "Your uncle", "Your cousin Ayşe", "Your dog", "Your parents"]
+  - title: "his mi her mi?"
+    instructions: "Öğrenci cümleyi tamamlar."
+    items:
+      - "Mehmet and ___ wife"
+      - "Zeynep and ___ husband"
+      - "My grandmother and ___ cat"
+      - "My parents and ___ house"
+      - "The dog and ___ toy"
+  - title: "Olumsuz yap, düzelt"
+    instructions: "Öğretmen yanlış bir bilgi söyler, öğrenci olumsuz yapıp düzeltir: 'Your sister is 50.' → 'No, she isn't 50. She's 27.'"
+
+quiz:
+  - type: fill
+    prompt: "My parents ___ from Trabzon."
+    answer: ["are", "'re"]
+  - type: fill
+    prompt: "___ your brother married?"
+    answer: ["Is"]
+  - type: mcq
+    prompt: "Hasan and ___ daughter"
+    options: ["his", "her", "he"]
+    answer: "his"
+  - type: mcq
+    prompt: "My sister and ___ son"
+    options: ["his", "her", "she"]
+    answer: "her"
+    explanation: "Sahip olan kız kardeş (kadın) → her. Oğlun erkek olması önemli değil."
+  - type: mcq
+    prompt: "\"Is he your uncle?\" — \"Yes, ___\""
+    options: ["he's.", "he is.", "is he."]
+    answer: "he is."
+  - type: fill
+    prompt: "This is ___ house. (biz)"
+    answer: ["our"]
+  - type: fill
+    prompt: "They are my friends. ___ names are Tom and Ben."
+    answer: ["Their"]
+  - type: order
+    words: ["name", "brother's", "is", "My", "Can"]
+    answer: "My brother's name is Can."
+  - type: translate
+    prompt: "O (kadın) evli değil."
+    answer: ["She isn't married.", "She's not married.", "She is not married."]
+  - type: translate
+    prompt: "Onlar benim kuzenlerim."
+    answer: ["They're my cousins.", "They are my cousins."]
+
+homework:
+  - "Ailenden 4 kişi hakkında ikişer cümle yaz: biri to be, biri his/her ile. (My aunt is 50. Her name is Gül.)"
+  - "his / her için 10 örnek cümleyi sesli oku ve kaydet."
+
+tutor_notes:
+  - "he/she ve his/her hatası A2'ye kadar sürebilir; her seansta nazikçe ve tutarlı düzeltin."
+  - "Düzeltirken sadece doğru formu tekrar edin (She... her...), uzun açıklamaya girmeyin."
+  - "its / it's ayrımı yazmada önemli; konuşmada aynı okunur."

@@ -1,0 +1,185 @@
+id: a1-w03-s2
+level: a1
+week: 3
+session: 2
+title: "These and those"
+type: new
+
+objectives:
+  - "İsimlerin çoğulunu kurallara göre yapar (-s, -es, -ies, düzensiz)"
+  - "these (yakın, çoğul) ve those (uzak, çoğul) kullanır"
+  - "Sıfat + isim sırasını doğru kurar ve sıfatı çoğul yapmaz"
+
+plan:
+  - {minutes: 5, activity: "Isınma: odadan 5 eşya göster ve rengini söyle"}
+  - {minutes: 15, activity: "Çoğul kuralları: -s, -es, -ies, düzensizler; okunuş (/s/, /z/, /ɪz/)"}
+  - {minutes: 10, activity: "this/that → these/those tablosu; cümle dönüştürme"}
+  - {minutes: 15, activity: "Sıfatlar (big, small, new, old ...) ve sıfat+isim sırası; 'Bir resmi tarif et' alıştırması"}
+  - {minutes: 15, activity: "Quiz ve ödev (quiz biraz uzun)"}
+
+sections:
+  - heading: "Çoğul isimler"
+    body: |
+      | Kural | Örnek |
+      |---|---|
+      | Çoğu isim: **+s** | book → book**s**, key → key**s** |
+      | -s, -ss, -sh, -ch, -x ile bitenler: **+es** | bus → bus**es**, glass → glass**es**, watch → watch**es**, box → box**es** |
+      | Ünsüz + y ile bitenler: **y → ies** | city → cit**ies**, baby → bab**ies** |
+      | Ünlü + y ile bitenler: **+s** | key → key**s**, boy → boy**s** |
+
+      **Düzensiz çoğullar** (ezberlenir):
+
+      | Tekil | Çoğul |
+      |---|---|
+      | man | **men** |
+      | woman | **women** |
+      | child | **children** |
+      | person | **people** |
+      | foot | **feet** |
+      | tooth | **teeth** |
+
+      ⚠️ Türkçede sayıdan sonra çoğul eki kullanılmaz (üç kitap), İngilizcede **kullanılır**:
+      ~~three book~~ → **three books**
+
+  - heading: "Çoğul -s nasıl okunur?"
+    body: |
+      | Ses | Örnek |
+      |---|---|
+      | /s/ | books, cups, laptops |
+      | /z/ | keys, pens, phones, bags |
+      | /ɪz/ (ız) | buses, glasses, watches, boxes |
+
+      İlk iki sesi ayırt etmek şimdilik önemli değil. Önemli olan **/ɪz/**: *watches* "woçız" diye okunur, "woçs" değil.
+
+  - heading: "these / those"
+    body: |
+      | | Tekil | Çoğul |
+      |---|---|---|
+      | Yakın | **this** book | **these** books |
+      | Uzak | **that** book | **those** books |
+
+      | Soru | Cevap |
+      |---|---|
+      | What are **these**? | **They're** keys. |
+      | Are **those** your glasses? | Yes, **they are**. / No, **they aren't**. |
+    examples:
+      - {en: "These are my children.", tr: "Bunlar benim çocuklarım."}
+      - {en: "What are those? — They're old photos.", tr: "Şunlar ne? — Eski fotoğraflar."}
+
+  - heading: "Sıfatlar"
+    body: |
+      | | | |
+      |---|---|---|
+      | big — büyük | small — küçük | |
+      | new — yeni | old — eski / yaşlı | |
+      | long — uzun | short — kısa | |
+      | cheap — ucuz | expensive — pahalı | |
+      | good — iyi | bad — kötü | |
+      | beautiful — güzel | ugly — çirkin | |
+
+      ⚠️ İki önemli kural:
+      1. Sıfat isimden **önce** gelir: *a **new** phone*
+      2. Sıfat **çoğul olmaz**: ~~reds cars~~ → **red cars**, ~~olds books~~ → **old books**
+
+      Sıfat tek başına to be'den sonra da gelebilir: *My phone is **new**.*
+    examples:
+      - {en: "It's an old car.", tr: "Eski bir araba."}
+      - {en: "These are expensive shoes.", tr: "Bunlar pahalı ayakkabılar."}
+      - {en: "My laptop is small.", tr: "Dizüstü bilgisayarım küçük."}
+
+dialogue:
+  title: "Moving house"
+  lines:
+    - {speaker: "Kaan", en: "What are these?", tr: "Bunlar ne?"}
+    - {speaker: "Mia", en: "They're my old books.", tr: "Eski kitaplarım."}
+    - {speaker: "Kaan", en: "And what are those big boxes?", tr: "Peki şu büyük kutular ne?"}
+    - {speaker: "Mia", en: "Those are glasses and cups for the kitchen.", tr: "Onlar mutfak için bardaklar ve fincanlar."}
+    - {speaker: "Kaan", en: "Are these your keys?", tr: "Bunlar senin anahtarların mı?"}
+    - {speaker: "Mia", en: "Yes, they are! Thank you!", tr: "Evet! Teşekkürler!"}
+
+vocabulary:
+  - {en: "these", tr: "bunlar"}
+  - {en: "those", tr: "şunlar, onlar"}
+  - {en: "box", tr: "kutu", example: "two boxes", example_tr: "iki kutu"}
+  - {en: "glass", tr: "bardak, cam", note: "glasses = bardaklar veya gözlük"}
+  - {en: "man", tr: "adam", note: "Çoğulu: men"}
+  - {en: "woman", tr: "kadın", note: "Çoğulu: women"}
+  - {en: "person", tr: "kişi", note: "Çoğulu: people"}
+  - {en: "people", tr: "insanlar"}
+  - {en: "shoes", tr: "ayakkabılar"}
+  - {en: "photo", tr: "fotoğraf"}
+  - {en: "big", tr: "büyük"}
+  - {en: "small", tr: "küçük"}
+  - {en: "new", tr: "yeni"}
+  - {en: "old", tr: "eski, yaşlı"}
+  - {en: "long", tr: "uzun"}
+  - {en: "short", tr: "kısa"}
+  - {en: "cheap", tr: "ucuz"}
+  - {en: "expensive", tr: "pahalı"}
+  - {en: "beautiful", tr: "güzel"}
+  - {en: "ugly", tr: "çirkin"}
+
+practice:
+  - title: "Çoğul yap"
+    instructions: "Öğretmen tekil söyler, öğrenci 'two ...' ile çoğulunu söyler."
+    items: ["book", "watch", "city", "child", "box", "key", "woman", "person", "bus", "baby"]
+  - title: "Tekilden çoğula"
+    instructions: "Cümleyi çoğul yap."
+    items:
+      - "This is a pen. → These are pens."
+      - "That is an old car."
+      - "This is my key."
+      - "Is that your bag?"
+  - title: "Resmi tarif et"
+    instructions: "Öğretmen bir oda veya masa fotoğrafı gösterir; öğrenci sıfatlarla 5 cümle kurar."
+
+quiz:
+  - type: match
+    prompt: "Tekil ve çoğulu eşleştir"
+    pairs:
+      - ["child", "children"]
+      - ["woman", "women"]
+      - ["city", "cities"]
+      - ["box", "boxes"]
+      - ["person", "people"]
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["three book", "three books", "threes books"]
+    answer: "three books"
+  - type: mcq
+    prompt: "Hangisi doğru?"
+    options: ["reds shoes", "red shoes", "shoes reds"]
+    answer: "red shoes"
+    explanation: "Sıfatlar çoğul olmaz."
+  - type: fill
+    prompt: "___ are my keys. (yakın)"
+    answer: ["These"]
+  - type: fill
+    prompt: "Are ___ your shoes? (uzak)"
+    answer: ["those"]
+  - type: fill
+    prompt: "\"What are these?\" — \"___ glasses.\""
+    answer: ["They're", "They are"]
+  - type: mcq
+    prompt: "Çoğulu yanlış olan hangisi?"
+    options: ["keys", "babys", "watches"]
+    answer: "babys"
+    explanation: "Ünsüz + y → ies: babies."
+  - type: order
+    words: ["expensive", "is", "phone", "My"]
+    answer: "My phone is expensive."
+  - type: translate
+    prompt: "Bunlar eski fotoğraflar."
+    answer: ["These are old photos.", "These are old photographs.", "They're old photos.", "They are old photos."]
+  - type: translate
+    prompt: "Şunlar senin ayakkabıların mı?"
+    answer: ["Are those your shoes?"]
+
+homework:
+  - "Evinden 5 şeyi tekil, 5 şeyi çoğul olarak tarif et (renk + sıfat): These are my blue cups."
+  - "Düzensiz çoğulları (men, women, children, people, feet, teeth) 3 kez yaz."
+
+tutor_notes:
+  - "/s/ ve /z/ ayrımında ısrarcı olmayın; /ɪz/ yeterli."
+  - "'people' zaten çoğuldur: 'peoples' hatasını görürseniz düzeltin."
+  - "glasses'ın iki anlamı (bardaklar / gözlük) bağlamdan anlaşılır; eğlenceli bir örnek olarak kullanılabilir."
